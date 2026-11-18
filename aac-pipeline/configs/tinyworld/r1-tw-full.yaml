@@ -1,0 +1,66 @@
+extends: [../base.yaml, ../stats.yaml]
+name: r1-tw-full
+regime: R1
+system: full
+seed: 0
+data:
+ dataset: fixture
+ manifest: build/tinyworld/world/MANIFEST.sha256
+ split_manifest: build/tinyworld/world/splits/tinyworld-chrono.json
+ claims: build/tinyworld/world/averitec/claims.json
+ labels: build/tinyworld/world/averitec/labels.csv
+ targets: [averitec_test]
+components:
+ c1: !replace
+ enabled: true
+ kind: mdeberta-v3-base
+ num_labels: 4
+ hf_id: microsoft/mdeberta-v3-base
+ revision: a0484667b22365f84929a935b5e50a51f71f159d
+ max_length: 128
+ trained_by: c1-tw
+ c2: !replace
+ enabled: true
+ kind: bge-m3-rerank-entail
+ provider: averitec_store
+ evidence_from: ev-tw
+ variant: primary
+ dense: {hf_id: BAAI/bge-m3, revision: 5617a9f61b028005a4858fdac845db406aefb181, pooling: cls, normalize: true,
+ max_seq_length: 128, precision: float32, batch_size: 8}
+ reranker: {hf_id: BAAI/bge-reranker-v2-m3, revision: 953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e, max_length: 256,
+ batch_size: 8, activation: sigmoid}
+ k_dense: 8
+ k: 3
+ scorer_trained_by: c2s-tw
+ scorer_seed: null
+ floor_rule: p10-top1-rerank-val_cal
+ c3: !replace
+ gate: logistic-fitted
+ fit_on: val_fuse
+ features: [encoder_probs, support_agg, refute_agg, top_rerank_score, n_evidence, evidence_coverage]
+ transform: logratio-encoder-v1
+ standardise: true
+ C: 1.0
+ solver: lbfgs
+ max_iter: 1000
+ k: 3
+ fitted_from: null
+ c4: !replace
+ enabled: true
+ kind: fitted
+ methods: [temperature, isotonic]
+ select_by: oof_ece
+ bins: 15
+ fit_on: val_cal
+ temperature_bounds: [0.05, 20.0]
+ xatol: 1.0e-8
+ folds: 2
+ c5: !replace
+ enabled: true
+ kind: fitted-gate
+ coverage_target: 0.8
+ report_coverages: [1.0, 0.9, 0.8, 0.7]
+ fit_on: val_cal
+ conflict_floor: 0.5
+ tie_break: raw-confidence
+ pause: false

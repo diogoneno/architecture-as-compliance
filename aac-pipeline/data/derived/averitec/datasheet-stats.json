@@ -1,0 +1,179 @@
+{
+ "answers_per_question": {
+  "max": 4,
+  "mean": 1.065358,
+  "median": 1.0,
+  "min": 1,
+  "n": 9272
+ },
+ "claim_date_decade_histogram": {
+  "1910s": 1,
+  "1920s": 8,
+  "2000s": 2,
+  "2010s": 1541,
+  "2020s": 1911
+ },
+ "date_max": "2020-10-31",
+ "date_min": "1919-02-19",
+ "empty_text_ids": [
+  "averitec/train/1948"
+ ],
+ "label_counts": {
+  "Conflicting Evidence/Cherrypicking": 233,
+  "Not Enough Evidence": 317,
+  "Refuted": 2047,
+  "Supported": 971
+ },
+ "label_counts_by_split": {
+  "dev": {
+   "Conflicting Evidence/Cherrypicking": 38,
+   "Not Enough Evidence": 35,
+   "Refuted": 305,
+   "Supported": 122
+  },
+  "train": {
+   "Conflicting Evidence/Cherrypicking": 195,
+   "Not Enough Evidence": 282,
+   "Refuted": 1742,
+   "Supported": 849
+  }
+ },
+ "label_shares": {
+  "Conflicting Evidence/Cherrypicking": 0.065303,
+  "Not Enough Evidence": 0.088845,
+  "Refuted": 0.573711,
+  "Supported": 0.272141
+ },
+ "n_blank_nonempty_texts": 0,
+ "n_claims": 3568,
+ "n_claims_by_split": {
+  "dev": 500,
+  "train": 3068
+ },
+ "n_conflicting_groups": 13,
+ "n_dated": 3463,
+ "n_duplicate_groups": 48,
+ "n_duplicate_members_removed": 82,
+ "n_duplicate_texts": 82,
+ "n_groups_spanning_train_dev": 4,
+ "n_groups_with_differing_dates": 11,
+ "n_non_ascii_texts": 626,
+ "n_undated": 105,
+ "n_undated_by_split": {
+  "dev": 0,
+  "train": 105
+ },
+ "null_or_empty_counts": {
+  "dev": {
+   "location_ISO_code": 50,
+   "original_claim_url": 238,
+   "reporting_source": 90,
+   "speaker": 118
+  },
+  "train": {
+   "location_ISO_code": 336,
+   "original_claim_url": 1611,
+   "reporting_source": 615,
+   "speaker": 695
+  }
+ },
+ "questions_per_claim": {
+  "max": 16,
+  "mean": 2.598655,
+  "median": 2.0,
+  "min": 1,
+  "n": 3568
+ },
+ "top_location_ISO_code": [
+  {
+   "count": 1461,
+   "value": "US"
+  },
+  {
+   "count": 404,
+   "value": "IN"
+  },
+  {
+   "count": 259,
+   "value": "GB"
+  },
+  {
+   "count": 247,
+   "value": "NG"
+  },
+  {
+   "count": 233,
+   "value": "KE"
+  },
+  {
+   "count": 162,
+   "value": "ZA"
+  },
+  {
+   "count": 53,
+   "value": "PH"
+  },
+  {
+   "count": 47,
+   "value": "CN"
+  },
+  {
+   "count": 42,
+   "value": "AU"
+  },
+  {
+   "count": 34,
+   "value": "RU"
+  },
+  {
+   "count": 240,
+   "value": "other"
+  }
+ ],
+ "top_reporting_source": [
+  {
+   "count": 922,
+   "value": "Facebook"
+  },
+  {
+   "count": 366,
+   "value": "Twitter"
+  },
+  {
+   "count": 40,
+   "value": "Youtube"
+  },
+  {
+   "count": 35,
+   "value": "YouTube"
+  },
+  {
+   "count": 31,
+   "value": "Facebook "
+  },
+  {
+   "count": 31,
+   "value": "twitter"
+  },
+  {
+   "count": 30,
+   "value": "Social Media"
+  },
+  {
+   "count": 29,
+   "value": "CNN"
+  },
+  {
+   "count": 29,
+   "value": "Instagram"
+  },
+  {
+   "count": 28,
+   "value": "facebook"
+  },
+  {
+   "count": 1322,
+   "value": "other"
+  }
+ ]
+}

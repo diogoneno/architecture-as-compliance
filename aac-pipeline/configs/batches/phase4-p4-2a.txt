@@ -1,0 +1,4 @@
+attack configs/regimes/real/r3-b-first200-deepwordbug.yaml 0
+attack configs/regimes/real/r3-b-first200-pwws.yaml 0
+attack configs/regimes/real/r3-b-first200-bert_attack.yaml 0
+attack configs/regimes/real/r3-b-first200-textfooler.yaml 0

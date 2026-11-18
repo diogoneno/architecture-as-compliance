@@ -1,0 +1,2837 @@
+[
+ {
+  "claim_hash": "95e88878ecdc561eb9f65992498cc43cb6ca52b93508460a5480f0e01b2374a4",
+  "evidence_hash": "06ceefd65ddc5d3284ffa37b15d56f5ee35a7c4aa770435646591433005e304b",
+  "item_id": "incrediblae/fc/attack/0",
+  "label": 1,
+  "row": 0
+ },
+ {
+  "claim_hash": "bbbcb18c2ef01830b00cde8a582b74141e43ba8d675e31ba0421bdc3c741a44b",
+  "evidence_hash": "03bb95616bf80bf2329c3166f9f53b22c38cc96b1b668e2310443709064138a6",
+  "item_id": "incrediblae/fc/attack/1",
+  "label": 0,
+  "row": 1
+ },
+ {
+  "claim_hash": "9454171baf01ad9c48d30ef9644c8195d4c5487022fa6eafb69bb7b6908efc2f",
+  "evidence_hash": "8194d8a38aa73ee568442e88d7930797a08186ea912e982c75ad64e6816e81b6",
+  "item_id": "incrediblae/fc/attack/2",
+  "label": 0,
+  "row": 2
+ },
+ {
+  "claim_hash": "8a85ff7851e6fd3d1b3800e80ebe39aaef0281d1265eebc83d76d6f44cc2d172",
+  "evidence_hash": "7fc598474562b05d251104544ca4ba1c519928f5525a6c36dcc24bbd19c19bfe",
+  "item_id": "incrediblae/fc/attack/3",
+  "label": 0,
+  "row": 3
+ },
+ {
+  "claim_hash": "b1f9415603c12ff03712b22c0a0a6e1ea80303a45c2ca72a170c52af64567754",
+  "evidence_hash": "70fbd65bfb7b807d218ca94309e9bf9c4387c5a4a1221894ace97e667b8387a5",
+  "item_id": "incrediblae/fc/attack/4",
+  "label": 0,
+  "row": 4
+ },
+ {
+  "claim_hash": "7a0b75f8fbcc3366f50816e5be5f57e2cc4ba0833a83a920ee340a9e6b087a3d",
+  "evidence_hash": "35e71bf2e0ffdbeae0c5f65ddd58347be9e2265deedacc4bab81156d15d506e2",
+  "item_id": "incrediblae/fc/attack/5",
+  "label": 1,
+  "row": 5
+ },
+ {
+  "claim_hash": "04f110686f34c8d078ec903df446139fef2bef9c3f8287e29f016e4159d9ae0e",
+  "evidence_hash": "89f3c4ac06cff0b3adcc3d8b694e14b7789491bf56dd193e1823f70ee01e8c3e",
+  "item_id": "incrediblae/fc/attack/6",
+  "label": 1,
+  "row": 6
+ },
+ {
+  "claim_hash": "325017728926bd06168d598ff7907da6bc553a3f901582716c95fc2e1db65c2e",
+  "evidence_hash": "332fd72554e98a51c8695b4677564660e025b7684c6f1d8c094c09893df78b59",
+  "item_id": "incrediblae/fc/attack/7",
+  "label": 1,
+  "row": 7
+ },
+ {
+  "claim_hash": "8d0c39312371f98f0bea3348c943039a57a2fa595045fb817b8b67e77be5c9c8",
+  "evidence_hash": "1916720bc19c7fbb818e3b817c78a5149c6c874a8ddb945de250ce0de921a99c",
+  "item_id": "incrediblae/fc/attack/8",
+  "label": 0,
+  "row": 8
+ },
+ {
+  "claim_hash": "78cbcc761efabda5d4e37afc532451408f80d5558500222d4ffd2dfa8b18ec48",
+  "evidence_hash": "0daf9f403b49e65aef92fbc1dc326e96fdf34ac41845c88d95052edd05bae3b9",
+  "item_id": "incrediblae/fc/attack/9",
+  "label": 0,
+  "row": 9
+ },
+ {
+  "claim_hash": "05fc2c00a053c18f35f8cb248859d4dd34828e85c0227fac967a4ff49e99a886",
+  "evidence_hash": "ad73e58e3a3c5981fb2c48afb964dba2d4e2e632567e17b4a3fc51672fa621eb",
+  "item_id": "incrediblae/fc/attack/10",
+  "label": 1,
+  "row": 10
+ },
+ {
+  "claim_hash": "29f7ffca460bd01530842afc0858f14316bdfb491cdee4cac53e0b8b936fa61e",
+  "evidence_hash": "12579709a9256b3a83523d773967170835895928eb0373763d3f7afc85bed964",
+  "item_id": "incrediblae/fc/attack/11",
+  "label": 0,
+  "row": 11
+ },
+ {
+  "claim_hash": "cda0d10eae637b5025a8a22a2823f0947a22945d6a3f72e9e405f2506bdad07c",
+  "evidence_hash": "713e483ce7abc6aee6e6d19b11c4713d2ab1063cc683d6324f5634bc45dabcda",
+  "item_id": "incrediblae/fc/attack/12",
+  "label": 1,
+  "row": 12
+ },
+ {
+  "claim_hash": "cd35ca26987dcd51017ea2850d2ebc4f922687630060f69319db5dccbad30e49",
+  "evidence_hash": "9e4ee8b05c9b745856e169ba740cbf7121638e69f1409b58938637cdf49ca670",
+  "item_id": "incrediblae/fc/attack/13",
+  "label": 1,
+  "row": 13
+ },
+ {
+  "claim_hash": "1f6a3f4a8c19c21f998c05c9f7814c89b41a15f87cf94c97c028a6360c06c204",
+  "evidence_hash": "fd23f99facd29378e175ad37b82d1fdfa742d782c1b6189c7b6a970280e19b93",
+  "item_id": "incrediblae/fc/attack/14",
+  "label": 1,
+  "row": 14
+ },
+ {
+  "claim_hash": "104009b5dadacd8bea47ae6fce83c59fd213ef6af5ab3f25ba0cf57089cd60a0",
+  "evidence_hash": "fa13b28b861cba6960b3827a08783b61491b0dd742caf301031bd9692ec03921",
+  "item_id": "incrediblae/fc/attack/15",
+  "label": 1,
+  "row": 15
+ },
+ {
+  "claim_hash": "d68aacae609c3348ad9cd67c4c094b2992de90dfbfad74bbbbdfafc2bd10ae63",
+  "evidence_hash": "1ce675575065efaa7fb5b1655a8726e9cee1d7bed02cf18be6aa14c5258e516a",
+  "item_id": "incrediblae/fc/attack/16",
+  "label": 0,
+  "row": 16
+ },
+ {
+  "claim_hash": "2b4fbc67adffa9e9a581bf41f59acd7fb73fa7ca1e326e7c3f9f5d66ed7a0b53",
+  "evidence_hash": "d3e60fae6913783e3988781287ad8ebb759f1804ec1e4d3409031db9d8f8fb60",
+  "item_id": "incrediblae/fc/attack/17",
+  "label": 0,
+  "row": 17
+ },
+ {
+  "claim_hash": "ef954b81f30a4789f4f3856d88c0b3fb1d46ca7e3355b3d47f3d611d085019b2",
+  "evidence_hash": "634fb033e57234f7eb63682a987b789d5c48d8794e1709ab08170087b92ef432",
+  "item_id": "incrediblae/fc/attack/18",
+  "label": 1,
+  "row": 18
+ },
+ {
+  "claim_hash": "c4afc9cea41f3dcf0a431b6066d8281757d11a81c166cbebf6f2bc454c3fe4db",
+  "evidence_hash": "aef607c9b51534336ca6e8365a521145ed75fc58d225ec063fb5302cfd45abba",
+  "item_id": "incrediblae/fc/attack/19",
+  "label": 0,
+  "row": 19
+ },
+ {
+  "claim_hash": "ff14c109a22d6d292f710f1925875bb7391ce87547fc3b1feeebb5f03a677696",
+  "evidence_hash": "faa5b09313bcc1bf90ac0105d21b963cf7302e5733ee1eb4869d0ad9e9076be4",
+  "item_id": "incrediblae/fc/attack/20",
+  "label": 1,
+  "row": 20
+ },
+ {
+  "claim_hash": "124fbc37cd10dc18319e4f0a13c47b19d5963fd3e85bbd79cc3c3058bc8ad62f",
+  "evidence_hash": "11cba1c0708efcc8f5218a0cb98656dae5e53ffe367f579ff2242c0fbf40474f",
+  "item_id": "incrediblae/fc/attack/21",
+  "label": 1,
+  "row": 21
+ },
+ {
+  "claim_hash": "7f4092a78ae2fe2e60afdb63902921ee4321a53d8b9132bbe45bf73f528c420f",
+  "evidence_hash": "0a573b8ef24018a0ce8bb80ee8adbeab170cc1e490e30f2bce6478bdcd8273c1",
+  "item_id": "incrediblae/fc/attack/22",
+  "label": 1,
+  "row": 22
+ },
+ {
+  "claim_hash": "60dc0476500b564b17a3826f37c9fb27d7218366a454f127244c6abffff568e3",
+  "evidence_hash": "d720aea7bba426363b82963b3ea7b15a1f56455df1dd86a18fe8b1b94d4de745",
+  "item_id": "incrediblae/fc/attack/23",
+  "label": 0,
+  "row": 23
+ },
+ {
+  "claim_hash": "ecef5bd35f89a33f83b8f451fb560cf43483367d0f21d2b781029b8bdc567839",
+  "evidence_hash": "568c61ef70a60940855da12ddfb6c2ed9fa5f851dcde7a1fd6c79001b87e4bac",
+  "item_id": "incrediblae/fc/attack/24",
+  "label": 0,
+  "row": 24
+ },
+ {
+  "claim_hash": "8454769a88a5317183060ee388f28262614fbff9f872db43631850bebfa89397",
+  "evidence_hash": "bef9de099bd3535911bcc8e90fdf3b205eab67c59b2ab18c74de5298a8396ae6",
+  "item_id": "incrediblae/fc/attack/25",
+  "label": 1,
+  "row": 25
+ },
+ {
+  "claim_hash": "54c12507fe6409cdf2feaad2e4f25b64fd51cf2f212d8ab74c39c00a6839d9aa",
+  "evidence_hash": "d8e4a2d2a2fb4835e934074d6f775bed3f8880dc73f9b381d106774fc730bef6",
+  "item_id": "incrediblae/fc/attack/26",
+  "label": 0,
+  "row": 26
+ },
+ {
+  "claim_hash": "14138fe46c770c418997f3921ee1675fc4b29c803d3cd6d57bf62fdfb759a103",
+  "evidence_hash": "e7148036187f00f23da2390c84eb3fdc871eb3532a8228156d2d3ee625279a40",
+  "item_id": "incrediblae/fc/attack/27",
+  "label": 0,
+  "row": 27
+ },
+ {
+  "claim_hash": "2515cf93141291664f19572fd7bb5f9f837a16a8190ab24fe7a6327a8c870c8c",
+  "evidence_hash": "68eff5005a0e088a9bef04848903dcc81879b219e6de1fad4a1533c6160aab7a",
+  "item_id": "incrediblae/fc/attack/28",
+  "label": 1,
+  "row": 28
+ },
+ {
+  "claim_hash": "664438cfd7d076b3badca09de21d714e00f8b0da4ddb35d3e3f0d45e276368a4",
+  "evidence_hash": "1a039039a568e4fbc0d17d8a90adccd63902a7f0fa19ac02696b92de9dbdc58d",
+  "item_id": "incrediblae/fc/attack/29",
+  "label": 0,
+  "row": 29
+ },
+ {
+  "claim_hash": "5004f73f92965534a628697fce29d8c96f2f6a87569c75e6a9ff30d7021d530c",
+  "evidence_hash": "698709e2bd14e90443abf5d7277b1b29471f272a6dd1821192b2d442324428f1",
+  "item_id": "incrediblae/fc/attack/30",
+  "label": 1,
+  "row": 30
+ },
+ {
+  "claim_hash": "a17e4eaa9c2a1ee198f27d788b22a309bad20925b2c9d6db62c46916d45b464d",
+  "evidence_hash": "9e526d01dc8ea79e36ad5b1392a97cf29bbb39738f2381400f23216d600ac87b",
+  "item_id": "incrediblae/fc/attack/31",
+  "label": 1,
+  "row": 31
+ },
+ {
+  "claim_hash": "54a2b28ed304a72dd22cf6a4df6065df438ca2cb798a91d5f7dcf420c79536cd",
+  "evidence_hash": "4450f3c9b7f512938eceb79fd13a0af4e8757fb41af139a1b1031cca4831007f",
+  "item_id": "incrediblae/fc/attack/32",
+  "label": 1,
+  "row": 32
+ },
+ {
+  "claim_hash": "346ae27e2a116339b6792741d243dea806931c3470ac92031fb288959935fbef",
+  "evidence_hash": "304757b5dc18883ae63893625499b950339938d9d0caeee9493247ae724c0994",
+  "item_id": "incrediblae/fc/attack/33",
+  "label": 0,
+  "row": 33
+ },
+ {
+  "claim_hash": "ac9e41879683e05215d250efa642e7adb96248040f67585f585538d5e3f778c8",
+  "evidence_hash": "16ef2fcd34a4573243e032c1dc8c194661be34b9b1748fe330214cb18b3b9fd3",
+  "item_id": "incrediblae/fc/attack/34",
+  "label": 0,
+  "row": 34
+ },
+ {
+  "claim_hash": "e0d0ec4ff205da315eb5134f94a13be80e7ef7952fbe674e7dd0dbd1c25de480",
+  "evidence_hash": "443c4a081a16e4ee4dd39023a0804f91ccf4f5d782cae9385d715538741c6251",
+  "item_id": "incrediblae/fc/attack/35",
+  "label": 0,
+  "row": 35
+ },
+ {
+  "claim_hash": "12d3ca8b683f482848b50e7f08cd19a039212d026f56fd3e0c6f4ab1455f2391",
+  "evidence_hash": "5d25bd9644160f72b19f0659707601322db9c6d90755dec754874e84b130eccd",
+  "item_id": "incrediblae/fc/attack/36",
+  "label": 0,
+  "row": 36
+ },
+ {
+  "claim_hash": "4fab9345e5df9932560035abb7986fa525e0190e4c81c68c1b96b74dd8b84a78",
+  "evidence_hash": "2ede774be98efecb52929a2ceac7e5706a395566a75ea0566c0e1ec637b0093d",
+  "item_id": "incrediblae/fc/attack/37",
+  "label": 1,
+  "row": 37
+ },
+ {
+  "claim_hash": "e7e84b095075739b09d63e4de40fe7b3bd534a22c4a8c6b8664e3f8b7b23d57c",
+  "evidence_hash": "79c815b63359144e41a6b6f5535b98b5470c1dfb070af59491cdc09479f6b03f",
+  "item_id": "incrediblae/fc/attack/38",
+  "label": 0,
+  "row": 38
+ },
+ {
+  "claim_hash": "8483ad6bacbff122d053d34152e56be2e44ea33f4a7ce878cb2e4ed13cc2a559",
+  "evidence_hash": "3fac78a7368b3f1ad4acc76c22bc1358f6f7a9fcfbb5040f24fbd06fa7c0522f",
+  "item_id": "incrediblae/fc/attack/39",
+  "label": 1,
+  "row": 39
+ },
+ {
+  "claim_hash": "bdb1646d85424556728a5525521e1ebfc005f3f3e74024a9bfe6d6312dda0a91",
+  "evidence_hash": "7959c94ba084bfd94c68a8ecdd99cd5380f1d9bf7d897f0a9c060f659bd71ba0",
+  "item_id": "incrediblae/fc/attack/40",
+  "label": 1,
+  "row": 40
+ },
+ {
+  "claim_hash": "0812b8d7fe7fcf5ebf3417e6446df2086ac1e3e2bcb3e25ec1f0928f4968e0e6",
+  "evidence_hash": "21a0046d271b6d6440e91e58ab43dce20c7da2cefc583da2e55f34c0c0fa974a",
+  "item_id": "incrediblae/fc/attack/41",
+  "label": 1,
+  "row": 41
+ },
+ {
+  "claim_hash": "ae2f25b7193d077a467fb135635a45884033dbf09c77cd56f82ccbe3a41b18fa",
+  "evidence_hash": "2b124666598658f42238eb88122056716a20ab281ca2ccc63e03934117c1bee8",
+  "item_id": "incrediblae/fc/attack/42",
+  "label": 0,
+  "row": 42
+ },
+ {
+  "claim_hash": "8bdbdecc0edf64cb569ef8e0502cfc304359f445fb9447a11f3e02ea08bf1b2c",
+  "evidence_hash": "acb36d5f01523c7c14650ee8e2ed98d9f3a1d0879023db3b6df6801257107d22",
+  "item_id": "incrediblae/fc/attack/43",
+  "label": 0,
+  "row": 43
+ },
+ {
+  "claim_hash": "c6e236d6882ae266b5e214c03fd7d74fbe1685be57f68c6b607f7e416a1ff786",
+  "evidence_hash": "1c68d97c67a4fd875a9eba241918a051a6230c79ab0d0d2634c7167167d39afa",
+  "item_id": "incrediblae/fc/attack/44",
+  "label": 0,
+  "row": 44
+ },
+ {
+  "claim_hash": "07eec4118595424a3aa9fde5bd3abea0705587d79ea9625bddf7be864e797158",
+  "evidence_hash": "526df22d938e05951f2d394a8d19d038881a2de196ad424d9b770cc9f6010603",
+  "item_id": "incrediblae/fc/attack/45",
+  "label": 1,
+  "row": 45
+ },
+ {
+  "claim_hash": "1ec177ede8189bc0a80b633d916061e4d7bdf79077f0f7c371d3f29a460e3fb6",
+  "evidence_hash": "019d7089cfc8d213a873afb3b1292e2e5427240ca1cd16bf8baeebdf887bdfe6",
+  "item_id": "incrediblae/fc/attack/46",
+  "label": 1,
+  "row": 46
+ },
+ {
+  "claim_hash": "e19364972fb47188b150228d1ec39dd7b3c20be6ce8542def8bd82b8793ea6b5",
+  "evidence_hash": "06041b28cd13554df4d418f45017a94742796b53540140ca1396e71cde492e9c",
+  "item_id": "incrediblae/fc/attack/47",
+  "label": 1,
+  "row": 47
+ },
+ {
+  "claim_hash": "cf7b07e801813ac6c3e8384d267b8a08c2b838b80dee3726d67ef0bbcbb50b4d",
+  "evidence_hash": "1fe9c97507aa0ba7f076d67e39ff5ed9d30e18828b93a3ac4668d04808149a36",
+  "item_id": "incrediblae/fc/attack/48",
+  "label": 0,
+  "row": 48
+ },
+ {
+  "claim_hash": "7f438df15b09a37311f0d9927908a1c3b6bac45a2bf75bc41c24ab9bb29491a5",
+  "evidence_hash": "c42cbcafe09f3dad14ce9a2b130e2548bbd2a4919065d71051aef6adeb17ac58",
+  "item_id": "incrediblae/fc/attack/49",
+  "label": 0,
+  "row": 49
+ },
+ {
+  "claim_hash": "5cd860b8840efa889c340ca18c4f5e78181b3a48c816257e813ef157f7eac4f4",
+  "evidence_hash": "964232b3a92ce0dc966c25180decd3a2b2f00622897f2858a676f90b3eabc37a",
+  "item_id": "incrediblae/fc/attack/50",
+  "label": 1,
+  "row": 50
+ },
+ {
+  "claim_hash": "371154c3c13a28bc2b1724540507c18aab19013ac7f3222d7cc7dce2ff6ee59b",
+  "evidence_hash": "14d4f0424054e4549eb6b6b2d21b8fd67dc838b161f8a018cc23f9ae5cd09f5e",
+  "item_id": "incrediblae/fc/attack/51",
+  "label": 0,
+  "row": 51
+ },
+ {
+  "claim_hash": "b538b7116c4aa9be9d97d8c76cdf01f2740fec44729ee1a1b2195aad5068f3c8",
+  "evidence_hash": "dc5301d155257a3f9b7ee9df092098385224102502082e502fd435d26359a0d4",
+  "item_id": "incrediblae/fc/attack/52",
+  "label": 0,
+  "row": 52
+ },
+ {
+  "claim_hash": "bf7806db3cc2344ef42324a1baa61cc1b40ae40b2c3bd5060226e68855657f00",
+  "evidence_hash": "9e7511b551411b8ffe6d74f7a7f9b64486a2f9967162b80f928163155f963035",
+  "item_id": "incrediblae/fc/attack/53",
+  "label": 1,
+  "row": 53
+ },
+ {
+  "claim_hash": "b829a8d39b15caba5f386dae6b15c217356ce0b53aadb42a28ad4b47c76ad9a1",
+  "evidence_hash": "0f6211c9987ce3844b31bc213c54e0dead538b2c59bc6d8601bcef6785f5e216",
+  "item_id": "incrediblae/fc/attack/54",
+  "label": 1,
+  "row": 54
+ },
+ {
+  "claim_hash": "b22ca3a37fd885f427dcf3349394c4c4613c2bdf73f3d4fd8c3da2bddc9ead88",
+  "evidence_hash": "0cb71108b37c86de608b08f5b503eba845bf5b425db0917f0cc51ecc30a90082",
+  "item_id": "incrediblae/fc/attack/55",
+  "label": 0,
+  "row": 55
+ },
+ {
+  "claim_hash": "83c0c2867e24fe7156b500800d9e3c18946b7299b88cd818a63f0a4ad2c28c85",
+  "evidence_hash": "5763af47246d11a4dae27411f13513b3a7f3d685ce27bf0f07b620f49d127666",
+  "item_id": "incrediblae/fc/attack/56",
+  "label": 0,
+  "row": 56
+ },
+ {
+  "claim_hash": "e404423b3a715df923b5a312330c282c6f2184a64da6cd1c791cbd756ba090dc",
+  "evidence_hash": "b5e1fd2f87faf09031a525d249bfabdaa662a3cf96d45ff1ad712dbf6c18fcbc",
+  "item_id": "incrediblae/fc/attack/57",
+  "label": 0,
+  "row": 57
+ },
+ {
+  "claim_hash": "51f87326908dc1deec4c8c5d667e4a6bc236fb7a48eb8af707ee2eeadf81fb3d",
+  "evidence_hash": "8f0af61fd238c97b7d885dd6cb7efc1dda053d1ddce8e741afaf327b392ee15d",
+  "item_id": "incrediblae/fc/attack/58",
+  "label": 1,
+  "row": 58
+ },
+ {
+  "claim_hash": "9002448b93dee3d7c24ebe9576b7666f5d1ff426d8ffb1f80bee457128a9b437",
+  "evidence_hash": "eebd6d492b239d640ebc8adeb808602e061b1daeac2a3f928162b9e6458a8e99",
+  "item_id": "incrediblae/fc/attack/59",
+  "label": 0,
+  "row": 59
+ },
+ {
+  "claim_hash": "06965b18c130258ce7f9d330b3d48bd2fe6b724c3c456a2e5751cf07f3244d27",
+  "evidence_hash": "8809e92a3389e195eaa0f193ee766615e125f4e40086121b12fbe705a152b70d",
+  "item_id": "incrediblae/fc/attack/60",
+  "label": 1,
+  "row": 60
+ },
+ {
+  "claim_hash": "5173839b49599d81423175a6889fbffba7372c2a2193c5c1296ad4b2dcf0ce13",
+  "evidence_hash": "a4c62afffe7feb25eaf95fae772016c192d3369b900f5a109e94d6c0d6197bde",
+  "item_id": "incrediblae/fc/attack/61",
+  "label": 1,
+  "row": 61
+ },
+ {
+  "claim_hash": "324d0d9c2d6c9b94d81dfa1b02e4c0397a3a1269dd87fcac3682580a26443c14",
+  "evidence_hash": "d44e6e7112d2f7dbc8eaaa143451152017ec87ab84e08dcd44da0cfa6c66b07e",
+  "item_id": "incrediblae/fc/attack/62",
+  "label": 1,
+  "row": 62
+ },
+ {
+  "claim_hash": "17018ff98868a4a2730810f10418c5ddd9e655f9af6011b08b53111a0b554017",
+  "evidence_hash": "fcb06f919849fde2cb266843372d9d633f2a4113e694aaa4a9bf55a968a9e4c8",
+  "item_id": "incrediblae/fc/attack/63",
+  "label": 1,
+  "row": 63
+ },
+ {
+  "claim_hash": "9dc0586185701ba85a1758fed3b1be1083e5f28646c65eb8eec4c7c306848915",
+  "evidence_hash": "1e9595cb308f0d5d63a3389f3579f2e7b1383d0e2c26216c979508a2027b0c10",
+  "item_id": "incrediblae/fc/attack/64",
+  "label": 0,
+  "row": 64
+ },
+ {
+  "claim_hash": "7fcbd06cdfe20c1d9b7f2b8aff77110fce114dfcd74d1993cc7a4e703b0d01ec",
+  "evidence_hash": "a7758a78b741edc647ff373ca2c7c9748f6181f0e8ada1dd718773535917e093",
+  "item_id": "incrediblae/fc/attack/65",
+  "label": 0,
+  "row": 65
+ },
+ {
+  "claim_hash": "d9defd5a95e327fbfef6e7fff7e37b3025cd9d1ac475f70b6f2e191619863fb9",
+  "evidence_hash": "a94cc91e5cde8e37ece47df301af53bd058943c0689fa311a87fcd11a0ed7a7c",
+  "item_id": "incrediblae/fc/attack/66",
+  "label": 0,
+  "row": 66
+ },
+ {
+  "claim_hash": "6110d0c47e67bcd5d2591f22f6f190e97a12f4f60c0c88c6246879fc3c80b075",
+  "evidence_hash": "6ae664d2627716a30ceea754f6e3751374df4d7eeea2d50f7d3110e448bd7539",
+  "item_id": "incrediblae/fc/attack/67",
+  "label": 0,
+  "row": 67
+ },
+ {
+  "claim_hash": "4e11a9531bbc28edb236d78047cb9335b826ba5bb1af3d24dc9493b4eb531627",
+  "evidence_hash": "37aa31e29520bd91ad9679b895e687fc25ebf785f7f52f21db0887f8a6a57bed",
+  "item_id": "incrediblae/fc/attack/68",
+  "label": 1,
+  "row": 68
+ },
+ {
+  "claim_hash": "ec386f29e3041f4d9a545795766b8bb1790000ac802182b9ac2bca22605ba893",
+  "evidence_hash": "18cecbc064be96b46c49ac156b7fedc95a2d532a1badc5d6a5996ddd67b97397",
+  "item_id": "incrediblae/fc/attack/69",
+  "label": 0,
+  "row": 69
+ },
+ {
+  "claim_hash": "8afb0dfb09d480e8ea575a60fde2a0c7f39b1dd65cfc0d06f3432f7d641bae6d",
+  "evidence_hash": "29071e90171a7ec356186f7f8258aec2f77f29edbcedf999d92ae55b1c3ce260",
+  "item_id": "incrediblae/fc/attack/70",
+  "label": 0,
+  "row": 70
+ },
+ {
+  "claim_hash": "fc07e94f173b475db20d89dc5c58d525560d17a3545ca12522e02c7f32de03ed",
+  "evidence_hash": "4b12bc657a1f53949bc0b24c9c24a1c327f741db2b9a8a6a2b77a2d980f979a6",
+  "item_id": "incrediblae/fc/attack/71",
+  "label": 0,
+  "row": 71
+ },
+ {
+  "claim_hash": "7c8e60f0e4f022f8b5f5dc8b63e25922641ebff30f8a43749488616e1a2c299f",
+  "evidence_hash": "f130c23dd5eef98d6e72b3d572a93264af02d08d346e176566aa5aed454c5e4a",
+  "item_id": "incrediblae/fc/attack/72",
+  "label": 1,
+  "row": 72
+ },
+ {
+  "claim_hash": "806edf82b35b21f692a348d3bfabe2219d4cbcbb78224b80cb15403eef3fe96d",
+  "evidence_hash": "4a40d543be768f9e660e9d860b28b87d13d9fc8b987201fa298144a9e82eb456",
+  "item_id": "incrediblae/fc/attack/73",
+  "label": 0,
+  "row": 73
+ },
+ {
+  "claim_hash": "1744772b37efe48e900e0fbf2bc43d01c5703bddda843b170af2eed369bcff58",
+  "evidence_hash": "d8a55b35ecbade1149ed3f1db67b281558f481f965167d33386a6a20cf44fb3f",
+  "item_id": "incrediblae/fc/attack/74",
+  "label": 0,
+  "row": 74
+ },
+ {
+  "claim_hash": "0d026bdcb6e6f56589b55a8ab4f873b7b871c26819da8315ac08e22f3eb03d0c",
+  "evidence_hash": "2ef01f96db3009ba29d7b4c6b5407e00e00beb54c1d232f7dc2baabce2c9282e",
+  "item_id": "incrediblae/fc/attack/75",
+  "label": 1,
+  "row": 75
+ },
+ {
+  "claim_hash": "b495df8d1110f4fa368ce9312d55c5f8e207816cfa63e2431bbb3b99e9841aea",
+  "evidence_hash": "65b23107698cacb88f7ab577079f599e737056958ecca99d234a436ee9fa5f8d",
+  "item_id": "incrediblae/fc/attack/76",
+  "label": 0,
+  "row": 76
+ },
+ {
+  "claim_hash": "36c0d7d662fec0c9f887a9789e43ab1b7c2f4fcf35bb8dcb5c408d16e2733e2c",
+  "evidence_hash": "db490350d5387504e57919cbf84af7ca3b9682c5c70d307cb1cca59e93a7f060",
+  "item_id": "incrediblae/fc/attack/77",
+  "label": 1,
+  "row": 77
+ },
+ {
+  "claim_hash": "debd4a2d6fcdb610c8b5ebde684e076342fe5541ca1548580eaca18768d6571b",
+  "evidence_hash": "ac604c41b26ce604f733dc4ff863c3227ef2ce90bfa496df49c811472d770d0d",
+  "item_id": "incrediblae/fc/attack/78",
+  "label": 0,
+  "row": 78
+ },
+ {
+  "claim_hash": "fc5f1a01712a8224a011d1351f2b88371c4f79b078b9d665e22abcdbd4c1dc71",
+  "evidence_hash": "e27d0941823a7f4cdd37f72e72fcb2e4aed7729716801fe86a2fc6c082a3001d",
+  "item_id": "incrediblae/fc/attack/79",
+  "label": 1,
+  "row": 79
+ },
+ {
+  "claim_hash": "201ca9889902f1dd45f2caf6fa2a804c62a0a8e2b1d48a266d41dcee7f95419f",
+  "evidence_hash": "e8824e594856620d27ed9b5c6e88d03de5d4d17d2272e620c8cc698723b09e75",
+  "item_id": "incrediblae/fc/attack/80",
+  "label": 1,
+  "row": 80
+ },
+ {
+  "claim_hash": "08baedeeacb98b400b3cf0e721c07aee8b112ec91aae9e0e2133ab1f7c982924",
+  "evidence_hash": "15ae16bf069c36ecb481d3a6cc4716678ef1ebee4a1b2cdc5044b7ab32706769",
+  "item_id": "incrediblae/fc/attack/81",
+  "label": 0,
+  "row": 81
+ },
+ {
+  "claim_hash": "04d344d8a6c6d2970c0c0ac815661893a41bc82eecedb1ff8a73d265b94cc9f4",
+  "evidence_hash": "cfba6aa007f3eebd2c38dfa1780a35a2513bd60edb1c3c4e52dc6666d8741f09",
+  "item_id": "incrediblae/fc/attack/82",
+  "label": 0,
+  "row": 82
+ },
+ {
+  "claim_hash": "4921405c6c5fde934333aa2f93a78c20c378eb2b44d627f6106331e2c8427d5f",
+  "evidence_hash": "3c92fc031d03dd69985b3315dbbfd562acef7c7a7099cae29a9ffeca8584ef44",
+  "item_id": "incrediblae/fc/attack/83",
+  "label": 1,
+  "row": 83
+ },
+ {
+  "claim_hash": "26877ae3162213570d1cc1e2a6e824e464f8da03743b4f9653bfaa262d057d1d",
+  "evidence_hash": "6f6f22a729b65af66f9d699bcbcb30685ad988a4f590f9182db4b2929a9d1f50",
+  "item_id": "incrediblae/fc/attack/84",
+  "label": 1,
+  "row": 84
+ },
+ {
+  "claim_hash": "8243534211e6f3b78c553b11e12bc8a21ef50569661da7b27f8ae262b90cbf26",
+  "evidence_hash": "0de16f6aaa3f49c1241f74f17f7ed057cbb29a7200b5ca378728f67a01e4bc6f",
+  "item_id": "incrediblae/fc/attack/85",
+  "label": 0,
+  "row": 85
+ },
+ {
+  "claim_hash": "9cead2769980ef03824edc8fa1874f15b474d631fce397310c50262d973d591f",
+  "evidence_hash": "89da97d486cb23cd8bd11be3975ce7a8ab395baf5d3953009c49a092616a2299",
+  "item_id": "incrediblae/fc/attack/86",
+  "label": 0,
+  "row": 86
+ },
+ {
+  "claim_hash": "36da0baf8494127e8dd8845011009f6756dcd263995b428e5cb13080df580d12",
+  "evidence_hash": "abece3e1d5eca7d1007b4e6f4a1919045e13db630a9e902a7be2135b1616adab",
+  "item_id": "incrediblae/fc/attack/87",
+  "label": 1,
+  "row": 87
+ },
+ {
+  "claim_hash": "5b152516646663c3d8ae6dbfc0b6ea064643a440c9a303eb60f3c9c91144d879",
+  "evidence_hash": "06041b28cd13554df4d418f45017a94742796b53540140ca1396e71cde492e9c",
+  "item_id": "incrediblae/fc/attack/88",
+  "label": 0,
+  "row": 88
+ },
+ {
+  "claim_hash": "19f4754162439c109fd4be290e9300d61f99ceaa0648f61819b4e77bdb31dce0",
+  "evidence_hash": "bd6e6bb75ce58bbc08fccc17391ab50457661b06f7cee152591a0505571ecc22",
+  "item_id": "incrediblae/fc/attack/89",
+  "label": 1,
+  "row": 89
+ },
+ {
+  "claim_hash": "3e8602a1b19ab3ca8c5334d704d17f987b547617b9da22cba1ad285971f85ad7",
+  "evidence_hash": "d4f0bc8fa128755541d9e22a68cfab17e764e682b9ae25561e0ffc2040bcce86",
+  "item_id": "incrediblae/fc/attack/90",
+  "label": 1,
+  "row": 90
+ },
+ {
+  "claim_hash": "cc9cb56e6d747dd1745f1d1ecb64132e2357006d5ff28f98ad72a722d00be774",
+  "evidence_hash": "913e2659eab599e22d07474f7cb79a3b4e3b945dbbb75fca8b390996920e1660",
+  "item_id": "incrediblae/fc/attack/91",
+  "label": 1,
+  "row": 91
+ },
+ {
+  "claim_hash": "9b43eb186268abae9b2400da4c94644aac5c3268d180784bbb893810ba50203a",
+  "evidence_hash": "29b839ca7742364f70ca9aace6c24621a40d00a70c0cd9906c4be538d0d8ccf7",
+  "item_id": "incrediblae/fc/attack/92",
+  "label": 0,
+  "row": 92
+ },
+ {
+  "claim_hash": "492094178899719fd0b6883f8038321cf5d131b0b9709b16e10d161454e74277",
+  "evidence_hash": "5ddd51537d490eb6a2f6f30e455c6137c80a11b6720b71c4117193a963b1ab61",
+  "item_id": "incrediblae/fc/attack/93",
+  "label": 0,
+  "row": 93
+ },
+ {
+  "claim_hash": "cb0c7b3bc5ececca966903bab704f84632065218ee2eff034016354e8947861a",
+  "evidence_hash": "8a3f5df7d244562bcfe710337aa233694b18f0f2bb6be432ab64e229e363d031",
+  "item_id": "incrediblae/fc/attack/94",
+  "label": 1,
+  "row": 94
+ },
+ {
+  "claim_hash": "67713d8a806be3e55567c64ee6910326b4608017a2cbf72b48590d7b3d6687d6",
+  "evidence_hash": "b9441fc455ffd48ba771afb5e3a4e56a5ec0fcc44c135984640f40e562a7bb37",
+  "item_id": "incrediblae/fc/attack/95",
+  "label": 1,
+  "row": 95
+ },
+ {
+  "claim_hash": "72868ba29e94b858a0673efc4cb6ab7b538481f0895c70da7c15da254db0b7da",
+  "evidence_hash": "cb935f23bfc5fa2ac97af9e3671390ed04a1ca13bf9e21fe45bcc27376936f1d",
+  "item_id": "incrediblae/fc/attack/96",
+  "label": 1,
+  "row": 96
+ },
+ {
+  "claim_hash": "4ce7d473042569f5f822060865825db798dd5ab6a4dd57f70cb49a4d034f19e7",
+  "evidence_hash": "14e80538eeb5f14940e1d95960989a2df1d932b605619837bf51cf2514486fb3",
+  "item_id": "incrediblae/fc/attack/97",
+  "label": 0,
+  "row": 97
+ },
+ {
+  "claim_hash": "f30b71956a012f45d086fcfc6e763a11ba3ebbd25ffbd601783d52f00d4e60df",
+  "evidence_hash": "4eb2f30a417de16bd7374d8a07f5c5d71f301cca85b7e02808a3ce2c336ffe1e",
+  "item_id": "incrediblae/fc/attack/98",
+  "label": 1,
+  "row": 98
+ },
+ {
+  "claim_hash": "891efde707a6c596339601cc0204d6870d10a5becae663a3dac3f6e47f1b36e3",
+  "evidence_hash": "282ba50c3db03141bc367dccb30fc0e9b7c2b0efaea0793365984ce891e7821c",
+  "item_id": "incrediblae/fc/attack/99",
+  "label": 0,
+  "row": 99
+ },
+ {
+  "claim_hash": "973b7486d4379bc705ae8242310ee06f63dd29406d98ec10189b76360b493750",
+  "evidence_hash": "9528b46985639edcfe01a8bd2534da7e2c2c195b63b6f0e700fef8ed3e3de3f8",
+  "item_id": "incrediblae/fc/attack/100",
+  "label": 1,
+  "row": 100
+ },
+ {
+  "claim_hash": "3c956f8d7edc52116428d6c171031b9bbafbfbf8fe337f2e9b82a14b8c32ebd0",
+  "evidence_hash": "79ef9c213e78202c659824d37f163c7ba7dafeb9ebc8891e7200d926edac38cb",
+  "item_id": "incrediblae/fc/attack/101",
+  "label": 0,
+  "row": 101
+ },
+ {
+  "claim_hash": "d544b482c15ae4c2fff689de8e9d0fbe4c71315e9d9f475b190f795f269eaf36",
+  "evidence_hash": "712ff6e039b48870dbb66e43e94a4d7cf094b211e15ede6e25233f2c7ed23e71",
+  "item_id": "incrediblae/fc/attack/102",
+  "label": 1,
+  "row": 102
+ },
+ {
+  "claim_hash": "9f905660a2e085b35e3467e8ff0e1a9a73e060cc568a8514c7e5342575308886",
+  "evidence_hash": "9b74a35bbf692aaeb352ca1860990721a282c8b7137935254d186b523fbeb46d",
+  "item_id": "incrediblae/fc/attack/103",
+  "label": 0,
+  "row": 103
+ },
+ {
+  "claim_hash": "da580333d40a65d87c2af119a0334e0591160861a7947d0773fab79b4dae3c43",
+  "evidence_hash": "a87b5e03961b4a3260c6406bd945a273fb6cd7a75a05de1016bc31b907252056",
+  "item_id": "incrediblae/fc/attack/104",
+  "label": 0,
+  "row": 104
+ },
+ {
+  "claim_hash": "a33d225b4958437364bb985e48dd47097bc565efc26efeb3c1f8fb573a5cb318",
+  "evidence_hash": "dcbc3c3c59ea37536f0ece8de4d69d57557644ff1ef53e028fef4eb569d49929",
+  "item_id": "incrediblae/fc/attack/105",
+  "label": 0,
+  "row": 105
+ },
+ {
+  "claim_hash": "a248d4b8f35ecad2a178aa34cd1547b5677e71e5faef855fe51d90913b6abe59",
+  "evidence_hash": "b6432293c1fb0e93e6f5e65a8c24bf931eae43e6156c6202658e2d88f2b410ba",
+  "item_id": "incrediblae/fc/attack/106",
+  "label": 1,
+  "row": 106
+ },
+ {
+  "claim_hash": "cf802c4f83a3d03943ae21a9796389942d51767c4c5c8ec7da831416817f5f94",
+  "evidence_hash": "dda1a624058c9497298ec13835e26f8a6f873a59f60cefbbafe73eff24b71e1a",
+  "item_id": "incrediblae/fc/attack/107",
+  "label": 0,
+  "row": 107
+ },
+ {
+  "claim_hash": "3c1f54297050030f78213611da19ce19988e6e7d6e688d97f1db538cfc18cde9",
+  "evidence_hash": "3cfeff0a35c699b9e0e301f943b5492e54acfe48e5d67be29a39fb2fff55848e",
+  "item_id": "incrediblae/fc/attack/108",
+  "label": 1,
+  "row": 108
+ },
+ {
+  "claim_hash": "acb3d79529b6a37e45bb71621fe63166eee6ece4a78e9fbd0455e48b79b22f6a",
+  "evidence_hash": "bf49f1512e550fd0227d0be5dad99c668046722d9882f659c509b7ca54f039a2",
+  "item_id": "incrediblae/fc/attack/109",
+  "label": 0,
+  "row": 109
+ },
+ {
+  "claim_hash": "042aca0b53600428866f79743b68a78f9bfcdf66483eb722be9f218ac4960e39",
+  "evidence_hash": "01ddf9bd060fb4228a360cf7ca39f9c69ae1071d922f9ba0d37e135e364e6987",
+  "item_id": "incrediblae/fc/attack/110",
+  "label": 0,
+  "row": 110
+ },
+ {
+  "claim_hash": "a83aca61a14fd9114781a6f09a74d6349d0e4815504680e2dd872098552a1616",
+  "evidence_hash": "0fa88c8726f56518357867edb39c2e241a5e34fe7d1b256175d6bff6b4d86277",
+  "item_id": "incrediblae/fc/attack/111",
+  "label": 1,
+  "row": 111
+ },
+ {
+  "claim_hash": "dc7992258e6ce52324c39626d4e2fd6edcf4730cbbd272387ff4a4a7763e6cc1",
+  "evidence_hash": "6220abde79877f6f0d9cb2858bc7fa4888ba5b98230e641e570ef61169ff0ee6",
+  "item_id": "incrediblae/fc/attack/112",
+  "label": 0,
+  "row": 112
+ },
+ {
+  "claim_hash": "24c404650bfbc40127a46df23ed1fef43a78b98c6ee5f9092c962204ed143d20",
+  "evidence_hash": "1b15d24f272d73f652ded2006703d92ccf144e571a9a08e859dc4b65da1b5dee",
+  "item_id": "incrediblae/fc/attack/113",
+  "label": 1,
+  "row": 113
+ },
+ {
+  "claim_hash": "c99e7a90e0adbab9af74334312ecbd9a344c776b0856085462cb5abbb16e2c19",
+  "evidence_hash": "8568434b1f80468c5851edcbd85c00049b38fe157a9a2f2c8c64e3bc89875c3c",
+  "item_id": "incrediblae/fc/attack/114",
+  "label": 1,
+  "row": 114
+ },
+ {
+  "claim_hash": "3695c70afea25c294163caac35d195869c9d8d503a85f0d5a5ef3632882097dd",
+  "evidence_hash": "6e996ad2de8baffb7b8994a5bae408ce84d5d1e9a659268482c5b032d952c7b1",
+  "item_id": "incrediblae/fc/attack/115",
+  "label": 1,
+  "row": 115
+ },
+ {
+  "claim_hash": "ca372774b5f42ebfc33baf30828993a2bcc58c5b67c523e222c392de616cc5de",
+  "evidence_hash": "e04fc64cabd952d950183fdad783a9b0046e9a1c86257b2c9fbccb2cc896ee43",
+  "item_id": "incrediblae/fc/attack/116",
+  "label": 0,
+  "row": 116
+ },
+ {
+  "claim_hash": "619a6dfebddd739b0a9ee5f42c61ead8cbed99ec17da0802a36fa88392b1f84b",
+  "evidence_hash": "01b41bdc42e59849e2a59c3ce44b6cc4bc49f05636632de725c544a52acb2b38",
+  "item_id": "incrediblae/fc/attack/117",
+  "label": 0,
+  "row": 117
+ },
+ {
+  "claim_hash": "3ce75ae561db32e7d2db7a50ff7c13e7ec06bac722ce4f5bf5ee02a453ed6cb0",
+  "evidence_hash": "89a206f57a585f60401d903f969f3ce62423a53fbc99d858834ef2cbbcc86913",
+  "item_id": "incrediblae/fc/attack/118",
+  "label": 0,
+  "row": 118
+ },
+ {
+  "claim_hash": "e273c11bc04c6c82b7e8d678fd9d891aa70b2a998a909b64adb195ad2f77cc57",
+  "evidence_hash": "37d76da79a31ca87debfc9dc7e216b75a140fc5b89174ea1672f4ee67daf621b",
+  "item_id": "incrediblae/fc/attack/119",
+  "label": 0,
+  "row": 119
+ },
+ {
+  "claim_hash": "ecb9a82986472c77e18c8a4233d9fb83d1c9975d43c763957cf23d4436a46295",
+  "evidence_hash": "e760d85301a29242cb52d700e0330e7315ed6284042a8354901deaddce941c57",
+  "item_id": "incrediblae/fc/attack/120",
+  "label": 0,
+  "row": 120
+ },
+ {
+  "claim_hash": "633123ae7b77e1b5e8c7b4366571119bda3444e953ba60344db7eec8f1a8492e",
+  "evidence_hash": "6fb33219095c06e006c003953ade413274f72945ae7c8c19a725ce5c3b880ac3",
+  "item_id": "incrediblae/fc/attack/121",
+  "label": 1,
+  "row": 121
+ },
+ {
+  "claim_hash": "d26860eacaca8448b1e4bd41f4b839421e94fc7b6b1855de4126bc2771d2fbbf",
+  "evidence_hash": "6b93e57408534d01be8ebdbc0ac82f47a16182d49ea17ad1055d79e3ba47e692",
+  "item_id": "incrediblae/fc/attack/122",
+  "label": 1,
+  "row": 122
+ },
+ {
+  "claim_hash": "bdc4425871cd9865ed891e591dcf01130c92ce5d068542859c7107a9092499ed",
+  "evidence_hash": "c2649f92539f4ab9e796a73e977dee13d0b278dfb5a41c41ff7956fb02c648c1",
+  "item_id": "incrediblae/fc/attack/123",
+  "label": 1,
+  "row": 123
+ },
+ {
+  "claim_hash": "85f4595658d7fdb494acc61c91772d77c6e502be821fd0dbaddd3ef3bc80219d",
+  "evidence_hash": "19fcbc3a6f73d4e28bc233be4ca003801a5410af4c40cbce22867caf69596bde",
+  "item_id": "incrediblae/fc/attack/124",
+  "label": 1,
+  "row": 124
+ },
+ {
+  "claim_hash": "408a4428f1d2fd521bc655c0f0ca59c75bb2c3bbacef4f081abdbd62f3fcb749",
+  "evidence_hash": "9ff1ad155d6dd45b87d94dbdfe9d4b17de5ca8e026da14e55e83a63d57ed78d2",
+  "item_id": "incrediblae/fc/attack/125",
+  "label": 1,
+  "row": 125
+ },
+ {
+  "claim_hash": "46ef5ec8747465433f4dc03cbb72be53b0f08cd8674b48f473a87947b19572a7",
+  "evidence_hash": "830bb55f1c6c0d661855f54ec6f0d6a1c51c4ec15ecc390f6baca093db1e4400",
+  "item_id": "incrediblae/fc/attack/126",
+  "label": 0,
+  "row": 126
+ },
+ {
+  "claim_hash": "6c5b6c85ecec0aebed5056e5edc6b6c51f04ad37906c8a27b1fa82350cef8dc3",
+  "evidence_hash": "29177d12c18d9a7062395987e4026b85decbe4fcbc4bbcfdacb58c72dd74f771",
+  "item_id": "incrediblae/fc/attack/127",
+  "label": 1,
+  "row": 127
+ },
+ {
+  "claim_hash": "25c237cd6ed9f810ce09037848460154d3fbbbd2a4d4c523a5f6addc87632374",
+  "evidence_hash": "fe2816ea207d8281b040a039bb8d6c488afdd8970c4a6e61909c95b5549dcb01",
+  "item_id": "incrediblae/fc/attack/128",
+  "label": 1,
+  "row": 128
+ },
+ {
+  "claim_hash": "40444d1a0ddc6ae9474f386ab5a835c3a16484f781329875a743b65e022a382e",
+  "evidence_hash": "ce88390be04ed5a7441ef966624247b0760dd8bbf49bcd03da4cc01edf3a47cb",
+  "item_id": "incrediblae/fc/attack/129",
+  "label": 0,
+  "row": 129
+ },
+ {
+  "claim_hash": "e818950c3c6f0d739e7ee001bb4b173fdf5c736b6d5fb309930abe0eaaf349fd",
+  "evidence_hash": "439ad576a392264c4f6c0d945203e68e8b2b08bb0c2e8844772685c120efe164",
+  "item_id": "incrediblae/fc/attack/130",
+  "label": 1,
+  "row": 130
+ },
+ {
+  "claim_hash": "3379bfb2028461017e8578e345539bec44b931398a2f57d1ab8e39bcc946814b",
+  "evidence_hash": "7ece0108625786bba72a1454b3ddbfd0247030dfff83baa87aa8e889c47344d6",
+  "item_id": "incrediblae/fc/attack/131",
+  "label": 1,
+  "row": 131
+ },
+ {
+  "claim_hash": "a8e1d801f958e2dac59b0d7e84233d44a3c32534778517970ca489482714cbc3",
+  "evidence_hash": "7e1b6a46eb4a8a96a705a96683ac3094d1ebef21f44e2fa83c593e029e45aa93",
+  "item_id": "incrediblae/fc/attack/132",
+  "label": 1,
+  "row": 132
+ },
+ {
+  "claim_hash": "14ae863fc8c9e2c770d814a659666513eb1356a9fe5011fe58d8f488541b93e1",
+  "evidence_hash": "a96f2a62ea977c084864512b0f7060eb7e7c17579aa01620af9a7224a9b1b222",
+  "item_id": "incrediblae/fc/attack/133",
+  "label": 0,
+  "row": 133
+ },
+ {
+  "claim_hash": "c575524542f036b4369865da0558511499b8dcf518300ed340d2f2c52aa582fd",
+  "evidence_hash": "1312c21557425e5fba4cfa268dbe5f96c3b2561e8ad8e90c3d50d8f243ee99e6",
+  "item_id": "incrediblae/fc/attack/134",
+  "label": 1,
+  "row": 134
+ },
+ {
+  "claim_hash": "af395b126eefa0e5a72a6828a4de291a497fd11e9f5a5bfde31414d5dbbdbded",
+  "evidence_hash": "6ee5a0106f948794eed459a138b5f054161c904bbda209866b2a145432c861ae",
+  "item_id": "incrediblae/fc/attack/135",
+  "label": 0,
+  "row": 135
+ },
+ {
+  "claim_hash": "35b89fe7b01c8c0cf77d90030e3193931d5949f9a9ae1ef1183072e601cb0665",
+  "evidence_hash": "a2b90845bd8cae9332a4dd8f12190f970c1c0209a9e9bbebaab9d783e82d6579",
+  "item_id": "incrediblae/fc/attack/136",
+  "label": 0,
+  "row": 136
+ },
+ {
+  "claim_hash": "748ea35d79ca73063b3a206e35b61e00a0ea3d12a4a48c6a0d23f6bdb3ffe461",
+  "evidence_hash": "c637510e86c24c9fd016c5aedf870e4de15b9a0ac70fe07c3391c52a9c688283",
+  "item_id": "incrediblae/fc/attack/137",
+  "label": 0,
+  "row": 137
+ },
+ {
+  "claim_hash": "a3d6f5f97b8fbfb73e7d3ea122f77924f4ca377dba252f4cffa914cadbeb2b70",
+  "evidence_hash": "9dbcc127e9ffc181cf6f1b0797facbc18ec42a38486bb707544c65081b0ee109",
+  "item_id": "incrediblae/fc/attack/138",
+  "label": 0,
+  "row": 138
+ },
+ {
+  "claim_hash": "60e15a44e6bd3859c39999180dfb17a232c53c26fc09e44dd8f3fe890c52da3d",
+  "evidence_hash": "f67a491a19df332f0a3ac94335b3b13e810415695c13c5dcbc618e3037e957e3",
+  "item_id": "incrediblae/fc/attack/139",
+  "label": 0,
+  "row": 139
+ },
+ {
+  "claim_hash": "418da2f174b33671d1c5afa08ab78db27590eb3a636229385f197fee17056d5d",
+  "evidence_hash": "1b07baa99c4a05bcc4fcfac6452124dc3a6b235da38ad3e80560dc85ec8fb5e8",
+  "item_id": "incrediblae/fc/attack/140",
+  "label": 1,
+  "row": 140
+ },
+ {
+  "claim_hash": "f0ef174011c81b9557c29822f4297f536928717b3d3c76b61ecf3129a06f363d",
+  "evidence_hash": "5b48dca4e834370d55b71dd79a0c900573c24440eea1a8036a840a563ae181c0",
+  "item_id": "incrediblae/fc/attack/141",
+  "label": 1,
+  "row": 141
+ },
+ {
+  "claim_hash": "6ee59e4b0b24bef6b2c8dc7b578be0a233979249f79fe6a9802a8108c2f856d5",
+  "evidence_hash": "31f2fc371d5774fdc6904cac04ec7cce7b35c24461c07345235d25df99c3d33b",
+  "item_id": "incrediblae/fc/attack/142",
+  "label": 1,
+  "row": 142
+ },
+ {
+  "claim_hash": "2fc482c25f6331b5eec44d6306e461740a3f3f40fe2b4fb5204b59187abd9bf9",
+  "evidence_hash": "f0bd1ba296ec4386e91686380e3a00f1b49073060fac7421fee50a98f0ed7b7e",
+  "item_id": "incrediblae/fc/attack/143",
+  "label": 1,
+  "row": 143
+ },
+ {
+  "claim_hash": "178b47d09b4accd028ff9f92c8c37498632b6321dded4c9c3d5104063d3011bf",
+  "evidence_hash": "0a6ab78418e16f3f11bcecbc9d19e9e30e625e65c288c6fa447fbc2da1f9460a",
+  "item_id": "incrediblae/fc/attack/144",
+  "label": 1,
+  "row": 144
+ },
+ {
+  "claim_hash": "2fb24b336b3ad11ff72a0ef51f26c5e13225e64b12089c4839000094240f8233",
+  "evidence_hash": "23f6691237ee30648a875c41d79d10ebd89e6dbbd192c258c9c0a1b9a2d99bc7",
+  "item_id": "incrediblae/fc/attack/145",
+  "label": 0,
+  "row": 145
+ },
+ {
+  "claim_hash": "6d6200d946643232cfe6b6407af8cc824d73dd022954dd9690b3e869d7154777",
+  "evidence_hash": "0afd27c8e24beeadb6526c73d3fc54b287cdcc24e0425e0d71a9ab37cd7a47a1",
+  "item_id": "incrediblae/fc/attack/146",
+  "label": 0,
+  "row": 146
+ },
+ {
+  "claim_hash": "f5153edcf29019521d36ab080d0b9ae817ce9860a5b112fb61959d408451b85d",
+  "evidence_hash": "0bc5ec6dc9872c5c927e42daa4d8343613fe65b49c3b12be8eaf07023e4824a7",
+  "item_id": "incrediblae/fc/attack/147",
+  "label": 1,
+  "row": 147
+ },
+ {
+  "claim_hash": "7c38a0c1a894bcb1230c3be8da89b95bd25e3df2ada88d758331e0626034045b",
+  "evidence_hash": "efbe89fa0ab348f99914bd9398e70f37ef71b9bc787279f2465ed62e7324ee76",
+  "item_id": "incrediblae/fc/attack/148",
+  "label": 1,
+  "row": 148
+ },
+ {
+  "claim_hash": "7cdcba9a2fe5eb6673e41a3ae5d86ed8158b9b9f425e261456243fafdbdf5d58",
+  "evidence_hash": "e57d6e530cdfdab885cb0732493dcc65f389e571b4fd144999c969764fa181d0",
+  "item_id": "incrediblae/fc/attack/149",
+  "label": 0,
+  "row": 149
+ },
+ {
+  "claim_hash": "f1d6b7b939367591a07fa772a5f93ddc1f8304a3e15f8ac558adeb19bfa1767f",
+  "evidence_hash": "37280902585ee42d40cb94b916e446a1b4aa3c5d422f1a1e179a1efd53b79cc5",
+  "item_id": "incrediblae/fc/attack/150",
+  "label": 0,
+  "row": 150
+ },
+ {
+  "claim_hash": "03dfceb176f4646837ad6fa54fa851c450fc037951ae7474ca60c56c86a5f9ce",
+  "evidence_hash": "f0fa4d845c52d579e56ef854b4f1c57aa5ca1949b181f4d739835ed2d6e54666",
+  "item_id": "incrediblae/fc/attack/151",
+  "label": 0,
+  "row": 151
+ },
+ {
+  "claim_hash": "46e791f1f9afb4c19e115bb1aae71b59784e164d768c8ee08983e4dbf8531dba",
+  "evidence_hash": "a32986221417b4e2d394b03bb86cc39989b2ad29a63ffd7016f14b9c292b0315",
+  "item_id": "incrediblae/fc/attack/152",
+  "label": 1,
+  "row": 152
+ },
+ {
+  "claim_hash": "c4d40a4bd4fddca24f4b2404c6509e1b326eebe84f95b6a52d2cabcf84b8fcbb",
+  "evidence_hash": "65858ff86f6e2b6d12bbc38d01855b8d737cee6028fbab761740b0c88fec8de9",
+  "item_id": "incrediblae/fc/attack/153",
+  "label": 1,
+  "row": 153
+ },
+ {
+  "claim_hash": "6b28a47ade24210dbae291d5dee48b22becfb91b594a9d5236854b8e20a3af03",
+  "evidence_hash": "7eadcf23ee8bcb84daffc891ed9851cc8bc434e4075c2b188b6e3ca262a2bce3",
+  "item_id": "incrediblae/fc/attack/154",
+  "label": 1,
+  "row": 154
+ },
+ {
+  "claim_hash": "2c00c69fcc454c9ade0df2d26d0b72429680920ba57700d0746d7003ceee471e",
+  "evidence_hash": "c05fa1613dc4fbb6e0dcede496581b02b949f4c531cf4a6794be9171f4457e9b",
+  "item_id": "incrediblae/fc/attack/155",
+  "label": 0,
+  "row": 155
+ },
+ {
+  "claim_hash": "b1194bab95b559b907cd109827d88f9b71236c05c436939587cedab2f4465126",
+  "evidence_hash": "f8cb284330032bf7fdd3607c235160ed313d1e40b28f31359f7a9547f50e4c53",
+  "item_id": "incrediblae/fc/attack/156",
+  "label": 1,
+  "row": 156
+ },
+ {
+  "claim_hash": "6604c7bb8aa629a017c5da109b365c193cbdcbbb298566e3b566d626adec7978",
+  "evidence_hash": "6e920dc53d922e5d35e5b97c2b6b1629c860871c9109d9826799bcb8391b6f68",
+  "item_id": "incrediblae/fc/attack/157",
+  "label": 0,
+  "row": 157
+ },
+ {
+  "claim_hash": "e1474c6c13dac1cf8e8626dbd1f7a363d31a8c9739d0e2dca049c93942c6aedb",
+  "evidence_hash": "7933d777cb1e63e6dc0d21f11541987153f709cc143e20a7e0db6c994a506d1d",
+  "item_id": "incrediblae/fc/attack/158",
+  "label": 0,
+  "row": 158
+ },
+ {
+  "claim_hash": "0847dbd011f2e2450348d7a2bc77108e2d55a670ba5233e534088ceb1e7f0c00",
+  "evidence_hash": "a38f43ea19afc72f61933e90f1a3c9bfdb0c5b5ce2d8eb2824830bdef20d1314",
+  "item_id": "incrediblae/fc/attack/159",
+  "label": 1,
+  "row": 159
+ },
+ {
+  "claim_hash": "20672952490a669c22cf3d01d93d07ecc450da08c5b167b196c02ee56408ad3a",
+  "evidence_hash": "e45f8067a2ecb0953adcf17a640589b6624b3c3bcfc15c423b67b5c80aff26e0",
+  "item_id": "incrediblae/fc/attack/160",
+  "label": 0,
+  "row": 160
+ },
+ {
+  "claim_hash": "6b080289a40842326f704ff0bee6614869c4e234e852dd335141d89f7032b439",
+  "evidence_hash": "4d9df3f559d169fe735ac3b6fc784335443918eb618550bc33a38169ba4225f5",
+  "item_id": "incrediblae/fc/attack/161",
+  "label": 0,
+  "row": 161
+ },
+ {
+  "claim_hash": "c40605232cfea07d84612596991e70036b14aa00c1d98dd5845ad91d1f706f2f",
+  "evidence_hash": "cc9a141f2817d9d58515fdc10018b1ca3d22a9d6568ba161b5468fd3c4e86fa9",
+  "item_id": "incrediblae/fc/attack/162",
+  "label": 0,
+  "row": 162
+ },
+ {
+  "claim_hash": "600d0f671c0ce592f4d7c67f28cdad5ca82b7e037d30f0e8972e8df1999596cf",
+  "evidence_hash": "c0c8c086e114669ce95fff27bb3933541c4d378131d29088f36f566a15ce9dda",
+  "item_id": "incrediblae/fc/attack/163",
+  "label": 1,
+  "row": 163
+ },
+ {
+  "claim_hash": "28a922ef206e637a3fec3b94073ab1754aec7a66944c34119844615e3bdcd784",
+  "evidence_hash": "095e3826d3e7e5dc62dd8207490c081a644c743cc616474fd01849f9b39bf47d",
+  "item_id": "incrediblae/fc/attack/164",
+  "label": 1,
+  "row": 164
+ },
+ {
+  "claim_hash": "202415b022ed22c70039d4c11de8acf573503ffed11b90a8aea084a788163480",
+  "evidence_hash": "bb2f7e67dc86f25fd6d609b0980e83d096213ad83fd40cd7f0d0f7f55c8735af",
+  "item_id": "incrediblae/fc/attack/165",
+  "label": 0,
+  "row": 165
+ },
+ {
+  "claim_hash": "513d549dc313aa4656b8d7b40b3808c9348ba748474200f09df7448bc208365b",
+  "evidence_hash": "5289ee7dbe0442b1988dbe117743993cef8d7a39001d88a7351f7b1d0bc40049",
+  "item_id": "incrediblae/fc/attack/166",
+  "label": 1,
+  "row": 166
+ },
+ {
+  "claim_hash": "e18b1700ceffd152760863caa4b82f472887ee647e61329e7420a19cb5048a9c",
+  "evidence_hash": "3a90595ffe51a2077a07865a019a6d5bd23fc4668794239e87baba17d7e6bc3e",
+  "item_id": "incrediblae/fc/attack/167",
+  "label": 1,
+  "row": 167
+ },
+ {
+  "claim_hash": "228871dfd5d9fec7566ee2c25e5b00e7d2bce2dfc33c8b5bd8055fb97c88e3d0",
+  "evidence_hash": "3ac2c94e767f98de2ca243d6fc1f65c5c7aad0be5fcf69a3160a416de46b9af7",
+  "item_id": "incrediblae/fc/attack/168",
+  "label": 0,
+  "row": 168
+ },
+ {
+  "claim_hash": "db0dd3ea8e96a9bd9f29007388b6ef393efb48430e39b1bb0b669dbe3c691afd",
+  "evidence_hash": "374247af8da35afe99759efe07922155619d2e574df65de3fc3b9143e39756a7",
+  "item_id": "incrediblae/fc/attack/169",
+  "label": 1,
+  "row": 169
+ },
+ {
+  "claim_hash": "55c06c0e7d4f5460b29643160360f210cdd4937eba12fa58df84f0e952fb47fd",
+  "evidence_hash": "6a90f96c44c46ef44bb0a96c695505eb3bae47a4cbc91df77d71bbdc222fbd16",
+  "item_id": "incrediblae/fc/attack/170",
+  "label": 0,
+  "row": 170
+ },
+ {
+  "claim_hash": "be2f302c43bf49804883c256c1d951e692c5af1e087388531c860c1e2c6a956d",
+  "evidence_hash": "39674df9b7e31cfbf018d978872bcd8d14bfa9b98a3437639bdccf527d0b9ce7",
+  "item_id": "incrediblae/fc/attack/171",
+  "label": 1,
+  "row": 171
+ },
+ {
+  "claim_hash": "e388b2fea64e06bc32c6c3cacdc4af5c76ece181f9b0c5519e49a6f062723622",
+  "evidence_hash": "01b41bdc42e59849e2a59c3ce44b6cc4bc49f05636632de725c544a52acb2b38",
+  "item_id": "incrediblae/fc/attack/172",
+  "label": 0,
+  "row": 172
+ },
+ {
+  "claim_hash": "95a7e1c818bf18ff14ae24d1e45b38bba7d3817d4806f6fb0610db63e43afb6e",
+  "evidence_hash": "61703078c571223fcad7eac550639d4d7b3affdc10d12ca95c2ce0eced53b9d5",
+  "item_id": "incrediblae/fc/attack/173",
+  "label": 0,
+  "row": 173
+ },
+ {
+  "claim_hash": "0af095ff8007c3d90312288cf77cef948847f5b0377973882742f77b2bc1c448",
+  "evidence_hash": "44c30203594b79225854667a67eef3d74eb51c286f428d4b45cd9b8111dd9d82",
+  "item_id": "incrediblae/fc/attack/174",
+  "label": 1,
+  "row": 174
+ },
+ {
+  "claim_hash": "decf1dd1c0120eb71290f9b34af29ecee1035f172560996e92107346c65bbc75",
+  "evidence_hash": "803d48edd924e1187b1eafded3cebf21fd9019b2da257bae56648f357c72f12b",
+  "item_id": "incrediblae/fc/attack/175",
+  "label": 1,
+  "row": 175
+ },
+ {
+  "claim_hash": "9322821376fd9ff2f0541911a93137c797419d94a93ed16767cb6258c21e1e56",
+  "evidence_hash": "db5990f3987a9ddf30295f7c3320816a3aa9fcaf5e1f3e28c1b3ba1982c163b7",
+  "item_id": "incrediblae/fc/attack/176",
+  "label": 1,
+  "row": 176
+ },
+ {
+  "claim_hash": "58b608b4e5e835d853c44407964af6f6fc44d115fcdf347c98f7cafa4b3a8aac",
+  "evidence_hash": "6cf752c572e27aeb5db2116a49ec0ca16ffc47378dfa2c61d07f5de3694d5794",
+  "item_id": "incrediblae/fc/attack/177",
+  "label": 1,
+  "row": 177
+ },
+ {
+  "claim_hash": "3b098bd87c950ac54bc1249134bac00fc3479d46ce3dc8c238fea5939ad10abb",
+  "evidence_hash": "33a28db23137e27d628871af32067f7d9aff7ce4fe7c5e2b4c54c5a3fdd6ccd3",
+  "item_id": "incrediblae/fc/attack/178",
+  "label": 1,
+  "row": 178
+ },
+ {
+  "claim_hash": "6807db09173914efb791af24282aad3e09d7e07dd0b43ac692600e703c2298ff",
+  "evidence_hash": "8af687d36b3fa5b34980d33840525ce83eb7ddc2c24bd0b9ef412c5c3a651fff",
+  "item_id": "incrediblae/fc/attack/179",
+  "label": 1,
+  "row": 179
+ },
+ {
+  "claim_hash": "0d0f1d769c4e4dc4d94a3c435a44c908f9fffd2d5d1126d190a0e9cd088b0201",
+  "evidence_hash": "c5ba7049537473bdee2266bcfcd8fecf2374374bdba58232f77495f5e0a3cfc3",
+  "item_id": "incrediblae/fc/attack/180",
+  "label": 0,
+  "row": 180
+ },
+ {
+  "claim_hash": "af0fc9bf71b97dbf69ac558f1fad639abcd9ac0bc4275405490c287a6228bed5",
+  "evidence_hash": "5ed2f8a7d1048cd44be33400d49edca8dc2e514f1850017cb3ff1f1ef79a3302",
+  "item_id": "incrediblae/fc/attack/181",
+  "label": 0,
+  "row": 181
+ },
+ {
+  "claim_hash": "28a608778767103e4cc0c09ba501ca159f301c14d57987c1215895c49929dcd1",
+  "evidence_hash": "3a10ccd1245a378d9ceac3b93ec58796fb2c164c848601d469202d6ab7398e17",
+  "item_id": "incrediblae/fc/attack/182",
+  "label": 1,
+  "row": 182
+ },
+ {
+  "claim_hash": "e699e076e54491538480e44362d71dbf26acc113eb0cb472a13a59cf7872c281",
+  "evidence_hash": "ad6015ed5705055f969a49f5895690addb3e10d791db3b7269126e8e7a8acba0",
+  "item_id": "incrediblae/fc/attack/183",
+  "label": 0,
+  "row": 183
+ },
+ {
+  "claim_hash": "8e534b5d9d478bea7d7c4279a105e989881ac3b6a4f9c0298fc8aaa3abf912aa",
+  "evidence_hash": "0dd7ebe40031946220c3798f713f62a238163c8074022b2d7044e2f96b2e9985",
+  "item_id": "incrediblae/fc/attack/184",
+  "label": 0,
+  "row": 184
+ },
+ {
+  "claim_hash": "79f2ff2cfeb5efffa355eb3863302b003686af8fe0aa4d10050a1b43d7d70f76",
+  "evidence_hash": "7e1b6a46eb4a8a96a705a96683ac3094d1ebef21f44e2fa83c593e029e45aa93",
+  "item_id": "incrediblae/fc/attack/185",
+  "label": 1,
+  "row": 185
+ },
+ {
+  "claim_hash": "faece00c7f501f0e9b95a487ac5006953ea92632c669ce9fd39161d1e694a80e",
+  "evidence_hash": "66f3859f15e38428d82c5e66406dbb673de1b1f7c31c8e6dc164937f9e9c9b42",
+  "item_id": "incrediblae/fc/attack/186",
+  "label": 1,
+  "row": 186
+ },
+ {
+  "claim_hash": "3abfec9fd46c03410871887c0deab99f1057cb2131bbb34ced9ffb89bc8cce47",
+  "evidence_hash": "857ea505b6f0ab48bc412a20cd9964e087d00711a92f2de8248c1e74a9ff1250",
+  "item_id": "incrediblae/fc/attack/187",
+  "label": 0,
+  "row": 187
+ },
+ {
+  "claim_hash": "09b1a43db5bc97d88648307c8ffc5b3d9fa57e089df6f6d7644bd2ac371bbbfc",
+  "evidence_hash": "49661a00e399615d84f82dd082a7ae2878da260afea88e8ec06fe3808bf2e65c",
+  "item_id": "incrediblae/fc/attack/188",
+  "label": 1,
+  "row": 188
+ },
+ {
+  "claim_hash": "b59d706aa830a7823725f6140827302d6abdf54dcb57046cbf95d1ada0bb1029",
+  "evidence_hash": "e04872e5afd61f366c3f15e9fe282e0e6a1a5b795fc55b1aeefcd5773b08240a",
+  "item_id": "incrediblae/fc/attack/189",
+  "label": 0,
+  "row": 189
+ },
+ {
+  "claim_hash": "f667dd6d05a330aa69feb953d3f64a75a1de3052ea5c4b2ab2c13a02a898c956",
+  "evidence_hash": "6391cb264a057522cabedc81c484aae367dcaa60d23e4b59ec65d301b10f9475",
+  "item_id": "incrediblae/fc/attack/190",
+  "label": 0,
+  "row": 190
+ },
+ {
+  "claim_hash": "aaa34669a082c5c06f794e62bcadb5ce6eafa8d6df000679a9b7f7bb6ce8b1ed",
+  "evidence_hash": "c5c1b44f60e6c241e1dae032c5b6af8e9c3a948ff2c30cd3a5afd6e22d7ec70b",
+  "item_id": "incrediblae/fc/attack/191",
+  "label": 0,
+  "row": 191
+ },
+ {
+  "claim_hash": "35338797d8e398d7d1f0c01efee6b0bae9c4c6b8c0fdf16483b505f186e7581a",
+  "evidence_hash": "af0d00c549aaf19f149ee5438797342887a878cd99c79b6d85c3848ed8a0a319",
+  "item_id": "incrediblae/fc/attack/192",
+  "label": 1,
+  "row": 192
+ },
+ {
+  "claim_hash": "7c0e914ee88df472933e5b6742723674b999749f8c962d2e30643a86ad44a12f",
+  "evidence_hash": "a2000b83d332e788a68408b6716070a2bea044069e603694dc73587d3797ce0a",
+  "item_id": "incrediblae/fc/attack/193",
+  "label": 0,
+  "row": 193
+ },
+ {
+  "claim_hash": "2545c9a27e9f9ddc939811159916003b7115be312487196d875917fa4c3def4d",
+  "evidence_hash": "5607e04b1a3a809502a94f9f19757a302e5c831f2002e4515d64224f3a1551ea",
+  "item_id": "incrediblae/fc/attack/194",
+  "label": 0,
+  "row": 194
+ },
+ {
+  "claim_hash": "cff3afc792a417eb6e9fdb0731f9a5ce24321331ed672dc7bf278843ab9eea1d",
+  "evidence_hash": "6ebe99802708ec1bf6356c8479a5d9e3a2b653fb4ecce6314e898106890f4c4b",
+  "item_id": "incrediblae/fc/attack/195",
+  "label": 1,
+  "row": 195
+ },
+ {
+  "claim_hash": "9514014beb3c18dcf0b49b74b8d584c391f95df1a8463b1fcdcf269a8528d7b6",
+  "evidence_hash": "b0a9f91299e98442b52f8ff26f70208b9c4481c2b17306038376265b8f111ef1",
+  "item_id": "incrediblae/fc/attack/196",
+  "label": 0,
+  "row": 196
+ },
+ {
+  "claim_hash": "a6fe610734e632f4e043982498de2074238bc10f20b52a43f1638a9052983a72",
+  "evidence_hash": "316ea780926743f73c7ada5096760d201f8ba127e4244dc85e6e31027f178c11",
+  "item_id": "incrediblae/fc/attack/197",
+  "label": 0,
+  "row": 197
+ },
+ {
+  "claim_hash": "5273466a4b189ba03e3d65f715dfaea54de35bf1e3fe303233d2fa6de18488e2",
+  "evidence_hash": "b2608c9d51d9cb60a895dbfb1d401895708b68992d636fcb516f67d1b8cf332e",
+  "item_id": "incrediblae/fc/attack/198",
+  "label": 0,
+  "row": 198
+ },
+ {
+  "claim_hash": "52ca0662690638f1f9f07a3e399594cbfa9319c2029a466d9e5a37b216759568",
+  "evidence_hash": "40bae1cf4ba99d362ec95e3bd24f05bc2be41fac5b96ddd33033bdff4c8be847",
+  "item_id": "incrediblae/fc/attack/199",
+  "label": 1,
+  "row": 199
+ },
+ {
+  "claim_hash": "6bda9327678beeb2a3d326378286f8f5b85075445011fe7db51d9d621fc19cd1",
+  "evidence_hash": "cd7a2820123326dd3910e56d8dd3b7cf42756abac693897044ef8a94f3a49aab",
+  "item_id": "incrediblae/fc/attack/200",
+  "label": 1,
+  "row": 200
+ },
+ {
+  "claim_hash": "a33a444d608ecc4c70860d0627fb69c3320bee5a063765a6cdfe33dd40479606",
+  "evidence_hash": "76cf4d7118f77887c4b15a866e7ac7b93f56eff1bd23a3e0a6d011303cfff0a5",
+  "item_id": "incrediblae/fc/attack/201",
+  "label": 1,
+  "row": 201
+ },
+ {
+  "claim_hash": "d7fe8b143ad907e18d8675bad6e81d2bd7653a37ef8c0967b514a5c7ba747435",
+  "evidence_hash": "ac245b411c105c216846fb5b0ee0e09c03151fd4f62d7b39c3996a1262297b9e",
+  "item_id": "incrediblae/fc/attack/202",
+  "label": 0,
+  "row": 202
+ },
+ {
+  "claim_hash": "fc22a99a81f13e6592bc106db36631f4a07b395fd445cee240331fc84dfef168",
+  "evidence_hash": "7959c94ba084bfd94c68a8ecdd99cd5380f1d9bf7d897f0a9c060f659bd71ba0",
+  "item_id": "incrediblae/fc/attack/203",
+  "label": 0,
+  "row": 203
+ },
+ {
+  "claim_hash": "733c5c1163216ad9cdb21762f4f013105bb354b9319c48f1141f709fe7243421",
+  "evidence_hash": "b8caf351bbba8d1f0e224efd1ac313701d23edf8e043c903fb689b1864ab16b7",
+  "item_id": "incrediblae/fc/attack/204",
+  "label": 0,
+  "row": 204
+ },
+ {
+  "claim_hash": "3206fd92bcaa0f268e1e5b0d6d2ca671f9c7c9e80adee4c4a5ed24d36b19fcec",
+  "evidence_hash": "ff6c7ecfe4db91a9a586f88a78f5ddb43710f45cd76a5da704e0531725085614",
+  "item_id": "incrediblae/fc/attack/205",
+  "label": 0,
+  "row": 205
+ },
+ {
+  "claim_hash": "1e77cefc49f6afdb20c21158d5264c983a88e0ac4cef01bf00880aa658c616f0",
+  "evidence_hash": "c287883b197857e5368e61916563bf055d796cedf2ebce222d3f4a1f37bacdb1",
+  "item_id": "incrediblae/fc/attack/206",
+  "label": 1,
+  "row": 206
+ },
+ {
+  "claim_hash": "90a4b633681e8b6dde5d560b782df5756040be5d12f854591deccc0396298be1",
+  "evidence_hash": "830bb55f1c6c0d661855f54ec6f0d6a1c51c4ec15ecc390f6baca093db1e4400",
+  "item_id": "incrediblae/fc/attack/207",
+  "label": 0,
+  "row": 207
+ },
+ {
+  "claim_hash": "2eb9353d4b18a10d26eede692954be53fa546f5c401bc5b1ef609153aba7b78f",
+  "evidence_hash": "fe284c96d88f36942222791048e2981730e2cf22dcea76c57bacfeac0dfcee91",
+  "item_id": "incrediblae/fc/attack/208",
+  "label": 0,
+  "row": 208
+ },
+ {
+  "claim_hash": "d0300c4b07ef98fd0e2298d226b6bb86d63389b2aa282271e95a53cd64e4453e",
+  "evidence_hash": "12578dccb298ba1e00577309f9a17640511839b63cf52bc2b710cac731a99d22",
+  "item_id": "incrediblae/fc/attack/209",
+  "label": 0,
+  "row": 209
+ },
+ {
+  "claim_hash": "74fd827eac84ac5ab81c5e890dd91f33ceab76e3a3f2b3277bebb1d030a9462d",
+  "evidence_hash": "f88a8c54760ae3dcfd8b00572a840313f615deebe8067b8fd488d3672c15796e",
+  "item_id": "incrediblae/fc/attack/210",
+  "label": 0,
+  "row": 210
+ },
+ {
+  "claim_hash": "ebdc58298fce56ca919fc4ceda986becfce86ef5a14d76279b0f18bac900a008",
+  "evidence_hash": "5f78d991dadc0759f1c45d9897680528c7679292ace2dc70a9b77fcf9193fafd",
+  "item_id": "incrediblae/fc/attack/211",
+  "label": 1,
+  "row": 211
+ },
+ {
+  "claim_hash": "a3f97c0814a928dc680664aeb8c1bb60b071b83116e01e7c87fe4c1b7a90a960",
+  "evidence_hash": "649228badbb2e345457015634d5fa029e0809caad8811fcf7da024319ea88e2e",
+  "item_id": "incrediblae/fc/attack/212",
+  "label": 0,
+  "row": 212
+ },
+ {
+  "claim_hash": "83c4ae71cd4e7d1a728ef39ea93a55fd418af15c0a443a201dc6c2fbe8f6eab6",
+  "evidence_hash": "568c61ef70a60940855da12ddfb6c2ed9fa5f851dcde7a1fd6c79001b87e4bac",
+  "item_id": "incrediblae/fc/attack/213",
+  "label": 1,
+  "row": 213
+ },
+ {
+  "claim_hash": "d7c7fd338bbe2703ec7649b9f5e5c2c1f0de022eec1422720c484fcc3750fb98",
+  "evidence_hash": "ae9e60503bdf26701134093c15e6fbba20c7da1578d91e8e7436b2c0852c19be",
+  "item_id": "incrediblae/fc/attack/214",
+  "label": 0,
+  "row": 214
+ },
+ {
+  "claim_hash": "2b9367b874d34d19add2fb82aa9c58c9c8b7a5830d2831c427d66e129b77e1d5",
+  "evidence_hash": "0ffb7d3a0039fae4c000827a3efbc701e88e3480b7ed5103a061350ef3beeb75",
+  "item_id": "incrediblae/fc/attack/215",
+  "label": 1,
+  "row": 215
+ },
+ {
+  "claim_hash": "580dd1ebe97d470de1e7adcf1647078c54f9d48b6a46c9a158fe0edd0c39d8cd",
+  "evidence_hash": "a13fae5231665efd198d5bc45e5f5a4fea752770151cb4926bdc25adb870bb4b",
+  "item_id": "incrediblae/fc/attack/216",
+  "label": 0,
+  "row": 216
+ },
+ {
+  "claim_hash": "175ecb5b276c6f2f21221310182cc38b6135d0a69e3c6e0c42dcae7a22cb719f",
+  "evidence_hash": "aff7b9848c13baf1454123ba1b30013f3216bc75bd5bb32c5353e9af2e9acac0",
+  "item_id": "incrediblae/fc/attack/217",
+  "label": 0,
+  "row": 217
+ },
+ {
+  "claim_hash": "ced2100bb90544b41f3e33872bb3074bb894271dab79a50b47e2e9e1067d1b6a",
+  "evidence_hash": "2e3edf72c85349446d3c1bb8e70a187a34dce369c87d55f91c2759577081e1b0",
+  "item_id": "incrediblae/fc/attack/218",
+  "label": 1,
+  "row": 218
+ },
+ {
+  "claim_hash": "a10166c9192bf8298d7727d6ce506cc154f21554ade077515b85cfce1112065d",
+  "evidence_hash": "ed5565222df1eff1174a07fd1a75805b34baae29cc10c8ccc94262c643c6e4e3",
+  "item_id": "incrediblae/fc/attack/219",
+  "label": 0,
+  "row": 219
+ },
+ {
+  "claim_hash": "3f33a30576b386d852ae032f7e986b1373cc71a101fa0568b2fd242b75c4c743",
+  "evidence_hash": "f4b13e68db8af8f8b1e40d5778f49764eccadf5e16135836101e6ef87f5e2ccf",
+  "item_id": "incrediblae/fc/attack/220",
+  "label": 0,
+  "row": 220
+ },
+ {
+  "claim_hash": "eb86b2916aad161686b6d12aa758e8ee29a0e92847b76592110f16041f5b9051",
+  "evidence_hash": "e760d85301a29242cb52d700e0330e7315ed6284042a8354901deaddce941c57",
+  "item_id": "incrediblae/fc/attack/221",
+  "label": 0,
+  "row": 221
+ },
+ {
+  "claim_hash": "e5dce4ad52f2684bff2bf8196945286e9df11b6ded68bb57918eb7f2eee6a4a6",
+  "evidence_hash": "30f22ebdf0a6623da4da5b65bda488b3316c9b9d8cff78c8e132c221433662d0",
+  "item_id": "incrediblae/fc/attack/222",
+  "label": 0,
+  "row": 222
+ },
+ {
+  "claim_hash": "cc20b5d289997e083f00d412f22a89746397eb6a2e257522c11f97337d1f0e34",
+  "evidence_hash": "17ca20ccb14f1ea2125dc4e11f7f8d350acf9a2ccddb127b6940ea40240d0164",
+  "item_id": "incrediblae/fc/attack/223",
+  "label": 1,
+  "row": 223
+ },
+ {
+  "claim_hash": "68634132c215b12243e4e31ea1bc377e66faf5f386e4a9468c1e26a81d1b0a6b",
+  "evidence_hash": "0b5e05461d9bd7516b51f02ab6293627abe2186342a135fa560cad09f834c07e",
+  "item_id": "incrediblae/fc/attack/224",
+  "label": 0,
+  "row": 224
+ },
+ {
+  "claim_hash": "5031e9a196a13974ef8306177af39071b2f3df2906514555378285f06551d51f",
+  "evidence_hash": "f3c94f5c777ec4e271f697f15fd924097f736154609e8c6c34d9d53eb2e3c105",
+  "item_id": "incrediblae/fc/attack/225",
+  "label": 0,
+  "row": 225
+ },
+ {
+  "claim_hash": "a354dd78125663cb4291ad3c261bbebea73c95a27ae6b4b9a4df26678112e4e1",
+  "evidence_hash": "cff67bb55ee6a2ffd3c50a4f97df838e1a671958ac6966951ed3d94ead93a5d7",
+  "item_id": "incrediblae/fc/attack/226",
+  "label": 1,
+  "row": 226
+ },
+ {
+  "claim_hash": "c27bebbc419fdb94bc9a9865483cdcf31cdf0ec91d886033e4f31d4dfeb993db",
+  "evidence_hash": "7eadcf23ee8bcb84daffc891ed9851cc8bc434e4075c2b188b6e3ca262a2bce3",
+  "item_id": "incrediblae/fc/attack/227",
+  "label": 1,
+  "row": 227
+ },
+ {
+  "claim_hash": "6d7f2456d817730eede6ae00ebb8b745687d7c4a9225df696dcb347b668ed764",
+  "evidence_hash": "bd4594b906a2788d2acaf60bea0304f000b035cb386924ba3a21a73e238f918b",
+  "item_id": "incrediblae/fc/attack/228",
+  "label": 1,
+  "row": 228
+ },
+ {
+  "claim_hash": "7cc253502da64092fa680b847289cbb906ac2ab624a5a08b9b3772469c6c573b",
+  "evidence_hash": "55e5e015e754f0b8fa777c293f4e8edd06a026eac2e3b95a80edbfd11dab0be9",
+  "item_id": "incrediblae/fc/attack/229",
+  "label": 1,
+  "row": 229
+ },
+ {
+  "claim_hash": "919f044a97e13f6aa0a197ba9eb0ca821de1aa484a38b5a2be52d089d72ba3d9",
+  "evidence_hash": "f30d477351eb1daee142d168d3964881bd6a5eb97bcfc93583365eede882f530",
+  "item_id": "incrediblae/fc/attack/230",
+  "label": 1,
+  "row": 230
+ },
+ {
+  "claim_hash": "af2ea44843fb46629a325defe8fbb9632d14ddaaee0fc3fca07b6e3bc3c0154d",
+  "evidence_hash": "af0d00c549aaf19f149ee5438797342887a878cd99c79b6d85c3848ed8a0a319",
+  "item_id": "incrediblae/fc/attack/231",
+  "label": 1,
+  "row": 231
+ },
+ {
+  "claim_hash": "65ea4aaa8736a1b59cbba36c4c49b53692addd3b18e2b8ade4773d756bb5a5a8",
+  "evidence_hash": "ea6f48c62e88bdd8b1b5d6f15beeb5daca1f7881275f963d791aa2a892d2c3b5",
+  "item_id": "incrediblae/fc/attack/232",
+  "label": 1,
+  "row": 232
+ },
+ {
+  "claim_hash": "371a8cb2cb4e220be437e7c259288d471019cbe234aecc582a7b0ae6be658f8f",
+  "evidence_hash": "44c30203594b79225854667a67eef3d74eb51c286f428d4b45cd9b8111dd9d82",
+  "item_id": "incrediblae/fc/attack/233",
+  "label": 1,
+  "row": 233
+ },
+ {
+  "claim_hash": "8d64f1212913bf95b53a0336f1f87f1f9a449f1443eab1e2f49530c23fd5868a",
+  "evidence_hash": "509f32463805d8a0d740e143c5f4ebdfc300f54104fe2bf57347025a65f5b459",
+  "item_id": "incrediblae/fc/attack/234",
+  "label": 1,
+  "row": 234
+ },
+ {
+  "claim_hash": "aad21246ebaeb69b70852a7207c04084eef29e696614dfc6000215fbfb51cb42",
+  "evidence_hash": "acfd6fa1e3fdb9dcd0aef27b1b38e3ac85e0430c19cc74027495e5f3102b82f3",
+  "item_id": "incrediblae/fc/attack/235",
+  "label": 1,
+  "row": 235
+ },
+ {
+  "claim_hash": "eddbc2228da0668f6fc1257f81925d56088f6f1748760406a7b536de054c1209",
+  "evidence_hash": "cac43cf184e8ff4cdbbcefc7fa2a388e8e98594cf822d7d4be739fa7bc7943cf",
+  "item_id": "incrediblae/fc/attack/236",
+  "label": 1,
+  "row": 236
+ },
+ {
+  "claim_hash": "f578347cf5fc61ff4f48897c4c93d8221b6deb5b012356a76318e4982ea3c5d0",
+  "evidence_hash": "6f4d6c79d8b59c27a77f2b5c56a760a4c83b96f051cf7817527a606c8250d974",
+  "item_id": "incrediblae/fc/attack/237",
+  "label": 0,
+  "row": 237
+ },
+ {
+  "claim_hash": "5950d5d41a6c68ba859915cdd3c00a34ca6e3f920b835968595e556c5f27add0",
+  "evidence_hash": "e3c3d10767af714e20e77878ba5bdb334cfcb98778c5fcd9589d4960ab245ca1",
+  "item_id": "incrediblae/fc/attack/238",
+  "label": 1,
+  "row": 238
+ },
+ {
+  "claim_hash": "95ddcce33f9334e5002b342fdcab3127729932bea4b7ebc17314c5da890a6e0f",
+  "evidence_hash": "ac16aae78bb5fc86c536dd58b7371a115bf1dc9fba5fb92c7ed202e609908dcb",
+  "item_id": "incrediblae/fc/attack/239",
+  "label": 0,
+  "row": 239
+ },
+ {
+  "claim_hash": "b95804d8df939e23246326fdfa80855d062b133c56b3d1ac70f8f9f35bc2db47",
+  "evidence_hash": "35103c592fcfb505f172905451aa90fe9fc19a336516aebf1abc061334cc84c0",
+  "item_id": "incrediblae/fc/attack/240",
+  "label": 0,
+  "row": 240
+ },
+ {
+  "claim_hash": "7e742783632a08b33065abb19e911896130f7c3a92ec4d3e939050b4f99fcc85",
+  "evidence_hash": "1376e55756820ab8ec0df0af9d86a93c962aadae34f328938177b1b3ed160355",
+  "item_id": "incrediblae/fc/attack/241",
+  "label": 1,
+  "row": 241
+ },
+ {
+  "claim_hash": "249f6e4dcb17bf401432486a2ae44c5a91d61c0028ed3fd8d7c44043f3764b29",
+  "evidence_hash": "0de9fec63d0ee97a279cc1fb6330d8de4323ab468f90f1466aeecf011ba84ab8",
+  "item_id": "incrediblae/fc/attack/242",
+  "label": 1,
+  "row": 242
+ },
+ {
+  "claim_hash": "8a6cf588093463ec7c7e6dd5e359170c9a2582e0f486a85add23f68792143879",
+  "evidence_hash": "8a82553a159d81ffbff8690ad3d8ed7231181c4d81514643647766101a307701",
+  "item_id": "incrediblae/fc/attack/243",
+  "label": 0,
+  "row": 243
+ },
+ {
+  "claim_hash": "f5907e2bef7ea426746bf093c1458fccebabab32ae3175793a4772f45ccf017c",
+  "evidence_hash": "c66a6727719ec01876586439261d87bd8a6a81890aa61d9e64c9412c2f399ca8",
+  "item_id": "incrediblae/fc/attack/244",
+  "label": 0,
+  "row": 244
+ },
+ {
+  "claim_hash": "343b5ee126bc429defc2c9a31b2bec403a40d11619b542c09869b0d2738b93f9",
+  "evidence_hash": "ce6aad22a643f61359bac18bb05f6ee72b9ceecb4031ead03eb5af73b50bcf66",
+  "item_id": "incrediblae/fc/attack/245",
+  "label": 0,
+  "row": 245
+ },
+ {
+  "claim_hash": "678b62a3a66c4e64859d55a97bd5b0737a8a69650b7967954a13232c52d4df47",
+  "evidence_hash": "ba01db5b68d2716681392eb9b4f8681b6c4e0c95c914c38774f76bd87c5efa00",
+  "item_id": "incrediblae/fc/attack/246",
+  "label": 0,
+  "row": 246
+ },
+ {
+  "claim_hash": "08282b0dd608f4b51fbe8e0c947e53e46999ed5e2c5ef07053069a060ea5d2e0",
+  "evidence_hash": "6646d0f3d77ffae6e4f48b43aebcc4a5f3acd283db41d258f4917c9496a660a4",
+  "item_id": "incrediblae/fc/attack/247",
+  "label": 0,
+  "row": 247
+ },
+ {
+  "claim_hash": "c3275c37ea65bdd523d668f4ae58964ae27ef397696d713977eb28ab23509457",
+  "evidence_hash": "eede90dd865a217c48fe895c55790579a2253c697f83d108fd36c0df82175ac0",
+  "item_id": "incrediblae/fc/attack/248",
+  "label": 1,
+  "row": 248
+ },
+ {
+  "claim_hash": "728f5b32a3b37de93f2e7c4ba81f922580446f31506b42bf40208f01649f8d72",
+  "evidence_hash": "9c7db4aae662f63c8169b053e258d4feda21e3882d9de48c1f7613d7daf7c26a",
+  "item_id": "incrediblae/fc/attack/249",
+  "label": 1,
+  "row": 249
+ },
+ {
+  "claim_hash": "07c57cbd22d0217373dcaccca34ed44a3e86ade0f308c4112d930a39b817bd78",
+  "evidence_hash": "5f8baec4acd4f5f8729f683e3e8e58b9a6aeaf5a2a884e06f3812980b1159f88",
+  "item_id": "incrediblae/fc/attack/250",
+  "label": 0,
+  "row": 250
+ },
+ {
+  "claim_hash": "a50910073b00281ce577e650192d946696c393dc69c87dd749380767ee4ecbcb",
+  "evidence_hash": "cdf661d8c3e10ecd3d5bd67a3dc3fee6965b98439e5ad614ca608ea963a5c83c",
+  "item_id": "incrediblae/fc/attack/251",
+  "label": 1,
+  "row": 251
+ },
+ {
+  "claim_hash": "fc7301b086d02c6a0e93bb4c3c132e7455fb14fcbd8adcd855f2a0c8afd01d49",
+  "evidence_hash": "028e0c12d4afeecb1eba9656b934dfaaef105dc901f89b730ef8d2b2d4629dd0",
+  "item_id": "incrediblae/fc/attack/252",
+  "label": 1,
+  "row": 252
+ },
+ {
+  "claim_hash": "bcfd9580d3e6a3ff3e1e542f21ebe530c118407392b1a72a26598659e544dfb4",
+  "evidence_hash": "7eb20a2d907a83df4f62aecb371babcf316d951d637502224405d4ab20cf335e",
+  "item_id": "incrediblae/fc/attack/253",
+  "label": 0,
+  "row": 253
+ },
+ {
+  "claim_hash": "73131b558d133fb073cd26141fbcb070c99f91b57271b3d5696d9051d6aa215a",
+  "evidence_hash": "b7b804b1c2d799758e50f89617ea01a3d1469727acae27aeee4787b5807f863a",
+  "item_id": "incrediblae/fc/attack/254",
+  "label": 0,
+  "row": 254
+ },
+ {
+  "claim_hash": "bbfbe26c3ddacfdec9a1b7732f5223dad2ab9e0c2db69336c51307f2c7fba407",
+  "evidence_hash": "5af1606c84e3fff2ef0c1ce0098c3e9c5b674b464f3653217f4efcacc5c7b340",
+  "item_id": "incrediblae/fc/attack/255",
+  "label": 1,
+  "row": 255
+ },
+ {
+  "claim_hash": "281a316479da6e943abf269ba0dd33d4d9457471d8e898c7fe116d9704c53cee",
+  "evidence_hash": "16a0673640b894d9c1fcb4ef699a52016d0df58690242ee7ebd11004db26083b",
+  "item_id": "incrediblae/fc/attack/256",
+  "label": 0,
+  "row": 256
+ },
+ {
+  "claim_hash": "aaff0e5b40af361d78b40042a1dfab203468f63a70449fc76aea02ceddf1f1f3",
+  "evidence_hash": "0811c1275fe08e274ccd8bbd5ac8f540693526a6b4748ea88c9f7e810f070fe8",
+  "item_id": "incrediblae/fc/attack/257",
+  "label": 0,
+  "row": 257
+ },
+ {
+  "claim_hash": "91328e871a916def6b365957e892662338f74623ed57d46c4c244fc70cc0a976",
+  "evidence_hash": "6baa55052bb0f2af965c45e79b62841b05f6bf0894b48843d133c96ee8ce00ac",
+  "item_id": "incrediblae/fc/attack/258",
+  "label": 1,
+  "row": 258
+ },
+ {
+  "claim_hash": "1efe5c1f60c6c54764a52951b514fb10171bd4a6e827501717515c017375b50d",
+  "evidence_hash": "95cbf0c1a2dc9e5f97420f2c4e544c35de89cea04826315e90c79f42f1c8ce4c",
+  "item_id": "incrediblae/fc/attack/259",
+  "label": 1,
+  "row": 259
+ },
+ {
+  "claim_hash": "d26734a6e9021a2d5b105a69a2dfd11f2d3e04fa7951a74597cb3bc9f471d202",
+  "evidence_hash": "938ace7f1f47e8279349f879cb33f41baa01b7a34cced328ccbaf292b12f1503",
+  "item_id": "incrediblae/fc/attack/260",
+  "label": 1,
+  "row": 260
+ },
+ {
+  "claim_hash": "54e8caf3f106a606135b2fc63e2151f4bbbde29fcb6c0999a61e59dd3abf72f7",
+  "evidence_hash": "13300d1c764d5371445e5a5f08cbe52fce3cce19483787b03bc8ab462c6ded85",
+  "item_id": "incrediblae/fc/attack/261",
+  "label": 1,
+  "row": 261
+ },
+ {
+  "claim_hash": "e21654e7750c7de735f01fcc920c0adb72117cf8b10f23e93479fc31c4bdf7cf",
+  "evidence_hash": "40a1fbef174bf037ef88454d38b8691de2d97d413de9022212d9bdee4d37726c",
+  "item_id": "incrediblae/fc/attack/262",
+  "label": 1,
+  "row": 262
+ },
+ {
+  "claim_hash": "90261c48b4691d35204c064941ccf9aa7ffae2cdd0a132f3c12c802ef22afcba",
+  "evidence_hash": "0141a90e0067fce70518bd87fa28da7e6460c9ca5f028132bf5aca7232812751",
+  "item_id": "incrediblae/fc/attack/263",
+  "label": 1,
+  "row": 263
+ },
+ {
+  "claim_hash": "03c04f0eb0b25aeb6dfa2777de59e5216305997853d0dcc0d40a6a516b107e6c",
+  "evidence_hash": "e3ecfc6b9720124b3eb0e40539881ef095fcf872168a6569df74d860429c0d1b",
+  "item_id": "incrediblae/fc/attack/264",
+  "label": 1,
+  "row": 264
+ },
+ {
+  "claim_hash": "6ad1c825a9214d93b91d4a96e49eef83529392654098f36c45ace5fe52f9c5bd",
+  "evidence_hash": "a47c5d98f216a1d5da698aebe696bbc35c1c21b0f5bb3dbf389609276bbb9078",
+  "item_id": "incrediblae/fc/attack/265",
+  "label": 1,
+  "row": 265
+ },
+ {
+  "claim_hash": "805b990131b200fc645aaa987af43e86e9f471e42a6c85eae580a6320eb8406e",
+  "evidence_hash": "a6e657712ec88588100d7101215eeaa550130405951ea5f2372c29d7136fac4e",
+  "item_id": "incrediblae/fc/attack/266",
+  "label": 0,
+  "row": 266
+ },
+ {
+  "claim_hash": "4f193e060182bf2d30d79678d7f6b233705c3631d6da65bea8abc33f126b1e05",
+  "evidence_hash": "250417585869605fb66a41768f54887836575ce69822dc4f79e7d3ffd882125c",
+  "item_id": "incrediblae/fc/attack/267",
+  "label": 1,
+  "row": 267
+ },
+ {
+  "claim_hash": "27ac1d083bc30624d197ded53e24c670605774fea74f7c8d6fe7289498e512e9",
+  "evidence_hash": "9969590fcd062a2ffe140bef54335a1cbc0cebd72f72dbbc5c4d1446f4537006",
+  "item_id": "incrediblae/fc/attack/268",
+  "label": 0,
+  "row": 268
+ },
+ {
+  "claim_hash": "7bae560bf629978d7f0e5c8df7913a03bf0fb650f751f1fb769b0ecff19b5356",
+  "evidence_hash": "660fa228a64108bd600d3fbe64e8af9af9fd3661e3822abcc8a8af594481ae36",
+  "item_id": "incrediblae/fc/attack/269",
+  "label": 0,
+  "row": 269
+ },
+ {
+  "claim_hash": "f0206a47395ba85fb8796a9a09277bf1a2b8c2cd4543aaa86839285147750884",
+  "evidence_hash": "01b41bdc42e59849e2a59c3ce44b6cc4bc49f05636632de725c544a52acb2b38",
+  "item_id": "incrediblae/fc/attack/270",
+  "label": 1,
+  "row": 270
+ },
+ {
+  "claim_hash": "9b2cc66078b1e0dfbca605ebec32ed9ddf85861df239b2010e4fa3ca0ab5d943",
+  "evidence_hash": "0e3c3e54d977924041082d1b78d39c3e172b6179926368aafd3d2419793566a4",
+  "item_id": "incrediblae/fc/attack/271",
+  "label": 1,
+  "row": 271
+ },
+ {
+  "claim_hash": "af4dd6f8d2ae72f79a0caa566be8913181e0d6bb2432cad453662ec841511df5",
+  "evidence_hash": "c700b45eea915257f70768c274490dd439651525fdaddb8c23161ad11c4aea43",
+  "item_id": "incrediblae/fc/attack/272",
+  "label": 1,
+  "row": 272
+ },
+ {
+  "claim_hash": "907612ab2b50db65b90669f1fac6838f7b63c23cf9a8a1bceaf6b04f6549beaa",
+  "evidence_hash": "30121f751b864f0326d1aa575392e5c8d300b44977b88cb7cb72dc4d96db0301",
+  "item_id": "incrediblae/fc/attack/273",
+  "label": 1,
+  "row": 273
+ },
+ {
+  "claim_hash": "768bd076d77b4e8b5c38d919aab5d19e15c365608b162ff7e126b5fe98133ddf",
+  "evidence_hash": "d7cff4ddf221aad70cefda648c6989331c8530229b4cdab37325335da4649c62",
+  "item_id": "incrediblae/fc/attack/274",
+  "label": 0,
+  "row": 274
+ },
+ {
+  "claim_hash": "04374f1817e33b91c2eef9f5296b2f3c5effacd3e6620621cf4ca65a38c3e400",
+  "evidence_hash": "66f2fe2ba1086a6ec89049e3799e4dcd898cba6316402ee8146db506bdc983e8",
+  "item_id": "incrediblae/fc/attack/275",
+  "label": 0,
+  "row": 275
+ },
+ {
+  "claim_hash": "202a1fcf99faed2a44a4d174bdd0eed2e85b21610916b3c3004cb1d98c5db6c5",
+  "evidence_hash": "95269d53a9d331ab1d939229d88a95a4489ad3cd633630765c4d1b3ee18fb554",
+  "item_id": "incrediblae/fc/attack/276",
+  "label": 1,
+  "row": 276
+ },
+ {
+  "claim_hash": "758e46ba32b0f5ea6188e296343b553d9625d759f2361befd469430ed8d9daf0",
+  "evidence_hash": "a9eda33ab6a20efbf2a2e725743b6a12879331ce5b5149cefb378738fffb7ebd",
+  "item_id": "incrediblae/fc/attack/277",
+  "label": 0,
+  "row": 277
+ },
+ {
+  "claim_hash": "6712dfc79f5c170b419c5cd087638171388545620b565374fa7f85ad1f9892e3",
+  "evidence_hash": "e1f111a2b8cb7d0cd7bec25725f9bcb4570765c4f74464f2479ecb60aa99d2ed",
+  "item_id": "incrediblae/fc/attack/278",
+  "label": 1,
+  "row": 278
+ },
+ {
+  "claim_hash": "f71ffab17a7028d98d6d5841cac5826f74df8f3d27723ee4b9cb8d8295b4ad1c",
+  "evidence_hash": "21f3a98310fa99fcf45f19f1da884701f83fc4314229f6c2779b71b7b7f7b2c2",
+  "item_id": "incrediblae/fc/attack/279",
+  "label": 1,
+  "row": 279
+ },
+ {
+  "claim_hash": "eb9ca86fb7c153d0cae1d505123ea56585cbdb82211a60fe801aaf7599ebe65e",
+  "evidence_hash": "4208abf1d581fdb7d41d962e0e52ba9057ac062930e2762386b0932ff59258c5",
+  "item_id": "incrediblae/fc/attack/280",
+  "label": 0,
+  "row": 280
+ },
+ {
+  "claim_hash": "631b25df41e096233b8203fd90977b5e6911f457fd3830367b79a3cb06240bfd",
+  "evidence_hash": "13fec5f58c33f9ccfb8bac38d20f84bb301085275b6ee80ed48e9ef70eebb010",
+  "item_id": "incrediblae/fc/attack/281",
+  "label": 0,
+  "row": 281
+ },
+ {
+  "claim_hash": "905a873019da2b426ed94993b76f06a448babf45203b2fd046543e08392df869",
+  "evidence_hash": "2390d1a5113f4130b13dbd3eeeec32ebcba04f20f2d38f868aa14b3ba3e6ba68",
+  "item_id": "incrediblae/fc/attack/282",
+  "label": 0,
+  "row": 282
+ },
+ {
+  "claim_hash": "60320dbd84e0f8ba26479227cdba785058f6eb06fa5027da05815c12d4d39607",
+  "evidence_hash": "8d19256df036a56f26c5f559686c4de4c2adefebef65e8a2a92ee427128ec258",
+  "item_id": "incrediblae/fc/attack/283",
+  "label": 0,
+  "row": 283
+ },
+ {
+  "claim_hash": "58f1cd6b76c93134977f82b3bd7d1fa512fb06924ebcbf5781465b1a8f1dfd62",
+  "evidence_hash": "2b9715034b7bb1c4147b04b29e4d54eebbc648d0e98cc5fb7ab89facaa5cea40",
+  "item_id": "incrediblae/fc/attack/284",
+  "label": 0,
+  "row": 284
+ },
+ {
+  "claim_hash": "bb4486408fcec413b288bb07eab0b3a3bdcd4120187c5dbf13b01b4efd9c700b",
+  "evidence_hash": "0be13538eb058c7e047adbb856bb5d909180df80681dfeb988765997c0cc7a86",
+  "item_id": "incrediblae/fc/attack/285",
+  "label": 1,
+  "row": 285
+ },
+ {
+  "claim_hash": "68a39297ac355cc7c55f9b08f68a968f2ad571d3ded2e2df9ff71d009b96c254",
+  "evidence_hash": "449a76d7f9ae9f6f648f9d0f54c9e12963e540faa643f56ac992bbeebb9d16d7",
+  "item_id": "incrediblae/fc/attack/286",
+  "label": 0,
+  "row": 286
+ },
+ {
+  "claim_hash": "1940748724b5468d73823aca7612018f29987d851eb6d8a88d43186905e71afc",
+  "evidence_hash": "50984ceddcd274b023540030b8613c220d58b058143a003e70bfe840849d6868",
+  "item_id": "incrediblae/fc/attack/287",
+  "label": 1,
+  "row": 287
+ },
+ {
+  "claim_hash": "93e7e3e1035116fe0ce436a2269fcbeab67067ee3b6a93da72f3929068ac97d6",
+  "evidence_hash": "cff67bb55ee6a2ffd3c50a4f97df838e1a671958ac6966951ed3d94ead93a5d7",
+  "item_id": "incrediblae/fc/attack/288",
+  "label": 1,
+  "row": 288
+ },
+ {
+  "claim_hash": "061adb0543f8e07257250408619476d911ed0a83f8bea19157f6551b6322035a",
+  "evidence_hash": "d5f8e53a64eec4df4f135a2dccbce1a1ca67fee28ce2eca3b5b277a394218d40",
+  "item_id": "incrediblae/fc/attack/289",
+  "label": 1,
+  "row": 289
+ },
+ {
+  "claim_hash": "6ce209fbc70116e7834943e80b0d5e6956c4e513c98d32c494747b6e765f6d4e",
+  "evidence_hash": "06822b6f11992913bfd25eb58f182f78ae7e97b801aba8fe3e3885d86c420873",
+  "item_id": "incrediblae/fc/attack/290",
+  "label": 0,
+  "row": 290
+ },
+ {
+  "claim_hash": "7a6fc565729931c74a15cce5600358488a316bf9abe3b154bc731c198cc349aa",
+  "evidence_hash": "44caaebcebd264a44d2edd7adf3ed57bb5413676be1fe9e9cdadd19f8cacbb24",
+  "item_id": "incrediblae/fc/attack/291",
+  "label": 0,
+  "row": 291
+ },
+ {
+  "claim_hash": "9f64dd125856d92e510ee4f79d2ddb7cd2f16eb513aed7dbd8f5f34fad8c76e9",
+  "evidence_hash": "1d28a3c7857de6dc3b3fb2d5685392e23979b95045f1d983e1e8c0c01c3c455c",
+  "item_id": "incrediblae/fc/attack/292",
+  "label": 1,
+  "row": 292
+ },
+ {
+  "claim_hash": "1661c43b057322ca2ef26c650e9af72227fc8da3671636b0a98f223fb5fc7f29",
+  "evidence_hash": "085db44216e4c6a2a7fe4cb3d9fa7de20ec5f855bb1fb44b678c4abbf7ebb6ed",
+  "item_id": "incrediblae/fc/attack/293",
+  "label": 0,
+  "row": 293
+ },
+ {
+  "claim_hash": "11f551f5fb8a9f700c8ef9fec086b87109626cc1752e6ae61dafdcf3239e9f28",
+  "evidence_hash": "8dffbcf8d2dbc2436de09e7cb4dc2331c8d1d1163193b5723483bbbaf0dcbcd8",
+  "item_id": "incrediblae/fc/attack/294",
+  "label": 0,
+  "row": 294
+ },
+ {
+  "claim_hash": "9618ad75b07ca43c3e7d58d4beef5e34eebbde5966c7644dab1c56157c3b9e42",
+  "evidence_hash": "7419b8ab7c4b0e560adfa82a5cbd6167fb67047df34e69e2f269cd22a0665566",
+  "item_id": "incrediblae/fc/attack/295",
+  "label": 0,
+  "row": 295
+ },
+ {
+  "claim_hash": "75a64dd3e14dcb2cfeb13a6367181289a7ed81309cef0977da01e0e9e368c8d7",
+  "evidence_hash": "51cc0d8956663ce6533e5c2d2356e77a1b6dea23374fa7d07b4cc4697db4b0a3",
+  "item_id": "incrediblae/fc/attack/296",
+  "label": 0,
+  "row": 296
+ },
+ {
+  "claim_hash": "e7719c28e2bb1d60b08c576531b3f3e2102c4b9917d1f8a003880991d14c9be4",
+  "evidence_hash": "9e0ee1a224eb68d3bed0797d8904c373a89a5749b73bf3607d10aa70d5b7748f",
+  "item_id": "incrediblae/fc/attack/297",
+  "label": 1,
+  "row": 297
+ },
+ {
+  "claim_hash": "51cbae32ecfb2f89373712da8f3017fd7d4d53f8436912d574a2e1d3182948d5",
+  "evidence_hash": "9252e5df6a288974d7c0af3387f3cfd1c5fa8304c272f47887ff40be22cc9089",
+  "item_id": "incrediblae/fc/attack/298",
+  "label": 0,
+  "row": 298
+ },
+ {
+  "claim_hash": "c143578123be12f2107458280413fc992bda6dc1aeac51f394376e8ef8b05150",
+  "evidence_hash": "37ec0ada458ce335c67713f4a00baffa3ce0555a4e4a983f7b2fb23e847e9625",
+  "item_id": "incrediblae/fc/attack/299",
+  "label": 1,
+  "row": 299
+ },
+ {
+  "claim_hash": "5a52bf48bdd6ada39c338d7415f184528bd2c4b1d04bad3063a1502f5ae2fed1",
+  "evidence_hash": "304757b5dc18883ae63893625499b950339938d9d0caeee9493247ae724c0994",
+  "item_id": "incrediblae/fc/attack/300",
+  "label": 0,
+  "row": 300
+ },
+ {
+  "claim_hash": "2982a4d5e050f9d05da00063086914bd64c38172138c9b41287072ffa4ba3095",
+  "evidence_hash": "dc145b5ac0bffec2faa8bb1712d637af9c8885c872ef9a384afbe6e64c34c60f",
+  "item_id": "incrediblae/fc/attack/301",
+  "label": 1,
+  "row": 301
+ },
+ {
+  "claim_hash": "4629783c104ef14dd4e8b3c2739f4d71d414ef99e3e48dc0042ab63bcfbee4e3",
+  "evidence_hash": "4d4edd10d8dc158a44c585debccaba14f71e7b90e8587cc2ca5bf728b81e5ba6",
+  "item_id": "incrediblae/fc/attack/302",
+  "label": 1,
+  "row": 302
+ },
+ {
+  "claim_hash": "e13b72b2fbe4fedf1cb526c42731e106a97d87a188ba30b0e93e3bd43a5eac5e",
+  "evidence_hash": "39674df9b7e31cfbf018d978872bcd8d14bfa9b98a3437639bdccf527d0b9ce7",
+  "item_id": "incrediblae/fc/attack/303",
+  "label": 1,
+  "row": 303
+ },
+ {
+  "claim_hash": "675bb98aecab292b93495b85360f1064c903e75a0c572da7e4890a91d9004334",
+  "evidence_hash": "42c9fc5eb0e7e562b24938dcbfc6387ab78c280e766b8ad9a5f6dded89d108b6",
+  "item_id": "incrediblae/fc/attack/304",
+  "label": 1,
+  "row": 304
+ },
+ {
+  "claim_hash": "e520175b7a94d7d95afbd18262c56240290fd72597b3c20e73d1ae20455182c9",
+  "evidence_hash": "ec51f33844fc42cc875cd04b459aed0e65be60ab7ac4f6a6a362717500dbd6ad",
+  "item_id": "incrediblae/fc/attack/305",
+  "label": 0,
+  "row": 305
+ },
+ {
+  "claim_hash": "6bddcd0de19371eeeb8d039333790b0798b7d57cf50059a8b25b007205f2127e",
+  "evidence_hash": "e2884841c2005dc6a95aa53deb594700ed5eb3992c97ad01f793c0a0537abcec",
+  "item_id": "incrediblae/fc/attack/306",
+  "label": 1,
+  "row": 306
+ },
+ {
+  "claim_hash": "c5b0aeb3c9c7e80e437ab78b758838da73f91f2eb2f11dc8d6be294493078923",
+  "evidence_hash": "220dc9ce6792a2a4ffc42cd781e08706b563d6979e1fce79a44868d52d5c13d6",
+  "item_id": "incrediblae/fc/attack/307",
+  "label": 1,
+  "row": 307
+ },
+ {
+  "claim_hash": "14987e947db4dd7118463dbff10ceb7f44b060160ffc1015361f836cdff0e721",
+  "evidence_hash": "71d3e2ae4df3ee2be90c668c8deee14ae45411322bfbe3a531558866fe71cb4c",
+  "item_id": "incrediblae/fc/attack/308",
+  "label": 1,
+  "row": 308
+ },
+ {
+  "claim_hash": "bc38d57424b5c4a837f389e56bb82a1446731ddc718faae81e86c1ee1b08d6f1",
+  "evidence_hash": "1d9569df1d202e27e0fbfa0d0fceee0a9855e578417340b7e660792c59f10b3c",
+  "item_id": "incrediblae/fc/attack/309",
+  "label": 1,
+  "row": 309
+ },
+ {
+  "claim_hash": "d8198a90483148b0b6133ccb88c41ab55d085ae3b7eb435b5023fe8adde580c0",
+  "evidence_hash": "7b54c556508290b786b225e51f473e06c8ea1f0afa8d55e061a26468f8e645b9",
+  "item_id": "incrediblae/fc/attack/310",
+  "label": 1,
+  "row": 310
+ },
+ {
+  "claim_hash": "dd99aabfbb4e89abfdf38e153b0ccee39594d8eb43af37402cf5a7c0eed4bea2",
+  "evidence_hash": "94c1af95ec2acadc95481299ef64a378840313705a36ecbe35ae620fc2ef40a6",
+  "item_id": "incrediblae/fc/attack/311",
+  "label": 0,
+  "row": 311
+ },
+ {
+  "claim_hash": "78e4f7c2e6f23cf6b1122dcd4d5a35b3987c79ebb98584d15cce3d6965fe8599",
+  "evidence_hash": "276e022ee14a1acabcc4f3d1908381f8f171f51a3425542b37ffd2fa6547639c",
+  "item_id": "incrediblae/fc/attack/312",
+  "label": 0,
+  "row": 312
+ },
+ {
+  "claim_hash": "be16d723ebb1e568f04c2b3a1da5b09bf26a57aa8150db9366be4e92369c9793",
+  "evidence_hash": "3d6587106cc06ebfd2cb37905e4796d2c1b23b5be9e00e2d1fe1957feea3af39",
+  "item_id": "incrediblae/fc/attack/313",
+  "label": 1,
+  "row": 313
+ },
+ {
+  "claim_hash": "5ac7cae12d2b71a624a5c7eade3b3c20468cb54a009c93dec3220e8025152aaa",
+  "evidence_hash": "b28d9d3d00d91f4c2b065df646ded1053bc7291e8c165ae11e959a00a838e753",
+  "item_id": "incrediblae/fc/attack/314",
+  "label": 1,
+  "row": 314
+ },
+ {
+  "claim_hash": "8785c40795a42ca1a04b8954c8dcbb8683e8788a24635ecd8e54ddee5f7d9dbf",
+  "evidence_hash": "fb2078e0c480e0d3698ef560b0a58d2c5b89dfef540b395d1019145f9eda274b",
+  "item_id": "incrediblae/fc/attack/315",
+  "label": 1,
+  "row": 315
+ },
+ {
+  "claim_hash": "2704c8810984695a5d9c1a842fb766673af6c386a0d849a2d0452d6d4eeec809",
+  "evidence_hash": "d2db0ed8b5f3580e47ad6898f6717111c313f939b667ed532f89bf5e51664ae3",
+  "item_id": "incrediblae/fc/attack/316",
+  "label": 0,
+  "row": 316
+ },
+ {
+  "claim_hash": "2d4a26679a3f8b4121f4cc1b67be388d19c87ebe7fd3e57cae7a56dc5e9487cd",
+  "evidence_hash": "0322fd9ddb556226b6861352130a92f24babcd92a1064adb7c27982bcdfc75d8",
+  "item_id": "incrediblae/fc/attack/317",
+  "label": 1,
+  "row": 317
+ },
+ {
+  "claim_hash": "3516ff72f114953ce17f6b4c482d9195b9f71717f2791132c9baed5765f79865",
+  "evidence_hash": "6a90f96c44c46ef44bb0a96c695505eb3bae47a4cbc91df77d71bbdc222fbd16",
+  "item_id": "incrediblae/fc/attack/318",
+  "label": 0,
+  "row": 318
+ },
+ {
+  "claim_hash": "a2f856b7e8fb702474eb0d4b9a34526c786368e077f55ee0351d146b39f8f2b3",
+  "evidence_hash": "8f235628aabe513b35fc5b348cde8e8c25a7af872e95d1283016b4dfb8c63647",
+  "item_id": "incrediblae/fc/attack/319",
+  "label": 0,
+  "row": 319
+ },
+ {
+  "claim_hash": "700eb03bd65f2334d854c2e8db98b9df71f4b7d5bc160c4080c87769cdbe5707",
+  "evidence_hash": "568c61ef70a60940855da12ddfb6c2ed9fa5f851dcde7a1fd6c79001b87e4bac",
+  "item_id": "incrediblae/fc/attack/320",
+  "label": 0,
+  "row": 320
+ },
+ {
+  "claim_hash": "c359b53d163ca7f3f8f8e05a5cd97102ebec12c556a1f4e63fd22cd335846f51",
+  "evidence_hash": "1204aea7b7b62426763826206266ecc6ee6e8ad349729182b79984bb6e399e03",
+  "item_id": "incrediblae/fc/attack/321",
+  "label": 1,
+  "row": 321
+ },
+ {
+  "claim_hash": "a37dbb87af070d17287187e629607787e447559c28b829915b4b092a6855215b",
+  "evidence_hash": "3e452fd16391c2c34c4d3ac05d09c398de32f4b290aef558cbd1c5eead1f0a35",
+  "item_id": "incrediblae/fc/attack/322",
+  "label": 0,
+  "row": 322
+ },
+ {
+  "claim_hash": "8737b91971f348ff4b421cd851a082fe66a76cfdac79f80793124b88457ca427",
+  "evidence_hash": "272fed5723873dd66c1d785207cf896769609a625c72dcb964c5be9c55d6460c",
+  "item_id": "incrediblae/fc/attack/323",
+  "label": 0,
+  "row": 323
+ },
+ {
+  "claim_hash": "ffb3fe270a5da435ab56c79534d8d006c26b051b444fc2ce5278ff8a9c6ab1f4",
+  "evidence_hash": "18669f7cb950811396dc81177c14068003ee6c010f709f2ca27d53982395b52f",
+  "item_id": "incrediblae/fc/attack/324",
+  "label": 0,
+  "row": 324
+ },
+ {
+  "claim_hash": "a21bd2ad56b4929aaf7690b5a079624c267c8daa41f8fbefd36bbab905c306de",
+  "evidence_hash": "8c025d004df50466e9c86430098a45e19e92d2cfad101ae3230698242d1e648b",
+  "item_id": "incrediblae/fc/attack/325",
+  "label": 0,
+  "row": 325
+ },
+ {
+  "claim_hash": "a9ebda2edfa95087e9dfeea75467f3e710d5eb366da7606bd18475b00673bdb5",
+  "evidence_hash": "c4167f5aa1b6a6897a19bacb6783ccb6608f89375dc545ba1ba381c0962d7618",
+  "item_id": "incrediblae/fc/attack/326",
+  "label": 1,
+  "row": 326
+ },
+ {
+  "claim_hash": "83f4242ca4659cdac14f93e9af28433e088695030a282abc0884c1cbb9fff04e",
+  "evidence_hash": "66f2fe2ba1086a6ec89049e3799e4dcd898cba6316402ee8146db506bdc983e8",
+  "item_id": "incrediblae/fc/attack/327",
+  "label": 0,
+  "row": 327
+ },
+ {
+  "claim_hash": "d3cd4a7c51d1b17614cbe027feded4d4f3c54096242d260764c7b1f8bc0c9d64",
+  "evidence_hash": "79ef9c213e78202c659824d37f163c7ba7dafeb9ebc8891e7200d926edac38cb",
+  "item_id": "incrediblae/fc/attack/328",
+  "label": 0,
+  "row": 328
+ },
+ {
+  "claim_hash": "ed91256cf964dc3ab0a1c016b170fc3ded73e580b79804b0e8349fd50e08bf12",
+  "evidence_hash": "981b1987c4fac7012a0100ad44946a022c6149e16a6e0cab7addbd93d1e329d9",
+  "item_id": "incrediblae/fc/attack/329",
+  "label": 0,
+  "row": 329
+ },
+ {
+  "claim_hash": "404dcc1a6f536a8bb6b25423f92c7936cd9adc5be962626dbfa2f6f0f563756c",
+  "evidence_hash": "59fd10d99ace478dd96748ca44fb9b835c7a651c95c23d377c677dc00d37868d",
+  "item_id": "incrediblae/fc/attack/330",
+  "label": 1,
+  "row": 330
+ },
+ {
+  "claim_hash": "899d2131518bc51055357101db91773ba1fd482c23406c9dd7d102b5c15c187f",
+  "evidence_hash": "73f7dcd938f70999fe933d89e20ff0a20647061ed3f70625a1427e47e5e8d0a7",
+  "item_id": "incrediblae/fc/attack/331",
+  "label": 1,
+  "row": 331
+ },
+ {
+  "claim_hash": "8e5f88c1dcc2af287d0d0b8ffded21b1d3fe2c7f152565c3a4b0dd8feb7ad212",
+  "evidence_hash": "98612291ea2f557756026d41d14e3ef985cb0d3015fefbdf4c66135680f6cd86",
+  "item_id": "incrediblae/fc/attack/332",
+  "label": 1,
+  "row": 332
+ },
+ {
+  "claim_hash": "07172808cb257d6bb61b2b590d7f65769bc33d6f08adfc9fb6275430025989b9",
+  "evidence_hash": "520ac23df8244fed20fa4edfa19bbce502030052d32c3f548078322115ec2a9e",
+  "item_id": "incrediblae/fc/attack/333",
+  "label": 0,
+  "row": 333
+ },
+ {
+  "claim_hash": "e0a98f1b4bfbe88ce7cb14ea8b94a17942b72001312b6d741062a4e0d5c2ea48",
+  "evidence_hash": "14702ff679714af556b7302998ee508648d6d932c5b2a40645c95e646810b72b",
+  "item_id": "incrediblae/fc/attack/334",
+  "label": 1,
+  "row": 334
+ },
+ {
+  "claim_hash": "773ab7aba026bcd13c2e17ebeb931d70ed877304cb373e6684bf7909985da611",
+  "evidence_hash": "629e575295df779e23e9b2a610bf70253738cb9771144cb831636cc22355c898",
+  "item_id": "incrediblae/fc/attack/335",
+  "label": 1,
+  "row": 335
+ },
+ {
+  "claim_hash": "7acb94e815776d420066ccee9819727b17bcce4f69fd7a927c09a727b1374c8b",
+  "evidence_hash": "6a90f96c44c46ef44bb0a96c695505eb3bae47a4cbc91df77d71bbdc222fbd16",
+  "item_id": "incrediblae/fc/attack/336",
+  "label": 1,
+  "row": 336
+ },
+ {
+  "claim_hash": "74f03499c776e1fce828fe23ae126bfff5e64097b4a376b00f3071d57dd4f5cc",
+  "evidence_hash": "fd56e1efff0b197240813baf024da9c06abf47c99f9cfa0b14442aeaeee9cd2b",
+  "item_id": "incrediblae/fc/attack/337",
+  "label": 0,
+  "row": 337
+ },
+ {
+  "claim_hash": "51ce31fbc8707d8391bb9378edcefc2be18886a3489692754578aec2271a9736",
+  "evidence_hash": "02e9335fcf8d15c616f10b9e94c69014587729075b905459431cece904d767ef",
+  "item_id": "incrediblae/fc/attack/338",
+  "label": 1,
+  "row": 338
+ },
+ {
+  "claim_hash": "4ba57aaeda338aed895916075be66b08ac5ee78b036ba89269f1f65e7d297def",
+  "evidence_hash": "d3abb23b3cdbcda89a37fc7f5d8b10c5ef97e44b82f75dbfa761cd5633b8cac4",
+  "item_id": "incrediblae/fc/attack/339",
+  "label": 0,
+  "row": 339
+ },
+ {
+  "claim_hash": "ab54e4c4777c75ca2800e3a7d3a8e58f2b50f0376a4df71bd89d554325cd6df2",
+  "evidence_hash": "35f677553ce4ca5089293588043aaaed8727d48d6a6945d3c4d5341e5634ea62",
+  "item_id": "incrediblae/fc/attack/340",
+  "label": 0,
+  "row": 340
+ },
+ {
+  "claim_hash": "19d74e9a9267d074be85cf3897643c1accaa1dd0e5a85ced6e9bddb47d00347e",
+  "evidence_hash": "536dc389bac54c7054c69ca7a378dd82a7a5779dd15b57d10ab6488fca425a98",
+  "item_id": "incrediblae/fc/attack/341",
+  "label": 1,
+  "row": 341
+ },
+ {
+  "claim_hash": "86af74679733b52b5a86d8e47385add2e39da16e33f4251dca3532e485a22b33",
+  "evidence_hash": "770c667d1228bb42b54d29ec582ef44bda265b3e707d379019ae0f06416244ba",
+  "item_id": "incrediblae/fc/attack/342",
+  "label": 0,
+  "row": 342
+ },
+ {
+  "claim_hash": "f6d4641b9ce49345ccad5bdb34701f5a4059c5bb26f084d9abe7d53b2d709bb8",
+  "evidence_hash": "5361af429a22ead45710d8bb7a0e29bab217b2b8c4ddc4fd3d3c31af42fa6bee",
+  "item_id": "incrediblae/fc/attack/343",
+  "label": 1,
+  "row": 343
+ },
+ {
+  "claim_hash": "5ba471e9bd832d36615ad08845b2743f3d5428bd9eb5a40c3c7f5f1b338e7eb3",
+  "evidence_hash": "253180d3246a02b73efa851638354e1a8e4272715ecf30be9213ecf26f83fecd",
+  "item_id": "incrediblae/fc/attack/344",
+  "label": 1,
+  "row": 344
+ },
+ {
+  "claim_hash": "88ab02f6afd284b0e870ff185e71116c62e6e2fd5d82484134596b7bee2b12a2",
+  "evidence_hash": "ce88390be04ed5a7441ef966624247b0760dd8bbf49bcd03da4cc01edf3a47cb",
+  "item_id": "incrediblae/fc/attack/345",
+  "label": 1,
+  "row": 345
+ },
+ {
+  "claim_hash": "5076a30a2115184cbcd37b15e35a7b11a7ea9a2d432bcf44e9cc2faa6f243d7c",
+  "evidence_hash": "40a1fbef174bf037ef88454d38b8691de2d97d413de9022212d9bdee4d37726c",
+  "item_id": "incrediblae/fc/attack/346",
+  "label": 1,
+  "row": 346
+ },
+ {
+  "claim_hash": "4414c45d9d1fd29ae288f9120caa587f131c18b2ebc722366bc52024d6a21012",
+  "evidence_hash": "09b0766227567b5983b84091df3d7e7d7cf445d5ec960a8efe7c0d33f57a5f0c",
+  "item_id": "incrediblae/fc/attack/347",
+  "label": 0,
+  "row": 347
+ },
+ {
+  "claim_hash": "51ae2796c2b920d567f9abf276cdf841281213e7e178083efa1519477632c452",
+  "evidence_hash": "78af2c2986434c47d24a00f86c79b2ce32b00a6256b52012c04a2e188ea9d76c",
+  "item_id": "incrediblae/fc/attack/348",
+  "label": 1,
+  "row": 348
+ },
+ {
+  "claim_hash": "e3e2f8becac41fab6fbb931884ffa8861698d3d0cd1b029080a21db97f7d2f25",
+  "evidence_hash": "b7e36ead7a60ef6197c616be1f6294d144b0a79def18689f490eadd0b51481cb",
+  "item_id": "incrediblae/fc/attack/349",
+  "label": 1,
+  "row": 349
+ },
+ {
+  "claim_hash": "e7f3b5cfa2553ba3e8ea5cc2c1b04c4c9ad20fa3e29266addfa4be36264a1f35",
+  "evidence_hash": "851236c0cc8977904b397306e52ca832fd1a25294b41f770437398b0044cdfae",
+  "item_id": "incrediblae/fc/attack/350",
+  "label": 1,
+  "row": 350
+ },
+ {
+  "claim_hash": "5adca180b829f94950148c443bdf73dbb46b638ca9cf197dd81b04e7c3d6666c",
+  "evidence_hash": "8932cb7b3ceeab5e3b41ebed6f649489ca8d665abc1f6e77574edb93d06b7e3e",
+  "item_id": "incrediblae/fc/attack/351",
+  "label": 1,
+  "row": 351
+ },
+ {
+  "claim_hash": "58d9bf132aa05d47dbda9b1f490a8f6034411a5a840da466ada3d364f55cf5c1",
+  "evidence_hash": "cb935f23bfc5fa2ac97af9e3671390ed04a1ca13bf9e21fe45bcc27376936f1d",
+  "item_id": "incrediblae/fc/attack/352",
+  "label": 1,
+  "row": 352
+ },
+ {
+  "claim_hash": "c246b88a8cbb6f795470705404647e4ccc6b2b9cfa7759a9683fee80ee4de621",
+  "evidence_hash": "8af3049508b26b52aa6b916b1931bf7177362ec9df5c8c9573d9e174482d29d5",
+  "item_id": "incrediblae/fc/attack/353",
+  "label": 0,
+  "row": 353
+ },
+ {
+  "claim_hash": "b59f0eb8d75b0f1970bb8cfa11372c46d58c1469cecd0b1df3fc3fc90e429ddc",
+  "evidence_hash": "0b2140091ed0046c094a816b850bcc2b56019ac36f192914a528bcaeabdea858",
+  "item_id": "incrediblae/fc/attack/354",
+  "label": 1,
+  "row": 354
+ },
+ {
+  "claim_hash": "f8232f979490f2e031cf00ddb6bc0a710d15e50fd06db4d7a0b990d54ff9139e",
+  "evidence_hash": "a3061ddf58c77db19393e1686f8d69f91701dfe84f214a700fd01782e903a36d",
+  "item_id": "incrediblae/fc/attack/355",
+  "label": 0,
+  "row": 355
+ },
+ {
+  "claim_hash": "cc20adb18d1b7cd7a74511976cfb6ef8775f47939c702b5e8ea1b29824911d57",
+  "evidence_hash": "3e25589b2e5c6be0dc967807f9d29f0af87bc3f889672cc24ede806a34353a0e",
+  "item_id": "incrediblae/fc/attack/356",
+  "label": 1,
+  "row": 356
+ },
+ {
+  "claim_hash": "01218c9e17b7d054313ee3efaaf39c34fe3381a0d890d7bc1afa8b593727c48a",
+  "evidence_hash": "7a91fc5a93c242e6de34b4cfa814a4a45c2462c96ff48cc06e54a1c1181c86c9",
+  "item_id": "incrediblae/fc/attack/357",
+  "label": 0,
+  "row": 357
+ },
+ {
+  "claim_hash": "70e7d00167992f249341de1c8f49454b0467ab2a2d73f8e8bea88114e2bb0c10",
+  "evidence_hash": "7032f719215db1a4603662107737cf4f013439ac59bd89033fe97887a5a20561",
+  "item_id": "incrediblae/fc/attack/358",
+  "label": 1,
+  "row": 358
+ },
+ {
+  "claim_hash": "fc7adf4fe7f278fbeb2dca150ac60af90a2e10c83fbab8b4eaa0dc4ea1461be6",
+  "evidence_hash": "c3166f5e3d232bcd5ee3d572d81b8c24bf5a77741490cd606bd9d04196faba9e",
+  "item_id": "incrediblae/fc/attack/359",
+  "label": 0,
+  "row": 359
+ },
+ {
+  "claim_hash": "cf0cfc529bde71b2d94f98b5e53cbdd2d14c5639f7462e71e91b3a89be234b74",
+  "evidence_hash": "8458317d383ef30ee44a787cce0582aa09bf89f68779752161afcac7af4d4803",
+  "item_id": "incrediblae/fc/attack/360",
+  "label": 1,
+  "row": 360
+ },
+ {
+  "claim_hash": "6a18f68a676e7ae5867a2819841f81b653af1dc8146889fd01e9f99efea542d0",
+  "evidence_hash": "d2cd1c2f6cb5987e2817605d74459231f03a9423fa09617fdcc17a7010b73fa2",
+  "item_id": "incrediblae/fc/attack/361",
+  "label": 0,
+  "row": 361
+ },
+ {
+  "claim_hash": "5cae4de37977fdc4a13410ac12c52c77358711d0fb5f49df583833308d216a34",
+  "evidence_hash": "191fb888882d232c5ac5925cca682b076b06cd0bf0b68c8e46b3774157da2374",
+  "item_id": "incrediblae/fc/attack/362",
+  "label": 0,
+  "row": 362
+ },
+ {
+  "claim_hash": "b5bf0d9b9df22e31d6b158ba0fa226f23f0b10ece857132bb13ed0a8f497f755",
+  "evidence_hash": "d494c73dc366333cdf3150f51409529a05cc4049b3d9b180ebe7595cf89d6e11",
+  "item_id": "incrediblae/fc/attack/363",
+  "label": 0,
+  "row": 363
+ },
+ {
+  "claim_hash": "ab54a42297591dcc239ff391a894ad5596ae28881d9f25d6c5ca3430d2c48793",
+  "evidence_hash": "594dd2bacbe6dd76c130ce8bfb4f76786608df743d0c42d2760f3b717f9ba1f4",
+  "item_id": "incrediblae/fc/attack/364",
+  "label": 0,
+  "row": 364
+ },
+ {
+  "claim_hash": "421a83347b6cb54d7250e062be3ad1662b64617d91e2e36811443921eba5ae65",
+  "evidence_hash": "bd4594b906a2788d2acaf60bea0304f000b035cb386924ba3a21a73e238f918b",
+  "item_id": "incrediblae/fc/attack/365",
+  "label": 0,
+  "row": 365
+ },
+ {
+  "claim_hash": "4c37cfc1f936b988a081f0d2a8338cd295a7b524c445b4a788561752479e24be",
+  "evidence_hash": "8cecf32448f01da9e0c6fa1db84c6204888dd9429598e5854c02e8bd6f9f1beb",
+  "item_id": "incrediblae/fc/attack/366",
+  "label": 1,
+  "row": 366
+ },
+ {
+  "claim_hash": "1a87c65ae07ab9f6e122ba812c3c6ff28fa54d53454b37572e9266c6a822fcf5",
+  "evidence_hash": "7bfcc80f99b9284a69e1cee30d3aa13178da6d6a03aedf89acdd0348b725105a",
+  "item_id": "incrediblae/fc/attack/367",
+  "label": 0,
+  "row": 367
+ },
+ {
+  "claim_hash": "8923b67b9713266b8af2be88c14ce0d1a8052fcdd060911ca17fba52e2d06d30",
+  "evidence_hash": "0d32d37e419e2b8c94dcd83d09ab68422e82efb28050cb54f92742d6e3b2690e",
+  "item_id": "incrediblae/fc/attack/368",
+  "label": 1,
+  "row": 368
+ },
+ {
+  "claim_hash": "2e8a2f4fc529f270d7d139c6e6b774d7af6d05f3a70458a2c23853f389e8155f",
+  "evidence_hash": "f525ceb47e2df799aabe5b5c455d7f46f69b664403422ebbea765db5fc88bf25",
+  "item_id": "incrediblae/fc/attack/369",
+  "label": 0,
+  "row": 369
+ },
+ {
+  "claim_hash": "02e60dbc0ae1cf41a97b6379295f02d92b8d28c0547812a8f93f48247e7c2eda",
+  "evidence_hash": "b90323f63a597e26ec0163249df2f46f6b70c7f41206f2dc77c321e63d8e08b8",
+  "item_id": "incrediblae/fc/attack/370",
+  "label": 1,
+  "row": 370
+ },
+ {
+  "claim_hash": "741af471a09b2760a49c18446797faa984227e5837661e2dbae4f097c3883730",
+  "evidence_hash": "19ef59a731a38e834c60bda66c7dd4d613413bdb66870432e2bc25a5a57ab3f7",
+  "item_id": "incrediblae/fc/attack/371",
+  "label": 1,
+  "row": 371
+ },
+ {
+  "claim_hash": "0d69af06959b4c1414642306da5fbdc496575254f7cffe5ea45baddea423fd59",
+  "evidence_hash": "3af56d42fe769dcd77884ea4434f6c0f0c510f9553251cbda6ff5ed8987bf2ff",
+  "item_id": "incrediblae/fc/attack/372",
+  "label": 0,
+  "row": 372
+ },
+ {
+  "claim_hash": "d3fc790424373e000d5274c6588b8152f82b4d9512b59cc96a994fbaceb9bc3c",
+  "evidence_hash": "8770008aea7435e04b81827d1bc7032533d9a1ae5263c3ba3ae2ef207816ac47",
+  "item_id": "incrediblae/fc/attack/373",
+  "label": 1,
+  "row": 373
+ },
+ {
+  "claim_hash": "6d08710d5d7544033205e00444c1cc72ce3f6a0bc277d855a4bb09c0303f37bf",
+  "evidence_hash": "01ddf9bd060fb4228a360cf7ca39f9c69ae1071d922f9ba0d37e135e364e6987",
+  "item_id": "incrediblae/fc/attack/374",
+  "label": 0,
+  "row": 374
+ },
+ {
+  "claim_hash": "1403b2813f31d4fdef1460ac29d2bae6ed6dfac76057ca863acac01e95c7d1c2",
+  "evidence_hash": "d5f8e53a64eec4df4f135a2dccbce1a1ca67fee28ce2eca3b5b277a394218d40",
+  "item_id": "incrediblae/fc/attack/375",
+  "label": 0,
+  "row": 375
+ },
+ {
+  "claim_hash": "d3b52d603842caf5ec8147a00a6027e2259cdf6b4f54438f95ab7fb47358043e",
+  "evidence_hash": "da98659bf018c71a70d54ae7df5eddbf9d63e636c26b3725aa7ae281389ba106",
+  "item_id": "incrediblae/fc/attack/376",
+  "label": 0,
+  "row": 376
+ },
+ {
+  "claim_hash": "b3e6c72052232adc8cabb226c0b3647d8143c08c79347e96a2e670c122eb8b46",
+  "evidence_hash": "dd85634a00534fea46c7ccd018b820c8d98ba6c7d777db82ec9bef4f42b5b2e6",
+  "item_id": "incrediblae/fc/attack/377",
+  "label": 0,
+  "row": 377
+ },
+ {
+  "claim_hash": "bc1d12f92d7c5139cccb6227a13540e15987d6825d56dd4eae6d472a97150cf6",
+  "evidence_hash": "7e0aceedbcc7bb17ea35c2b3087d8600b88f8eeb8fa14a582c5cab611c5c7ccf",
+  "item_id": "incrediblae/fc/attack/378",
+  "label": 1,
+  "row": 378
+ },
+ {
+  "claim_hash": "0cacccb4fb689abccacdc620ccfdf6c2de47d92927db81439713c78bbca67323",
+  "evidence_hash": "a5f630044204b2f926192ace2d7d396d8fce63893dc76261e78e31838d940099",
+  "item_id": "incrediblae/fc/attack/379",
+  "label": 0,
+  "row": 379
+ },
+ {
+  "claim_hash": "8fd8bddb51ec40095632db5510b9cb8114c23404cde6e91adef7dda46300da50",
+  "evidence_hash": "351ea76d230f059f362e9591c1eebf2423d3338d80ceca45ff5163ed07822ba4",
+  "item_id": "incrediblae/fc/attack/380",
+  "label": 0,
+  "row": 380
+ },
+ {
+  "claim_hash": "acfbf248e0074717064934ae59fd7d1f96535aaa52e1586af9fe38fa6ff044c8",
+  "evidence_hash": "376b02592d1dc44b1b6753f33653f6447fe0b165458547ad9cb7523ff00b4b8b",
+  "item_id": "incrediblae/fc/attack/381",
+  "label": 1,
+  "row": 381
+ },
+ {
+  "claim_hash": "3d33776e521acaecd05dc5d460c9f38de3b9c308d7503a2bac5165cb49bdef71",
+  "evidence_hash": "ec5b8da52e9855f34d67335b53793b35b67be624b7b30a197c8dee838364bbca",
+  "item_id": "incrediblae/fc/attack/382",
+  "label": 0,
+  "row": 382
+ },
+ {
+  "claim_hash": "20ef98ab46e509cd55625d0fd67ba73c5ba8e120aebcbda5b0569f28f0f1fac3",
+  "evidence_hash": "148f554bf081707ea527cead06ad78e48b3eb28ae0f4a886bdbe22ed53398f40",
+  "item_id": "incrediblae/fc/attack/383",
+  "label": 1,
+  "row": 383
+ },
+ {
+  "claim_hash": "660aa57f3dffcd18c0a3d9b2985cbf948e1db79eebbb4d05ef24add2a958a6be",
+  "evidence_hash": "22eb1a97dc005dfc28cf7063de71ce0d0490b4055b8dc592d16ad3ac85108240",
+  "item_id": "incrediblae/fc/attack/384",
+  "label": 1,
+  "row": 384
+ },
+ {
+  "claim_hash": "ccb54e4db7c8b4d76fafcf2891a51db0f45227ed5c3dd8d45c0862134a86c86e",
+  "evidence_hash": "d420fb11cb2d6af3a4ab9a081083d6be62c55a470a0a90ca6e4f10f37708f827",
+  "item_id": "incrediblae/fc/attack/385",
+  "label": 1,
+  "row": 385
+ },
+ {
+  "claim_hash": "3a1eb2ac9cdbd297a5b07b0570abfff26069edd0783e229e1b54179db271acd1",
+  "evidence_hash": "dfa7bd4107828826db8e87c6737949083477b075247059e91a7ef4aadb80fd13",
+  "item_id": "incrediblae/fc/attack/386",
+  "label": 1,
+  "row": 386
+ },
+ {
+  "claim_hash": "8dd9a7038ee62f89bfe40f9caccaee0feeb0f497f0499cc6ddd3e527c063c555",
+  "evidence_hash": "3dad325d8c66d755dd9335a32bd4faed0edfb2dd3341031d66f0325a573fa62e",
+  "item_id": "incrediblae/fc/attack/387",
+  "label": 1,
+  "row": 387
+ },
+ {
+  "claim_hash": "caf3d904c6e5b7a4899caef20c3d38c1bf5144392e072e5bf06a59f042dee98a",
+  "evidence_hash": "0f0b070d97e1b8e0a65882bd7de5870007529807cf748b3dd489abf1b08fa099",
+  "item_id": "incrediblae/fc/attack/388",
+  "label": 1,
+  "row": 388
+ },
+ {
+  "claim_hash": "2bfa5fcc73c8859a9fe1017c5832eef0bb2698e239d61194b77d73d32dc98f64",
+  "evidence_hash": "bade2b0a03486ea658f31c77ab621b2fc0af7a2985fe93815543c165716c5e10",
+  "item_id": "incrediblae/fc/attack/389",
+  "label": 0,
+  "row": 389
+ },
+ {
+  "claim_hash": "5fdecdf4f7b5689c1b15e2607f7159cb598dceab8016be575a9c55b85b6258bb",
+  "evidence_hash": "1e5fb7bf3cb35b389d8d70c8a595a0d21fd2dcb525248775dc2e67cf20facd36",
+  "item_id": "incrediblae/fc/attack/390",
+  "label": 1,
+  "row": 390
+ },
+ {
+  "claim_hash": "4a4c0e8931ed9118c5640835d7ae7562c4cb429db6ffbeeca346916dd821f170",
+  "evidence_hash": "cc3da60b3f25b15a841438e1cad55b6757dfb7214ed30e8a4968afcce28f4c27",
+  "item_id": "incrediblae/fc/attack/391",
+  "label": 1,
+  "row": 391
+ },
+ {
+  "claim_hash": "bdd27d02ea593f8bd95b8a42b1479f9ea3496b09fcbd11c7bbc116cd863bd147",
+  "evidence_hash": "46decdef215abe049a6932dc9e596df4fb80fcd80f6c3153d1f86e982ba5f74f",
+  "item_id": "incrediblae/fc/attack/392",
+  "label": 1,
+  "row": 392
+ },
+ {
+  "claim_hash": "45308aa7d1a0704dd09a5e82b4c129be7f8e69d8c24ae031ea930aa2546353c9",
+  "evidence_hash": "d110ff11008caffea377221cc8de97d6792ace646e4d9b1eae71bd300e0b9a7e",
+  "item_id": "incrediblae/fc/attack/393",
+  "label": 0,
+  "row": 393
+ },
+ {
+  "claim_hash": "ce448339bb91e51955ed9d9a66f71ae933781d72f9b9e9deda312db0ad58408d",
+  "evidence_hash": "5a2127229aa93d7871287dfc34d3990fc4768c0980d30a5140dd52628966c747",
+  "item_id": "incrediblae/fc/attack/394",
+  "label": 1,
+  "row": 394
+ },
+ {
+  "claim_hash": "8bd17aa8105e01ba9c3cfe902caf5f3b7bf3dbe50544b159d34552901490495a",
+  "evidence_hash": "ec2bd7366b83b5b384d8c89d075e2e6706b8e7c12b0d72ec7adf374447d9b9bf",
+  "item_id": "incrediblae/fc/attack/395",
+  "label": 0,
+  "row": 395
+ },
+ {
+  "claim_hash": "478ce7c9b5e988d6c7358d3ee5a10a8016bd5cee6457eaf2f62e8b98378250f1",
+  "evidence_hash": "c77474d2bd9f020433408514520825dc6935a5be612b2c3080ab6e3ecff7af0c",
+  "item_id": "incrediblae/fc/attack/396",
+  "label": 1,
+  "row": 396
+ },
+ {
+  "claim_hash": "4e6595cf429951a8081143a439f0ff88e4952295c8d878ea9cd59638b2e4ab05",
+  "evidence_hash": "4fc36c2b93eeb9574bc1c7617c1c779ac82efde4c1614299a1e368bb1ced4262",
+  "item_id": "incrediblae/fc/attack/397",
+  "label": 0,
+  "row": 397
+ },
+ {
+  "claim_hash": "1f7c5ec327dec75ca42878894efdaa52e4964b67bc889ece2439ec30a0684d5b",
+  "evidence_hash": "439ad576a392264c4f6c0d945203e68e8b2b08bb0c2e8844772685c120efe164",
+  "item_id": "incrediblae/fc/attack/398",
+  "label": 0,
+  "row": 398
+ },
+ {
+  "claim_hash": "c1aa5cbe819d181981777cd39fd0f19eeeb2e32873ae31742fb68246e5267773",
+  "evidence_hash": "74fc534af9c15efbdcf4f404001a3c04ed995379ba208851bb1eec1b6dec2c2b",
+  "item_id": "incrediblae/fc/attack/399",
+  "label": 0,
+  "row": 399
+ },
+ {
+  "claim_hash": "54d402f7d6cdfc10055f1230dbcd5f2a125cdd95c2b1295dfe770f0e8db7ce1f",
+  "evidence_hash": "5a65fd1ccaef3f6e0f5e4c7dace10ebda9f7f90ab2e525913b911ab8ea896fbc",
+  "item_id": "incrediblae/fc/attack/400",
+  "label": 1,
+  "row": 400
+ },
+ {
+  "claim_hash": "030dc4db5ef4f356383395ea09a86f2d07ea09c8ed9a9072bb82ad9cf2fec1c8",
+  "evidence_hash": "660d9816ff30d2f3491d8d4323349f82acf1b6ec31de1284e4df87ed8bd273e9",
+  "item_id": "incrediblae/fc/attack/401",
+  "label": 0,
+  "row": 401
+ },
+ {
+  "claim_hash": "2b3f59961e11b0bce56586c287a8ee73ba118c2b5fac99eaef1a147e1f119d5d",
+  "evidence_hash": "2b45eb1635486150c3af5bb16a60e75f7c0d446609a8b8b763cc91a6cfceb9c1",
+  "item_id": "incrediblae/fc/attack/402",
+  "label": 0,
+  "row": 402
+ },
+ {
+  "claim_hash": "7fd5cf3d9985826ec1f62b14c9a450ce0fac1ab311e43eb87dbbb7d1e6ac4a99",
+  "evidence_hash": "f1819a3df159d64e0a279b4e7ab72d931062a744e7cba0d9473ab2bb5f62701c",
+  "item_id": "incrediblae/fc/attack/403",
+  "label": 1,
+  "row": 403
+ },
+ {
+  "claim_hash": "a85b8f68bf507e3865951d15c5b8ff1d2839f0a73e8aa11c8f09af6ec597ed94",
+  "evidence_hash": "9e0ee1a224eb68d3bed0797d8904c373a89a5749b73bf3607d10aa70d5b7748f",
+  "item_id": "incrediblae/fc/attack/404",
+  "label": 0,
+  "row": 404
+ }
+]

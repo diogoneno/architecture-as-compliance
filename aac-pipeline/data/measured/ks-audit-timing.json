@@ -1,0 +1,14 @@
+{
+ "audit": "ks-audit-v1",
+ "bytes_uncompressed": 237431428504,
+ "config_hash": "10d84098f200f44e6c4ce0a77b35059d8e128abeb6678660e621494fa7c0f8e2",
+ "cpu_seconds": 5838.805,
+ "cpu_seconds_source": "resource.getrusage(RUSAGE_SELF + RUSAGE_CHILDREN) around the pool; cpu_seconds_workers = summed per-store time.process_time()",
+ "cpu_seconds_workers": 5835.518,
+ "log": "A-ks-20261016T160012Z.log",
+ "log_sha256": "f8571d7d13558bfbd6a6e2dde2dad6073dca0f12db2d58086733cbb594229dea",
+ "release_sha": "9c85dcff8de87d578bc27cf4a84d4e9a25e3c814",
+ "stores": 3568,
+ "wall_seconds": 731.195,
+ "workers": 8
+}

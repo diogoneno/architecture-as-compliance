@@ -1,0 +1,16 @@
+matrix:
+ - {config: configs/regimes/r0-fc-rd-clean.yaml, seeds: [0]}
+ - {config: configs/regimes/r0-averitec-gold.yaml, seeds: [0]}
+ - {config: configs/regimes/r1-chrono-full.yaml, seeds: [0, 1, 2]}
+ - {config: configs/regimes/r1-chrono-content-only.yaml, seeds: [0, 1, 2]}
+ - {config: configs/regimes/r1-random-full.yaml, seeds: [0, 1, 2]}
+ - {config: configs/regimes/r1-random-content-only.yaml, seeds: [0, 1, 2]}
+ - {config: configs/regimes/r2-fc-full.yaml, seeds: [0, 1, 2]}
+ - {config: configs/regimes/r2-fc-content-only.yaml, seeds: [0, 1, 2]}
+ - {config: configs/regimes/r2-rd-full.yaml, seeds: [0, 1, 2]}
+ - {config: configs/regimes/r2-rd-content-only.yaml, seeds: [0, 1, 2]}
+ - {config: configs/regimes/r3-stub.yaml, seeds: [0]}
+ - {config: configs/regimes/r4-no-retrieval.yaml, seeds: [0, 1, 2]}
+ - {config: configs/regimes/r4-no-calibration.yaml, seeds: [0, 1, 2]}
+ - {config: configs/regimes/r4-no-abstention.yaml, seeds: [0, 1, 2]}
+ - {config: configs/regimes/r4-content-only.yaml, seeds: [0, 1, 2]}

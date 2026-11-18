@@ -1,0 +1,1547 @@
+{
+ "backup": {
+  "head_at_backup": "f95650b6940283023c6c84202d34a9d45620d083",
+  "independent_checks": "manifest lines matching secrets/ or derived/private: 0; manifest lines under runs/<id>/: 244 for each first200 run, 278 for each last200 run; data/measured/phase4-gpu-p4-2.json listed",
+  "line": "backup: /mnt/loki/backups/dissertation/2026-10-18  (MANIFEST.sha256: 13336 files, verified; no secrets/, no private lane, no build/, no raw rows, no rd5/)",
+  "not_in_backup": "this backup block, the defense rows, the SUMMARY and the loki audit commit (after f95650b)",
+  "started_utc": "2026-10-18T17:13:05Z",
+  "verified": true
+ },
+ "batches": {
+  "P4-2a": {
+   "dropped_gpu_hours": 0.0,
+   "gpu_hours": 1.306851,
+   "gpu_hours_rule": "sum of the run-record gpu_hours (03-10 convention, as Stage); dropped_gpu_hours = attack-timings dropped_seconds / 3600 (ticket)",
+   "projection": {
+    "actual_gpu_hours": 1.306851,
+    "actual_over_projection": 0.777976,
+    "expected": 1.679809,
+    "high": 1.679809
+   },
+   "pull": {
+    "cpu-host_validate": [
+     "records=2592 violations=0 records_with_claim_text=0 records_with_user_id=0 R3-f2b2a34665-s0: L2: ok (2592 records == 2592 ledger queries)",
+     "records=12738 violations=0 records_with_claim_text=0 records_with_user_id=0 R3-ed263acff8-s0: L2: ok (12738 records == 12738 ledger queries)",
+     "records=11557 violations=0 records_with_claim_text=0 records_with_user_id=0 R3-8242a107fc-s0: L2: ok (11557 records == 11557 ledger queries)",
+     "records=7686 violations=0 records_with_claim_text=0 records_with_user_id=0 R3-39b2489296-s0: L2: ok (7686 records == 7686 ledger queries)"
+    ],
+    "index_r3_b_first200_rows": 4,
+    "lines": [
+     "pulled R3-f2b2a34665-s0: SEALED 31116c94a4d8 verified; INDEX.json updated",
+     "pulled R3-ed263acff8-s0: SEALED b011ba19f7ce verified; INDEX.json updated",
+     "pulled R3-8242a107fc-s0: SEALED 78dd550846ce verified; INDEX.json updated",
+     "pulled R3-39b2489296-s0: SEALED 028723cbc3b0 verified; INDEX.json updated"
+    ],
+    "private_text": "adversarial texts stay in turing's private store; gpu-pull copies sealed run dirs only (attack-adversarial.jsonl holds claim_hash, no text)"
+   },
+   "runs": [
+    {
+     "cell": {
+      "attack": "deepwordbug",
+      "attacked": 108,
+      "budget_exhausted_share": 0.0,
+      "end_states": {
+       "deferred": 7,
+       "success": 1,
+       "unchanged": 105
+      },
+      "items": 113,
+      "max_queries": 61,
+      "mean_queries_attacked": 22.87963,
+      "median_queries_attacked": 23.0,
+      "skipped": 5,
+      "subset": "averitec_chrono",
+      "victim": "full"
+     },
+     "config": "configs/regimes/real/r3-b-first200-deepwordbug.yaml",
+     "config_hash": "f2b2a34665715eb250791f45865d7a093f8f9bcf308006b683357b8f02ebab1f",
+     "counters_check": {
+      "max_server_queries": 61,
+      "rows": 113,
+      "rows_not_runner_eq_server_le_1000": 0
+     },
+     "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+     "dropped_gpu_hours": 0.0,
+     "end_states": {
+      "deferred": 7,
+      "success": 1,
+      "unchanged": 105
+     },
+     "gpu_hours": 0.127008,
+     "l2_line": "R3-f2b2a34665-s0: L2: ok (2592 records == 2592 ledger queries)",
+     "line": 1,
+     "name": "r3-b-first200-deepwordbug",
+     "resumed": false,
+     "run_id": "R3-f2b2a34665-s0",
+     "seal_digest": "31116c94a4d84aa1be5096e7d1687e0fdda11642918cbba2e3d3751445f214b3",
+     "seed": 0,
+     "server_seconds_per_attacked_item": 4.273126,
+     "server_seconds_per_item": 4.08405,
+     "session_seconds": 461.49763,
+     "sessions": 1,
+     "validation": {
+      "records": 2592,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "cell": {
+      "attack": "pwws",
+      "attacked": 108,
+      "budget_exhausted_share": 0.0,
+      "end_states": {
+       "deferred": 55,
+       "success": 8,
+       "unchanged": 50
+      },
+      "items": 113,
+      "max_queries": 344,
+      "mean_queries_attacked": 116.314815,
+      "median_queries_attacked": 108.0,
+      "skipped": 5,
+      "subset": "averitec_chrono",
+      "victim": "full"
+     },
+     "config": "configs/regimes/real/r3-b-first200-pwws.yaml",
+     "config_hash": "ed263acff8f6abac04d5563c881457afcebb399e5ce52c0f02ab59a56fe9f8cc",
+     "counters_check": {
+      "max_server_queries": 344,
+      "rows": 113,
+      "rows_not_runner_eq_server_le_1000": 0
+     },
+     "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+     "dropped_gpu_hours": 0.0,
+     "end_states": {
+      "deferred": 55,
+      "success": 8,
+      "unchanged": 50
+     },
+     "gpu_hours": 0.404681,
+     "l2_line": "R3-ed263acff8-s0: L2: ok (12738 records == 12738 ledger queries)",
+     "line": 2,
+     "name": "r3-b-first200-pwws",
+     "resumed": false,
+     "run_id": "R3-ed263acff8-s0",
+     "seal_digest": "b011ba19f7ce1cc6905c62a3b38011e2716d3d42af172f7cea101444cbf30d14",
+     "seed": 0,
+     "server_seconds_per_attacked_item": 13.544548,
+     "server_seconds_per_item": 12.945232,
+     "session_seconds": 1462.811188,
+     "sessions": 1,
+     "validation": {
+      "records": 12738,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "cell": {
+      "attack": "bert_attack",
+      "attacked": 108,
+      "budget_exhausted_share": 0.0,
+      "end_states": {
+       "deferred": 66,
+       "success": 3,
+       "unchanged": 44
+      },
+      "items": 113,
+      "max_queries": 415,
+      "mean_queries_attacked": 105.324074,
+      "median_queries_attacked": 79.0,
+      "skipped": 5,
+      "subset": "averitec_chrono",
+      "victim": "full"
+     },
+     "config": "configs/regimes/real/r3-b-first200-bert_attack.yaml",
+     "config_hash": "8242a107fc01fe8dbd3677be65cc468945a22e69d6a5a008310bb3269c936350",
+     "counters_check": {
+      "max_server_queries": 415,
+      "rows": 113,
+      "rows_not_runner_eq_server_le_1000": 0
+     },
+     "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+     "dropped_gpu_hours": 0.0,
+     "end_states": {
+      "deferred": 66,
+      "success": 3,
+      "unchanged": 44
+     },
+     "gpu_hours": 0.536838,
+     "l2_line": "R3-8242a107fc-s0: L2: ok (11557 records == 11557 ledger queries)",
+     "line": 3,
+     "name": "r3-b-first200-bert_attack",
+     "resumed": false,
+     "run_id": "R3-8242a107fc-s0",
+     "seal_digest": "78dd550846ce71cb315447395e9239881da7895d9b4eebcbb26c9fd1b2510bb0",
+     "seed": 0,
+     "server_seconds_per_attacked_item": 18.193935,
+     "server_seconds_per_item": 17.388893,
+     "session_seconds": 1964.944927,
+     "sessions": 1,
+     "validation": {
+      "records": 11557,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "cell": {
+      "attack": "textfooler",
+      "attacked": 108,
+      "budget_exhausted_share": 0.0,
+      "end_states": {
+       "deferred": 57,
+       "success": 4,
+       "unchanged": 52
+      },
+      "items": 113,
+      "max_queries": 184,
+      "mean_queries_attacked": 69.555556,
+      "median_queries_attacked": 64.5,
+      "skipped": 5,
+      "subset": "averitec_chrono",
+      "victim": "full"
+     },
+     "config": "configs/regimes/real/r3-b-first200-textfooler.yaml",
+     "config_hash": "39b24892963db049f7ff3bad59b672197cf75ce0db9b5b463a7590fe5a5533d5",
+     "counters_check": {
+      "max_server_queries": 184,
+      "rows": 113,
+      "rows_not_runner_eq_server_le_1000": 0
+     },
+     "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+     "dropped_gpu_hours": 0.0,
+     "end_states": {
+      "deferred": 57,
+      "success": 4,
+      "unchanged": 52
+     },
+     "gpu_hours": 0.238324,
+     "l2_line": "R3-39b2489296-s0: L2: ok (7686 records == 7686 ledger queries)",
+     "line": 4,
+     "name": "r3-b-first200-textfooler",
+     "resumed": false,
+     "run_id": "R3-39b2489296-s0",
+     "seal_digest": "028723cbc3b065e641a51040eb54b2c258e9f9265ec131aec88d2589fff328fb",
+     "seed": 0,
+     "server_seconds_per_attacked_item": 8.109197,
+     "server_seconds_per_item": 7.750383,
+     "session_seconds": 875.793276,
+     "sessions": 1,
+     "validation": {
+      "records": 7686,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    }
+   ],
+   "tmux": {
+    "dispatch_cmd": "make gpu-run PHASE=C-p42a BATCH=configs/batches/phase4-p4-2a.txt SHA=b9e841ad430333224edc3382b4421efb312c2578",
+    "done": "4/4",
+    "exit": 0,
+    "finished_heartbeat_utc": "2026-10-18T15:14:52Z",
+    "log": "logs/C-p42a-20261018T134702Z.log",
+    "session": "aac-C-p42a",
+    "started_utc": "2026-10-18T13:47:02Z",
+    "wall_seconds": 5270
+   },
+   "watcher_note": "one sample (13:56:14Z) listed PID 287629 = our own victim server of line 1 at its exit; /proc was already gone, so cwd read as outside the release; not a foreign process"
+  },
+  "P4-2b": {
+   "cut_state_at_dispatch": "2026-10-18 Europe/London, before the cut-2-subset-200 trigger 2026-10-29; configs/cuts.yaml active false",
+   "dropped_gpu_hours": 0.0,
+   "gpu_hours": 1.481755,
+   "gpu_hours_rule": "sum of the run-record gpu_hours (03-10 convention, as Stage); dropped_gpu_hours = attack-timings dropped_seconds / 3600 (ticket)",
+   "projection": {
+    "actual_gpu_hours": 1.481755,
+    "actual_over_projection": 0.973076,
+    "expected": 1.522753,
+    "high": 1.522753,
+    "rule": "130/113 x the sealed r3-b-first200-<recipe> session_seconds"
+   },
+   "pull": {
+    "cpu-host_validate": [
+     "records=2972 violations=0 records_with_claim_text=0 records_with_user_id=0 R3-2721e6be83-s0: L2: ok (2972 records == 2972 ledger queries)",
+     "records=14443 violations=0 records_with_claim_text=0 records_with_user_id=0 R3-ac741ca97d-s0: L2: ok (14443 records == 14443 ledger queries)",
+     "records=13506 violations=0 records_with_claim_text=0 records_with_user_id=0 R3-330efa45f0-s0: L2: ok (13506 records == 13506 ledger queries)",
+     "records=8784 violations=0 records_with_claim_text=0 records_with_user_id=0 R3-dbe29a3a8c-s0: L2: ok (8784 records == 8784 ledger queries)"
+    ],
+    "index_r3_b_last200_rows": 4,
+    "lines": [
+     "pulled R3-2721e6be83-s0: SEALED f8f37fe3447f verified; INDEX.json updated",
+     "pulled R3-ac741ca97d-s0: SEALED 872a8b36fffe verified; INDEX.json updated",
+     "pulled R3-330efa45f0-s0: SEALED 0edd853d148e verified; INDEX.json updated",
+     "pulled R3-dbe29a3a8c-s0: SEALED dc0d22e33aea verified; INDEX.json updated"
+    ],
+    "private_text": "adversarial texts stay in turing's private store; gpu-pull copies sealed run dirs only"
+   },
+   "runs": [
+    {
+     "cell": {
+      "attack": "deepwordbug",
+      "attacked": 124,
+      "budget_exhausted_share": 0.0,
+      "end_states": {
+       "deferred": 17,
+       "success": 2,
+       "unchanged": 111
+      },
+      "items": 130,
+      "max_queries": 51,
+      "mean_queries_attacked": 22.766129,
+      "median_queries_attacked": 21.0,
+      "skipped": 6,
+      "subset": "averitec_chrono",
+      "victim": "full"
+     },
+     "config": "configs/regimes/real/r3-b-last200-deepwordbug.yaml",
+     "config_hash": "2721e6be835ca42a1bf7dfe61fdf2b13fa69ad438f9fc0967d70a176ca375b08",
+     "counters_check": {
+      "max_server_queries": 51,
+      "rows": 130,
+      "rows_not_runner_eq_server_le_1000": 0
+     },
+     "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+     "dropped_gpu_hours": 0.0,
+     "end_states": {
+      "deferred": 17,
+      "success": 2,
+      "unchanged": 111
+     },
+     "gpu_hours": 0.142325,
+     "l2_line": "R3-2721e6be83-s0: L2: ok (2972 records == 2972 ledger queries)",
+     "line": 1,
+     "name": "r3-b-last200-deepwordbug",
+     "resumed": false,
+     "run_id": "R3-2721e6be83-s0",
+     "seal_digest": "f8f37fe3447f00bccd6eb35c3ebdc9dc203453fae4456ac997f79b67c37641ce",
+     "seed": 0,
+     "server_seconds_per_attacked_item": 4.171303,
+     "server_seconds_per_item": 3.978782,
+     "session_seconds": 517.241608,
+     "sessions": 1,
+     "validation": {
+      "records": 2972,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "cell": {
+      "attack": "pwws",
+      "attacked": 124,
+      "budget_exhausted_share": 0.0,
+      "end_states": {
+       "deferred": 57,
+       "success": 14,
+       "unchanged": 59
+      },
+      "items": 130,
+      "max_queries": 362,
+      "mean_queries_attacked": 114.854839,
+      "median_queries_attacked": 100.5,
+      "skipped": 6,
+      "subset": "averitec_chrono",
+      "victim": "full"
+     },
+     "config": "configs/regimes/real/r3-b-last200-pwws.yaml",
+     "config_hash": "ac741ca97d6f6e91525627aeb21c2e9990e6126cdd4b1c56b282db349230443b",
+     "counters_check": {
+      "max_server_queries": 362,
+      "rows": 130,
+      "rows_not_runner_eq_server_le_1000": 0
+     },
+     "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+     "dropped_gpu_hours": 0.0,
+     "end_states": {
+      "deferred": 57,
+      "success": 14,
+      "unchanged": 59
+     },
+     "gpu_hours": 0.453472,
+     "l2_line": "R3-ac741ca97d-s0: L2: ok (14443 records == 14443 ledger queries)",
+     "line": 2,
+     "name": "r3-b-last200-pwws",
+     "resumed": false,
+     "run_id": "R3-ac741ca97d-s0",
+     "seal_digest": "872a8b36fffe70080ca533d42925f0f639e0a44bda38aed609b882d1d293df4b",
+     "seed": 0,
+     "server_seconds_per_attacked_item": 13.21676,
+     "server_seconds_per_item": 12.606756,
+     "session_seconds": 1638.8783,
+     "sessions": 1,
+     "validation": {
+      "records": 14443,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "cell": {
+      "attack": "bert_attack",
+      "attacked": 124,
+      "budget_exhausted_share": 0.0,
+      "end_states": {
+       "deferred": 80,
+       "success": 3,
+       "unchanged": 47
+      },
+      "items": 130,
+      "max_queries": 446,
+      "mean_queries_attacked": 107.201613,
+      "median_queries_attacked": 76.5,
+      "skipped": 6,
+      "subset": "averitec_chrono",
+      "victim": "full"
+     },
+     "config": "configs/regimes/real/r3-b-last200-bert_attack.yaml",
+     "config_hash": "330efa45f0598ae6e51a383baeabcc0e24649d4d4005ed9209f4a13fd4d4a871",
+     "counters_check": {
+      "max_server_queries": 446,
+      "rows": 130,
+      "rows_not_runner_eq_server_le_1000": 0
+     },
+     "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+     "dropped_gpu_hours": 0.0,
+     "end_states": {
+      "deferred": 80,
+      "success": 3,
+      "unchanged": 47
+     },
+     "gpu_hours": 0.617898,
+     "l2_line": "R3-330efa45f0-s0: L2: ok (13506 records == 13506 ledger queries)",
+     "line": 3,
+     "name": "r3-b-last200-bert_attack",
+     "resumed": false,
+     "run_id": "R3-330efa45f0-s0",
+     "seal_digest": "0edd853d148e856709bcdbf42eba0f681bf1ce83ffcbf99160d77b0164d74ad0",
+     "seed": 0,
+     "server_seconds_per_attacked_item": 18.230102,
+     "server_seconds_per_item": 17.388713,
+     "session_seconds": 2260.532635,
+     "sessions": 1,
+     "validation": {
+      "records": 13506,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "cell": {
+      "attack": "textfooler",
+      "attacked": 124,
+      "budget_exhausted_share": 0.0,
+      "end_states": {
+       "deferred": 68,
+       "success": 4,
+       "unchanged": 58
+      },
+      "items": 130,
+      "max_queries": 297,
+      "mean_queries_attacked": 69.209677,
+      "median_queries_attacked": 61.5,
+      "skipped": 6,
+      "subset": "averitec_chrono",
+      "victim": "full"
+     },
+     "config": "configs/regimes/real/r3-b-last200-textfooler.yaml",
+     "config_hash": "dbe29a3a8c95b2c50db77a21a1d6e48a0691dd4c371a737fd5e74f902e8afe94",
+     "counters_check": {
+      "max_server_queries": 297,
+      "rows": 130,
+      "rows_not_runner_eq_server_le_1000": 0
+     },
+     "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+     "dropped_gpu_hours": 0.0,
+     "end_states": {
+      "deferred": 68,
+      "success": 4,
+      "unchanged": 58
+     },
+     "gpu_hours": 0.26806,
+     "l2_line": "R3-dbe29a3a8c-s0: L2: ok (8784 records == 8784 ledger queries)",
+     "line": 4,
+     "name": "r3-b-last200-textfooler",
+     "resumed": false,
+     "run_id": "R3-dbe29a3a8c-s0",
+     "seal_digest": "dc0d22e33aea678203b59349b2475ef3924241cd71ef1271755744cb7e91a599",
+     "seed": 0,
+     "server_seconds_per_attacked_item": 7.944434,
+     "server_seconds_per_item": 7.577768,
+     "session_seconds": 985.109844,
+     "sessions": 1,
+     "validation": {
+      "records": 8784,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    }
+   ],
+   "tmux": {
+    "dispatch_cmd": "make gpu-run PHASE=C-p42b BATCH=configs/batches/phase4-p4-2b.txt SHA=b9e841ad430333224edc3382b4421efb312c2578",
+    "done": "4/4",
+    "exit": 0,
+    "finished_heartbeat_utc": "2026-10-18T17:03:12Z",
+    "log": "logs/C-p42b-20261018T152417Z.log",
+    "session": "aac-C-p42b",
+    "started_utc": "2026-10-18T15:24:17Z",
+    "wall_seconds": 5935
+   }
+  }
+ },
+ "budget_check_p42a": [
+  "  P4-2a attack configs/regimes/real/r3-b-first200-deepwordbug.yaml 0: expected 0.126417 high 0.126417 GPU-h (projection rule: 113 x (20.8 + 3) x 0.169220 s (R3-c46605d5c5-s0 sealed) [L])",
+  "  P4-2a attack configs/regimes/real/r3-b-first200-pwws.yaml 0: expected 0.357063 high 0.357063 GPU-h (projection rule: 113 x 11.375473 s/item (pilot victim B) [L])",
+  "  P4-2a attack configs/regimes/real/r3-b-first200-bert_attack.yaml 0: expected 0.597977 high 0.597977 GPU-h (projection rule: 113 x 19.050585 s/item (pilot victim B) [L])",
+  "  P4-2a attack configs/regimes/real/r3-b-first200-textfooler.yaml 0: expected 0.598352 high 0.598352 GPU-h (projection rule: 113 x mean_q_A 59.289216 (204 attacked, R3-c46605d5c5-s0) x 1.9 x 0.169220 s [L])",
+  "phase4-budget: P4-2a expected=1.679809 high=1.679809 retry_allowance=0.000000 (ticket marker present in scripts/attack_session.sh)",
+  "phase4-budget: phase4 used 0.266799 GPU-h (data/measured/phase4-gpu-p4-1.json 0.266799)",
+  "phase4-budget: project used 4.782569 GPU-h (sum of session_gpu_hours in data/measured/phase2-gpu-session.json + data/measured/phase3-gpu-session.json + data/measured/phase3-pilot-session.json + data/measured/phase4-gpu-p4-1.json; Phase 4 files by phase4_budget: data/measured/phase4-gpu-p4-1.json)",
+  "phase4-budget: phase4_used=0.266799 batch_high=1.679809 total=1.946608 of 38.762137; project_used=4.782569 total=6.462378 of 50",
+  "STOP-RULE: ok"
+ ],
+ "budget_check_p42b": [
+  "  P4-2b attack configs/regimes/real/r3-b-last200-deepwordbug.yaml 0: expected 0.147480 high 0.147480 GPU-h (projection rule: 130/113 x 461.497630 s session (R3-f2b2a34665-s0) [L])",
+  "  P4-2b attack configs/regimes/real/r3-b-last200-pwws.yaml 0: expected 0.467467 high 0.467467 GPU-h (projection rule: 130/113 x 1462.811188 s session (R3-ed263acff8-s0) [L])",
+  "  P4-2b attack configs/regimes/real/r3-b-last200-bert_attack.yaml 0: expected 0.627932 high 0.627932 GPU-h (projection rule: 130/113 x 1964.944927 s session (R3-8242a107fc-s0) [L])",
+  "  P4-2b attack configs/regimes/real/r3-b-last200-textfooler.yaml 0: expected 0.279875 high 0.279875 GPU-h (projection rule: 130/113 x 875.793276 s session (R3-39b2489296-s0) [L])",
+  "phase4-budget: P4-2b expected=1.522753 high=1.522753 retry_allowance=0.000000 (ticket marker present in scripts/attack_session.sh)",
+  "phase4-budget: phase4 used 1.573650 GPU-h (data/measured/phase4-gpu-p4-1.json 0.266799 + data/measured/phase4-gpu-p4-2.json 1.306851)",
+  "phase4-budget: project used 6.089420 GPU-h (sum of session_gpu_hours in data/measured/phase2-gpu-session.json + data/measured/phase3-gpu-session.json + data/measured/phase3-pilot-session.json + data/measured/phase4-gpu-p4-1.json; in progress, not counted: data/measured/phase4-gpu-p4-2.json; Phase 4 files by phase4_budget: data/measured/phase4-gpu-p4-1.json + data/measured/phase4-gpu-p4-2.json)",
+  "phase4-budget: phase4_used=1.573650 batch_high=1.522753 total=3.096403 of 38.762137; project_used=6.089420 total=7.612173 of 50",
+  "STOP-RULE: ok"
+ ],
+ "budget_check_p42b_before_p42a": [
+  "  P4-2b attack configs/regimes/real/r3-b-last200-deepwordbug.yaml 0: expected 0.149558 high 0.345133 GPU-h (estimate) 04-RESEARCH Pattern 1 P4-2b: the P4-2a deepwordbug range [0.13, 0.3] x 130/113 (130 Refuted in the last 200 ids) [L]",
+  "  P4-2b attack configs/regimes/real/r3-b-last200-pwws.yaml 0: expected 0.414159 high 5.292035 GPU-h (estimate) 04-RESEARCH Pattern 1 P4-2b: the P4-2a pwws range [0.36, 4.6] x 130/113 (130 Refuted in the last 200 ids) [L]",
+  "  P4-2b attack configs/regimes/real/r3-b-last200-bert_attack.yaml 0: expected 0.690265 high 5.292035 GPU-h (estimate) 04-RESEARCH Pattern 1 P4-2b: the P4-2a bert_attack range [0.6, 4.6] x 130/113 (130 Refuted in the last 200 ids) [L]",
+  "  P4-2b attack configs/regimes/real/r3-b-last200-textfooler.yaml 0: expected 1.265487 high 5.292035 GPU-h (estimate) 04-RESEARCH Pattern 1 P4-2b: the P4-2a textfooler range [1.1, 4.6] x 130/113 (130 Refuted in the last 200 ids) [L]",
+  "phase4-budget: P4-2b expected=2.519469 high=16.221238 retry_allowance=0.000000 (ticket marker present in scripts/attack_session.sh)",
+  "phase4-budget: phase4 used 0.266799 GPU-h (data/measured/phase4-gpu-p4-1.json 0.266799)",
+  "phase4-budget: project used 4.782569 GPU-h (sum of session_gpu_hours in data/measured/phase2-gpu-session.json + data/measured/phase3-gpu-session.json + data/measured/phase3-pilot-session.json + data/measured/phase4-gpu-p4-1.json; Phase 4 files by phase4_budget: data/measured/phase4-gpu-p4-1.json)",
+  "phase4-budget: phase4_used=0.266799 batch_high=16.221238 total=16.488037 of 38.762137; project_used=4.782569 total=21.003807 of 50",
+  "STOP-RULE: ok"
+ ],
+ "budget_check_p42b_note": "before P4-2a is sealed, P4-2b is priced by its committed [L] estimate (high 16.221238); after P4-2a is pulled, phase4_budget replaces each P4-2b line by 130/113 x the sealed r3-b-first200-<recipe> attack-timings session_seconds, and P4-2b dispatches only on that STOP-RULE: ok",
+ "budget_check_p42b_when": "after batches.P4-2a was recorded and its four runs were pulled and indexed on cpu-host",
+ "ceiling_gpu_hours": {
+  "phase4": 38.762137,
+  "project": 50
+ },
+ "cut_state": {
+  "checked_utc": "2026-10-18T12:05:44Z",
+  "cut_1_beamattack": {
+   "active": false,
+   "fired_on": null,
+   "trigger_date": "2026-10-29"
+  },
+  "cut_2_subset_200": {
+   "active": false,
+   "fired_on": null,
+   "trigger_date": "2026-10-29"
+  },
+  "today_europe_london": "2026-10-18",
+  "verdict": "no cut has fired (configs/cuts.yaml all steps active false); today is before 2026-10-29, so P4-2b is allowed by the cut order"
+ },
+ "deviations_rows_proposed": [
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66
+ ],
+ "dry_run": {
+  "P4-2a": [
+   "make attack RUN=configs/regimes/real/r3-b-first200-deepwordbug.yaml SEED=0",
+   "make attack RUN=configs/regimes/real/r3-b-first200-pwws.yaml SEED=0",
+   "make attack RUN=configs/regimes/real/r3-b-first200-bert_attack.yaml SEED=0",
+   "make attack RUN=configs/regimes/real/r3-b-first200-textfooler.yaml SEED=0",
+   "batch: 4 lines (dry run, nothing executed)",
+   "rc=0"
+  ],
+  "P4-2b": [
+   "make attack RUN=configs/regimes/real/r3-b-last200-deepwordbug.yaml SEED=0",
+   "make attack RUN=configs/regimes/real/r3-b-last200-pwws.yaml SEED=0",
+   "make attack RUN=configs/regimes/real/r3-b-last200-bert_attack.yaml SEED=0",
+   "make attack RUN=configs/regimes/real/r3-b-last200-textfooler.yaml SEED=0",
+   "batch: 4 lines (dry run, nothing executed)",
+   "rc=0"
+  ]
+ },
+ "expected_attacked_n": {
+  "detail": {
+   "victim_b_first200": {
+    "clean_correct_ge_0_5": 108,
+    "clean_correct_kept_rule": 108,
+    "refuted": 113,
+    "run": "R1-4805ab6250-s0",
+    "split": "data/derived/splits/averitec-attack-subset-v1-first200.json"
+   },
+   "victim_b_last200": {
+    "clean_correct_ge_0_5": 124,
+    "clean_correct_kept_rule": 124,
+    "refuted": 130,
+    "run": "R1-4805ab6250-s0",
+    "split": "data/derived/splits/averitec-attack-subset-v1-last200.json"
+   }
+  },
+  "rule": "Refuted ids of the half whose un-gated clean decision in the sealed R1-4805ab6250-s0 test records keeps the label (victim server _kept rule round(p,6) > round(1-p,6); >= 0.5 beside it)",
+  "victim_b_first200": 108,
+  "victim_b_last200": 124
+ },
+ "gpu_check_before": "2026-10-18T12:07:06Z: nvidia-smi: NVIDIA GeForce RTX 3090, driver 550.163.01, memory 2/24576 MiB; compute_apps=0; sentinel /data/aac/GPU_CLEARED present; no tmux server",
+ "gpu_hours_before_session": {
+  "phase4_used": 0.266799,
+  "project_used": 4.782569
+ },
+ "next_projection": [
+  "  P4-4 attack configs/regimes/real/r3-beam-a.yaml 0: expected 1.000000 high 2.500000 GPU-h (estimate) 04-RESEARCH Pattern 1 P4-4: victim A about 2.5 GPU-h, roberta-large on the CPU dominates (13-20 s/item, A4) [L]",
+  "  P4-4 attack configs/regimes/real/r3-beam-b-first200.yaml 0: expected 2.000000 high 6.100000 GPU-h (estimate) 04-RESEARCH Pattern 1 P4-4: victim B q 300-650 x 0.17 s + roberta-large CPU, about half of B 4.4-8.8 (243 items) per half; high 6.1 = 130 x 1000 x 0.169220 s [L]",
+  "  P4-4 attack configs/regimes/real/r3-beam-b-last200.yaml 0: expected 2.000000 high 6.100000 GPU-h (estimate) 04-RESEARCH Pattern 1 P4-4: victim B q 300-650 x 0.17 s + roberta-large CPU, about half of B 4.4-8.8 (243 items) per half; high 6.1 = 130 x 1000 x 0.169220 s [L]",
+  "phase4-budget: P4-4 expected=5.000000 high=14.700000 retry_allowance=0.000000 (ticket marker present in scripts/attack_session.sh)",
+  "phase4-budget: phase4 used 3.055405 GPU-h (data/measured/phase4-gpu-p4-1.json 0.266799 + data/measured/phase4-gpu-p4-2.json 2.788606)",
+  "phase4-budget: project used 7.571175 GPU-h (sum of session_gpu_hours in data/measured/phase2-gpu-session.json + data/measured/phase3-gpu-session.json + data/measured/phase3-pilot-session.json + data/measured/phase4-gpu-p4-1.json + data/measured/phase4-gpu-p4-2.json; Phase 4 files by phase4_budget: data/measured/phase4-gpu-p4-1.json + data/measured/phase4-gpu-p4-2.json)",
+  "phase4-budget: phase4_used=3.055405 batch_high=14.700000 total=17.755405 of 38.762137; project_used=7.571175 total=22.271175 of 50",
+  "STOP-RULE: ok"
+ ],
+ "operator_reply": [
+  {
+   "context": "advance go, STATE.md Pending Todos",
+   "given": "2026-10-17T21:37Z",
+   "text": "Okey you have my go when finished to start gpu hours"
+  },
+  {
+   "context": "reply at the Stage Task 2 checkpoint (options go / half / hold)",
+   "given": "2026-10-18 ~15:20 Europe/London",
+   "text": "Go: P4-2a then P4-2b by the stop rule (Recommended)"
+  }
+ ],
+ "operator_reply_reading": "orchestrator's reading (not the protocol's words): go for P4-2a now; P4-2b only after its re-projection from the sealed P4-2a runs prints STOP-RULE: ok; all D1-D15 defaults unchanged; adjustments rows 48-66 stay proposed",
+ "operator_reply_relayed_by": "orchestrator, by message to the 04-11 executor, verbatim",
+ "p4_2a_inputs": {
+  "deepwordbug_attacked": 204,
+  "deepwordbug_mean_queries_victim_a_averitec": 23.186275,
+  "note": "the committed P4-2a rule prices TextFooler by mean_q_A x 1.9 x 0.169220 s and DeepWordBug by the token count (20.8 + 3) x 0.169220 s; PWWS and BERT-Attack by the pilot victim-B s/item",
+  "source": "data/measured/phase4-gpu-p4-1.json batches.P4-1 (R3-c46605d5c5-s0, victim A, AVeriTeC)",
+  "textfooler_attacked": 204,
+  "textfooler_mean_queries_victim_a_averitec": 59.289216
+ },
+ "plan": "04-11",
+ "plan_printer": {
+  "P4-2a": "total: 4 runs, 2.19-14.10 GPU-h (ceiling 38.762137 GPU-h)",
+  "P4-2b": "total: 4 runs, 2.52-16.22 GPU-h (ceiling 38.762137 GPU-h)"
+ },
+ "post_hoc_counts": {
+  "clean_vs_adversarial_path": "identical: the victim server sends the clean query and every attack query of an item through the same pipeline object (victim_server._infer -> self.pipelines[victim].infer), so C1 uses one tokenizer (microsoft/mdeberta-v3-base @ a0484667b22365f84929a935b5e50a51f71f159d) with truncation at max_length 128 on both paths; the C2 scorer pairs (passage, claim) at max_length 256 with only_first truncation (the claim is never cut) on both paths",
+  "counts_where": "cpu-host, from the pulled sealed run dirs (ids and counts only); script /tmp/audit-script.py",
+  "instruction": "protocol 2026-10-18 ~15:25 Europe/London, relayed verbatim by the orchestrator: \"P4-2a is the first battery under the R46/R47 rules: from these runs I need the count of adversarial examples whose perturbations fall beyond token 256, and timed-out items per attack as a separate category outside the ASR denominator. If P4-2b does not run, Table 4.4 must say it covers the first-200 subset only (113/200 Refuted), not the full 400.\"",
+  "max_length_note": "the sealed victim's C1 max_length is 128, not 256; 256 is the C2 scorer pair window and the protocol's R46 threshold; both are reported",
+  "runs": {
+   "R3-2721e6be83-s0": {
+    "c1_max_length": 128,
+    "cells": {
+     "deepwordbug|full|averitec_chrono": {
+      "asr_excl": 0.016129,
+      "asr_excl_denominator": 124,
+      "asr_registered": 0.016129,
+      "asr_registered_denominator": 124,
+      "attacked": 124,
+      "deferred_share_attacked": 0.137097,
+      "end_states_attacked": {
+       "deferred": 17,
+       "success": 2,
+       "unchanged": 105
+      },
+      "excluded_separate_category": {
+       "budget_exhausted": 0,
+       "not_finished": 0
+      },
+      "ledger_rows": 130,
+      "max_queries": 51,
+      "mean_queries_attacked": 22.766129,
+      "median_queries_attacked": 21.0,
+      "not_finished": 0,
+      "planned": 130,
+      "skipped_clean_wrong": 6,
+      "token_position": {
+       "clean_longer_than_256": 0,
+       "clean_longer_than_max_length": 0,
+       "entirely_beyond_128": 0,
+       "entirely_beyond_256": 0,
+       "ids_identical": 0,
+       "max_adv_tokens": 68,
+       "max_clean_tokens": 49,
+       "partly_beyond_128": 0,
+       "partly_beyond_256": 0,
+       "successes_in_store": 19
+      }
+     }
+    },
+    "claim_hashes_beyond": {},
+    "dropped_queries": 0,
+    "dropped_seconds": 0.0,
+    "name": "r3-b-last200-deepwordbug",
+    "scorer_max_length": 256,
+    "scorer_truncated_records": {
+     "scorer_truncated_attack_averitec_chrono": 0,
+     "scorer_truncated_pairs_attack_averitec_chrono": 0
+    },
+    "session_timeout_s": 25200,
+    "sessions": 1,
+    "tokenizer": {
+     "hf_id": "microsoft/mdeberta-v3-base",
+     "revision": "a0484667b22365f84929a935b5e50a51f71f159d"
+    }
+   },
+   "R3-330efa45f0-s0": {
+    "c1_max_length": 128,
+    "cells": {
+     "bert_attack|full|averitec_chrono": {
+      "asr_excl": 0.024194,
+      "asr_excl_denominator": 124,
+      "asr_registered": 0.024194,
+      "asr_registered_denominator": 124,
+      "attacked": 124,
+      "deferred_share_attacked": 0.645161,
+      "end_states_attacked": {
+       "deferred": 80,
+       "success": 3,
+       "unchanged": 41
+      },
+      "excluded_separate_category": {
+       "budget_exhausted": 0,
+       "not_finished": 0
+      },
+      "ledger_rows": 130,
+      "max_queries": 446,
+      "mean_queries_attacked": 107.201613,
+      "median_queries_attacked": 76.5,
+      "not_finished": 0,
+      "planned": 130,
+      "skipped_clean_wrong": 6,
+      "token_position": {
+       "clean_longer_than_256": 0,
+       "clean_longer_than_max_length": 0,
+       "entirely_beyond_128": 0,
+       "entirely_beyond_256": 0,
+       "ids_identical": 0,
+       "max_adv_tokens": 72,
+       "max_clean_tokens": 68,
+       "partly_beyond_128": 0,
+       "partly_beyond_256": 0,
+       "successes_in_store": 83
+      }
+     }
+    },
+    "claim_hashes_beyond": {},
+    "dropped_queries": 0,
+    "dropped_seconds": 0.0,
+    "name": "r3-b-last200-bert_attack",
+    "scorer_max_length": 256,
+    "scorer_truncated_records": {
+     "scorer_truncated_attack_averitec_chrono": 0,
+     "scorer_truncated_pairs_attack_averitec_chrono": 0
+    },
+    "session_timeout_s": 25200,
+    "sessions": 1,
+    "tokenizer": {
+     "hf_id": "microsoft/mdeberta-v3-base",
+     "revision": "a0484667b22365f84929a935b5e50a51f71f159d"
+    }
+   },
+   "R3-39b2489296-s0": {
+    "c1_max_length": 128,
+    "cells": {
+     "textfooler|full|averitec_chrono": {
+      "asr_excl": 0.037037,
+      "asr_excl_denominator": 108,
+      "asr_registered": 0.037037,
+      "asr_registered_denominator": 108,
+      "attacked": 108,
+      "deferred_share_attacked": 0.527778,
+      "end_states_attacked": {
+       "deferred": 57,
+       "success": 4,
+       "unchanged": 47
+      },
+      "excluded_separate_category": {
+       "budget_exhausted": 0,
+       "not_finished": 0
+      },
+      "ledger_rows": 113,
+      "max_queries": 184,
+      "mean_queries_attacked": 69.555556,
+      "median_queries_attacked": 64.5,
+      "not_finished": 0,
+      "planned": 113,
+      "skipped_clean_wrong": 5,
+      "token_position": {
+       "clean_longer_than_256": 0,
+       "clean_longer_than_max_length": 0,
+       "entirely_beyond_128": 0,
+       "entirely_beyond_256": 0,
+       "ids_identical": 0,
+       "max_adv_tokens": 91,
+       "max_clean_tokens": 70,
+       "partly_beyond_128": 0,
+       "partly_beyond_256": 0,
+       "successes_in_store": 61
+      }
+     }
+    },
+    "claim_hashes_beyond": {},
+    "dropped_queries": 0,
+    "dropped_seconds": 0.0,
+    "name": "r3-b-first200-textfooler",
+    "scorer_max_length": 256,
+    "scorer_truncated_records": {
+     "scorer_truncated_attack_averitec_chrono": 0,
+     "scorer_truncated_pairs_attack_averitec_chrono": 0
+    },
+    "session_timeout_s": 21600,
+    "sessions": 1,
+    "tokenizer": {
+     "hf_id": "microsoft/mdeberta-v3-base",
+     "revision": "a0484667b22365f84929a935b5e50a51f71f159d"
+    }
+   },
+   "R3-8242a107fc-s0": {
+    "c1_max_length": 128,
+    "cells": {
+     "bert_attack|full|averitec_chrono": {
+      "asr_excl": 0.027778,
+      "asr_excl_denominator": 108,
+      "asr_registered": 0.027778,
+      "asr_registered_denominator": 108,
+      "attacked": 108,
+      "deferred_share_attacked": 0.611111,
+      "end_states_attacked": {
+       "deferred": 66,
+       "success": 3,
+       "unchanged": 39
+      },
+      "excluded_separate_category": {
+       "budget_exhausted": 0,
+       "not_finished": 0
+      },
+      "ledger_rows": 113,
+      "max_queries": 415,
+      "mean_queries_attacked": 105.324074,
+      "median_queries_attacked": 79.0,
+      "not_finished": 0,
+      "planned": 113,
+      "skipped_clean_wrong": 5,
+      "token_position": {
+       "clean_longer_than_256": 0,
+       "clean_longer_than_max_length": 0,
+       "entirely_beyond_128": 0,
+       "entirely_beyond_256": 0,
+       "ids_identical": 0,
+       "max_adv_tokens": 74,
+       "max_clean_tokens": 70,
+       "partly_beyond_128": 0,
+       "partly_beyond_256": 0,
+       "successes_in_store": 69
+      }
+     }
+    },
+    "claim_hashes_beyond": {},
+    "dropped_queries": 0,
+    "dropped_seconds": 0.0,
+    "name": "r3-b-first200-bert_attack",
+    "scorer_max_length": 256,
+    "scorer_truncated_records": {
+     "scorer_truncated_attack_averitec_chrono": 0,
+     "scorer_truncated_pairs_attack_averitec_chrono": 0
+    },
+    "session_timeout_s": 21600,
+    "sessions": 1,
+    "tokenizer": {
+     "hf_id": "microsoft/mdeberta-v3-base",
+     "revision": "a0484667b22365f84929a935b5e50a51f71f159d"
+    }
+   },
+   "R3-ac741ca97d-s0": {
+    "c1_max_length": 128,
+    "cells": {
+     "pwws|full|averitec_chrono": {
+      "asr_excl": 0.112903,
+      "asr_excl_denominator": 124,
+      "asr_registered": 0.112903,
+      "asr_registered_denominator": 124,
+      "attacked": 124,
+      "deferred_share_attacked": 0.459677,
+      "end_states_attacked": {
+       "deferred": 57,
+       "success": 14,
+       "unchanged": 53
+      },
+      "excluded_separate_category": {
+       "budget_exhausted": 0,
+       "not_finished": 0
+      },
+      "ledger_rows": 130,
+      "max_queries": 362,
+      "mean_queries_attacked": 114.854839,
+      "median_queries_attacked": 100.5,
+      "not_finished": 0,
+      "planned": 130,
+      "skipped_clean_wrong": 6,
+      "token_position": {
+       "clean_longer_than_256": 0,
+       "clean_longer_than_max_length": 0,
+       "entirely_beyond_128": 0,
+       "entirely_beyond_256": 0,
+       "ids_identical": 0,
+       "max_adv_tokens": 73,
+       "max_clean_tokens": 61,
+       "partly_beyond_128": 0,
+       "partly_beyond_256": 0,
+       "successes_in_store": 71
+      }
+     }
+    },
+    "claim_hashes_beyond": {},
+    "dropped_queries": 0,
+    "dropped_seconds": 0.0,
+    "name": "r3-b-last200-pwws",
+    "scorer_max_length": 256,
+    "scorer_truncated_records": {
+     "scorer_truncated_attack_averitec_chrono": 0,
+     "scorer_truncated_pairs_attack_averitec_chrono": 0
+    },
+    "session_timeout_s": 25200,
+    "sessions": 1,
+    "tokenizer": {
+     "hf_id": "microsoft/mdeberta-v3-base",
+     "revision": "a0484667b22365f84929a935b5e50a51f71f159d"
+    }
+   },
+   "R3-c46605d5c5-s0": {
+    "c1_max_length": 128,
+    "cells": {
+     "bert_attack|content_only|averitec_chrono": {
+      "asr_excl": 0.862745,
+      "asr_excl_denominator": 204,
+      "asr_registered": 0.862745,
+      "asr_registered_denominator": 204,
+      "attacked": 204,
+      "deferred_share_attacked": 0.0,
+      "end_states_attacked": {
+       "success": 176,
+       "unchanged": 28
+      },
+      "excluded_separate_category": {
+       "budget_exhausted": 0,
+       "not_finished": 0
+      },
+      "ledger_rows": 243,
+      "max_queries": 313,
+      "mean_queries_attacked": 55.808824,
+      "median_queries_attacked": 43.0,
+      "not_finished": 0,
+      "planned": 243,
+      "skipped_clean_wrong": 39,
+      "token_position": {
+       "clean_longer_than_256": 0,
+       "clean_longer_than_max_length": 0,
+       "entirely_beyond_128": 0,
+       "entirely_beyond_256": 0,
+       "ids_identical": 0,
+       "max_adv_tokens": 73,
+       "max_clean_tokens": 70,
+       "partly_beyond_128": 0,
+       "partly_beyond_256": 0,
+       "successes_in_store": 176
+      }
+     },
+     "bert_attack|content_only|fc": {
+      "asr_excl": 0.742857,
+      "asr_excl_denominator": 175,
+      "asr_registered": 0.742857,
+      "asr_registered_denominator": 175,
+      "attacked": 175,
+      "deferred_share_attacked": 0.0,
+      "end_states_attacked": {
+       "success": 130,
+       "unchanged": 45
+      },
+      "excluded_separate_category": {
+       "budget_exhausted": 0,
+       "not_finished": 0
+      },
+      "ledger_rows": 205,
+      "max_queries": 98,
+      "mean_queries_attacked": 29.297143,
+      "median_queries_attacked": 19,
+      "not_finished": 0,
+      "planned": 205,
+      "skipped_clean_wrong": 30,
+      "token_position": {
+       "clean_longer_than_256": 0,
+       "clean_longer_than_max_length": 0,
+       "entirely_beyond_128": 0,
+       "entirely_beyond_256": 0,
+       "ids_identical": 0,
+       "max_adv_tokens": 28,
+       "max_clean_tokens": 24,
+       "partly_beyond_128": 0,
+       "partly_beyond_256": 0,
+       "successes_in_store": 130
+      }
+     },
+     "deepwordbug|content_only|averitec_chrono": {
+      "asr_excl": 0.284314,
+      "asr_excl_denominator": 204,
+      "asr_registered": 0.284314,
+      "asr_registered_denominator": 204,
+      "attacked": 204,
+      "deferred_share_attacked": 0.0,
+      "end_states_attacked": {
+       "success": 58,
+       "unchanged": 146
+      },
+      "excluded_separate_category": {
+       "budget_exhausted": 0,
+       "not_finished": 0
+      },
+      "ledger_rows": 243,
+      "max_queries": 61,
+      "mean_queries_attacked": 23.186275,
+      "median_queries_attacked": 22.0,
+      "not_finished": 0,
+      "planned": 243,
+      "skipped_clean_wrong": 39,
+      "token_position": {
+       "clean_longer_than_256": 0,
+       "clean_longer_than_max_length": 0,
+       "entirely_beyond_128": 0,
+       "entirely_beyond_256": 0,
+       "ids_identical": 0,
+       "max_adv_tokens": 64,
+       "max_clean_tokens": 49,
+       "partly_beyond_128": 0,
+       "partly_beyond_256": 0,
+       "successes_in_store": 58
+      }
+     },
+     "deepwordbug|content_only|fc": {
+      "asr_excl": 0.32,
+      "asr_excl_denominator": 175,
+      "asr_registered": 0.32,
+      "asr_registered_denominator": 175,
+      "attacked": 175,
+      "deferred_share_attacked": 0.0,
+      "end_states_attacked": {
+       "success": 56,
+       "unchanged": 119
+      },
+      "excluded_separate_category": {
+       "budget_exhausted": 0,
+       "not_finished": 0
+      },
+      "ledger_rows": 205,
+      "max_queries": 19,
+      "mean_queries_attacked": 11.485714,
+      "median_queries_attacked": 11,
+      "not_finished": 0,
+      "planned": 205,
+      "skipped_clean_wrong": 30,
+      "token_position": {
+       "clean_longer_than_256": 0,
+       "clean_longer_than_max_length": 0,
+       "entirely_beyond_128": 0,
+       "entirely_beyond_256": 0,
+       "ids_identical": 0,
+       "max_adv_tokens": 36,
+       "max_clean_tokens": 24,
+       "partly_beyond_128": 0,
+       "partly_beyond_256": 0,
+       "successes_in_store": 56
+      }
+     },
+     "pwws|content_only|averitec_chrono": {
+      "asr_excl": 0.794118,
+      "asr_excl_denominator": 204,
+      "asr_registered": 0.794118,
+      "asr_registered_denominator": 204,
+      "attacked": 204,
+      "deferred_share_attacked": 0.0,
+      "end_states_attacked": {
+       "success": 162,
+       "unchanged": 42
+      },
+      "excluded_separate_category": {
+       "budget_exhausted": 0,
+       "not_finished": 0
+      },
+      "ledger_rows": 243,
+      "max_queries": 343,
+      "mean_queries_attacked": 113.769608,
+      "median_queries_attacked": 101.0,
+      "not_finished": 0,
+      "planned": 243,
+      "skipped_clean_wrong": 39,
+      "token_position": {
+       "clean_longer_than_256": 0,
+       "clean_longer_than_max_length": 0,
+       "entirely_beyond_128": 0,
+       "entirely_beyond_256": 0,
+       "ids_identical": 0,
+       "max_adv_tokens": 88,
+       "max_clean_tokens": 70,
+       "partly_beyond_128": 0,
+       "partly_beyond_256": 0,
+       "successes_in_store": 162
+      }
+     },
+     "pwws|content_only|fc": {
+      "asr_excl": 0.622857,
+      "asr_excl_denominator": 175,
+      "asr_registered": 0.622857,
+      "asr_registered_denominator": 175,
+      "attacked": 175,
+      "deferred_share_attacked": 0.0,
+      "end_states_attacked": {
+       "success": 109,
+       "unchanged": 66
+      },
+      "excluded_separate_category": {
+       "budget_exhausted": 0,
+       "not_finished": 0
+      },
+      "ledger_rows": 205,
+      "max_queries": 148,
+      "mean_queries_attacked": 51.097143,
+      "median_queries_attacked": 47,
+      "not_finished": 0,
+      "planned": 205,
+      "skipped_clean_wrong": 30,
+      "token_position": {
+       "clean_longer_than_256": 0,
+       "clean_longer_than_max_length": 0,
+       "entirely_beyond_128": 0,
+       "entirely_beyond_256": 0,
+       "ids_identical": 0,
+       "max_adv_tokens": 30,
+       "max_clean_tokens": 24,
+       "partly_beyond_128": 0,
+       "partly_beyond_256": 0,
+       "successes_in_store": 109
+      }
+     },
+     "textfooler|content_only|averitec_chrono": {
+      "asr_excl": 0.72549,
+      "asr_excl_denominator": 204,
+      "asr_registered": 0.72549,
+      "asr_registered_denominator": 204,
+      "attacked": 204,
+      "deferred_share_attacked": 0.0,
+      "end_states_attacked": {
+       "success": 148,
+       "unchanged": 56
+      },
+      "excluded_separate_category": {
+       "budget_exhausted": 0,
+       "not_finished": 0
+      },
+      "ledger_rows": 243,
+      "max_queries": 197,
+      "mean_queries_attacked": 59.289216,
+      "median_queries_attacked": 50.0,
+      "not_finished": 0,
+      "planned": 243,
+      "skipped_clean_wrong": 39,
+      "token_position": {
+       "clean_longer_than_256": 0,
+       "clean_longer_than_max_length": 0,
+       "entirely_beyond_128": 0,
+       "entirely_beyond_256": 0,
+       "ids_identical": 0,
+       "max_adv_tokens": 88,
+       "max_clean_tokens": 70,
+       "partly_beyond_128": 0,
+       "partly_beyond_256": 0,
+       "successes_in_store": 148
+      }
+     },
+     "textfooler|content_only|fc": {
+      "asr_excl": 0.4,
+      "asr_excl_denominator": 175,
+      "asr_registered": 0.4,
+      "asr_registered_denominator": 175,
+      "attacked": 175,
+      "deferred_share_attacked": 0.0,
+      "end_states_attacked": {
+       "success": 70,
+       "unchanged": 105
+      },
+      "excluded_separate_category": {
+       "budget_exhausted": 0,
+       "not_finished": 0
+      },
+      "ledger_rows": 205,
+      "max_queries": 110,
+      "mean_queries_attacked": 33.428571,
+      "median_queries_attacked": 31,
+      "not_finished": 0,
+      "planned": 205,
+      "skipped_clean_wrong": 30,
+      "token_position": {
+       "clean_longer_than_256": 0,
+       "clean_longer_than_max_length": 0,
+       "entirely_beyond_128": 0,
+       "entirely_beyond_256": 0,
+       "ids_identical": 0,
+       "max_adv_tokens": 24,
+       "max_clean_tokens": 22,
+       "partly_beyond_128": 0,
+       "partly_beyond_256": 0,
+       "successes_in_store": 70
+      }
+     }
+    },
+    "claim_hashes_beyond": {},
+    "dropped_queries": 0,
+    "dropped_seconds": 0.0,
+    "name": "r3-a",
+    "scorer_max_length": 256,
+    "scorer_truncated_records": {},
+    "session_timeout_s": 14400,
+    "sessions": 1,
+    "tokenizer": {
+     "hf_id": "microsoft/mdeberta-v3-base",
+     "revision": "a0484667b22365f84929a935b5e50a51f71f159d"
+    }
+   },
+   "R3-dbe29a3a8c-s0": {
+    "c1_max_length": 128,
+    "cells": {
+     "textfooler|full|averitec_chrono": {
+      "asr_excl": 0.032258,
+      "asr_excl_denominator": 124,
+      "asr_registered": 0.032258,
+      "asr_registered_denominator": 124,
+      "attacked": 124,
+      "deferred_share_attacked": 0.548387,
+      "end_states_attacked": {
+       "deferred": 68,
+       "success": 4,
+       "unchanged": 52
+      },
+      "excluded_separate_category": {
+       "budget_exhausted": 0,
+       "not_finished": 0
+      },
+      "ledger_rows": 130,
+      "max_queries": 297,
+      "mean_queries_attacked": 69.209677,
+      "median_queries_attacked": 61.5,
+      "not_finished": 0,
+      "planned": 130,
+      "skipped_clean_wrong": 6,
+      "token_position": {
+       "clean_longer_than_256": 0,
+       "clean_longer_than_max_length": 0,
+       "entirely_beyond_128": 0,
+       "entirely_beyond_256": 0,
+       "ids_identical": 0,
+       "max_adv_tokens": 73,
+       "max_clean_tokens": 61,
+       "partly_beyond_128": 0,
+       "partly_beyond_256": 0,
+       "successes_in_store": 72
+      }
+     }
+    },
+    "claim_hashes_beyond": {},
+    "dropped_queries": 0,
+    "dropped_seconds": 0.0,
+    "name": "r3-b-last200-textfooler",
+    "scorer_max_length": 256,
+    "scorer_truncated_records": {
+     "scorer_truncated_attack_averitec_chrono": 0,
+     "scorer_truncated_pairs_attack_averitec_chrono": 0
+    },
+    "session_timeout_s": 25200,
+    "sessions": 1,
+    "tokenizer": {
+     "hf_id": "microsoft/mdeberta-v3-base",
+     "revision": "a0484667b22365f84929a935b5e50a51f71f159d"
+    }
+   },
+   "R3-ed263acff8-s0": {
+    "c1_max_length": 128,
+    "cells": {
+     "pwws|full|averitec_chrono": {
+      "asr_excl": 0.074074,
+      "asr_excl_denominator": 108,
+      "asr_registered": 0.074074,
+      "asr_registered_denominator": 108,
+      "attacked": 108,
+      "deferred_share_attacked": 0.509259,
+      "end_states_attacked": {
+       "deferred": 55,
+       "success": 8,
+       "unchanged": 45
+      },
+      "excluded_separate_category": {
+       "budget_exhausted": 0,
+       "not_finished": 0
+      },
+      "ledger_rows": 113,
+      "max_queries": 344,
+      "mean_queries_attacked": 116.314815,
+      "median_queries_attacked": 108.0,
+      "not_finished": 0,
+      "planned": 113,
+      "skipped_clean_wrong": 5,
+      "token_position": {
+       "clean_longer_than_256": 0,
+       "clean_longer_than_max_length": 0,
+       "entirely_beyond_128": 0,
+       "entirely_beyond_256": 0,
+       "ids_identical": 0,
+       "max_adv_tokens": 88,
+       "max_clean_tokens": 70,
+       "partly_beyond_128": 0,
+       "partly_beyond_256": 0,
+       "successes_in_store": 63
+      }
+     }
+    },
+    "claim_hashes_beyond": {},
+    "dropped_queries": 0,
+    "dropped_seconds": 0.0,
+    "name": "r3-b-first200-pwws",
+    "scorer_max_length": 256,
+    "scorer_truncated_records": {
+     "scorer_truncated_attack_averitec_chrono": 0,
+     "scorer_truncated_pairs_attack_averitec_chrono": 0
+    },
+    "session_timeout_s": 21600,
+    "sessions": 1,
+    "tokenizer": {
+     "hf_id": "microsoft/mdeberta-v3-base",
+     "revision": "a0484667b22365f84929a935b5e50a51f71f159d"
+    }
+   },
+   "R3-f2b2a34665-s0": {
+    "c1_max_length": 128,
+    "cells": {
+     "deepwordbug|full|averitec_chrono": {
+      "asr_excl": 0.009259,
+      "asr_excl_denominator": 108,
+      "asr_registered": 0.009259,
+      "asr_registered_denominator": 108,
+      "attacked": 108,
+      "deferred_share_attacked": 0.064815,
+      "end_states_attacked": {
+       "deferred": 7,
+       "success": 1,
+       "unchanged": 100
+      },
+      "excluded_separate_category": {
+       "budget_exhausted": 0,
+       "not_finished": 0
+      },
+      "ledger_rows": 113,
+      "max_queries": 61,
+      "mean_queries_attacked": 22.87963,
+      "median_queries_attacked": 23.0,
+      "not_finished": 0,
+      "planned": 113,
+      "skipped_clean_wrong": 5,
+      "token_position": {
+       "clean_longer_than_256": 0,
+       "clean_longer_than_max_length": 0,
+       "entirely_beyond_128": 0,
+       "entirely_beyond_256": 0,
+       "ids_identical": 0,
+       "max_adv_tokens": 55,
+       "max_clean_tokens": 45,
+       "partly_beyond_128": 0,
+       "partly_beyond_256": 0,
+       "successes_in_store": 8
+      }
+     }
+    },
+    "claim_hashes_beyond": {},
+    "dropped_queries": 0,
+    "dropped_seconds": 0.0,
+    "name": "r3-b-first200-deepwordbug",
+    "scorer_max_length": 256,
+    "scorer_truncated_records": {
+     "scorer_truncated_attack_averitec_chrono": 0,
+     "scorer_truncated_pairs_attack_averitec_chrono": 0
+    },
+    "session_timeout_s": 21600,
+    "sessions": 1,
+    "tokenizer": {
+     "hf_id": "microsoft/mdeberta-v3-base",
+     "revision": "a0484667b22365f84929a935b5e50a51f71f159d"
+    }
+   }
+  },
+  "scope": "victim A R3-c46605d5c5-s0 (P4-1) and the eight victim-B runs (P4-2a, P4-2b); CPU post-processing only, no run identity or config changed",
+  "timeout_rule": "not_finished = planned positives - ledger rows (items a session deadline / timeout left unfinished; ticket seals finished items only); budget_exhausted = attacked items whose end state is budget_exhausted; both are a separate category and are NOT in asr_excl's denominator (asr_excl = strict success / (attacked - budget_exhausted); not_finished items are never attacked rows). asr_registered (strict success / attacked, the spec item 14 denominator) is shown beside it; the two are equal in every cell because both excluded counts are 0",
+  "token_rule": "successes kept in the run's private adversarial store (every un-gated flip: strict success plus deferred) tokenised with the run's own C1 tokenizer (config.resolved.json components.c1 hf_id/revision, offline), ids WITH special tokens, untruncated; changed region of the adversarial ids = [p, len_adv - s) with p = common prefix, s = common suffix (p + s <= min length); entirely beyond T iff p >= T; partly beyond iff p < T < len_adv - s; reported for T = 256 (the protocol's rule) and T = the C1 max_length 128 (the sealed victim truncation)",
+  "token_where": "computed on turing inside release b9e841a (CPU, CUDA_VISIBLE_DEVICES empty), where the private stores live; texts held in memory only; output = counts and claim hashes; script /tmp/audit-script.py",
+  "totals": {
+   "budget_exhausted": 0,
+   "dropped_seconds": 0.0,
+   "entirely_beyond_128": 0,
+   "entirely_beyond_256": 0,
+   "not_finished": 0,
+   "partly_beyond_128": 0,
+   "partly_beyond_256": 0,
+   "successes_in_store": 1355
+  }
+ },
+ "preflight": [
+  "PREFLIGHT release: ok (b9e841ad430333224edc3382b4421efb312c2578)",
+  "PREFLIGHT venv: ok (/data/aac/releases/b9e841ad430333224edc3382b4421efb312c2578/src/aac/__init__.py)",
+  "PREFLIGHT torch-build: ok (2.14.1+cu126 12.6)",
+  "PREFLIGHT symlinks: ok (runs data/raw/{averitec,incrediblae} data/derived .hf -> /data/aac)",
+  "PREFLIGHT raw-layout: ok",
+  "PREFLIGHT submodules: ok",
+  "PREFLIGHT index: ok (94 runs)",
+  "PREFLIGHT manifest-check: ok (data manifest: ok 34 entries (16 re-hashed here, 17 checked against data/derived/data-manifest.json, 1 private excused, 3 derived halves regenerated) data_version=648d8eb14b0e24a73923be0e0094310458b98da91c61d39b734694100f64746b)",
+  "PREFLIGHT offline-models: ok (18 passed in 6.85s)",
+  "INFO sentinel /data/aac/GPU_CLEARED: present; compute_apps=0 (read-only nvidia-smi)",
+  "preflight: 0 FAIL"
+ ],
+ "preflight_fail_count": 0,
+ "private_store_finding": {
+  "action": "not copied; scripts/pull_private_bundle.sh is limited to the RD pooled EV bundle authorised by adjustments row 37; moving adversarial stores to cpu-host would change that contract and needs an explicit protocol decision (and a adjustments row); the R46 counts were computed in place on turing instead",
+  "cpu-host": "absent for every turing R3 run",
+  "cause": "by design, not a pull fault: scripts/gpu_pull.sh rsyncs turing:/data/aac/runs/<RUN_ID>/ only, and the store lives outside runs/ (data/derived/private/adversarial/); sync_from_turing.sh excludes data/derived/private/ explicitly (03-SECURITY R3, Stage); the store contract (aac.attacks.private_store: the texts never leave the host that ran the attack), adjustments row 54 (the replay reads the store of the host that ran the attack), the 04-10 defense row 'Score where the texts live' (rejects copying the stores to one host) and this plan's must_have and threat T-04-34 all keep it on turing",
+  "turing": "release data/derived/private/adversarial/ is 0700; R3-c46605d5c5-s0.jsonl 0600 909 lines; P4-2a 8/63/69/61 lines; P4-2b 19/71/83/72 lines (= un-gated flips per run: success + deferred); sha256 prefixes recorded in the 04-11 SUMMARY"
+ },
+ "release_reuse_check": {
+  "ancestor": "git merge-base --is-ancestor b9e841a HEAD: yes (HEAD e69945962b95a7147097483e4b9326b7708f15ce)",
+  "diff_stat": "attacks/runner/tests/test_bodega_shim.py | 157 +++ (1 file, test only; no runtime file, no r3-b-* config changed)",
+  "not_in_release": "04-10 BODEGA scoring step (5323a6d, acf63aa, 6bb0493, a4ebf4b: attacks/scoring, src/aac/attacks/bodega.py, cli.py, run/config.py, run/identity.py, mk/bodega.mk, scripts/turing_run.sh); a sealed post-attack CPU step (regime BS), not read by make attack, so P4-2a and P4-2b do not need it",
+  "rule": "reuse the 04-09 SHA when git diff <SHA> HEAD over src/aac/serve, scripts/attack_session.sh, attacks/runner and configs/regimes/real/r3-b-* holds no runtime change",
+  "turing": "AAC_GIT_SHA b9e841ad430333224edc3382b4421efb312c2578; .venv-main and .venv-attack present in the release; producers R1-4805ab6250-s0, C1-145ca7f388-s0, EV-7ceb148b39-s0, C2S-3530beba01-s0 SEALED in runs/"
+ },
+ "release_reused": true,
+ "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+ "run_ids_resolved": {
+  "configs/regimes/real/r3-b-first200-bert_attack.yaml": {
+   "exists_on_turing": false,
+   "run_id_resolved": "R3-8242a107fc-s0"
+  },
+  "configs/regimes/real/r3-b-first200-deepwordbug.yaml": {
+   "exists_on_turing": false,
+   "run_id_resolved": "R3-f2b2a34665-s0"
+  },
+  "configs/regimes/real/r3-b-first200-pwws.yaml": {
+   "exists_on_turing": false,
+   "run_id_resolved": "R3-ed263acff8-s0"
+  },
+  "configs/regimes/real/r3-b-first200-textfooler.yaml": {
+   "exists_on_turing": false,
+   "run_id_resolved": "R3-39b2489296-s0"
+  },
+  "configs/regimes/real/r3-b-last200-bert_attack.yaml": {
+   "exists_on_turing": false,
+   "run_id_resolved": "R3-330efa45f0-s0"
+  },
+  "configs/regimes/real/r3-b-last200-deepwordbug.yaml": {
+   "exists_on_turing": false,
+   "run_id_resolved": "R3-2721e6be83-s0"
+  },
+  "configs/regimes/real/r3-b-last200-pwws.yaml": {
+   "exists_on_turing": false,
+   "run_id_resolved": "R3-ac741ca97d-s0"
+  },
+  "configs/regimes/real/r3-b-last200-textfooler.yaml": {
+   "exists_on_turing": false,
+   "run_id_resolved": "R3-dbe29a3a8c-s0"
+  },
+  "rule": "aac run-id --config <c> --seed 0 inside the release on turing (AAC_GIT_SHA from the release, CPU env); the sealed id is the one gpu-run prints"
+ },
+ "schema": "phase4-gpu-session/1",
+ "session_gpu_hours": 2.788606,
+ "session_gpu_hours_rule": "sum of batches.*.gpu_hours (run-record gpu_hours, 03-10 convention) + dropped_gpu_hours (0); tmux walls P4-2a 13:47:02Z-15:14:52Z (5,270 s), P4-2b 15:24:17Z-17:03:12Z (5,935 s)",
+ "session_timeout_s": {
+  "first200": 21600,
+  "last200": 25200
+ },
+ "turing_host": "turing",
+ "watcher": {
+  "after": "0 compute apps, 2 MiB, 0 %, no tmux session; watcher stopped and its files removed from turing (no watcher process left)",
+  "end_utc": "17:08:43",
+  "first_utc": "13:46:40",
+  "foreign_apps_note": "the single aac-C-p42a foreign_apps sample (13:56:14Z) is PID 287629, our own victim server of P4-2a line 1, listed by nvidia-smi while it exited; /proc was gone so its cwd read as outside the release; no process outside this project used the card",
+  "interval_s": 10,
+  "last_utc": "17:08:23",
+  "per_session": {
+   "aac-C-p42a": {
+    "compute_app_samples": 498,
+    "cwd_in_release": 497,
+    "env_pins_ok": 497,
+    "foreign_apps": 1,
+    "max_compute_apps": 1,
+    "peak_gpu_mib": 9547,
+    "runner_peak_vmhwm_kb": 2585132,
+    "samples": 523,
+    "server_peak_vmhwm_kb": 8177268
+   },
+   "aac-C-p42b": {
+    "compute_app_samples": 565,
+    "cwd_in_release": 565,
+    "env_pins_ok": 565,
+    "foreign_apps": 0,
+    "max_compute_apps": 1,
+    "peak_gpu_mib": 11239,
+    "runner_peak_vmhwm_kb": 2607344,
+    "samples": 590,
+    "server_peak_vmhwm_kb": 8203372
+   },
+   "idle": {
+    "foreign_apps": 0,
+    "max_compute_apps": 0,
+    "peak_gpu_mib": 2,
+    "samples": 90
+   }
+  },
+  "runner_peak_rss_rule": "VmHWM of the env-attack python process itself (pgrep -f attacks/runner/openattack_runner.py, /proc/<pid>/exe a python binary; wrappers excluded)",
+  "samples": 1203,
+  "script": "04-09 watcher pattern, files /tmp/aac-0411-watch.{sh,on,tsv} on turing (removed)"
+ },
+ "corrections": [
+  {
+   "date": "2026-10-19",
+   "field": "operator_reply[1].given",
+   "now": "2026-10-18 ~15:20 local (UTC+3) = ~12:20Z, before the P4-2a dispatch 2026-10-18T13:47:02Z",
+   "was": "2026-10-18 ~15:20 Europe/London",
+   "source": "session transcript 1130218a-3dd7-4e3a-8d2c-c19275b27cdf.jsonl: advance go #2 ('GPU has my go ... Okey you have it xd') is stamped 2026-10-18T18:22:11Z and was recorded as '21:22 local', so the protocol's local clock is UTC+3 (Europe/Athens), not Europe/London; the 'Europe/London' labels below were written by the recording agent, not by the protocol",
+   "evidence": ".planning/phases/04-attacks-and-ablations-c/04-UAT.md (04-11 D1)"
+  }
+ ]
+}

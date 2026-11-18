@@ -1,0 +1,18 @@
+extends: [../base.yaml, ../stats.yaml]
+name: r1-chrono-full
+regime: R1
+system: full
+seed: 0
+data:
+ dataset: fixture
+ manifest: tests/fixtures/corpus/MANIFEST.sha256
+ split_manifest: tests/fixtures/corpus/splits/averitec-chrono-fx.json
+ claims: tests/fixtures/corpus/claims.json
+ labels: tests/fixtures/corpus/labels.csv
+ evidence: tests/fixtures/corpus/evidence.json
+ targets: [averitec_chrono]
+components:
+ c1: {enabled: true, kind: stub-dirichlet, num_labels: 4, concentration: 3.0}
+ c2: {enabled: true, kind: stub-fixture, provider: fixture, k_retrieve: 5, relevance_floor: 0.35}
+ c4: {enabled: true, methods: [temperature, isotonic], select_by: val_ece, bins: 15, fit_on: val_cal, temperature: 0.5}
+ c5: {enabled: true, coverage_target: 0.80, report_coverages: [1.0, 0.9, 0.8, 0.7], fit_on: val_cal, conflict_floor: 0.5}

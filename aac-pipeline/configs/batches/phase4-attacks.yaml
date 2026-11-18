@@ -1,0 +1,48 @@
+ceiling_gpu_hours: 38.762137
+projection_rule: >-
+ applied by python -m aac.attacks.phase4_budget once the measuring runs are sealed in
+ runs/INDEX.json. After P4-1 (r3-a sealed), each P4-2a line is replaced by: TextFooler projected_B = n_B x
+ mean_q_A(TextFooler, AVeriTeC) x 1.9 x 0.169220 s (1.9 = the pilot BERT-Attack B/A query ratio 112.6/59.2 [L]);
+ DeepWordBug = n_B x (20.8 + 3) x 0.169220 s (20.8 = mean regex tokens of the subset's Refuted claims);
+ PWWS and BERT-Attack = n_B x the pilot victim-B runner s/item (11.375473 and 19.050585 s). After P4-2a (its runs
+ sealed), each P4-2b line = 130/113 x the measured P4-2a session seconds of the same recipe. Dispatch a batch only when
+ phase4_budget prints STOP-RULE: ok (Phase 4 used + batch high <= 38.762137 and project used + batch high <= 50, with
+ one session_timeout_s window per attack line added while scripts/attack_session.sh lacks the shared-deadline
+ marker).
+runs:
+ - {target: attack, config: configs/regimes/real/r3-a.yaml, seed: 0, batch: configs/batches/phase4-p4-1.txt,
+ est_gpu_hours: [0.2, 3.7],
+ source: ": expected 0.2-0.6 [L], bound 3.7 = projection rows for victim A on AVeriTeC + FC [L]"}
+ - {target: attack, config: configs/regimes/real/r3-b-first200-deepwordbug.yaml, seed: 0, batch: configs/batches/phase4-p4-2a.txt,
+ est_gpu_hours: [0.13, 0.3],
+ source: " P4-2a: DWB q about (20.8 + 3) x 113 x 0.17 s = 0.13 GPU-h; high 0.3 (high 4.6 = the per-recipe bound inside the 14.8 GPU-h P4-2a batch bound (113 x 1000 x 0.169220 s = 5.3 h capped)) [L]"}
+ - {target: attack, config: configs/regimes/real/r3-b-first200-pwws.yaml, seed: 0, batch: configs/batches/phase4-p4-2a.txt,
+ est_gpu_hours: [0.36, 4.6],
+ source: " P4-2a: PWWS 113 x 11.375473 s/item (pilot victim B) = 0.36 GPU-h; high 4.6 (high 4.6 = the per-recipe bound inside the 14.8 GPU-h P4-2a batch bound (113 x 1000 x 0.169220 s = 5.3 h capped)) [L]"}
+ - {target: attack, config: configs/regimes/real/r3-b-first200-bert_attack.yaml, seed: 0, batch: configs/batches/phase4-p4-2a.txt,
+ est_gpu_hours: [0.6, 4.6],
+ source: " P4-2a: BERT-Attack 113 x 19.050585 s/item (pilot victim B) = 0.60 GPU-h; high 4.6 (high 4.6 = the per-recipe bound inside the 14.8 GPU-h P4-2a batch bound (113 x 1000 x 0.169220 s = 5.3 h capped)) [L]"}
+ - {target: attack, config: configs/regimes/real/r3-b-first200-textfooler.yaml, seed: 0, batch: configs/batches/phase4-p4-2a.txt,
+ est_gpu_hours: [1.1, 4.6],
+ source: " P4-2a: TextFooler q 200-600 x 113 x 0.17 s = 1.1-3.2 GPU-h; high 4.6 (high 4.6 = the per-recipe bound inside the 14.8 GPU-h P4-2a batch bound (113 x 1000 x 0.169220 s = 5.3 h capped)) [L]"}
+ - {target: attack, config: configs/regimes/real/r3-b-last200-deepwordbug.yaml, seed: 0, batch: configs/batches/phase4-p4-2b.txt,
+ est_gpu_hours: [0.149558, 0.345133],
+ source: " P4-2b: the P4-2a deepwordbug range [0.13, 0.3] x 130/113 (130 Refuted in the last 200 ids) [L]"}
+ - {target: attack, config: configs/regimes/real/r3-b-last200-pwws.yaml, seed: 0, batch: configs/batches/phase4-p4-2b.txt,
+ est_gpu_hours: [0.414159, 5.292035],
+ source: " P4-2b: the P4-2a pwws range [0.36, 4.6] x 130/113 (130 Refuted in the last 200 ids) [L]"}
+ - {target: attack, config: configs/regimes/real/r3-b-last200-bert_attack.yaml, seed: 0, batch: configs/batches/phase4-p4-2b.txt,
+ est_gpu_hours: [0.690265, 5.292035],
+ source: " P4-2b: the P4-2a bert_attack range [0.6, 4.6] x 130/113 (130 Refuted in the last 200 ids) [L]"}
+ - {target: attack, config: configs/regimes/real/r3-b-last200-textfooler.yaml, seed: 0, batch: configs/batches/phase4-p4-2b.txt,
+ est_gpu_hours: [1.265487, 5.292035],
+ source: " P4-2b: the P4-2a textfooler range [1.1, 4.6] x 130/113 (130 Refuted in the last 200 ids) [L]"}
+ - {target: attack, config: configs/regimes/real/r3-beam-a.yaml, seed: 0, batch: configs/batches/phase4-p4-4.txt,
+ est_gpu_hours: [1.0, 2.5],
+ source: " P4-4: victim A about 2.5 GPU-h, roberta-large on the CPU dominates (13-20 s/item, A4) [L]"}
+ - {target: attack, config: configs/regimes/real/r3-beam-b-first200.yaml, seed: 0, batch: configs/batches/phase4-p4-4.txt,
+ est_gpu_hours: [2.0, 6.1],
+ source: " P4-4: victim B q 300-650 x 0.17 s + roberta-large CPU, about half of B 4.4-8.8 (243 items) per half; high 6.1 = 130 x 1000 x 0.169220 s [L]"}
+ - {target: attack, config: configs/regimes/real/r3-beam-b-last200.yaml, seed: 0, batch: configs/batches/phase4-p4-4.txt,
+ est_gpu_hours: [2.0, 6.1],
+ source: " P4-4: victim B q 300-650 x 0.17 s + roberta-large CPU, about half of B 4.4-8.8 (243 items) per half; high 6.1 = 130 x 1000 x 0.169220 s [L]"}

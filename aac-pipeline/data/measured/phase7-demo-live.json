@@ -1,0 +1,31 @@
+{
+ "live": "not run",
+ "note": "durations are wall seconds of one run each on the development machine (CPU), not clock values; the frozen files runs/INDEX.json, evidence-pack/MANIFEST.sha256, reports/INDEX.json and analyst/analyst-events.jsonl were byte-identical before and after",
+ "reason": "the sealed run's evidence provider needs the private shortlist sentence cache of SL-2320b621a7-s0 and the private index and vectors of EV-7ceb148b39-s0, which were built on the GPU host and are not on the development machine",
+ "schema": "aac-phase7-demo-live/1",
+ "steps": [
+  {
+   "attempt_seconds": 21,
+   "last_line": "writein-demo-live: FAILED (demo_one_claim.py failed)",
+   "lines": [
+    "demo-one-claim: FAILED (pipeline not built: FileNotFoundError: [Errno 2] No such file or directory: 'build/demo-live/data/derived/private/shortlist/SL-2320b621a7-s0/sentences.jsonl.gz')"
+   ],
+   "result": "not run",
+   "seconds": null,
+   "target": "make writein-demo-live"
+  },
+  {
+   "last_line": "analyst-demo: 1 event joined record=ca2713a2-dc3f-5a4c-8473-7b72bdd35bd0 run=R1-4805ab6250-s0 seq=1144 seals unchanged",
+   "result": "ok",
+   "seconds": 74,
+   "target": "make analyst-demo"
+  },
+  {
+   "last_line": "pack-tracer: thin T-D1 identical records=1211 violations=0 claim_text=0 user_id=0 seconds=10/10",
+   "ns": "build/pack-tracer-demo",
+   "result": "ok",
+   "seconds": 85,
+   "target": "make pack-tracer RUNS=thin"
+  }
+ ]
+}

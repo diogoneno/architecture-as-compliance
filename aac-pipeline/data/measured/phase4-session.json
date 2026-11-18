@@ -1,0 +1,1239 @@
+{
+ "attempts": [
+  {
+   "attempt": 1,
+   "c1_timing_check": {
+    "note": "isolated mdeberta-v3-base forward at 128 tokens under the same host load, after the stop",
+    "threads_4": {
+     "batch32_s": 6.984,
+     "single_s": 0.322
+    },
+    "threads_8": {
+     "batch32_s": 5.414,
+     "single_s": 0.233
+    }
+   },
+   "outcome": "unsealed, 0 items finished; the restart with ATTACK_FORCE=1 moved it to runs/_superseded/R3-1b4cffb292-s0-unsealed (aac.run.finalize.claim_run_dir; kept, never deleted)",
+   "release": "63e095b1b62d47b0caff3b8aad6ebb1316cab538",
+   "run_id": "R3-1b4cffb292-s0",
+   "started_utc": "2026-10-18T17:42:35Z",
+   "stopped_by": "this executor (SIGTERM to its own attack_session.sh; its trap stopped its own runner and server)",
+   "stopped_utc": "2026-10-18T17:50:48Z",
+   "why": "thread oversubscription: default torch threads (28) in the victim server on a 28-core host also running another executor's tests (load average 36 to 51); 285 queries in 447 s, mean 2.888 s per single-text call (147 calls), 7.3 s per 64-text batch, so the fixed per-call cost was about 2.3 s and the session could not have finished inside its deadline"
+  },
+  {
+   "attempt": 2,
+   "command": "OMP_NUM_THREADS=8 MKL_NUM_THREADS=8 AAC_THREADS=4 make cpu-host-attack BENGIO_SHA=63e095b1b62d47b0caff3b8aad6ebb1316cab538 RUN=configs/regimes/real/r3-a-rd.yaml SEED=0 ATTACK_TIMEOUT=43200 ATTACK_FORCE=1",
+   "deadline_s": 43200,
+   "ended_utc": "2026-10-19T02:20:58Z",
+   "outcome": "sealed R3-1b4cffb292-s0 (SEALED c3d4d6c2fdad), 1 session, deadline not reached, 0 dropped",
+   "release": "63e095b1b62d47b0caff3b8aad6ebb1316cab538",
+   "run_id": "R3-1b4cffb292-s0",
+   "started_utc": "2026-10-18T17:54:03Z"
+  }
+ ],
+ "backup": {
+  "command": "make backup",
+  "destination": "/mnt/loki/backups/dissertation/2026-10-19",
+  "ended_utc": "2026-10-19T10:02:14Z",
+  "head": "618db95",
+  "independent_checks": {
+   "lines_under_R3-1b4cffb292-s0": 1106,
+   "lines_under_R3-c89ffa5921-s0": 290,
+   "manifest_lines_matching_secrets_or_derived_private": 0,
+   "session_file_listed": true
+  },
+  "line": "backup: /mnt/loki/backups/dissertation/2026-10-19  (MANIFEST.sha256: 17094 files, verified; no secrets/, no private lane, no build/, no raw rows, no rd5/)",
+  "manifest_files": 17094,
+  "not_in_backup": "this backup block, the defense rows, deferred items and 04-13-SUMMARY (committed after 618db95)",
+  "started_utc": "2026-10-19T09:16:24Z",
+  "verified": true
+ },
+ "beam_expected_outcome": {
+  "deadline_s": 21600,
+  "deadline_why": "one session deadline (row 47, D15), passed by the caller (ATTACK_TIMEOUT); 6 h, chosen before the run as the upper half of the 04-RESEARCH [L] cpu-host lane estimate; at the deadline the server seals the finished items, the rest are reported as not finished (R47) and the session is not resumed",
+  "measured": "2 items ended budget_exhausted after 2 queries, as stated before the run; 36 more spent all 1,000 queries during the beam search",
+  "order_note": "the plan orders BeamAttack before the 20 R4 RD runs; this executor ran the R4 RD runs first (02:21:41Z to 04:57:11Z) and BeamAttack after; see 04-13-SUMMARY adjustments",
+  "recorded_before_run": true,
+  "recorded_utc": "2026-10-19T05:05:00Z",
+  "statement": "BeamAttack (imp=bert, k 3, width 10, early_stop 1; roberta-large masked LM on the runner CPU) attacks victim A on the same 136 RD label-1 items at budget 1,000. Its leave-one-out importance pass is one batch of n texts, n = words of text.replace('\\n',' ').split(' '); when n + 2 > 1,000 the batch is refused and the item ends budget_exhausted after 2 queries (04-01-SUMMARY edge case). On RD that applies to 2 label-1 items (max 2,070 words; 6 above 500 words), so at least 2 budget_exhausted rows are expected; long items may also spend the budget during the beam search. Victim A's clean decision was wrong on 1 item in r3-a-rd, so about 135 attacked items are expected. Wall time is unmeasured on RD [L]: roberta-large on the CPU cost 13-20 s per claim-length item (04-RESEARCH A4), and RD texts are several times longer.",
+  "threads": "victim server OMP/MKL 8 (as r3-a-rd); runner AAC_THREADS=8 (roberta-large runs in the runner)"
+ },
+ "completed_utc": "2026-10-19T10:05:00Z",
+ "cpu_wall_seconds": {
+  "note": "make wall per job (release build to release removal, seals included); the stand-alone aac validate re-runs (6,192 s r3-a-rd, overlapping the R4 runs; 1,278 s beam) and the backup (2,750 s) are not included",
+  "r3-a-rd": 30415,
+  "r3-a-rd_attempt_1": 493,
+  "r3-beam-a-rd": 14116,
+  "r4-rd_launch_1": 3747,
+  "r4-rd_launch_2": 5554,
+  "total_jobs": 54325
+ },
+ "cut_state": {
+  "checked_utc": "2026-10-18T17:52:00Z",
+  "command": "aac.reports.fmt.cut_step(<id>) over configs/cuts.yaml",
+  "cut_1_beamattack": {
+   "active": false,
+   "fired_on": null,
+   "trigger_date": "2026-10-29"
+  },
+  "cut_2_subset_200": {
+   "active": false,
+   "fired_on": null,
+   "trigger_date": "2026-10-29"
+  },
+  "cut_3_r4_seeds_3": {
+   "active": false,
+   "fired_on": null,
+   "trigger_date": "2026-10-31"
+  },
+  "cut_4_drop_rd": {
+   "active": false,
+   "fired_on": null,
+   "trigger_date": "2026-10-31"
+  },
+  "today_europe_london": "2026-10-18",
+  "verdict": "no cut has fired and every trigger date is in the future: r3-a-rd, r3-beam-a-rd and the 20 R4 RD runs (seeds 0-4) are all allowed"
+ },
+ "dry_run": {
+  "command": "make cpu-host-attack RUN=configs/regimes/real/r3-a-rd.yaml SEED=0 DRY=1",
+  "note": "the real run uses a release of the HEAD at launch, so its id differs",
+  "release": "c0ea17238be57f1b368fe308135789003c19d3d5",
+  "run_id_at_that_release": "R3-6669a03500-s0"
+ },
+ "expected_outcome": {
+  "recorded_before_run": true,
+  "source": "04-RESEARCH Pitfall 2 and the query-count mechanics; rd_length_counts above",
+  "statement": "Victim A (content-only C1 c1-chrono, max_length 128) is attacked on the 136 label-1 RD items whose clean decision is correct, budget 1,000 per item and recipe. PWWS spends (n + 1) + sum(|synonyms| + 1) queries before its first substitution, so on long RD texts it is expected to spend the whole budget on saliency and synonym queries: budget_exhausted rows are expected for PWWS, at least on the 11 label-1 items above 500 regex tokens (BODEGA's unbudgeted PWWS averaged 1,016.7 queries per RD example; verification record row 5b). TextFooler and BERT-Attack spend 1 + n leave-one-out queries first, so the 3 items with at least 999 regex tokens are expected to exhaust before any substitution and some long items may exhaust during the candidate search; DeepWordBug spends about n + 3 queries, so the same 3 items may exhaust. Budget-exhausted items are counted as their own end state, never dropped (04-RESEARCH Pitfall 2). C1 reads only the first 128 tokens, and 77 of the 136 label-1 texts are longer, so perturbations past token 128 cannot change victim A's decision; the R46 post-hoc counts report flips beyond tokens 128 and 256. The token thresholds are tokenizer-dependent (OpenAttack tokenises differently from the regex), so the item counts above are [L] approximations."
+ },
+ "gpu_hours": 0,
+ "host": "cpu-host (CPU)",
+ "note_glob": "CPU-only session record; the name phase4-session.json stays outside the phase4-gpu-*.json glob read by aac.attacks.phase4_budget and the projection",
+ "plan": "04-13",
+ "post_hoc_counts": {
+  "method": "computed on cpu-host where the RD texts and the private adversarial store live; counts and claim-hash counts only. R47: post_hoc_counts.py (04-11, copied unchanged): planned = run-record items, not_finished = planned - ledger rows, budget_exhausted from attack-ledger end_state; ASR_excl = success / (attacked - budget_exhausted), the registered ratio = success / attacked shown beside it. R46: beyond256.py (04-11, copied unchanged): each stored success re-tokenised with the run's C1 tokenizer (mdeberta-v3-base @ a0484667, special tokens, untruncated); changed region = between the common prefix and suffix of the clean and adversarial ids; entirely beyond T iff the first change is at index >= T, partly beyond iff the region crosses T",
+  "r3-a-rd": {
+   "deadline_s": 43200,
+   "r46": {
+    "absent_key_means_zero": true,
+    "c1_max_length": 128,
+    "cells": {
+     "bert_attack": {
+      "clean_longer_than_256": 23,
+      "clean_longer_than_max_length": 32,
+      "max_adv_tokens": 1341,
+      "max_clean_tokens": 1316,
+      "partly_beyond_128": 30,
+      "partly_beyond_256": 23,
+      "successes_in_store": 55
+     },
+     "deepwordbug": {
+      "max_adv_tokens": 100,
+      "max_clean_tokens": 88,
+      "successes_in_store": 2
+     },
+     "pwws": {
+      "clean_longer_than_256": 6,
+      "clean_longer_than_max_length": 17,
+      "max_adv_tokens": 628,
+      "max_clean_tokens": 563,
+      "partly_beyond_128": 20,
+      "partly_beyond_256": 7,
+      "successes_in_store": 42
+     },
+     "textfooler": {
+      "clean_longer_than_256": 26,
+      "clean_longer_than_max_length": 38,
+      "max_adv_tokens": 1461,
+      "max_clean_tokens": 1316,
+      "partly_beyond_128": 43,
+      "partly_beyond_256": 28,
+      "successes_in_store": 74
+     }
+    },
+    "clean_and_adversarial_path": "identical: victim_server._infer sends the clean query and every attack query through the same pipeline object (one tokenizer, C1 max_length 128)",
+    "entirely_beyond_128_all_cells": 0,
+    "entirely_beyond_256_all_cells": 0,
+    "scorer_max_length": 256,
+    "tokenizer": {
+     "hf_id": "microsoft/mdeberta-v3-base",
+     "revision": "a0484667b22365f84929a935b5e50a51f71f159d"
+    }
+   },
+   "r47": {
+    "bert_attack": {
+     "asr_excl": 0.555556,
+     "asr_excl_denominator": 99,
+     "asr_registered": 0.407407,
+     "asr_registered_denominator": 135,
+     "budget_exhausted": 36,
+     "not_finished": 0
+    },
+    "deepwordbug": {
+     "asr_excl": 0.015152,
+     "asr_excl_denominator": 132,
+     "asr_registered": 0.014815,
+     "asr_registered_denominator": 135,
+     "budget_exhausted": 3,
+     "not_finished": 0
+    },
+    "pwws": {
+     "asr_excl": 0.477273,
+     "asr_excl_denominator": 88,
+     "asr_registered": 0.311111,
+     "asr_registered_denominator": 135,
+     "budget_exhausted": 47,
+     "not_finished": 0
+    },
+    "textfooler": {
+     "asr_excl": 0.666667,
+     "asr_excl_denominator": 111,
+     "asr_registered": 0.548148,
+     "asr_registered_denominator": 135,
+     "budget_exhausted": 24,
+     "not_finished": 0
+    }
+   },
+   "run_id": "R3-1b4cffb292-s0",
+   "session_timeout_s_config": null
+  },
+  "r3-beam-a-rd": {
+   "deadline_s": 21600,
+   "r46": {
+    "absent_key_means_zero": true,
+    "c1_max_length": 128,
+    "cells": {
+     "beamattack": {
+      "clean_longer_than_256": 28,
+      "clean_longer_than_max_length": 40,
+      "max_adv_tokens": 1321,
+      "max_clean_tokens": 1316,
+      "partly_beyond_128": 22,
+      "partly_beyond_256": 10,
+      "successes_in_store": 89
+     }
+    },
+    "entirely_beyond_128_all_cells": 0,
+    "entirely_beyond_256_all_cells": 0,
+    "scorer_max_length": 256,
+    "tokenizer": {
+     "hf_id": "microsoft/mdeberta-v3-base",
+     "revision": "a0484667b22365f84929a935b5e50a51f71f159d"
+    }
+   },
+   "r47": {
+    "beamattack": {
+     "asr_excl": 0.917526,
+     "asr_excl_denominator": 97,
+     "asr_registered": 0.659259,
+     "asr_registered_denominator": 135,
+     "budget_exhausted": 38,
+     "not_finished": 0
+    }
+   },
+   "run_id": "R3-c89ffa5921-s0",
+   "session_timeout_s_config": null
+  }
+ },
+ "r4_rd": {
+  "fc_sources_checked": "20 R4 FC runs indexed and SEALED on cpu-host before the first RD run (sources_check); fitted_from R4/r4-<key>-fc resolved by name in INDEX",
+  "launch_1": {
+   "env": "CUDA_VISIBLE_DEVICES= OMP/OPENBLAS/MKL_NUM_THREADS=1",
+   "release": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "started_utc": "2026-10-19T02:21:41Z",
+   "stopped_utc": "2026-10-19T03:24:08Z",
+   "stopped_why": "one retrieval-on run took 2,616 s at 1 thread (the 03-12 R2 RD full runs took 400-440 s because they ran at torch's default thread count; the single-thread setting was copied from mk/r2.mk's R2_CPU_ENV, which applies to the tiny-world shortlist only); stopped by this executor at the run boundary, after R4-8417a635be-s0 sealed and before the next run started (no unsealed directory)"
+  },
+  "launch_2": {
+   "ended_utc": "2026-10-19T04:57:11Z",
+   "env": "CUDA_VISIBLE_DEVICES= OMP/OPENBLAS/MKL_NUM_THREADS=8",
+   "note": "the 6 sealed runs were reused (cpu-host-runs index rule) and re-validated",
+   "rc": 0,
+   "release": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c (same release, BENGIO_SHA pinned)",
+   "started_utc": "2026-10-19T03:24:37Z"
+  },
+  "row43_which_side_cut": {
+   "both_cut": 1,
+   "claim_only_cut": 1379,
+   "claim_side_cut": 1380,
+   "claim_tokens_removed_total": 975621,
+   "evidence_only_cut": 0,
+   "evidence_side_cut": 1,
+   "evidence_tokens_removed_total": 5,
+   "method": "post-hoc on cpu-host (scratch cut_side.py, counts only): each flagged record's top-k=5 pooled passages re-tokenised with the scorer tokenizer as tokenize_pairs_cut does; side lengths from token_type_ids",
+   "pairs": 1380,
+   "pairs_flagged_on_recheck": 1380,
+   "reading": "the claim side (the RD text) is cut in all 1,380 pairs; the evidence passage is also cut in 1 pair (5 tokens); no pair has only the evidence cut",
+   "records": 276,
+   "scorer_truncation_files_identical": "all 10 retrieval-on R4 RD runs and R2-aeb17f6f8f-s0 carry byte-identical scorer-truncation.json (sha256 prefix 4b733f21f667): the pooled evidence and the RD texts are the same for every seed"
+  },
+  "threads_note": "6 runs (no-retrieval s0-s4, no-calibration s0) ran at 1 thread, 14 at 8 threads; thread count is not in config_hash; probabilities are rounded to 6 d.p."
+ },
+ "rd_length_counts": {
+  "c1_tokens_label1": {
+   "max": 4609,
+   "mean": 372.772,
+   "median": 177.0,
+   "min": 29,
+   "p90": 817
+  },
+  "chars_label1": {
+   "max": 14086,
+   "mean": 1113.581,
+   "median": 575.5,
+   "min": 90,
+   "p90": 2500
+  },
+  "items_total": 415,
+  "label1": 136,
+  "label1_c1_tokens_gt_128": 77,
+  "label1_c1_tokens_gt_256": 59,
+  "label1_regex_tokens_ge_999": 3,
+  "label1_regex_tokens_gt_500": 11,
+  "label1_whitespace_words_ge_999": 2,
+  "method": "counts only, computed on cpu-host from lane B through aac.data.evidence_providers.load_incrediblae_items (hash-checked); regex tokens = \\w+|[^\\w\\s]; C1 tokens = microsoft/mdeberta-v3-base @ a0484667 tokenizer, special tokens included, untruncated; no text printed",
+  "regex_tokens_label1": {
+   "max": 2425,
+   "mean": 210.934,
+   "median": 106.5,
+   "min": 20,
+   "p90": 444
+  },
+  "whitespace_words_label1": {
+   "max": 2048,
+   "mean": 155.897,
+   "median": 75.5,
+   "min": 11,
+   "p90": 352
+  }
+ },
+ "rules": {
+  "deadline": "one session deadline per attack session (adjustments row 47, D15): r3-a-rd runs with ATTACK_TIMEOUT=43200 s (12 h, the upper end of the 04-RESEARCH [L] cpu-host lane estimate of 6-12 h CPU wall); the config's session_timeout_s stays null (no GPU-hours on cpu-host) and the deadline is passed by the caller only, so the run identity is unchanged; at the deadline the server seals the finished items and the remainder is reported as not finished, not resumed",
+  "one_rd_job_at_a_time": "attack session, regime runs and BODEGA scoring never overlap on cpu-host (04-RESEARCH Pitfall 7); pgrep checked before each start",
+  "rd_texts_stay_on_cpu-host": "adjustments row 37; runs from a local release that links data, never copies; output ids and counts only",
+  "threads": "victim server OMP_NUM_THREADS=8 MKL_NUM_THREADS=8 (inherited from the make environment); runner AAC_THREADS=4 (scripts/attack_env.sh passes it as OMP_NUM_THREADS/MKL_NUM_THREADS). cpu-host.mk sets no thread variables, so the first attempt ran torch at its default of 28 intra-op threads on a shared 28-core host; thread counts are not part of config_hash (env block = python, torch build, transformers, numpy), so the run identity is unchanged"
+ },
+ "runs": [
+  {
+   "adversarial_store": {
+    "host": "cpu-host",
+    "lines": 173,
+    "path_kind": "data/derived/private/adversarial (0700/0600; never copied, never backed up)"
+   },
+   "config": "configs/regimes/real/r3-a-rd.yaml",
+   "counters_check": {
+    "max_server_queries": 1000,
+    "note": "openattack_invocations = runner + 1 exactly on the budget_exhausted rows (the refused 1,001st call)",
+    "openattack_eq_runner_plus_1_rows": 110,
+    "rows": 544,
+    "runner_ne_server_or_over_budget": 0
+   },
+   "gpu_hours": 0.0,
+   "l2": "R3-1b4cffb292-s0: L2: ok (220738 records == 220738 ledger queries)",
+   "ledger_check": {
+    "command": "aac ledger-check runs/R3-1b4cffb292-s0",
+    "output": "R3-1b4cffb292-s0: L2: ok (220738 records == 220738 ledger queries)"
+   },
+   "name": "r3-a-rd",
+   "per_recipe": [
+    {
+     "asr_excl": 0.555556,
+     "asr_excl_denominator": 99,
+     "asr_registered": 0.407407,
+     "asr_registered_denominator": 135,
+     "attack": "bert_attack",
+     "attacked": 135,
+     "budget_exhausted_share": 0.266667,
+     "end_states_attacked": {
+      "budget_exhausted": 36,
+      "deferred": 0,
+      "success": 55,
+      "unchanged": 44
+     },
+     "ledger_rows": 136,
+     "not_finished": 0,
+     "planned": 136,
+     "queries_attacked": {
+      "max": 1000,
+      "mean": 483.925926,
+      "median": 358
+     },
+     "runner_seconds_total": 10930.41548,
+     "server_inference_seconds": 10511.041782,
+     "server_queries_total": 65466,
+     "skipped_clean_wrong": 1,
+     "wall_seconds_first_to_last_query": 10936.2
+    },
+    {
+     "asr_excl": 0.666667,
+     "asr_excl_denominator": 111,
+     "asr_registered": 0.548148,
+     "asr_registered_denominator": 135,
+     "attack": "textfooler",
+     "attacked": 135,
+     "budget_exhausted_share": 0.177778,
+     "end_states_attacked": {
+      "budget_exhausted": 24,
+      "deferred": 0,
+      "success": 74,
+      "unchanged": 37
+     },
+     "ledger_rows": 136,
+     "not_finished": 0,
+     "planned": 136,
+     "queries_attacked": {
+      "max": 1000,
+      "mean": 391.103704,
+      "median": 227
+     },
+     "runner_seconds_total": 4854.687195,
+     "server_inference_seconds": 4746.441488,
+     "server_queries_total": 52935,
+     "skipped_clean_wrong": 1,
+     "wall_seconds_first_to_last_query": 4859.017
+    },
+    {
+     "asr_excl": 0.015152,
+     "asr_excl_denominator": 132,
+     "asr_registered": 0.014815,
+     "asr_registered_denominator": 135,
+     "attack": "deepwordbug",
+     "attacked": 135,
+     "budget_exhausted_share": 0.022222,
+     "end_states_attacked": {
+      "budget_exhausted": 3,
+      "deferred": 0,
+      "success": 2,
+      "unchanged": 130
+     },
+     "ledger_rows": 136,
+     "not_finished": 0,
+     "planned": 136,
+     "queries_attacked": {
+      "max": 1000,
+      "mean": 191.22963,
+      "median": 107
+     },
+     "runner_seconds_total": 4106.039139,
+     "server_inference_seconds": 4061.206933,
+     "server_queries_total": 25952,
+     "skipped_clean_wrong": 1,
+     "wall_seconds_first_to_last_query": 4108.408
+    },
+    {
+     "asr_excl": 0.477273,
+     "asr_excl_denominator": 88,
+     "asr_registered": 0.311111,
+     "asr_registered_denominator": 135,
+     "attack": "pwws",
+     "attacked": 135,
+     "budget_exhausted_share": 0.348148,
+     "end_states_attacked": {
+      "budget_exhausted": 47,
+      "deferred": 0,
+      "success": 42,
+      "unchanged": 46
+     },
+     "ledger_rows": 136,
+     "not_finished": 0,
+     "planned": 136,
+     "queries_attacked": {
+      "max": 1000,
+      "mean": 564.807407,
+      "median": 466
+     },
+     "runner_seconds_total": 6587.302181,
+     "server_inference_seconds": 6565.525151,
+     "server_queries_total": 76385,
+     "skipped_clean_wrong": 1,
+     "wall_seconds_first_to_last_query": 6592.966
+    }
+   ],
+   "record_count": 220738,
+   "regime": "R3",
+   "release_sha": "63e095b1b62d47b0caff3b8aad6ebb1316cab538",
+   "run_id": "R3-1b4cffb292-s0",
+   "scorer_truncation": {
+    "by_split": {},
+    "note": "victim A is content-only (no C2 scorer query), so the R3 scorer-truncation file lists no cut",
+    "records": 0
+   },
+   "sealed_sha256": "c3d4d6c2fdad63ddbe5f9b8acc9be3239abbdec82ba2471474a77d3cb8187578",
+   "seed": 0,
+   "session": {
+    "deadline_reached": false,
+    "deadline_s": 43200,
+    "dropped_queries": 0,
+    "dropped_seconds": 0.0,
+    "make_ended_utc": "2026-10-19T02:20:58Z",
+    "make_started_utc": "2026-10-18T17:54:03Z",
+    "make_wall_seconds": 30415,
+    "seal_note": "about 01:16Z to 02:20Z: server-side validate_run (leak scan of 220,738 records against every claim and RD text) before L2 and the seal",
+    "seal_wall_seconds_approx": 3850,
+    "session_seconds": 26514.531704,
+    "sessions": 1
+   },
+   "validation": {
+    "aac_validate_rerun": {
+     "command": "aac validate --run R3-1b4cffb292-s0 (main checkout, cpu-host)",
+     "ended_utc": "2026-10-19T04:04:33Z",
+     "output": [
+      "records=220738",
+      "violations=0",
+      "records_with_claim_text=0",
+      "records_with_user_id=0"
+     ],
+     "rc": 0,
+     "started_utc": "2026-10-19T02:21:21Z"
+    },
+    "records": 220738,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "schema-validation.txt written by the server at seal; `aac validate --run` re-run below",
+    "violations": 0
+   }
+  },
+  {
+   "config": "configs/regimes/real/r4-no-retrieval-rd.yaml",
+   "fitted_from": "R4/r4-no-retrieval-fc",
+   "gpu_hours": 0.0,
+   "name": "r4-no-retrieval-rd",
+   "record_count": 415,
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-fe4d0fcaff-s0",
+   "scorer_truncated_rd": null,
+   "scorer_truncation_note": "retrieval off: no scorer, no scorer-truncation.json (row 43 counter not applicable)",
+   "sealed_line_utc": "2026-10-19T02:25:14Z",
+   "sealed_sha256": "687d38366bfd09af3e0bf6b8bdc5bb9137cc71163cc6bd3545abdea7ccdf0981",
+   "seed": 0,
+   "stages": [
+    {
+     "items": 415,
+     "seconds": 165.009806,
+     "stage": "infer_rd"
+    }
+   ],
+   "torch_threads": 1,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "aac validate --run inside the release (cpu-host-runs), schema-validation.txt",
+    "violations": 0
+   },
+   "wall_seconds_cpu-host_runs_line_to_line": 213.0
+  },
+  {
+   "config": "configs/regimes/real/r4-no-retrieval-rd.yaml",
+   "fitted_from": "R4/r4-no-retrieval-fc",
+   "gpu_hours": 0.0,
+   "name": "r4-no-retrieval-rd",
+   "record_count": 415,
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-9a0ac6b07b-s1",
+   "scorer_truncated_rd": null,
+   "scorer_truncation_note": "retrieval off: no scorer, no scorer-truncation.json (row 43 counter not applicable)",
+   "sealed_line_utc": "2026-10-19T02:28:50Z",
+   "sealed_sha256": "d6844f7f6d346fa28322f4e5e1e0603e38319502686eaa3c469321d58da46f42",
+   "seed": 1,
+   "stages": [
+    {
+     "items": 415,
+     "seconds": 170.799014,
+     "stage": "infer_rd"
+    }
+   ],
+   "torch_threads": 1,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "aac validate --run inside the release (cpu-host-runs), schema-validation.txt",
+    "violations": 0
+   },
+   "wall_seconds_cpu-host_runs_line_to_line": 216.0
+  },
+  {
+   "config": "configs/regimes/real/r4-no-retrieval-rd.yaml",
+   "fitted_from": "R4/r4-no-retrieval-fc",
+   "gpu_hours": 0.0,
+   "name": "r4-no-retrieval-rd",
+   "record_count": 415,
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-4672b7e33c-s2",
+   "scorer_truncated_rd": null,
+   "scorer_truncation_note": "retrieval off: no scorer, no scorer-truncation.json (row 43 counter not applicable)",
+   "sealed_line_utc": "2026-10-19T02:32:23Z",
+   "sealed_sha256": "bf56791e1bb6c580afe06935325be8455bda34d293ba8ef3aad1ff8d202cd2cd",
+   "seed": 2,
+   "stages": [
+    {
+     "items": 415,
+     "seconds": 169.899149,
+     "stage": "infer_rd"
+    }
+   ],
+   "torch_threads": 1,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "aac validate --run inside the release (cpu-host-runs), schema-validation.txt",
+    "violations": 0
+   },
+   "wall_seconds_cpu-host_runs_line_to_line": 213.0
+  },
+  {
+   "config": "configs/regimes/real/r4-no-retrieval-rd.yaml",
+   "fitted_from": "R4/r4-no-retrieval-fc",
+   "gpu_hours": 0.0,
+   "name": "r4-no-retrieval-rd",
+   "record_count": 415,
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-f740f32e72-s3",
+   "scorer_truncated_rd": null,
+   "scorer_truncation_note": "retrieval off: no scorer, no scorer-truncation.json (row 43 counter not applicable)",
+   "sealed_line_utc": "2026-10-19T02:36:29Z",
+   "sealed_sha256": "af28bdf49b49aa0cf7c0355acdbc4b2990112d201d15cac7d35618982bce874c",
+   "seed": 3,
+   "stages": [
+    {
+     "items": 415,
+     "seconds": 198.812295,
+     "stage": "infer_rd"
+    }
+   ],
+   "torch_threads": 1,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "aac validate --run inside the release (cpu-host-runs), schema-validation.txt",
+    "violations": 0
+   },
+   "wall_seconds_cpu-host_runs_line_to_line": 246.0
+  },
+  {
+   "config": "configs/regimes/real/r4-no-retrieval-rd.yaml",
+   "fitted_from": "R4/r4-no-retrieval-fc",
+   "gpu_hours": 0.0,
+   "name": "r4-no-retrieval-rd",
+   "record_count": 415,
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-d016b68f0a-s4",
+   "scorer_truncated_rd": null,
+   "scorer_truncation_note": "retrieval off: no scorer, no scorer-truncation.json (row 43 counter not applicable)",
+   "sealed_line_utc": "2026-10-19T02:40:26Z",
+   "sealed_sha256": "a3975fd33f0f200a39e945984c7bb500f9191075268a2fe249192286999473cc",
+   "seed": 4,
+   "stages": [
+    {
+     "items": 415,
+     "seconds": 192.534957,
+     "stage": "infer_rd"
+    }
+   ],
+   "torch_threads": 1,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "aac validate --run inside the release (cpu-host-runs), schema-validation.txt",
+    "violations": 0
+   },
+   "wall_seconds_cpu-host_runs_line_to_line": 237.0
+  },
+  {
+   "config": "configs/regimes/real/r4-no-calibration-rd.yaml",
+   "fitted_from": "R4/r4-no-calibration-fc",
+   "gpu_hours": 0.0,
+   "name": "r4-no-calibration-rd",
+   "record_count": 415,
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-8417a635be-s0",
+   "scorer_truncated_pairs_rd": 1380,
+   "scorer_truncated_rd": 276,
+   "scorer_truncation_sha256_12": "4b733f21f667",
+   "sealed_line_utc": "2026-10-19T03:24:02Z",
+   "sealed_sha256": "00f46ada1756b95036a8673cfeb609915e6279eb0e7109472b52edae27dfa579",
+   "seed": 0,
+   "stages": [
+    {
+     "items": 415,
+     "seconds": 2549.436216,
+     "stage": "infer_rd"
+    }
+   ],
+   "torch_threads": 1,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "aac validate --run inside the release (cpu-host-runs), schema-validation.txt",
+    "violations": 0
+   },
+   "wall_seconds_cpu-host_runs_line_to_line": 2616.0
+  },
+  {
+   "config": "configs/regimes/real/r4-no-calibration-rd.yaml",
+   "fitted_from": "R4/r4-no-calibration-fc",
+   "gpu_hours": 0.0,
+   "name": "r4-no-calibration-rd",
+   "record_count": 415,
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-834501dacf-s1",
+   "scorer_truncated_pairs_rd": 1380,
+   "scorer_truncated_rd": 276,
+   "scorer_truncation_sha256_12": "4b733f21f667",
+   "sealed_line_utc": "2026-10-19T03:35:35Z",
+   "sealed_sha256": "604f958aff0f91cda395add6416198b4ec5e70844b27105d732914fa9abd809e",
+   "seed": 1,
+   "stages": [
+    {
+     "items": 415,
+     "seconds": 516.723089,
+     "stage": "infer_rd"
+    }
+   ],
+   "torch_threads": 8,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "aac validate --run inside the release (cpu-host-runs), schema-validation.txt",
+    "violations": 0
+   },
+   "wall_seconds_cpu-host_runs_line_to_line": 582.0
+  },
+  {
+   "config": "configs/regimes/real/r4-no-calibration-rd.yaml",
+   "fitted_from": "R4/r4-no-calibration-fc",
+   "gpu_hours": 0.0,
+   "name": "r4-no-calibration-rd",
+   "record_count": 415,
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-7dc56cf976-s2",
+   "scorer_truncated_pairs_rd": 1380,
+   "scorer_truncated_rd": 276,
+   "scorer_truncation_sha256_12": "4b733f21f667",
+   "sealed_line_utc": "2026-10-19T03:45:11Z",
+   "sealed_sha256": "e47d0e40fa335effd12382114290545c2c27c7b057f066b55d5ee19615785931",
+   "seed": 2,
+   "stages": [
+    {
+     "items": 415,
+     "seconds": 511.365248,
+     "stage": "infer_rd"
+    }
+   ],
+   "torch_threads": 8,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "aac validate --run inside the release (cpu-host-runs), schema-validation.txt",
+    "violations": 0
+   },
+   "wall_seconds_cpu-host_runs_line_to_line": 576.0
+  },
+  {
+   "config": "configs/regimes/real/r4-no-calibration-rd.yaml",
+   "fitted_from": "R4/r4-no-calibration-fc",
+   "gpu_hours": 0.0,
+   "name": "r4-no-calibration-rd",
+   "record_count": 415,
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-c9e7bbf12f-s3",
+   "scorer_truncated_pairs_rd": 1380,
+   "scorer_truncated_rd": 276,
+   "scorer_truncation_sha256_12": "4b733f21f667",
+   "sealed_line_utc": "2026-10-19T03:55:00Z",
+   "sealed_sha256": "7576de56786f36e3809c58ea05a41a40e860f8320e8320df57248761a9c29c4e",
+   "seed": 3,
+   "stages": [
+    {
+     "items": 415,
+     "seconds": 523.795539,
+     "stage": "infer_rd"
+    }
+   ],
+   "torch_threads": 8,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "aac validate --run inside the release (cpu-host-runs), schema-validation.txt",
+    "violations": 0
+   },
+   "wall_seconds_cpu-host_runs_line_to_line": 589.0
+  },
+  {
+   "config": "configs/regimes/real/r4-no-calibration-rd.yaml",
+   "fitted_from": "R4/r4-no-calibration-fc",
+   "gpu_hours": 0.0,
+   "name": "r4-no-calibration-rd",
+   "record_count": 415,
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-c784793afc-s4",
+   "scorer_truncated_pairs_rd": 1380,
+   "scorer_truncated_rd": 276,
+   "scorer_truncation_sha256_12": "4b733f21f667",
+   "sealed_line_utc": "2026-10-19T04:04:38Z",
+   "sealed_sha256": "22dcc5825ae467531991881cf688a040547029ea310cd1b19dc1c3574cb5b9d5",
+   "seed": 4,
+   "stages": [
+    {
+     "items": 415,
+     "seconds": 512.824959,
+     "stage": "infer_rd"
+    }
+   ],
+   "torch_threads": 8,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "aac validate --run inside the release (cpu-host-runs), schema-validation.txt",
+    "violations": 0
+   },
+   "wall_seconds_cpu-host_runs_line_to_line": 578.0
+  },
+  {
+   "config": "configs/regimes/real/r4-no-abstention-rd.yaml",
+   "fitted_from": "R4/r4-no-abstention-fc",
+   "gpu_hours": 0.0,
+   "name": "r4-no-abstention-rd",
+   "record_count": 415,
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-31a384cd3e-s0",
+   "scorer_truncated_pairs_rd": 1380,
+   "scorer_truncated_rd": 276,
+   "scorer_truncation_sha256_12": "4b733f21f667",
+   "sealed_line_utc": "2026-10-19T04:14:05Z",
+   "sealed_sha256": "3f40dadd0128f1a81d2bd152a3fb1fe7f2171d62cc24164b00d6b034c0f394e7",
+   "seed": 0,
+   "stages": [
+    {
+     "items": 415,
+     "seconds": 511.385506,
+     "stage": "infer_rd"
+    }
+   ],
+   "torch_threads": 8,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "aac validate --run inside the release (cpu-host-runs), schema-validation.txt",
+    "violations": 0
+   },
+   "wall_seconds_cpu-host_runs_line_to_line": 567.0
+  },
+  {
+   "config": "configs/regimes/real/r4-no-abstention-rd.yaml",
+   "fitted_from": "R4/r4-no-abstention-fc",
+   "gpu_hours": 0.0,
+   "name": "r4-no-abstention-rd",
+   "record_count": 415,
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-d4bc8b4143-s1",
+   "scorer_truncated_pairs_rd": 1380,
+   "scorer_truncated_rd": 276,
+   "scorer_truncation_sha256_12": "4b733f21f667",
+   "sealed_line_utc": "2026-10-19T04:23:32Z",
+   "sealed_sha256": "8953e357a624392d0c9e0c7a967647580046c327eafa7433dd118410597cd346",
+   "seed": 1,
+   "stages": [
+    {
+     "items": 415,
+     "seconds": 511.953201,
+     "stage": "infer_rd"
+    }
+   ],
+   "torch_threads": 8,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "aac validate --run inside the release (cpu-host-runs), schema-validation.txt",
+    "violations": 0
+   },
+   "wall_seconds_cpu-host_runs_line_to_line": 567.0
+  },
+  {
+   "config": "configs/regimes/real/r4-no-abstention-rd.yaml",
+   "fitted_from": "R4/r4-no-abstention-fc",
+   "gpu_hours": 0.0,
+   "name": "r4-no-abstention-rd",
+   "record_count": 415,
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-8dfa23c723-s2",
+   "scorer_truncated_pairs_rd": 1380,
+   "scorer_truncated_rd": 276,
+   "scorer_truncation_sha256_12": "4b733f21f667",
+   "sealed_line_utc": "2026-10-19T04:32:57Z",
+   "sealed_sha256": "3de70e41c56d4a51c47e5e27b234bb0530c204ce7b2cc20960369c0b42d6a52c",
+   "seed": 2,
+   "stages": [
+    {
+     "items": 415,
+     "seconds": 509.799281,
+     "stage": "infer_rd"
+    }
+   ],
+   "torch_threads": 8,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "aac validate --run inside the release (cpu-host-runs), schema-validation.txt",
+    "violations": 0
+   },
+   "wall_seconds_cpu-host_runs_line_to_line": 565.0
+  },
+  {
+   "config": "configs/regimes/real/r4-no-abstention-rd.yaml",
+   "fitted_from": "R4/r4-no-abstention-fc",
+   "gpu_hours": 0.0,
+   "name": "r4-no-abstention-rd",
+   "record_count": 415,
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-e0269dec82-s3",
+   "scorer_truncated_pairs_rd": 1380,
+   "scorer_truncated_rd": 276,
+   "scorer_truncation_sha256_12": "4b733f21f667",
+   "sealed_line_utc": "2026-10-19T04:42:26Z",
+   "sealed_sha256": "7b570951a9ec427e7ce74feffba713a76a330ec0b5d87e74c7624b49c3e01ec4",
+   "seed": 3,
+   "stages": [
+    {
+     "items": 415,
+     "seconds": 514.028028,
+     "stage": "infer_rd"
+    }
+   ],
+   "torch_threads": 8,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "aac validate --run inside the release (cpu-host-runs), schema-validation.txt",
+    "violations": 0
+   },
+   "wall_seconds_cpu-host_runs_line_to_line": 569.0
+  },
+  {
+   "config": "configs/regimes/real/r4-no-abstention-rd.yaml",
+   "fitted_from": "R4/r4-no-abstention-fc",
+   "gpu_hours": 0.0,
+   "name": "r4-no-abstention-rd",
+   "record_count": 415,
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-33ca73a1ef-s4",
+   "scorer_truncated_pairs_rd": 1380,
+   "scorer_truncated_rd": 276,
+   "scorer_truncation_sha256_12": "4b733f21f667",
+   "sealed_line_utc": "2026-10-19T04:51:55Z",
+   "sealed_sha256": "81ae01da28e6f89e6cd40e958714e416039db95e6bea5711cf0182bb41652b37",
+   "seed": 4,
+   "stages": [
+    {
+     "items": 415,
+     "seconds": 514.501211,
+     "stage": "infer_rd"
+    }
+   ],
+   "torch_threads": 8,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "aac validate --run inside the release (cpu-host-runs), schema-validation.txt",
+    "violations": 0
+   },
+   "wall_seconds_cpu-host_runs_line_to_line": 569.0
+  },
+  {
+   "config": "configs/regimes/real/r4-content-only-rd.yaml",
+   "fitted_from": null,
+   "gpu_hours": 0.0,
+   "name": "r4-content-only-rd",
+   "record_count": 415,
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-9b0bb14ac7-s0",
+   "scorer_truncated_rd": null,
+   "scorer_truncation_note": "retrieval off: no scorer, no scorer-truncation.json (row 43 counter not applicable)",
+   "sealed_line_utc": "2026-10-19T04:52:59Z",
+   "sealed_sha256": "5f8046b4f5ffb473b139edafcf4d01b71a5c1eef57b759b74e87c54dcb76f302",
+   "seed": 0,
+   "stages": [
+    {
+     "items": 415,
+     "seconds": 31.542653,
+     "stage": "infer_rd"
+    }
+   ],
+   "torch_threads": 8,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "aac validate --run inside the release (cpu-host-runs), schema-validation.txt",
+    "violations": 0
+   },
+   "wall_seconds_cpu-host_runs_line_to_line": 64.0
+  },
+  {
+   "config": "configs/regimes/real/r4-content-only-rd.yaml",
+   "fitted_from": null,
+   "gpu_hours": 0.0,
+   "name": "r4-content-only-rd",
+   "record_count": 415,
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-62b02e535b-s1",
+   "scorer_truncated_rd": null,
+   "scorer_truncation_note": "retrieval off: no scorer, no scorer-truncation.json (row 43 counter not applicable)",
+   "sealed_line_utc": "2026-10-19T04:54:02Z",
+   "sealed_sha256": "4f320ecac8c6dd46aa109ee68f38bb7ab7288e8a9ba5560fd1e3e4be8653bf32",
+   "seed": 1,
+   "stages": [
+    {
+     "items": 415,
+     "seconds": 31.667367,
+     "stage": "infer_rd"
+    }
+   ],
+   "torch_threads": 8,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "aac validate --run inside the release (cpu-host-runs), schema-validation.txt",
+    "violations": 0
+   },
+   "wall_seconds_cpu-host_runs_line_to_line": 63.0
+  },
+  {
+   "config": "configs/regimes/real/r4-content-only-rd.yaml",
+   "fitted_from": null,
+   "gpu_hours": 0.0,
+   "name": "r4-content-only-rd",
+   "record_count": 415,
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-7d3fc6f419-s2",
+   "scorer_truncated_rd": null,
+   "scorer_truncation_note": "retrieval off: no scorer, no scorer-truncation.json (row 43 counter not applicable)",
+   "sealed_line_utc": "2026-10-19T04:55:05Z",
+   "sealed_sha256": "84b3d7aa6c0e363c352ca75884b931a8a41eca6509bf79c742cfe2e054ab9211",
+   "seed": 2,
+   "stages": [
+    {
+     "items": 415,
+     "seconds": 30.340614,
+     "stage": "infer_rd"
+    }
+   ],
+   "torch_threads": 8,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "aac validate --run inside the release (cpu-host-runs), schema-validation.txt",
+    "violations": 0
+   },
+   "wall_seconds_cpu-host_runs_line_to_line": 63.0
+  },
+  {
+   "config": "configs/regimes/real/r4-content-only-rd.yaml",
+   "fitted_from": null,
+   "gpu_hours": 0.0,
+   "name": "r4-content-only-rd",
+   "record_count": 415,
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-17be936433-s3",
+   "scorer_truncated_rd": null,
+   "scorer_truncation_note": "retrieval off: no scorer, no scorer-truncation.json (row 43 counter not applicable)",
+   "sealed_line_utc": "2026-10-19T04:56:10Z",
+   "sealed_sha256": "d1e9ea4ffb49bdcb7e90019bd2f816ecdcbf35886bdc8bd773e834619a6c8aa8",
+   "seed": 3,
+   "stages": [
+    {
+     "items": 415,
+     "seconds": 33.200463,
+     "stage": "infer_rd"
+    }
+   ],
+   "torch_threads": 8,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "aac validate --run inside the release (cpu-host-runs), schema-validation.txt",
+    "violations": 0
+   },
+   "wall_seconds_cpu-host_runs_line_to_line": 65.0
+  },
+  {
+   "config": "configs/regimes/real/r4-content-only-rd.yaml",
+   "fitted_from": null,
+   "gpu_hours": 0.0,
+   "name": "r4-content-only-rd",
+   "record_count": 415,
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-daa4d85fbc-s4",
+   "scorer_truncated_rd": null,
+   "scorer_truncation_note": "retrieval off: no scorer, no scorer-truncation.json (row 43 counter not applicable)",
+   "sealed_line_utc": "2026-10-19T04:57:11Z",
+   "sealed_sha256": "303bf50b66834b38411ac317bafc110d3c9a1a142907bd14308972435fba9554",
+   "seed": 4,
+   "stages": [
+    {
+     "items": 415,
+     "seconds": 29.961338,
+     "stage": "infer_rd"
+    }
+   ],
+   "torch_threads": 8,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "aac validate --run inside the release (cpu-host-runs), schema-validation.txt",
+    "violations": 0
+   },
+   "wall_seconds_cpu-host_runs_line_to_line": 61.0
+  },
+  {
+   "adversarial_store": {
+    "host": "cpu-host",
+    "lines": 89
+   },
+   "config": "configs/regimes/real/r3-beam-a-rd.yaml",
+   "counters_check": {
+    "max_server_queries": 1000,
+    "openattack_eq_runner_plus_1_rows": 38,
+    "rows": 136,
+    "runner_ne_server_or_over_budget": 0
+   },
+   "gpu_hours": 0.0,
+   "ledger_check": {
+    "command": "aac ledger-check runs/R3-c89ffa5921-s0",
+    "output": "R3-c89ffa5921-s0: L2: ok (71686 records == 71686 ledger queries)"
+   },
+   "name": "r3-beam-a-rd",
+   "per_recipe": [
+    {
+     "asr_excl": 0.917526,
+     "asr_excl_denominator": 97,
+     "asr_registered": 0.659259,
+     "asr_registered_denominator": 135,
+     "attack": "beamattack",
+     "attacked": 135,
+     "budget_exhausted_by_queries_used": {
+      "1000": 36,
+      "2 (leave-one-out batch refused, n + 2 > 1,000)": 2
+     },
+     "budget_exhausted_share": 0.281481,
+     "end_states_attacked": {
+      "budget_exhausted": 38,
+      "deferred": 0,
+      "success": 89,
+      "unchanged": 8
+     },
+     "ledger_rows": 136,
+     "not_finished": 0,
+     "planned": 136,
+     "queries_attacked": {
+      "max": 1000,
+      "mean": 530.0,
+      "median": 488
+     },
+     "runner_seconds_per_item_mean": 94.376,
+     "runner_seconds_total": 12835.18706,
+     "server_inference_seconds": 9254.355228,
+     "server_queries_total": 71686,
+     "skipped_clean_wrong": 1,
+     "wall_seconds_first_to_last_query": 12840.738
+    }
+   ],
+   "record_count": 71686,
+   "regime": "R3",
+   "release_sha": "6507c78a58e39c2900aabc6b8d5a4ffd4fd471ce",
+   "run_id": "R3-c89ffa5921-s0",
+   "scorer_truncation": {
+    "by_split": {},
+    "note": "victim A only, no scorer query",
+    "records": 0
+   },
+   "sealed_sha256": "b472a84bc2bfcef4be6e6126f66104dde4960bc36ec5d94503d79180f2c43c2f",
+   "seed": 0,
+   "session": {
+    "deadline_reached": false,
+    "deadline_s": 21600,
+    "dropped_queries": 0,
+    "dropped_seconds": 0.0,
+    "env": "OMP_NUM_THREADS=8 MKL_NUM_THREADS=8 (server) AAC_THREADS=8 (runner, roberta-large on the CPU)",
+    "last_query_elapsed_s": 12840.738,
+    "make_ended_utc": "2026-10-19T08:54:27Z",
+    "make_started_utc": "2026-10-19T04:59:11Z",
+    "make_wall_seconds": 14116,
+    "seal_wall_seconds_approx": 1200,
+    "session_seconds": 12842.991158,
+    "sessions": 1
+   },
+   "validation": {
+    "aac_validate_rerun": {
+     "command": "aac validate --run R3-c89ffa5921-s0 (main checkout, cpu-host)",
+     "ended_utc": "2026-10-19T09:16:06Z",
+     "output": [
+      "records=71686",
+      "violations=0",
+      "records_with_claim_text=0",
+      "records_with_user_id=0"
+     ],
+     "rc": 0,
+     "started_utc": "2026-10-19T08:54:48Z"
+    },
+    "records": 71686,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "source": "schema-validation.txt written by the server at seal; `aac validate --run` re-run below",
+    "violations": 0
+   }
+  }
+ ],
+ "schema": "aac-phase4-cpu-host-session/1",
+ "sources_check": {
+  "checked_utc": "2026-10-18T17:45:00Z",
+  "r4_fc_runs_indexed": 20,
+  "r4_fc_runs_sealed_files_present": 20,
+  "rd_runs_indexed_before": 0,
+  "sealed_on_cpu-host": [
+   "R1-4805ab6250-s0 (r1-chrono-full, victim source)",
+   "EV-abbc12d278-s0 (ev-rd-pooled)",
+   "C1-145ca7f388-s0 (c1-chrono)"
+  ]
+ },
+ "started_utc": "2026-10-18T17:38:35Z",
+ "status": "complete"
+}

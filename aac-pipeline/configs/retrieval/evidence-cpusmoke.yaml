@@ -1,0 +1,6 @@
+extends: [evidence.yaml]
+name: evidence-cpusmoke
+evidence:
+ dense: {precision: float32}
+ pooled: {enabled: false}
+ stores: {limit: 5, include: }

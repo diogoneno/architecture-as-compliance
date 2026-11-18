@@ -1,0 +1,3 @@
+run configs/regimes/real/r4-no-retrieval-replay.yaml 0
+run configs/regimes/real/r4-no-calibration-replay.yaml 0
+run configs/regimes/real/r4-no-abstention-replay.yaml 0

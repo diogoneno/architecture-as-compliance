@@ -1,0 +1,1374 @@
+{
+ "addition_a": {
+  "argmax_recomputed": "bert_attack",
+  "choice": "bert_attack",
+  "computed_on": "cpu-host, 2026-10-18, HEAD c0ea172 (rule code unchanged since 04-08)",
+  "config": "configs/regimes/real/r3-gate-aware.yaml",
+  "counts": {
+   "bert_attack": {
+    "attacked": 232,
+    "ungated_flips": 152
+   },
+   "deepwordbug": {
+    "attacked": 232,
+    "ungated_flips": 27
+   },
+   "pwws": {
+    "attacked": 232,
+    "ungated_flips": 134
+   },
+   "textfooler": {
+    "attacked": 232,
+    "ungated_flips": 133
+   }
+  },
+  "expected_attacked_n": {
+   "first100": {
+    "clean_auto_decided_wrong_skipped": 1,
+    "clean_deferred": 5,
+    "expected_attacked": 54,
+    "refuted": 55
+   },
+   "first200": {
+    "clean_auto_decided_wrong_skipped": 2,
+    "clean_deferred": 13,
+    "expected_attacked": 111,
+    "refuted": 113
+   }
+  },
+  "rates": {
+   "bert_attack": 0.655172,
+   "deepwordbug": 0.116379,
+   "pwws": 0.577586,
+   "textfooler": 0.573276
+  },
+  "rule": "aac.reports.table_4_4.ungated_flip_rates(root): (strict success + deferred) / attacked victim-B rows per BODEGA recipe over the sealed victim-B runs of the real profile after the cut-2 restriction (none fired), highest first, ties in Table 4.4 row order (BERT-Attack, TextFooler, DeepWordBug, PWWS); adjustments draft R-A, row 50 (committed before any victim-B result)",
+  "source_runs": [
+   "R3-2721e6be83-s0",
+   "R3-330efa45f0-s0",
+   "R3-39b2489296-s0",
+   "R3-8242a107fc-s0",
+   "R3-ac741ca97d-s0",
+   "R3-dbe29a3a8c-s0",
+   "R3-ed263acff8-s0",
+   "R3-f2b2a34665-s0"
+  ],
+  "subset": "data/derived/splits/averitec-attack-subset-v1-first200.json",
+  "victim_view": "gated-masked"
+ },
+ "addition_a_start_rule": "checked 2026-10-18 before the P4-6 dispatch: before 2026-10-30 12:00 Europe/London, and the pre-registered battery (four BODEGA recipes on both victims, BeamAttack) is sealed: first 200 ids, as committed",
+ "assets_lines": [
+  "assets: openattack/AttackAssist.UniversalSentenceEncoder ok a91f72d45154",
+  "assets: openattack/TProcess.NLTKPerceptronPosTagger/averaged_perceptron_tagger.pickle ok 25a5a19c7ced",
+  "assets: openattack/TProcess.NLTKSentTokenizer/english.pickle ok dda37972ae88",
+  "assets: openattack/TProcess.NLTKWordNet not pinned by digest in third_party/PINS.json (not checked)",
+  "assets: lambo/LAMBO_213-UD_English-EWT.dict ok 183c78a1e5fd",
+  "assets: lambo/LAMBO_213-UD_English-EWT.pth ok dc627564a137",
+  "assets: lambo/LAMBO_213-UD_English-EWT_subwords.pth ok e5acdbd4d374",
+  "assets: 7 ok/unpinned, 0 failed"
+ ],
+ "assets_ok": true,
+ "backup": {
+  "command": "nice -n 10 make backup",
+  "head": "0a88af7",
+  "independent_checks": "0 MANIFEST lines match secrets/ or derived/private; runs/R3-5d765f9257-s0 914 lines, R3-60479e7e32-s0 244, R4-bcd3c65b21-s0 17, R1-ace8c5d08e-s4 15; the session file is listed",
+  "line": "backup: /mnt/loki/backups/dissertation/2026-10-18  (MANIFEST.sha256: 16113 files, verified; no secrets/, no private lane, no build/, no raw rows, no rd5/)",
+  "not_in_backup": "commits after 0a88af7 (defense rows 5d4e8bb, this backup block, deferred items, the SUMMARY)",
+  "started_utc": "2026-10-18T23:09:47Z",
+  "verified": true
+ },
+ "batches": {
+  "P4-4": {
+   "budget_check_before": [
+    "phase4-budget: phase4_used=3.055405 batch_high=14.700000 total=17.755405 of 38.762137; project_used=7.571175 total=22.271175 of 50",
+    "STOP-RULE: ok"
+   ],
+   "dispatched_utc": "2026-10-18T19:00:51Z",
+   "dropped_gpu_hours": 0.0,
+   "gpu_hours": 1.864068,
+   "gpu_hours_rule": "sum of the run-record gpu_hours (03-10 convention, as Stage); dropped_gpu_hours = attack-timings dropped_seconds / 3600 (ticket)",
+   "lime_queries_per_item": 0,
+   "masked_lm_share": {
+    "per_cell": [
+     {
+      "masked_lm_share": 0.547658,
+      "run_id": "R3-5d765f9257-s0",
+      "runner_seconds_per_attacked_item": 2.173258,
+      "server_seconds_per_attacked_item": 0.983055,
+      "subset": "averitec_chrono",
+      "victim": "content_only"
+     },
+     {
+      "masked_lm_share": 0.46003,
+      "run_id": "R3-5d765f9257-s0",
+      "runner_seconds_per_attacked_item": 0.831144,
+      "server_seconds_per_attacked_item": 0.448792,
+      "subset": "fc",
+      "victim": "content_only"
+     },
+     {
+      "masked_lm_share": 0.115416,
+      "run_id": "R3-b37aa9d3c5-s0",
+      "runner_seconds_per_attacked_item": 36.368111,
+      "server_seconds_per_attacked_item": 32.170655,
+      "subset": "averitec_chrono",
+      "victim": "full"
+     },
+     {
+      "masked_lm_share": 0.115005,
+      "run_id": "R3-a919c6fb2f-s0",
+      "runner_seconds_per_attacked_item": 26.929687,
+      "server_seconds_per_attacked_item": 23.83264,
+      "subset": "averitec_chrono",
+      "victim": "full"
+     }
+    ],
+    "pooled": 0.146015,
+    "pooled_runner_seconds": 7855.831774,
+    "pooled_server_seconds": 6708.760012,
+    "reading": "the masked-LM search does not dominate the BeamAttack sessions: victim B (0.9582 of P4-4's GPU-hours) has share 0.115416 (first200) and 0.115005 (last200); victim A 0.547658 (AVeriTeC) and 0.46003 (FC) on a 0.077918 GPU-h run; pooled 0.146015. The cu126 attack lock stays NO (D13 default); the decision is recorded for Phase 4 exit",
+    "rule": "1 - server_seconds / runner_seconds summed over attacked items (attack-counters.jsonl), per cell and pooled; the D13 input"
+   },
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "row_label": "BeamAttack adapted to a 1,000-query budget",
+   "runs": [
+    {
+     "cells": [
+      {
+       "attack": "beamattack",
+       "attacked": 204,
+       "budget_exhausted_share": 0.0,
+       "end_states": {
+        "success": 201,
+        "unchanged": 42
+       },
+       "items": 243,
+       "masked_lm_share": 0.547658,
+       "max_queries": 581,
+       "mean_queries_attacked": 63.348039,
+       "median_queries_attacked": 39.0,
+       "runner_seconds_attacked": 443.344576,
+       "runner_seconds_per_attacked_item": 2.173258,
+       "server_seconds_attacked": 200.543244,
+       "server_seconds_per_attacked_item": 0.983055,
+       "skipped": 39,
+       "subset": "averitec_chrono",
+       "victim": "content_only"
+      },
+      {
+       "attack": "beamattack",
+       "attacked": 175,
+       "budget_exhausted_share": 0.0,
+       "end_states": {
+        "success": 175,
+        "unchanged": 30
+       },
+       "items": 205,
+       "masked_lm_share": 0.46003,
+       "max_queries": 119,
+       "mean_queries_attacked": 27.965714,
+       "median_queries_attacked": 18,
+       "runner_seconds_attacked": 145.450114,
+       "runner_seconds_per_attacked_item": 0.831144,
+       "server_seconds_attacked": 78.538661,
+       "server_seconds_per_attacked_item": 0.448792,
+       "skipped": 30,
+       "subset": "fc",
+       "victim": "content_only"
+      }
+     ],
+     "config": "configs/regimes/real/r3-beam-a.yaml",
+     "config_hash": "5d765f9257d672d7d71a965e4e913be98a7b3bff6ddeabfbbb48cafbeff0496c",
+     "counters_check": {
+      "max_server_queries": 581,
+      "rows": 448,
+      "rows_not_runner_eq_server_le_1000": 0
+     },
+     "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+     "dropped_gpu_hours": 0.0,
+     "end_states": {
+      "success": 376,
+      "unchanged": 72
+     },
+     "gpu_hours": 0.077918,
+     "l2_line": "R3-5d765f9257-s0: L2: ok (18265 records == 18265 ledger queries)",
+     "line": 1,
+     "name": "r3-beam-a",
+     "resumed": false,
+     "run_id": "R3-5d765f9257-s0",
+     "seal_digest": "4e61dbc1faed1ab765d6e4054e4a7b0f396dd8cc1b662e730edc3cc67518735b",
+     "seed": 0,
+     "server_seconds_per_attacked_item": 1.569967,
+     "server_seconds_per_item": 1.328164,
+     "session_seconds": 595.017568,
+     "sessions": 1,
+     "validation": {
+      "records": 18265,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "cells": [
+      {
+       "attack": "beamattack",
+       "attacked": 108,
+       "budget_exhausted_share": 0.009259,
+       "end_states": {
+        "budget_exhausted": 1,
+        "deferred": 66,
+        "success": 4,
+        "unchanged": 42
+       },
+       "items": 113,
+       "masked_lm_share": 0.115416,
+       "max_queries": 1000,
+       "mean_queries_attacked": 186.481481,
+       "median_queries_attacked": 113.5,
+       "runner_seconds_attacked": 3927.755939,
+       "runner_seconds_per_attacked_item": 36.368111,
+       "server_seconds_attacked": 3474.430793,
+       "server_seconds_per_attacked_item": 32.170655,
+       "skipped": 5,
+       "subset": "averitec_chrono",
+       "victim": "full"
+      }
+     ],
+     "config": "configs/regimes/real/r3-beam-b-first200.yaml",
+     "config_hash": "b37aa9d3c5b8c611fb4d50c1e2f1ba098c29f7588008dc65e973c620f57725b9",
+     "counters_check": {
+      "max_server_queries": 1000,
+      "rows": 113,
+      "rows_not_runner_eq_server_le_1000": 0
+     },
+     "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+     "dropped_gpu_hours": 0.0,
+     "end_states": {
+      "budget_exhausted": 1,
+      "deferred": 66,
+      "success": 4,
+      "unchanged": 42
+     },
+     "gpu_hours": 0.965178,
+     "l2_line": "R3-b37aa9d3c5-s0: L2: ok (20323 records == 20323 ledger queries)",
+     "line": 2,
+     "name": "r3-beam-b-first200",
+     "resumed": false,
+     "run_id": "R3-b37aa9d3c5-s0",
+     "seal_digest": "ff4b81ba0dca23f428d66fec15a31c712dfcfaa869df9f1a2411ad03610a99d6",
+     "seed": 0,
+     "server_seconds_per_attacked_item": 36.520986,
+     "server_seconds_per_item": 34.905013,
+     "session_seconds": 3944.266501,
+     "sessions": 1,
+     "validation": {
+      "records": 20323,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "cells": [
+      {
+       "attack": "beamattack",
+       "attacked": 124,
+       "budget_exhausted_share": 0.0,
+       "end_states": {
+        "deferred": 87,
+        "success": 5,
+        "unchanged": 38
+       },
+       "items": 130,
+       "masked_lm_share": 0.115005,
+       "max_queries": 696,
+       "mean_queries_attacked": 146.5,
+       "median_queries_attacked": 86.5,
+       "runner_seconds_attacked": 3339.281145,
+       "runner_seconds_per_attacked_item": 26.929687,
+       "server_seconds_attacked": 2955.247314,
+       "server_seconds_per_attacked_item": 23.83264,
+       "skipped": 6,
+       "subset": "averitec_chrono",
+       "victim": "full"
+      }
+     ],
+     "config": "configs/regimes/real/r3-beam-b-last200.yaml",
+     "config_hash": "a919c6fb2f03cbde14b9f787df79054f6e4af2b70ab81b88d7adb4875480969a",
+     "counters_check": {
+      "max_server_queries": 696,
+      "rows": 130,
+      "rows_not_runner_eq_server_le_1000": 0
+     },
+     "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+     "dropped_gpu_hours": 0.0,
+     "end_states": {
+      "deferred": 87,
+      "success": 5,
+      "unchanged": 38
+     },
+     "gpu_hours": 0.820972,
+     "l2_line": "R3-a919c6fb2f-s0: L2: ok (18388 records == 18388 ledger queries)",
+     "line": 3,
+     "name": "r3-beam-b-last200",
+     "resumed": false,
+     "run_id": "R3-a919c6fb2f-s0",
+     "seal_digest": "0330337361c25523d3a486b84efe4133c01cae0bb43885f98c0f0c214b7f3398",
+     "seed": 0,
+     "server_seconds_per_attacked_item": 27.091337,
+     "server_seconds_per_item": 25.840968,
+     "session_seconds": 3359.325809,
+     "sessions": 1,
+     "validation": {
+      "records": 18388,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    }
+   ],
+   "tmux": {
+    "done": 3,
+    "exit": 0,
+    "git_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+    "host": "turing",
+    "log": "logs/C-p44-20261018T190054Z.log",
+    "mode": "batch",
+    "phase": "C-p44",
+    "pid": 327249,
+    "run": "configs/batches/phase4-p4-4.txt",
+    "seeds": "",
+    "started_utc": "20261018T190054Z",
+    "state": "finished",
+    "total": 3,
+    "updated_utc": "2026-10-18T21:21:48Z"
+   }
+  },
+  "P4-5": {
+   "budget_check_before": [
+    "phase4-budget: phase4_used=4.919473 batch_high=0.210000 total=5.129473 of 38.762137; project_used=9.435243 total=9.645243 of 50",
+    "STOP-RULE: ok"
+   ],
+   "denominator_rule": "replay ledger rows with queries_used 1 (the ablated clean decision keeps the label and, under a gated ablation, is auto-decided); successes = end_state success among them (04-04 replay rule, adjustments draft R-G)",
+   "dispatched_utc": "2026-10-18T21:38:51Z",
+   "dropped_gpu_hours": 0.0,
+   "gpu_hours": 0.047262,
+   "gpu_hours_rule": "sum of the run-record gpu_hours (03-10 convention, as Stage)",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "runs": [
+    {
+     "config": "configs/regimes/real/r4-no-retrieval-replay.yaml",
+     "config_hash": "97f971cded1965efc0da122aa5a04f5753baefeb7075cbd918dc08f02ad7299d",
+     "depends_on": [
+      "C1-145ca7f388-s0",
+      "C2S-3530beba01-s0",
+      "EV-7ceb148b39-s0",
+      "R3-2721e6be83-s0",
+      "R3-330efa45f0-s0",
+      "R3-39b2489296-s0",
+      "R3-8242a107fc-s0",
+      "R3-a919c6fb2f-s0",
+      "R3-ac741ca97d-s0",
+      "R3-b37aa9d3c5-s0",
+      "R3-dbe29a3a8c-s0",
+      "R3-ed263acff8-s0",
+      "R3-f2b2a34665-s0",
+      "R4-40e9726290-s0"
+     ],
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "dropped_gpu_hours": 0.0,
+     "gpu_hours": 0.001336,
+     "l2_line": "R4-97f971cded-s0: L2: ok (1538 records == 1538 ledger queries)",
+     "line": 1,
+     "name": "r4-no-retrieval-replay",
+     "per_recipe": {
+      "beamattack": {
+       "deferred": 3,
+       "denominator": 172,
+       "excluded": 60,
+       "posthoc_deflected": 3,
+       "posthoc_flip": 104,
+       "posthoc_no_effect": 65,
+       "rows": 232,
+       "success": 104,
+       "unchanged": 65
+      },
+      "bert_attack": {
+       "deferred": 1,
+       "denominator": 172,
+       "excluded": 60,
+       "posthoc_deflected": 1,
+       "posthoc_flip": 97,
+       "posthoc_no_effect": 74,
+       "rows": 232,
+       "success": 97,
+       "unchanged": 74
+      },
+      "deepwordbug": {
+       "denominator": 172,
+       "excluded": 60,
+       "posthoc_flip": 5,
+       "posthoc_no_effect": 167,
+       "rows": 232,
+       "success": 5,
+       "unchanged": 167
+      },
+      "pwws": {
+       "denominator": 172,
+       "excluded": 60,
+       "posthoc_flip": 80,
+       "posthoc_no_effect": 92,
+       "rows": 232,
+       "success": 80,
+       "unchanged": 92
+      },
+      "textfooler": {
+       "denominator": 172,
+       "excluded": 60,
+       "posthoc_flip": 88,
+       "posthoc_no_effect": 84,
+       "rows": 232,
+       "success": 88,
+       "unchanged": 84
+      }
+     },
+     "pooled": {
+      "deferred": 4,
+      "denominator": 860,
+      "excluded": 300,
+      "posthoc_deflected": 4,
+      "posthoc_flip": 374,
+      "posthoc_no_effect": 482,
+      "rows": 1160,
+      "success": 374,
+      "unchanged": 482
+     },
+     "run_id": "R4-97f971cded-s0",
+     "seal_digest": "3be898755311330f5f75e4df99ba38012bec1f47e4fcb94e4bbbc2976cecefda",
+     "seed": 0,
+     "validation": {
+      "records": 1538,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-calibration-replay.yaml",
+     "config_hash": "49be66a4140c098f30f2ec6fff906364dc7cbf5ba19545b2c254ce84baf741fc",
+     "depends_on": [
+      "C1-145ca7f388-s0",
+      "C2S-3530beba01-s0",
+      "EV-7ceb148b39-s0",
+      "R3-2721e6be83-s0",
+      "R3-330efa45f0-s0",
+      "R3-39b2489296-s0",
+      "R3-8242a107fc-s0",
+      "R3-a919c6fb2f-s0",
+      "R3-ac741ca97d-s0",
+      "R3-b37aa9d3c5-s0",
+      "R3-dbe29a3a8c-s0",
+      "R3-ed263acff8-s0",
+      "R3-f2b2a34665-s0",
+      "R4-4878f18871-s0"
+     ],
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "dropped_gpu_hours": 0.0,
+     "gpu_hours": 0.019949,
+     "l2_line": "R4-49be66a414-s0: L2: ok (1544 records == 1544 ledger queries)",
+     "line": 2,
+     "name": "r4-no-calibration-replay",
+     "per_recipe": {
+      "beamattack": {
+       "denominator": 173,
+       "excluded": 59,
+       "posthoc_flip": 107,
+       "posthoc_no_effect": 66,
+       "rows": 232,
+       "success": 107,
+       "unchanged": 66
+      },
+      "bert_attack": {
+       "denominator": 173,
+       "excluded": 59,
+       "posthoc_flip": 98,
+       "posthoc_no_effect": 75,
+       "rows": 232,
+       "success": 98,
+       "unchanged": 75
+      },
+      "deepwordbug": {
+       "denominator": 173,
+       "excluded": 59,
+       "posthoc_flip": 5,
+       "posthoc_no_effect": 168,
+       "rows": 232,
+       "success": 5,
+       "unchanged": 168
+      },
+      "pwws": {
+       "denominator": 173,
+       "excluded": 59,
+       "posthoc_flip": 83,
+       "posthoc_no_effect": 90,
+       "rows": 232,
+       "success": 83,
+       "unchanged": 90
+      },
+      "textfooler": {
+       "denominator": 173,
+       "excluded": 59,
+       "posthoc_flip": 91,
+       "posthoc_no_effect": 82,
+       "rows": 232,
+       "success": 91,
+       "unchanged": 82
+      }
+     },
+     "pooled": {
+      "denominator": 865,
+      "excluded": 295,
+      "posthoc_flip": 384,
+      "posthoc_no_effect": 481,
+      "rows": 1160,
+      "success": 384,
+      "unchanged": 481
+     },
+     "run_id": "R4-49be66a414-s0",
+     "seal_digest": "6fdc04a6b158978929f68f2f53c661f75eaf736d8fe58e755a5b28fc294c6c57",
+     "seed": 0,
+     "validation": {
+      "records": 1544,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-abstention-replay.yaml",
+     "config_hash": "bcd3c65b21ab7f4b4c083b2ffdd8a81d1f6161e49c33545a339aa3c84bdc9047",
+     "depends_on": [
+      "C1-145ca7f388-s0",
+      "C2S-3530beba01-s0",
+      "EV-7ceb148b39-s0",
+      "R3-2721e6be83-s0",
+      "R3-330efa45f0-s0",
+      "R3-39b2489296-s0",
+      "R3-8242a107fc-s0",
+      "R3-a919c6fb2f-s0",
+      "R3-ac741ca97d-s0",
+      "R3-b37aa9d3c5-s0",
+      "R3-dbe29a3a8c-s0",
+      "R3-ed263acff8-s0",
+      "R3-f2b2a34665-s0",
+      "R4-7c830169ed-s0"
+     ],
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "dropped_gpu_hours": 0.0,
+     "gpu_hours": 0.025977,
+     "l2_line": "R4-bcd3c65b21-s0: L2: ok (1768 records == 1768 ledger queries)",
+     "line": 3,
+     "name": "r4-no-abstention-replay",
+     "per_recipe": {
+      "beamattack": {
+       "denominator": 232,
+       "posthoc_None": 232,
+       "rows": 232,
+       "success": 162,
+       "unchanged": 70
+      },
+      "bert_attack": {
+       "denominator": 232,
+       "posthoc_None": 232,
+       "rows": 232,
+       "success": 152,
+       "unchanged": 80
+      },
+      "deepwordbug": {
+       "denominator": 232,
+       "posthoc_None": 232,
+       "rows": 232,
+       "success": 27,
+       "unchanged": 205
+      },
+      "pwws": {
+       "denominator": 232,
+       "posthoc_None": 232,
+       "rows": 232,
+       "success": 134,
+       "unchanged": 98
+      },
+      "textfooler": {
+       "denominator": 232,
+       "posthoc_None": 232,
+       "rows": 232,
+       "success": 133,
+       "unchanged": 99
+      }
+     },
+     "pooled": {
+      "denominator": 1160,
+      "posthoc_None": 1160,
+      "rows": 1160,
+      "success": 608,
+      "unchanged": 552
+     },
+     "run_id": "R4-bcd3c65b21-s0",
+     "seal_digest": "9583b05d5de0b2c238f77b128aae5b9683b1e256bc190800b575063a0c9702d1",
+     "seed": 0,
+     "validation": {
+      "records": 1768,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    }
+   ],
+   "sources": "the 8 sealed r3-b-* runs and the two P4-4 victim-B BeamAttack runs (R3-b37aa9d3c5-s0, R3-a919c6fb2f-s0), read from turing's private store; claim_hash asserted per final",
+   "tmux": {
+    "done": 3,
+    "exit": 0,
+    "git_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+    "host": "turing",
+    "log": "logs/C-p45-20261018T213855Z.log",
+    "mode": "batch",
+    "phase": "C-p45",
+    "pid": 355369,
+    "run": "configs/batches/phase4-p4-5.txt",
+    "seeds": "",
+    "started_utc": "20261018T213855Z",
+    "state": "finished",
+    "total": 3,
+    "updated_utc": "2026-10-18T21:44:44Z"
+   }
+  },
+  "P4-6": {
+   "budget_check_before": [
+    "phase4-budget: phase4_used=4.966735 batch_high=5.600000 total=10.566735 of 38.762137; project_used=9.482505 total=15.082505 of 50",
+    "STOP-RULE: ok"
+   ],
+   "dispatched_utc": "2026-10-18T21:47:34Z",
+   "dropped_gpu_hours": 0.0,
+   "gpu_hours": 1.146484,
+   "gpu_hours_rule": "sum of the run-record gpu_hours (03-10 convention, as Stage)",
+   "release_sha": "9d5563409e818b39bd4af6313356c6457dfc3e0f",
+   "runs": [
+    {
+     "addition": "A",
+     "cells": [
+      {
+       "attack": "bert_attack",
+       "attacked": 111,
+       "budget_exhausted_share": 0.0,
+       "end_states": {
+        "success": 24,
+        "unchanged": 89
+       },
+       "items": 113,
+       "masked_lm_share": 0.013187,
+       "max_queries": 481,
+       "mean_queries_attacked": 193.774775,
+       "median_queries_attacked": 183,
+       "runner_seconds_attacked": 3847.609561,
+       "runner_seconds_per_attacked_item": 34.663149,
+       "server_seconds_attacked": 3796.871847,
+       "server_seconds_per_attacked_item": 34.206053,
+       "skipped": 2,
+       "subset": "averitec_chrono",
+       "victim": "full"
+      }
+     ],
+     "config": "configs/regimes/real/r3-gate-aware.yaml",
+     "config_hash": "60479e7e3216793ae1530e5ee68026a06b2ec5254c9a87cca20dc843be7127ee",
+     "counters_check": {
+      "max_server_queries": 481,
+      "rows": 113,
+      "rows_not_runner_eq_server_le_1000": 0
+     },
+     "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+     "dropped_gpu_hours": 0.0,
+     "end_state_x_posthoc_gate": {
+      "success|flip": 24,
+      "unchanged|None": 2,
+      "unchanged|deflected": 31,
+      "unchanged|no_effect": 56
+     },
+     "end_states": {
+      "success": 24,
+      "unchanged": 89
+     },
+     "expected_attacked_n": 111,
+     "gpu_hours": 1.05471,
+     "l2_line": "R3-60479e7e32-s0: L2: ok (21622 records == 21622 ledger queries)",
+     "line": 1,
+     "name": "r3-gate-aware",
+     "resumed": false,
+     "run_id": "R3-60479e7e32-s0",
+     "seal_digest": "672ba1685a71d6bc38dadb1f711f061779c7646256589667968c0eea1fd2a42c",
+     "seed": 0,
+     "session_seconds": 3850.770593,
+     "sessions": 1,
+     "validation": {
+      "records": 21622,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "addition": "B",
+     "config": "configs/regimes/real/r4-transfer-a-to-b-replay.yaml",
+     "config_hash": "6e542feded627850fc68302f6c9d91c910480bcf37545e39a5dc08db76e3c567",
+     "depends_on": [
+      "C1-145ca7f388-s0",
+      "C2S-3530beba01-s0",
+      "EV-7ceb148b39-s0",
+      "R1-4805ab6250-s0",
+      "R3-5d765f9257-s0",
+      "R3-c46605d5c5-s0"
+     ],
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "dropped_gpu_hours": 0.0,
+     "gpu_hours": 0.028586,
+     "l2_line": "R4-6e542feded-s0: L2: ok (1732 records == 1732 ledger queries)",
+     "line": 2,
+     "name": "r4-transfer-a-to-b-replay",
+     "per_recipe": {
+      "beamattack": {
+       "deferred": 127,
+       "denominator": 195,
+       "excluded": 9,
+       "posthoc_None": 195,
+       "rows": 204,
+       "unchanged": 68
+      },
+      "bert_attack": {
+       "deferred": 102,
+       "denominator": 195,
+       "excluded": 9,
+       "posthoc_None": 195,
+       "rows": 204,
+       "success": 1,
+       "unchanged": 92
+      },
+      "deepwordbug": {
+       "deferred": 45,
+       "denominator": 195,
+       "excluded": 9,
+       "posthoc_None": 195,
+       "rows": 204,
+       "unchanged": 150
+      },
+      "pwws": {
+       "deferred": 132,
+       "denominator": 195,
+       "excluded": 9,
+       "posthoc_None": 195,
+       "rows": 204,
+       "success": 4,
+       "unchanged": 59
+      },
+      "textfooler": {
+       "deferred": 110,
+       "denominator": 195,
+       "excluded": 9,
+       "posthoc_None": 195,
+       "rows": 204,
+       "unchanged": 85
+      }
+     },
+     "pooled": {
+      "deferred": 516,
+      "denominator": 975,
+      "excluded": 45,
+      "posthoc_None": 975,
+      "rows": 1020,
+      "success": 5,
+      "unchanged": 454
+     },
+     "run_id": "R4-6e542feded-s0",
+     "seal_digest": "ba26ab3f95f59336582d56baead5a96eccd19991940995b39fb738d2d5c2c795",
+     "seed": 0,
+     "validation": {
+      "records": 1732,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "addition": "B",
+     "config": "configs/regimes/real/r4-gate-only-a-replay.yaml",
+     "config_hash": "8e81adc944638352573c8638ac203326635d86f11318ec838e07820489fcc4c3",
+     "depends_on": [
+      "C1-145ca7f388-s0",
+      "C2S-3530beba01-s0",
+      "EV-7ceb148b39-s0",
+      "R3-5d765f9257-s0",
+      "R3-c46605d5c5-s0",
+      "R4-40e9726290-s0"
+     ],
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "dropped_gpu_hours": 0.0,
+     "gpu_hours": 0.001321,
+     "l2_line": "R4-8e81adc944-s0: L2: ok (1636 records == 1636 ledger queries)",
+     "line": 3,
+     "name": "r4-gate-only-a-replay",
+     "per_recipe": {
+      "beamattack": {
+       "deferred": 157,
+       "denominator": 172,
+       "excluded": 32,
+       "posthoc_None": 172,
+       "rows": 204,
+       "success": 10,
+       "unchanged": 5
+      },
+      "bert_attack": {
+       "deferred": 132,
+       "denominator": 172,
+       "excluded": 32,
+       "posthoc_None": 172,
+       "rows": 204,
+       "success": 10,
+       "unchanged": 30
+      },
+      "deepwordbug": {
+       "deferred": 24,
+       "denominator": 172,
+       "excluded": 32,
+       "posthoc_None": 172,
+       "rows": 204,
+       "success": 16,
+       "unchanged": 132
+      },
+      "pwws": {
+       "deferred": 89,
+       "denominator": 172,
+       "excluded": 32,
+       "posthoc_None": 172,
+       "rows": 204,
+       "success": 43,
+       "unchanged": 40
+      },
+      "textfooler": {
+       "deferred": 110,
+       "denominator": 172,
+       "excluded": 32,
+       "posthoc_None": 172,
+       "rows": 204,
+       "success": 21,
+       "unchanged": 41
+      }
+     },
+     "pooled": {
+      "deferred": 512,
+      "denominator": 860,
+      "excluded": 160,
+      "posthoc_None": 860,
+      "rows": 1020,
+      "success": 100,
+      "unchanged": 248
+     },
+     "run_id": "R4-8e81adc944-s0",
+     "seal_digest": "b26c40792f352601127e0c84ce2a64711070c288ae4f868013da896737908978",
+     "seed": 0,
+     "validation": {
+      "records": 1636,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "addition": "C",
+     "config": "configs/regimes/real/r1-chrono-full-goldqa.yaml",
+     "config_hash": "d1485565cc0ca8e796bee157e0b633355b533237dbd9be51b920112c254a7732",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "dropped_gpu_hours": 0.0,
+     "gpu_hours": 0.012364,
+     "line": 4,
+     "name": "r1-chrono-full-goldqa",
+     "run_id": "R1-d1485565cc-s0",
+     "seal_digest": "d4390205719518c267246c12c8724412fd4df30507cece76fad25afeb77fe268",
+     "seed": 0,
+     "validation": {
+      "records": 1211,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "addition": "C",
+     "config": "configs/regimes/real/r1-chrono-full-goldqa.yaml",
+     "config_hash": "693affa56d4acaf0085d391baf546f73d6fb84ed7edc5f2b0ec7c3aa4732619a",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "dropped_gpu_hours": 0.0,
+     "gpu_hours": 0.012402,
+     "line": 5,
+     "name": "r1-chrono-full-goldqa",
+     "run_id": "R1-693affa56d-s1",
+     "seal_digest": "7964139e915a5ee508343934745c9b6d9a13be8ab62e53de7c0e8fae25a91436",
+     "seed": 1,
+     "validation": {
+      "records": 1211,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "addition": "C",
+     "config": "configs/regimes/real/r1-chrono-full-goldqa.yaml",
+     "config_hash": "2468bac642e55c4a3ceb1105cb20b9e42899251751564a9d45f440814c6a08ff",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "dropped_gpu_hours": 0.0,
+     "gpu_hours": 0.012374,
+     "line": 6,
+     "name": "r1-chrono-full-goldqa",
+     "run_id": "R1-2468bac642-s2",
+     "seal_digest": "4a14063ec17fefecb68e9bf4288fd8d4c51fe05da95116bd2d7baeef55011638",
+     "seed": 2,
+     "validation": {
+      "records": 1211,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "addition": "C",
+     "config": "configs/regimes/real/r1-chrono-full-goldqa.yaml",
+     "config_hash": "8296ba03a80fa74b3d46f9d8c47cc74a241970b394653ab4dae8b1b389b992e7",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "dropped_gpu_hours": 0.0,
+     "gpu_hours": 0.012365,
+     "line": 7,
+     "name": "r1-chrono-full-goldqa",
+     "run_id": "R1-8296ba03a8-s3",
+     "seal_digest": "ecf45dce3abc84642ce45b864196489985a5d6cf167647aa009fb30dedf77d15",
+     "seed": 3,
+     "validation": {
+      "records": 1211,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "addition": "C",
+     "config": "configs/regimes/real/r1-chrono-full-goldqa.yaml",
+     "config_hash": "ace8c5d08ea05a7931032bc5c5dd9503f3de44221c10b9d399639fe49f8fa5ba",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "dropped_gpu_hours": 0.0,
+     "gpu_hours": 0.012362,
+     "line": 8,
+     "name": "r1-chrono-full-goldqa",
+     "run_id": "R1-ace8c5d08e-s4",
+     "seal_digest": "ccd818137580b2d739887625a0c293f73c7c5d98c40729c8ea2e8aa8ad8c2a80",
+     "seed": 4,
+     "validation": {
+      "records": 1211,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    }
+   ],
+   "tmux": {
+    "done": 8,
+    "exit": 0,
+    "git_sha": "9d5563409e818b39bd4af6313356c6457dfc3e0f",
+    "host": "turing",
+    "log": "logs/C-p46-20261018T214737Z.log",
+    "mode": "batch",
+    "phase": "C-p46",
+    "pid": 356962,
+    "run": "configs/batches/phase4-p4-6.txt",
+    "seeds": "",
+    "started_utc": "20261018T214737Z",
+    "state": "finished",
+    "total": 8,
+    "updated_utc": "2026-10-18T23:05:07Z"
+   }
+  }
+ },
+ "beamattack_longest_text": {
+  "averitec-attack-subset-v1": {
+   "max_importance_batch_plus_2": 49,
+   "max_words": 47,
+   "median_words": 16,
+   "n_refuted": 243
+  },
+  "averitec-attack-subset-v1-first200": {
+   "max_importance_batch_plus_2": 47,
+   "max_words": 45,
+   "median_words": 16,
+   "n_refuted": 113
+  },
+  "averitec-attack-subset-v1-last200": {
+   "max_importance_batch_plus_2": 49,
+   "max_words": 47,
+   "median_words": 16,
+   "n_refuted": 130
+  },
+  "fc": {
+   "max_importance_batch_plus_2": 20,
+   "max_words": 18,
+   "median_words": 8,
+   "n_positive": 205
+  },
+  "rule": "words = text.replace('\\n',' ').split(' ') as in BeamAttack get_scores_new; the leave-one-out importance pass is one batch of n texts after the origin query; an item ends as limit only if n + 2 > 1000",
+  "verdict": "no attacked text reaches the budget edge (max n + 2 = 49 of 1000)"
+ },
+ "budget_check_p44": [
+  "  P4-4 attack configs/regimes/real/r3-beam-a.yaml 0: expected 1.000000 high 2.500000 GPU-h (estimate) 04-RESEARCH Pattern 1 P4-4: victim A about 2.5 GPU-h, roberta-large on the CPU dominates (13-20 s/item, A4) [L]",
+  "  P4-4 attack configs/regimes/real/r3-beam-b-first200.yaml 0: expected 2.000000 high 6.100000 GPU-h (estimate) 04-RESEARCH Pattern 1 P4-4: victim B q 300-650 x 0.17 s + roberta-large CPU, about half of B 4.4-8.8 (243 items) per half; high 6.1 = 130 x 1000 x 0.169220 s [L]",
+  "  P4-4 attack configs/regimes/real/r3-beam-b-last200.yaml 0: expected 2.000000 high 6.100000 GPU-h (estimate) 04-RESEARCH Pattern 1 P4-4: victim B q 300-650 x 0.17 s + roberta-large CPU, about half of B 4.4-8.8 (243 items) per half; high 6.1 = 130 x 1000 x 0.169220 s [L]",
+  "phase4-budget: P4-4 expected=5.000000 high=14.700000 retry_allowance=0.000000 (ticket marker present in scripts/attack_session.sh)",
+  "phase4-budget: phase4 used 3.055405 GPU-h (data/measured/phase4-gpu-p4-1.json 0.266799 + data/measured/phase4-gpu-p4-2.json 2.788606)",
+  "phase4-budget: project used 7.571175 GPU-h (sum of session_gpu_hours in data/measured/phase2-gpu-session.json + data/measured/phase3-gpu-session.json + data/measured/phase3-pilot-session.json + data/measured/phase4-gpu-p4-1.json + data/measured/phase4-gpu-p4-2.json; Phase 4 files by phase4_budget: data/measured/phase4-gpu-p4-1.json + data/measured/phase4-gpu-p4-2.json)",
+  "phase4-budget: phase4_used=3.055405 batch_high=14.700000 total=17.755405 of 38.762137; project_used=7.571175 total=22.271175 of 50",
+  "STOP-RULE: ok"
+ ],
+ "budget_check_p44_p45_p46": [
+  "phase4-budget: project used 7.571175 GPU-h (sum of session_gpu_hours in data/measured/phase2-gpu-session.json + data/measured/phase3-gpu-session.json + data/measured/phase3-pilot-session.json + data/measured/phase4-gpu-p4-1.json + data/measured/phase4-gpu-p4-2.json; Phase 4 files by phase4_budget: data/measured/phase4-gpu-p4-1.json + data/measured/phase4-gpu-p4-2.json)",
+  "phase4-budget: phase4_used=3.055405 batch_high=20.510000 total=23.565405 of 38.762137; project_used=7.571175 total=28.081175 of 50",
+  "STOP-RULE: ok"
+ ],
+ "budget_check_p45": [
+  "  P4-5 run configs/regimes/real/r4-no-retrieval-replay.yaml 0: expected 0.010000 high 0.070000 GPU-h (estimate) 04-RESEARCH Pattern 1 P4-5 bound 0.2 [L]",
+  "  P4-5 run configs/regimes/real/r4-no-calibration-replay.yaml 0: expected 0.010000 high 0.070000 GPU-h (estimate) 04-RESEARCH Pattern 1 P4-5 bound 0.2 [L]",
+  "  P4-5 run configs/regimes/real/r4-no-abstention-replay.yaml 0: expected 0.010000 high 0.070000 GPU-h (estimate) 04-RESEARCH Pattern 1 P4-5 bound 0.2 [L]",
+  "phase4-budget: P4-5 expected=0.030000 high=0.210000 retry_allowance=0.000000 (ticket marker present in scripts/attack_session.sh)",
+  "phase4-budget: phase4 used 3.055405 GPU-h (data/measured/phase4-gpu-p4-1.json 0.266799 + data/measured/phase4-gpu-p4-2.json 2.788606)",
+  "phase4-budget: project used 7.571175 GPU-h (sum of session_gpu_hours in data/measured/phase2-gpu-session.json + data/measured/phase3-gpu-session.json + data/measured/phase3-pilot-session.json + data/measured/phase4-gpu-p4-1.json + data/measured/phase4-gpu-p4-2.json; Phase 4 files by phase4_budget: data/measured/phase4-gpu-p4-1.json + data/measured/phase4-gpu-p4-2.json)",
+  "phase4-budget: phase4_used=3.055405 batch_high=0.210000 total=3.265405 of 38.762137; project_used=7.571175 total=7.781175 of 50",
+  "STOP-RULE: ok"
+ ],
+ "budget_check_p45_actuals": [
+  "  P4-5 run configs/regimes/real/r4-no-retrieval-replay.yaml 0: expected 0.010000 high 0.070000 GPU-h (estimate) 04-RESEARCH Pattern 1 P4-5 bound 0.2 [L]",
+  "  P4-5 run configs/regimes/real/r4-no-calibration-replay.yaml 0: expected 0.010000 high 0.070000 GPU-h (estimate) 04-RESEARCH Pattern 1 P4-5 bound 0.2 [L]",
+  "  P4-5 run configs/regimes/real/r4-no-abstention-replay.yaml 0: expected 0.010000 high 0.070000 GPU-h (estimate) 04-RESEARCH Pattern 1 P4-5 bound 0.2 [L]",
+  "phase4-budget: P4-5 expected=0.030000 high=0.210000 retry_allowance=0.000000 (ticket marker present in scripts/attack_session.sh)",
+  "phase4-budget: phase4 used 4.919473 GPU-h (data/measured/phase4-gpu-p4-1.json 0.266799 + data/measured/phase4-gpu-p4-2.json 2.788606 + data/measured/phase4-gpu-p4-4.json 1.864068)",
+  "phase4-budget: project used 9.435243 GPU-h (sum of session_gpu_hours in data/measured/phase2-gpu-session.json + data/measured/phase3-gpu-session.json + data/measured/phase3-pilot-session.json + data/measured/phase4-gpu-p4-1.json + data/measured/phase4-gpu-p4-2.json; in progress, not counted: data/measured/phase4-gpu-p4-4.json; Phase 4 files by phase4_budget: data/measured/phase4-gpu-p4-1.json + data/measured/phase4-gpu-p4-2.json + data/measured/phase4-gpu-p4-4.json)",
+  "phase4-budget: phase4_used=4.919473 batch_high=0.210000 total=5.129473 of 38.762137; project_used=9.435243 total=9.645243 of 50",
+  "STOP-RULE: ok"
+ ],
+ "budget_check_p46": [
+  "  P4-6 attack configs/regimes/real/r3-gate-aware.yaml 0: expected 0.750000 high 5.300000 GPU-h (estimate) 04-RESEARCH Pattern 1 P4-6: addition A expected about 0.75; high 5.3 = 113 x 1000 x 0.169220 s / 3600 (BERT-Attack, the rule-chosen recipe; gap review bound 3.4 at 0.1 s/query) [L]",
+  "  P4-6 run configs/regimes/real/r4-transfer-a-to-b-replay.yaml 0: expected 0.010000 high 0.100000 GPU-h (estimate) gap review addition B at most 0.07 (2,430 inferences x 0.1 s); 04-RESEARCH Pattern 1 P4-6 B 0.2 over two replays = 0.1 [L]",
+  "  P4-6 run configs/regimes/real/r4-gate-only-a-replay.yaml 0: expected 0.010000 high 0.100000 GPU-h (estimate) gap review addition B at most 0.07 (2,430 inferences x 0.1 s); 04-RESEARCH Pattern 1 P4-6 B 0.2 over two replays = 0.1 [L]",
+  "  P4-6 run configs/regimes/real/r1-chrono-full-goldqa.yaml 0: expected 0.005000 high 0.020000 GPU-h (estimate) gap review addition C: R1 chrono full s0 measured 0.004487 GPU-h (data/measured/phase3-gpu-session.json); 5 seeds at most 0.05 with the re-ranker pass over the gold answers, 0.02 per seed rounded up [L]",
+  "  P4-6 run configs/regimes/real/r1-chrono-full-goldqa.yaml 1: expected 0.005000 high 0.020000 GPU-h (estimate) gap review addition C: R1 chrono full s0 measured 0.004487 GPU-h (data/measured/phase3-gpu-session.json); 5 seeds at most 0.05 with the re-ranker pass over the gold answers, 0.02 per seed rounded up [L]",
+  "  P4-6 run configs/regimes/real/r1-chrono-full-goldqa.yaml 2: expected 0.005000 high 0.020000 GPU-h (estimate) gap review addition C: R1 chrono full s0 measured 0.004487 GPU-h (data/measured/phase3-gpu-session.json); 5 seeds at most 0.05 with the re-ranker pass over the gold answers, 0.02 per seed rounded up [L]",
+  "  P4-6 run configs/regimes/real/r1-chrono-full-goldqa.yaml 3: expected 0.005000 high 0.020000 GPU-h (estimate) gap review addition C: R1 chrono full s0 measured 0.004487 GPU-h (data/measured/phase3-gpu-session.json); 5 seeds at most 0.05 with the re-ranker pass over the gold answers, 0.02 per seed rounded up [L]",
+  "  P4-6 run configs/regimes/real/r1-chrono-full-goldqa.yaml 4: expected 0.005000 high 0.020000 GPU-h (estimate) gap review addition C: R1 chrono full s0 measured 0.004487 GPU-h (data/measured/phase3-gpu-session.json); 5 seeds at most 0.05 with the re-ranker pass over the gold answers, 0.02 per seed rounded up [L]",
+  "phase4-budget: P4-6 expected=0.795000 high=5.600000 retry_allowance=0.000000 (ticket marker present in scripts/attack_session.sh)",
+  "phase4-budget: phase4 used 3.055405 GPU-h (data/measured/phase4-gpu-p4-1.json 0.266799 + data/measured/phase4-gpu-p4-2.json 2.788606)",
+  "phase4-budget: project used 7.571175 GPU-h (sum of session_gpu_hours in data/measured/phase2-gpu-session.json + data/measured/phase3-gpu-session.json + data/measured/phase3-pilot-session.json + data/measured/phase4-gpu-p4-1.json + data/measured/phase4-gpu-p4-2.json; Phase 4 files by phase4_budget: data/measured/phase4-gpu-p4-1.json + data/measured/phase4-gpu-p4-2.json)",
+  "phase4-budget: phase4_used=3.055405 batch_high=5.600000 total=8.655405 of 38.762137; project_used=7.571175 total=13.171175 of 50",
+  "STOP-RULE: ok"
+ ],
+ "budget_check_p46_actuals": [
+  "  P4-6 attack configs/regimes/real/r3-gate-aware.yaml 0: expected 0.750000 high 5.300000 GPU-h (estimate) 04-RESEARCH Pattern 1 P4-6: addition A expected about 0.75; high 5.3 = 113 x 1000 x 0.169220 s / 3600 (BERT-Attack, the rule-chosen recipe; gap review bound 3.4 at 0.1 s/query) [L]",
+  "  P4-6 run configs/regimes/real/r4-transfer-a-to-b-replay.yaml 0: expected 0.010000 high 0.100000 GPU-h (estimate) gap review addition B at most 0.07 (2,430 inferences x 0.1 s); 04-RESEARCH Pattern 1 P4-6 B 0.2 over two replays = 0.1 [L]",
+  "  P4-6 run configs/regimes/real/r4-gate-only-a-replay.yaml 0: expected 0.010000 high 0.100000 GPU-h (estimate) gap review addition B at most 0.07 (2,430 inferences x 0.1 s); 04-RESEARCH Pattern 1 P4-6 B 0.2 over two replays = 0.1 [L]",
+  "  P4-6 run configs/regimes/real/r1-chrono-full-goldqa.yaml 0: expected 0.005000 high 0.020000 GPU-h (estimate) gap review addition C: R1 chrono full s0 measured 0.004487 GPU-h (data/measured/phase3-gpu-session.json); 5 seeds at most 0.05 with the re-ranker pass over the gold answers, 0.02 per seed rounded up [L]",
+  "  P4-6 run configs/regimes/real/r1-chrono-full-goldqa.yaml 1: expected 0.005000 high 0.020000 GPU-h (estimate) gap review addition C: R1 chrono full s0 measured 0.004487 GPU-h (data/measured/phase3-gpu-session.json); 5 seeds at most 0.05 with the re-ranker pass over the gold answers, 0.02 per seed rounded up [L]",
+  "  P4-6 run configs/regimes/real/r1-chrono-full-goldqa.yaml 2: expected 0.005000 high 0.020000 GPU-h (estimate) gap review addition C: R1 chrono full s0 measured 0.004487 GPU-h (data/measured/phase3-gpu-session.json); 5 seeds at most 0.05 with the re-ranker pass over the gold answers, 0.02 per seed rounded up [L]",
+  "  P4-6 run configs/regimes/real/r1-chrono-full-goldqa.yaml 3: expected 0.005000 high 0.020000 GPU-h (estimate) gap review addition C: R1 chrono full s0 measured 0.004487 GPU-h (data/measured/phase3-gpu-session.json); 5 seeds at most 0.05 with the re-ranker pass over the gold answers, 0.02 per seed rounded up [L]",
+  "  P4-6 run configs/regimes/real/r1-chrono-full-goldqa.yaml 4: expected 0.005000 high 0.020000 GPU-h (estimate) gap review addition C: R1 chrono full s0 measured 0.004487 GPU-h (data/measured/phase3-gpu-session.json); 5 seeds at most 0.05 with the re-ranker pass over the gold answers, 0.02 per seed rounded up [L]",
+  "phase4-budget: P4-6 expected=0.795000 high=5.600000 retry_allowance=0.000000 (ticket marker present in scripts/attack_session.sh)",
+  "phase4-budget: phase4 used 4.966735 GPU-h (data/measured/phase4-gpu-p4-1.json 0.266799 + data/measured/phase4-gpu-p4-2.json 2.788606 + data/measured/phase4-gpu-p4-4.json 1.911330)",
+  "phase4-budget: project used 9.482505 GPU-h (sum of session_gpu_hours in data/measured/phase2-gpu-session.json + data/measured/phase3-gpu-session.json + data/measured/phase3-pilot-session.json + data/measured/phase4-gpu-p4-1.json + data/measured/phase4-gpu-p4-2.json; in progress, not counted: data/measured/phase4-gpu-p4-4.json; Phase 4 files by phase4_budget: data/measured/phase4-gpu-p4-1.json + data/measured/phase4-gpu-p4-2.json + data/measured/phase4-gpu-p4-4.json)",
+  "phase4-budget: phase4_used=4.966735 batch_high=5.600000 total=10.566735 of 38.762137; project_used=9.482505 total=15.082505 of 50",
+  "STOP-RULE: ok"
+ ],
+ "ceiling_gpu_hours": 38.762137,
+ "cut_state": {
+  "addition_a_rule": "first 200 ids: the 100-id cut applies only if the pre-registered battery is not sealed by 2026-10-29 23:59; not run if not started by 2026-10-30 12:00 Europe/London (adjustments draft R-A, row 50)",
+  "addition_c_rule": "rows read not run (cut: addition-C on <date>) if r1-chrono-full-goldqa is not sealed by 2026-10-31 23:59 (draft R-C, row 51)",
+  "checked_utc": "2026-10-18T17:47:45Z",
+  "cut_1_beamattack": {
+   "active": false,
+   "fired_on": null,
+   "trigger_date": "2026-10-29"
+  },
+  "cut_2_subset_200": {
+   "active": false,
+   "fired_on": null,
+   "trigger_date": "2026-10-29"
+  },
+  "cut_3_r4_seeds_3": {
+   "active": false,
+   "fired_on": null,
+   "trigger_date": "2026-10-31"
+  },
+  "cut_4_drop_rd": {
+   "active": false,
+   "fired_on": null,
+   "trigger_date": "2026-10-31"
+  },
+  "today_europe_london": "2026-10-18",
+  "verdict": "no cut has fired (configs/cuts.yaml: every step active false); today is before 2026-10-29, so P4-4 (BeamAttack) is allowed and the replay sources stay as committed"
+ },
+ "deviations_rows_proposed": [
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66
+ ],
+ "dry_runs": {
+  "P4-4": [
+   "make attack RUN=configs/regimes/real/r3-beam-a.yaml SEED=0",
+   "make attack RUN=configs/regimes/real/r3-beam-b-first200.yaml SEED=0",
+   "make attack RUN=configs/regimes/real/r3-beam-b-last200.yaml SEED=0",
+   "batch: 3 lines (dry run, nothing executed)",
+   "rc=0"
+  ],
+  "P4-5": [
+   "make run RUN=configs/regimes/real/r4-no-retrieval-replay.yaml SEED=0",
+   "make run RUN=configs/regimes/real/r4-no-calibration-replay.yaml SEED=0",
+   "make run RUN=configs/regimes/real/r4-no-abstention-replay.yaml SEED=0",
+   "batch: 3 lines (dry run, nothing executed)",
+   "rc=0"
+  ]
+ },
+ "expected_attacked_n_beamattack": {
+  "source": "the clean decisions are those of the sealed P4-1/P4-2 victims (same victim source and seed): r3-a attacked 204 (AVeriTeC) and 175 (FC); victim-B halves 108 and 124 (04-09 expected_n, equal to the sealed r3-b-* runs)",
+  "victim_a_averitec": 204,
+  "victim_a_fc": 175,
+  "victim_b_first200": 108,
+  "victim_b_last200": 124
+ },
+ "gpu_check_before_go": "2026-10-18T18:58:10Z: make gpu-check: nvidia-smi: NVIDIA GeForce RTX 3090, driver 550.163.01, memory 2/24576 MiB; compute_apps=0; compute_apps=0; sentinel /data/aac/GPU_CLEARED present and no tmux server (turing-checks-b9e841a.log); turing nproc 10, 62 GiB RAM",
+ "gpu_hours_after_session": {
+  "phase4_ceiling": 38.762137,
+  "phase4_used": 6.113219,
+  "project_envelope": 50,
+  "project_used": 10.628989,
+  "source": "python -m aac.attacks.phase4_budget (phase4_used, project_used lines) after batches P4-4, P4-5, P4-6 were recorded: p4-1 0.266799 + p4-2 2.788606 + p4-4 3.057814"
+ },
+ "gpu_push_p46": [
+  "release 9d5563409e818b39bd4af6313356c6457dfc3e0f -> turing:/data/aac/releases/9d5563409e818b39bd4af6313356c6457dfc3e0f",
+  "data/derived @ 9d5563409e818b39bd4af6313356c6457dfc3e0f -> turing:/data/aac/data/derived (git archive, rsync --checksum, private/ excluded)"
+ ],
+ "hf_push": "not repeated: roberta-large (6 pinned files) was copied to turing:/data/aac/.hf by Stage (make hf-push); sha256 of the snapshot's model.safetensors on turing recomputed 2026-10-18 by Stage (turing-checks-b9e841a.log) equals configs/models.yaml weight_sha256",
+ "operator_reply": [
+  "2026-10-18 21:22 local (advance go #2, STATE.md Pending Todos): \"GPU has my go and I'll sleep soon so continue deploy a haiku subagent that goes by the go/ not sure why you call it blessing but Okey you have it xd\"",
+  "2026-10-17 21:37 UTC (advance go #1): \"Okey you have my go when finished to start gpu hours\""
+ ],
+ "operator_reply_reading": "Orchestrator reading (not the protocol's words): go for P4-4 (BeamAttack), then P4-5 (replays), then P4-6 (additions), each dispatched only after `python -m aac.attacks.phase4_budget --batch <id>` prints `STOP-RULE: ok` against the actual hours; a `STOP-RULE: stop` is NOT overridden by the go (hold, commit, hand back a new checkpoint); all D1-D15 defaults unchanged; score-visible variant NO; cu126 attack lock NO unless P4-4 measures the masked-LM share dominates; adjustments rows 48-66 stay proposed.",
+ "operator_reply_relayed_by": "orchestrator, by message to the 04-12 executor at the Task 2 checkpoint (2026-10-18, after 19:00Z)",
+ "plan": "04-12",
+ "plan_printer": {
+  "P4-4": "total: 3 runs, 5.00-14.70 GPU-h (ceiling 38.762137 GPU-h)",
+  "P4-5": "total: 3 runs, 0.03-0.21 GPU-h (ceiling 38.762137 GPU-h)",
+  "P4-6": "total: 8 runs, 0.80-5.60 GPU-h (ceiling 38.762137 GPU-h)"
+ },
+ "preflight": [
+  "PREFLIGHT release: ok (b9e841ad430333224edc3382b4421efb312c2578)",
+  "PREFLIGHT venv: ok (/data/aac/releases/b9e841ad430333224edc3382b4421efb312c2578/src/aac/__init__.py)",
+  "PREFLIGHT torch-build: ok (2.14.1+cu126 12.6)",
+  "PREFLIGHT symlinks: ok (runs data/raw/{averitec,incrediblae} data/derived .hf -> /data/aac)",
+  "PREFLIGHT raw-layout: ok",
+  "PREFLIGHT submodules: ok",
+  "PREFLIGHT index: ok (102 runs)",
+  "PREFLIGHT manifest-check: ok (data manifest: ok 34 entries (16 re-hashed here, 17 checked against data/derived/data-manifest.json, 1 private excused, 3 derived halves regenerated) data_version=648d8eb14b0e24a73923be0e0094310458b98da91c61d39b734694100f64746b)",
+  "PREFLIGHT offline-models: ok (18 passed in 6.85s)",
+  "INFO sentinel /data/aac/GPU_CLEARED: present; compute_apps=0 (read-only nvidia-smi)",
+  "preflight: 0 FAIL"
+ ],
+ "preflight_fail_count": 0,
+ "pull": [
+  "pulled R3-5d765f9257-s0: SEALED 4e61dbc1faed verified; INDEX.json updated",
+  "pulled R3-b37aa9d3c5-s0: SEALED ff4b81ba0dca verified; INDEX.json updated",
+  "pulled R3-a919c6fb2f-s0: SEALED 0330337361c2 verified; INDEX.json updated",
+  "pulled R4-97f971cded-s0: SEALED 3be898755311 verified; INDEX.json updated",
+  "pulled R4-49be66a414-s0: SEALED 6fdc04a6b158 verified; INDEX.json updated",
+  "pulled R4-bcd3c65b21-s0: SEALED 9583b05d5de0 verified; INDEX.json updated",
+  "pulled R3-60479e7e32-s0: SEALED 672ba1685a71 verified; INDEX.json updated",
+  "pulled R4-6e542feded-s0: SEALED ba26ab3f95f5 verified; INDEX.json updated",
+  "pulled R4-8e81adc944-s0: SEALED b26c40792f35 verified; INDEX.json updated",
+  "pulled R1-d1485565cc-s0: SEALED d43902057195 verified; INDEX.json updated",
+  "pulled R1-693affa56d-s1: SEALED 7964139e915a verified; INDEX.json updated",
+  "pulled R1-2468bac642-s2: SEALED 4a14063ec17f verified; INDEX.json updated",
+  "pulled R1-8296ba03a8-s3: SEALED ecf45dce3abc verified; INDEX.json updated",
+  "pulled R1-ace8c5d08e-s4: SEALED ccd818137580 verified; INDEX.json updated"
+ ],
+ "release_p46": {
+  "assets_lines": [
+   "assets: openattack/AttackAssist.UniversalSentenceEncoder ok a91f72d45154",
+   "assets: openattack/TProcess.NLTKPerceptronPosTagger/averaged_perceptron_tagger.pickle ok 25a5a19c7ced",
+   "assets: openattack/TProcess.NLTKSentTokenizer/english.pickle ok dda37972ae88",
+   "assets: openattack/TProcess.NLTKWordNet not pinned by digest in third_party/PINS.json (not checked)",
+   "assets: lambo/LAMBO_213-UD_English-EWT.dict ok 183c78a1e5fd",
+   "assets: lambo/LAMBO_213-UD_English-EWT.pth ok dc627564a137",
+   "assets: lambo/LAMBO_213-UD_English-EWT_subwords.pth ok e5acdbd4d374",
+   "assets: 7 ok/unpinned, 0 failed"
+  ],
+  "contains": "b9e841a + 04-10 BODEGA scoring step + ch4-feed scripts + fig_4_1 legend fix (c12934c) + 04-13 session record + the three 04-12 config files",
+  "dry_run_p46": [
+   "make attack RUN=configs/regimes/real/r3-gate-aware.yaml SEED=0",
+   "make run RUN=configs/regimes/real/r4-transfer-a-to-b-replay.yaml SEED=0",
+   "make run RUN=configs/regimes/real/r4-gate-only-a-replay.yaml SEED=0",
+   "make run RUN=configs/regimes/real/r1-chrono-full-goldqa.yaml SEED=0",
+   "make run RUN=configs/regimes/real/r1-chrono-full-goldqa.yaml SEED=1",
+   "make run RUN=configs/regimes/real/r1-chrono-full-goldqa.yaml SEED=2",
+   "make run RUN=configs/regimes/real/r1-chrono-full-goldqa.yaml SEED=3",
+   "make run RUN=configs/regimes/real/r1-chrono-full-goldqa.yaml SEED=4",
+   "batch: 8 lines (dry run, nothing executed)",
+   "rc=0"
+  ],
+  "preflight": [
+   "PREFLIGHT release: ok (9d5563409e818b39bd4af6313356c6457dfc3e0f)",
+   "PREFLIGHT venv: ok (/data/aac/releases/9d5563409e818b39bd4af6313356c6457dfc3e0f/src/aac/__init__.py)",
+   "PREFLIGHT torch-build: ok (2.14.1+cu126 12.6)",
+   "PREFLIGHT symlinks: ok (runs data/raw/{averitec,incrediblae} data/derived .hf -> /data/aac)",
+   "PREFLIGHT raw-layout: ok",
+   "PREFLIGHT submodules: ok",
+   "PREFLIGHT index: ok (103 runs)",
+   "PREFLIGHT manifest-check: ok (data manifest: ok 34 entries (16 re-hashed here, 17 checked against data/derived/data-manifest.json, 1 private excused, 3 derived halves regenerated) data_version=648d8eb14b0e24a73923be0e0094310458b98da91c61d39b734694100f64746b)",
+   "PREFLIGHT offline-models: ok (18 passed in 8.61s)",
+   "INFO sentinel /data/aac/GPU_CLEARED: present; compute_apps=1 (read-only nvidia-smi)",
+   "preflight: 0 FAIL"
+  ],
+  "preflight_note": "run while P4-4 line 2 held the card: compute_apps=1 is our own victim server",
+  "sha": "9d5563409e818b39bd4af6313356c6457dfc3e0f",
+  "status": "smoke list 9/9 green; gpu-push (04-12); turing-setup exit=0 (orchestrator); preflight 0 FAIL; assets 7 ok; dry run 8 lines",
+  "turing_setup": "make turing-setup SHA=9d5563409e818b39bd4af6313356c6457dfc3e0f TURING_ATTACK=1 run by the orchestrator; /tmp/aac-release-9d55634.log ends: release setup: ok (/data/aac/releases/9d5563409e818b39bd4af6313356c6457dfc3e0f) | exit=0",
+  "why": "P4-6 needs configs/regimes/real/r3-gate-aware.yaml and configs/batches/phase4-p4-6.txt, which are not in b9e841a (new in 9d55634)"
+ },
+ "release_reuse_check": "git diff b9e841a 9d55634 over the P4-4/P4-5 configs and batches (r3-beam-*, r4-*-replay, phase4-p4-4/5.txt, phase4-attacks.yaml, phase4-r4.yaml), configs/attacks, configs/models.yaml, configs/base.yaml, configs/stats.yaml, attacks/runner (except a new test file), src/aac/{serve,regimes,pipeline,components,data}, scripts/attack_session.sh, scripts/gpu_run.sh, run.sh, uv.lock, attacks/attack-cpu.lock.txt: identical; the only differences under src/aac/attacks and attacks/ are the new 04-10 BODEGA scoring files (bodega.py, scoring/bodega_score.py, test_bodega_shim.py), not on the attack or run path",
+ "release_reused_for": [
+  "P4-4",
+  "P4-5"
+ ],
+ "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+ "replay_sources": {
+  "edited": false,
+  "reason": "no cut fired and P4-2b ran, so every source in the three victim-B replay configs exists (8 r3-b-* runs sealed) or is produced by P4-4 before P4-5 (r3-beam-b-first200, r3-beam-b-last200); r4-transfer-a-to-b-replay and r4-gate-only-a-replay read r3-a (sealed) and r3-beam-a (P4-4). The configs stay byte-identical to b9e841a. If P4-4 does not run (skip-beam or cut-1), the r3-beam-* sources must be removed in a new commit and release before P4-5/P4-6."
+ },
+ "roberta_sha256_models_yaml": "047c85f0b96269cd62e6f732644f067004eebd95af5b5d35965ae2528f13bf38",
+ "roberta_sha256_turing": "047c85f0b96269cd62e6f732644f067004eebd95af5b5d35965ae2528f13bf38",
+ "schema": "phase4-gpu-session/1",
+ "session_gpu_hours": 3.057814,
+ "session_gpu_hours_rule": "sum of run-record gpu_hours over the 14 runs of P4-4, P4-5 and P4-6 (03-10 convention, as 04-09 and 04-11); dropped 0 (no timeout, no resume)",
+ "session_timeouts_s": {
+  "r3-beam-a": 18000,
+  "r3-beam-b-first200": 25200,
+  "r3-beam-b-last200": 25200,
+  "r3-gate-aware": 21600
+ },
+ "smoke_list": {
+  "attack-session-smoke": "attack-session-smoke: R3-b8d0be8ef8-s0 L2 ok",
+  "beam-smoke": "beam-smoke: R3-8cb0be7bf3-s0 L2 ok",
+  "gate-aware-smoke": "gate-aware-smoke: R3-0b6149246d-s0 L2 ok",
+  "lint-imports": "T-L2: import-linter (2 kept, 0 broken) + AST",
+  "pilot-smoke": "pilot-smoke: R3-d0f2f7e45f-s0 L2 ok",
+  "r4-smoke": "r4-smoke: metric R4-e573109430-s0 replay R4-10784fa1f7-s0 L2 ok",
+  "runner-test": "Ran 25 tests, OK",
+  "smoke": "SMOKE golden-diff: ok (day1_docs spec e8e6af3a355c)",
+  "test-unit": "1699 passed, 27 skipped, 3 warnings in 792.08s (0:13:12)"
+ },
+ "smoke_list_sha": "9d5563409e818b39bd4af6313356c6457dfc3e0f",
+ "smoke_list_where": "isolated git clone at 9d55634 with its own .venv-main (make setup) and .venv-attack (make env-attack); .hf, data/raw/{averitec,incrediblae}, data/derived/private and 129 run dirs symlinked from the main checkout; secrets/ not linked (04-09 pattern)",
+ "smoke_summary": [
+  "runner-test rc=0 secs=114",
+  "attack-session-smoke rc=0 secs=37",
+  "lint-imports rc=0 secs=2",
+  "beam-smoke rc=0 secs=955",
+  "smoke rc=0 secs=1119",
+  "test-unit rc=0 secs=795",
+  "gate-aware-smoke rc=0 secs=1215",
+  "pilot-smoke rc=0 secs=2039",
+  "dirty: 2",
+  "done",
+  "r4-smoke rc=0 secs=272 (rerun alone, nice 10, threads 8)"
+ ],
+ "throttle_note": "coordinator flag 21:47 local (cpu-host load 57): the r4-smoke lane was stopped mid-run (rc 143 in the first pass, the clone namespace only) and rerun alone after pilot-smoke with nice -n 10 and OMP/MKL/OPENBLAS/TORCH threads 8; at most one clone victim server alive from then on; load 56 -> 9 after",
+ "turing_host": "turing",
+ "turing_setup_p46": "make turing-setup SHA=9d5563409e818b39bd4af6313356c6457dfc3e0f TURING_ATTACK=1 run by the orchestrator in the background (log /tmp/aac-release-9d55634.log); checked before P4-6",
+ "watcher": {
+  "part1_b9e841a": {
+   "first_utc": "19:00:39",
+   "last_utc": "21:47:02",
+   "per_session": {
+    "aac-C-p44": {
+     "compute_app_samples": 821,
+     "cwd_in_release": 821,
+     "env_pins_ok": 821,
+     "foreign_apps": 0,
+     "max_compute_apps": 1,
+     "peak_gpu_mib": 9123,
+     "runner_peak_vmhwm_kb": 3230384,
+     "samples": 839,
+     "server_peak_vmhwm_kb": 8149836
+    },
+    "aac-C-p45": {
+     "compute_app_samples": 22,
+     "cwd_in_release": 22,
+     "env_pins_ok": 22,
+     "foreign_apps": 0,
+     "max_compute_apps": 1,
+     "peak_gpu_mib": 8111,
+     "samples": 35,
+     "server_peak_vmhwm_kb": 8168584
+    },
+    "idle": {
+     "foreign_apps": 0,
+     "max_compute_apps": 0,
+     "peak_gpu_mib": 2,
+     "samples": 118
+    }
+   },
+   "samples": 992
+  },
+  "part2_9d55634": {
+   "first_utc": "21:47:23",
+   "last_utc": "23:05:32",
+   "per_session": {
+    "aac-C-p46": {
+     "compute_app_samples": 441,
+     "cwd_in_release": 441,
+     "env_pins_ok": 441,
+     "foreign_apps": 0,
+     "max_compute_apps": 1,
+     "peak_gpu_mib": 8893,
+     "runner_peak_vmhwm_kb": 1302440,
+     "samples": 462,
+     "server_peak_vmhwm_kb": 8188780
+    },
+    "idle": {
+     "foreign_apps": 0,
+     "max_compute_apps": 0,
+     "peak_gpu_mib": 2,
+     "samples": 5
+    }
+   },
+   "samples": 467
+  },
+  "rule": "read-only sampling every 10 s on turing (scratchpad 0412/watch.sh, 04-09 pattern); part 1 against release b9e841a (P4-4, P4-5), part 2 against 9d55634 (P4-6)",
+  "stopped": "both stopped (end 21:47:12 and 23:05:42 UTC) and their files removed from turing /tmp; after the session: 0 compute apps, no tmux server"
+ },
+ "worst_case_p44_by_timeouts_gpu_hours": 19.0
+}

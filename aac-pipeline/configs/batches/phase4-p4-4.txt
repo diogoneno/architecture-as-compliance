@@ -1,0 +1,3 @@
+attack configs/regimes/real/r3-beam-a.yaml 0
+attack configs/regimes/real/r3-beam-b-first200.yaml 0
+attack configs/regimes/real/r3-beam-b-last200.yaml 0

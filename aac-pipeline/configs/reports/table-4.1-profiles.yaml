@@ -1,0 +1,7 @@
+profiles:
+ - manifest: tests/fixtures/corpus/MANIFEST.sha256
+ plan: stub
+ published: configs/reports/published_baselines.fixture.yaml
+ - manifest: data/derived/MANIFEST.sha256
+ plan: real
+ published: configs/published_baselines.yaml

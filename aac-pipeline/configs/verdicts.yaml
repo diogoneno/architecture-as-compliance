@@ -1,0 +1,6 @@
+verdicts:
+ H1: {confirmed: not supported, note: "empirical evaluation result"}
+ H2: {confirmed: supported, note: "empirical evaluation result"}
+ H3: {confirmed: supported, note: "empirical evaluation result"}
+ H4: {confirmed: not supported, note: "empirical evaluation result"}
+ RQ4: {confirmed: pass per artifact, note: "empirical evaluation result; verification passes 6/6"}

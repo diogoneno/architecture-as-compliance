@@ -1,0 +1,4 @@
+extends: [../train/c1-chrono.yaml]
+name: c1-chrono-cpusmoke
+train:
+ max_steps: 3

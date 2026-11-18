@@ -1,0 +1,25 @@
+extends: [../stats.yaml]
+schema: aac-bodega/1
+name: bs-tw
+regime: BS
+seed: 0
+data:
+ dataset: fixture
+ manifest: build/tinyworld/world/MANIFEST.sha256
+ split_manifest: build/tinyworld/world/splits/tinyworld-chrono.json
+ claims: build/tinyworld/world/averitec/claims.json
+ labels: build/tinyworld/world/averitec/labels.csv
+ targets: [averitec_test]
+sources: [r3-tw-pilot]
+shim: {averitec_chrono: PR2, fc: FC, rd: RD}
+bodega:
+ commit: 2dda5a6e6d8a291327df79a44767efea8cab556f
+ semantic_scorer: BLEURT
+ bleurt_revision: e22b9eb071dcb939da9fff08b20a7e746c72a830
+ bleurt_pytorch_commit: 279ca1bb4106bde5a89f0f82723197e23d8446cb
+ lambo_commit: c699c6d07fc4b75d2baf758181c4e796220df238
+ align_rd: true
+ device: cpu
+ threads: 4
+env: {lock_sha256: AUTO, python: AUTO, torch: AUTO, transformers: AUTO, numpy: AUTO}
+code: {git_sha: AUTO}

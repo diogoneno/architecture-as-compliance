@@ -1,0 +1,2333 @@
+{
+ "backup": {
+  "command": "nice -n 10 make backup (scripts/backup.sh)",
+  "destination": "/mnt/loki/backups/dissertation/2026-10-19",
+  "ended_utc": "2026-10-19T17:43:09Z",
+  "head": "505f42c (the commit immediately before the start; 9e51f4b, a5b99e7 and later commits are not in it)",
+  "line": "backup: /mnt/loki/backups/dissertation/2026-10-19  (MANIFEST.sha256: 17779 files, verified; no secrets/, no private lane, no build/, no raw rows, no rd5/)",
+  "manifest_files": 17779,
+  "not_in_backup": "this backup block, the Phase 4 and Phase 2 re-verification files, the feed host-role fix, and the two untargeted BASE runs in flight (unsealed)",
+  "path_taken": "rsync (no FALLBACK line)",
+  "previous": "backup_1321z_plan_04_15",
+  "started_utc": "2026-10-19T17:33:23Z"
+ },
+ "backup_1321z_plan_04_15": {
+  "command": "nice -n 10 make backup (scripts/backup.sh, with the merged cp-fallback fix)",
+  "destination": "/mnt/loki/backups/dissertation/2026-10-19",
+  "ended_utc": "2026-10-19T13:21:23Z",
+  "fallback_cp": false,
+  "head": "d503e8fc187528ba89a31c294d7737375f5079ce",
+  "independent_checks": {
+   "manifest_lines_matching_secrets_or_derived_private": 0,
+   "manifest_lines_under_aac_pipeline_build": 0,
+   "phase4_exit_json_hash_in_manifest_equals_tree": true,
+   "private_or_secrets_dirs_on_share": 0,
+   "scripts_value_audits_0414_files_in_manifest": 12
+  },
+  "line": "backup: /mnt/loki/backups/dissertation/2026-10-19  (MANIFEST.sha256: 17571 files, verified; no secrets/, no private lane, no build/, no raw rows, no rd5/)",
+  "manifest_files": 17571,
+  "not_in_backup": "this backup block, 04-15-SUMMARY.md and the commits after d503e8f",
+  "path_taken": "rsync (no FALLBACK line; rsync exit 0)",
+  "rerun_into_dated_folder": "04-13 wrote 17,094 manifest files to the same folder earlier on 2026-10-19; this re-run took the rsync path and re-verified the full manifest",
+  "started_utc": "2026-10-19T13:04:06Z",
+  "verified": true,
+  "wall_seconds": 1028
+ },
+ "batches": [
+  {
+   "actual_gpu_hours": 0.169452,
+   "actual_over_projection": 0.040346,
+   "batch": "P4-1",
+   "batch_file": "configs/batches/phase4-p4-1.txt",
+   "cut_or_stop": null,
+   "dropped_gpu_hours": 0.0,
+   "estimate_gpu_hours": [
+    0.2,
+    3.7
+   ],
+   "estimate_source": "configs/batches/phase4-attacks.yaml (1 lines, sum of est_gpu_hours)",
+   "projection_at_dispatch_gpu_hours": 4.2,
+   "projection_source": "phase4-budget: phase4_used=0.000000 batch_high=4.200000 total=4.200000 of 38.762137; project_used=4.515770 total=8.715770 of 50",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "runs": [
+    "R3-c46605d5c5-s0"
+   ],
+   "session_file": "data/measured/phase4-gpu-p4-1.json",
+   "stop_rule": "STOP-RULE: ok"
+  },
+  {
+   "actual_gpu_hours": 0.097347,
+   "actual_over_projection": 0.194694,
+   "batch": "P4-3",
+   "batch_file": "configs/batches/phase4-p4-3.txt",
+   "cut_or_stop": null,
+   "dropped_gpu_hours": 0.0,
+   "estimate_gpu_hours": [
+    0.12,
+    0.5
+   ],
+   "estimate_source": "configs/batches/phase4-r4.yaml (40 lines, sum of est_gpu_hours)",
+   "projection_at_dispatch_gpu_hours": 0.5,
+   "projection_source": "phase4-budget: phase4_used=0.169452 batch_high=0.500000 total=0.669452 of 38.762137; project_used=4.685222 total=5.185222 of 50",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "runs": [
+    "R4-40e9726290-s0",
+    "R4-c17057353a-s1",
+    "R4-78eac314ed-s2",
+    "R4-23a0226c63-s3",
+    "R4-5d4b3dd78f-s4",
+    "R4-4878f18871-s0",
+    "R4-97f99c223f-s1",
+    "R4-bee69261d0-s2",
+    "R4-f7b30579b5-s3",
+    "R4-76f5ef28a9-s4",
+    "R4-7c830169ed-s0",
+    "R4-3ece82aa32-s1",
+    "R4-11039a3180-s2",
+    "R4-83500d30ab-s3",
+    "R4-e79f69b1b5-s4",
+    "R4-0fd2e8429c-s0",
+    "R4-59cada6ce1-s1",
+    "R4-07f094cdc4-s2",
+    "R4-0ae9f12ea1-s3",
+    "R4-24b7ee91e1-s4",
+    "R4-0498a08e05-s0",
+    "R4-7568f2c93d-s1",
+    "R4-0030a443eb-s2",
+    "R4-83698f5a77-s3",
+    "R4-4a8fcca609-s4",
+    "R4-a0260da662-s0",
+    "R4-a9cb31e199-s1",
+    "R4-aa85d4b2d3-s2",
+    "R4-6db1bbaaa3-s3",
+    "R4-41065ca9cc-s4",
+    "R4-dc457bea42-s0",
+    "R4-ec05e1fd37-s1",
+    "R4-33e673b1dd-s2",
+    "R4-588250b373-s3",
+    "R4-7fd1a386ee-s4",
+    "R4-e55087d58e-s0",
+    "R4-4bf5242564-s1",
+    "R4-4c5f445c4b-s2",
+    "R4-a1f5490519-s3",
+    "R4-d64502b079-s4"
+   ],
+   "session_file": "data/measured/phase4-gpu-p4-1.json",
+   "stop_rule": "STOP-RULE: ok"
+  },
+  {
+   "actual_gpu_hours": 1.306851,
+   "actual_over_projection": 0.777976,
+   "batch": "P4-2a",
+   "batch_file": "configs/batches/phase4-p4-2a.txt",
+   "cut_or_stop": null,
+   "dropped_gpu_hours": 0.0,
+   "estimate_gpu_hours": [
+    2.19,
+    14.1
+   ],
+   "estimate_source": "configs/batches/phase4-attacks.yaml (4 lines, sum of est_gpu_hours)",
+   "projection_at_dispatch_gpu_hours": 1.679809,
+   "projection_source": "phase4-budget: phase4_used=0.266799 batch_high=1.679809 total=1.946608 of 38.762137; project_used=4.782569 total=6.462378 of 50",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "runs": [
+    "R3-f2b2a34665-s0",
+    "R3-ed263acff8-s0",
+    "R3-8242a107fc-s0",
+    "R3-39b2489296-s0"
+   ],
+   "session_file": "data/measured/phase4-gpu-p4-2.json",
+   "stop_rule": "STOP-RULE: ok"
+  },
+  {
+   "actual_gpu_hours": 1.481755,
+   "actual_over_projection": 0.973076,
+   "batch": "P4-2b",
+   "batch_file": "configs/batches/phase4-p4-2b.txt",
+   "cut_or_stop": null,
+   "dropped_gpu_hours": 0.0,
+   "estimate_gpu_hours": [
+    2.519469,
+    16.221238
+   ],
+   "estimate_source": "configs/batches/phase4-attacks.yaml (4 lines, sum of est_gpu_hours)",
+   "projection_at_dispatch_gpu_hours": 1.522753,
+   "projection_source": "phase4-budget: phase4_used=1.573650 batch_high=1.522753 total=3.096403 of 38.762137; project_used=6.089420 total=7.612173 of 50",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "runs": [
+    "R3-2721e6be83-s0",
+    "R3-ac741ca97d-s0",
+    "R3-330efa45f0-s0",
+    "R3-dbe29a3a8c-s0"
+   ],
+   "session_file": "data/measured/phase4-gpu-p4-2.json",
+   "stop_rule": "STOP-RULE: ok"
+  },
+  {
+   "actual_gpu_hours": 1.864068,
+   "actual_over_projection": 0.126807,
+   "batch": "P4-4",
+   "batch_file": "configs/batches/phase4-p4-4.txt",
+   "cut_or_stop": null,
+   "dropped_gpu_hours": 0.0,
+   "estimate_gpu_hours": [
+    5.0,
+    14.7
+   ],
+   "estimate_source": "configs/batches/phase4-attacks.yaml (3 lines, sum of est_gpu_hours)",
+   "projection_at_dispatch_gpu_hours": 14.7,
+   "projection_source": "phase4-budget: phase4_used=3.055405 batch_high=14.700000 total=17.755405 of 38.762137; project_used=7.571175 total=22.271175 of 50",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "runs": [
+    "R3-5d765f9257-s0",
+    "R3-b37aa9d3c5-s0",
+    "R3-a919c6fb2f-s0"
+   ],
+   "session_file": "data/measured/phase4-gpu-p4-4.json",
+   "stop_rule": "STOP-RULE: ok"
+  },
+  {
+   "actual_gpu_hours": 0.047262,
+   "actual_over_projection": 0.225057,
+   "batch": "P4-5",
+   "batch_file": "configs/batches/phase4-p4-5.txt",
+   "cut_or_stop": null,
+   "dropped_gpu_hours": 0.0,
+   "estimate_gpu_hours": [
+    0.03,
+    0.21
+   ],
+   "estimate_source": "configs/batches/phase4-r4.yaml (3 lines, sum of est_gpu_hours)",
+   "projection_at_dispatch_gpu_hours": 0.21,
+   "projection_source": "phase4-budget: phase4_used=4.919473 batch_high=0.210000 total=5.129473 of 38.762137; project_used=9.435243 total=9.645243 of 50",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "runs": [
+    "R4-97f971cded-s0",
+    "R4-49be66a414-s0",
+    "R4-bcd3c65b21-s0"
+   ],
+   "session_file": "data/measured/phase4-gpu-p4-4.json",
+   "stop_rule": "STOP-RULE: ok"
+  },
+  {
+   "actual_gpu_hours": 1.146484,
+   "actual_over_projection": 0.204729,
+   "batch": "P4-6",
+   "batch_file": "configs/batches/phase4-p4-6.txt",
+   "cut_or_stop": null,
+   "dropped_gpu_hours": 0.0,
+   "estimate_gpu_hours": [
+    0.795,
+    5.6
+   ],
+   "estimate_source": "configs/batches/phase4-additions.yaml (8 lines, sum of est_gpu_hours)",
+   "projection_at_dispatch_gpu_hours": 5.6,
+   "projection_source": "phase4-budget: phase4_used=4.966735 batch_high=5.600000 total=10.566735 of 38.762137; project_used=9.482505 total=15.082505 of 50",
+   "release_sha": "9d5563409e818b39bd4af6313356c6457dfc3e0f",
+   "runs": [
+    "R3-60479e7e32-s0",
+    "R4-6e542feded-s0",
+    "R4-8e81adc944-s0",
+    "R1-d1485565cc-s0",
+    "R1-693affa56d-s1",
+    "R1-2468bac642-s2",
+    "R1-8296ba03a8-s3",
+    "R1-ace8c5d08e-s4"
+   ],
+   "session_file": "data/measured/phase4-gpu-p4-4.json",
+   "stop_rule": "STOP-RULE: ok"
+  }
+ ],
+ "corrections": [
+  {
+   "field": "data/measured/phase4-gpu-p4-4.json session_timeouts_s.r3-beam-b-last200",
+   "note": "append-only evidence not edited; runs[].session.limit_s reads the sealed config; session 3359.325809 s is inside either value",
+   "recorded": 25200,
+   "sealed": 28800,
+   "sealed_source": "runs/R3-a919c6fb2f-s0/config.resolved.json attack.session_timeout_s; configs/regimes/real/r3-beam-b-last200.yaml"
+  }
+ ],
+ "cpu_wall_seconds": {
+  "cpu-host_lane_04_13": {
+   "note": "make wall per job (release build to release removal, seals included); the stand-alone aac validate re-runs (6,192 s r3-a-rd, overlapping the R4 runs; 1,278 s beam) and the backup (2,750 s) are not included",
+   "r3-a-rd": 30415,
+   "r3-a-rd_attempt_1": 493,
+   "r3-beam-a-rd": 14116,
+   "r4-rd_launch_1": 3747,
+   "r4-rd_launch_2": 5554,
+   "total_jobs": 54325
+  },
+  "bs_cpu-host": {
+   "finished_utc": "2026-10-19T10:38:55.825Z",
+   "started_utc": "2026-10-19T10:16:48.516Z"
+  },
+  "bs_turing_cpu": {
+   "finished_utc": "2026-10-19T10:23:07.781Z",
+   "started_utc": "2026-10-19T10:16:16.045Z"
+  }
+ },
+ "cut_state": {
+  "fired": [],
+  "source": "aac.reports.fmt.cut_step over configs/cuts.yaml",
+  "steps": {
+   "cut-1-beamattack": {
+    "active": false,
+    "fired_on": null,
+    "trigger_date": "2026-10-29"
+   },
+   "cut-2-subset-200": {
+    "active": false,
+    "fired_on": null,
+    "trigger_date": "2026-10-29"
+   },
+   "cut-3-r4-seeds-3": {
+    "active": false,
+    "fired_on": null,
+    "trigger_date": "2026-10-31"
+   },
+   "cut-4-drop-rd": {
+    "active": false,
+    "fired_on": null,
+    "trigger_date": "2026-10-31"
+   }
+  },
+  "verdict": "no cut fired; every Phase 4 run was allowed; Phase 4 (Phase C) closes on 2026-10-19, before the 2026-10-29 and 2026-10-31 triggers, so no Phase C cut can fire"
+ },
+ "adjustments": {
+  "row_70": "confirmed (protocol decision 2026-10-19, verbatim)",
+  "rows_48_66": "confirmed (protocol confirmation 19 Oct 2026 about 13:30 UTC, forwarded review text; one-commit flip 8bcddf1)",
+  "rows_67_69": "confirmed",
+  "rows_71_84": "confirmed (protocol confirmation 19 Oct 2026 about 16:00 UTC, verbatim per row; one-commit flip f819d48; row 76 'confirm as the transcription record')",
+  "rows_85_90": "confirmed on arrival (85 socket_overhead_share dropped; 86 and 89 Figure 4.1; 87 Table 4.1 rows 3-4 targeted vs untargeted, untargeted re-run ordered and launched 2026-10-19T17:01:06Z; 88 Table 4.1 row 7; 90 Table 4.5 footnote)",
+  "status_proposed_count": 0
+ },
+ "fresh_go_note": "no batch went beyond the 38.762137 envelope; every dispatch ran under the advance go with STOP-RULE: ok (adjustments row 64)",
+ "fresh_go_recorded": false,
+ "phase4_ceiling_gpu_hours": 38.762137,
+ "phase4_expected_gpu_hours": "about 12-21 GPU-h [L] (04-RESEARCH.md, Summary and Pattern 1 'Expected total')",
+ "phase4_gpu_hours": 6.113219,
+ "phase4_gpu_hours_checks": {
+  "by_regime_run_records": {
+   "BS": 0.0,
+   "R1": 0.061867,
+   "R3": 5.876836,
+   "R4": 0.174516
+  },
+  "equal": true,
+  "session_files": {
+   "phase4-gpu-p4-1.json": 0.266799,
+   "phase4-gpu-p4-2.json": 2.788606,
+   "phase4-gpu-p4-4.json": 3.057814
+  },
+  "sum_of_batches": 6.113219,
+  "sum_of_run_records": 6.113219,
+  "sum_of_session_files": 6.113219
+ },
+ "phase4_within_ceiling": true,
+ "plan": "04-15",
+ "project_gpu_hours": {
+  "envelope": [
+   50,
+   75
+  ],
+  "remaining_at_50": 39.371011,
+  "remaining_at_75": 64.371011,
+  "share_of_50": 0.21258,
+  "source": "sum of session_gpu_hours in data/measured/phase2-gpu-session.json + data/measured/phase3-gpu-session.json + data/measured/phase3-pilot-session.json + data/measured/phase4-gpu-p4-1.json + data/measured/phase4-gpu-p4-2.json + data/measured/phase4-gpu-p4-4.json",
+  "used": 10.628989
+ },
+ "projection": {
+  "after": {
+   "remaining_at_50": 39.371011,
+   "remaining_at_75": 64.371011,
+   "used_gpu_hours": 10.628989
+  },
+  "before": {
+   "remaining_at_50": 45.48423,
+   "remaining_at_75": 70.48423,
+   "used_gpu_hours": 4.51577
+  },
+  "cause": "the three Phase 4 GPU session files (phase4-gpu-p4-1/-p4-2/-p4-4.json, session_gpu_hours 0.266799 + 2.788606 + 3.057814) are now counted by measured_sessions(); every per-cell row is unchanged",
+  "check": "projection-check: 138 rows ok",
+  "command": "python -m aac.attacks.projection --run-id R3-d6e8659ea8-s0 --out <scratch>/r3-budget-projection.csv, then --check (cpu-host, HEAD tree)",
+  "committed_sha256_after": "c8ec1e64bbe227edb512dfbeef4bf1cb4683034fd3a27fb1d4e0e88b571fad19",
+  "committed_sha256_before": "5f87a8b044d07504589d098792bc9af7784ced4c65e9d947ece6afe7d1805167",
+  "differing_metrics": [
+   "remaining_at_50",
+   "remaining_at_75",
+   "used_gpu_hours"
+  ],
+  "differing_rows": 3,
+  "fits_rows_note": "fits_50/fits_75 now count Phase 4 twice (actuals in used_gpu_hours plus the pilot projection 38.762137): 49.391126 <= 50, still true; conservative",
+  "regenerated_sha256": "c8ec1e64bbe227edb512dfbeef4bf1cb4683034fd3a27fb1d4e0e88b571fad19"
+ },
+ "regenerated": {
+  "head": "261914c",
+  "note": "recomputed 19 Oct 2026 after the Phase 4 close (rows 48-66 and 71-84 confirmed by the protocol, rows 85-90 added, Table 4.1 row 7, Figure 4.1 rows 86/89, Table 4.5 footnote row 90); the backup block below is the 13:21Z backup of Stage until the evening backup line replaces it",
+  "script": "scripts/phase4-helpers/0415/exit_record.py"
+ },
+ "releases": {
+  "by_host": {
+   "cpu-host": {
+    "2471a744e073e4a1145ce1440eba2d41c0c47e8c": [
+     "BS-6fa269ccbd-s0"
+    ],
+    "63e095b1b62d47b0caff3b8aad6ebb1316cab538": [
+     "R3-1b4cffb292-s0"
+    ],
+    "6507c78a58e39c2900aabc6b8d5a4ffd4fd471ce": [
+     "R3-c89ffa5921-s0"
+    ],
+    "662cca8fbdd069ce64982ba356d1aa8ef617fe7c": [
+     "R4-17be936433-s3",
+     "R4-31a384cd3e-s0",
+     "R4-33ca73a1ef-s4",
+     "R4-4672b7e33c-s2",
+     "R4-62b02e535b-s1",
+     "R4-7d3fc6f419-s2",
+     "R4-7dc56cf976-s2",
+     "R4-834501dacf-s1",
+     "R4-8417a635be-s0",
+     "R4-8dfa23c723-s2",
+     "R4-9a0ac6b07b-s1",
+     "R4-9b0bb14ac7-s0",
+     "R4-c784793afc-s4",
+     "R4-c9e7bbf12f-s3",
+     "R4-d016b68f0a-s4",
+     "R4-d4bc8b4143-s1",
+     "R4-daa4d85fbc-s4",
+     "R4-e0269dec82-s3",
+     "R4-f740f32e72-s3",
+     "R4-fe4d0fcaff-s0"
+    ]
+   },
+   "turing": {
+    "9d5563409e818b39bd4af6313356c6457dfc3e0f": [
+     "BS-2fc29efca9-s0",
+     "R1-2468bac642-s2",
+     "R1-693affa56d-s1",
+     "R1-8296ba03a8-s3",
+     "R1-ace8c5d08e-s4",
+     "R1-d1485565cc-s0",
+     "R3-60479e7e32-s0",
+     "R4-6e542feded-s0",
+     "R4-8e81adc944-s0"
+    ],
+    "b9e841ad430333224edc3382b4421efb312c2578": [
+     "R3-2721e6be83-s0",
+     "R3-330efa45f0-s0",
+     "R3-39b2489296-s0",
+     "R3-5d765f9257-s0",
+     "R3-8242a107fc-s0",
+     "R3-a919c6fb2f-s0",
+     "R3-ac741ca97d-s0",
+     "R3-b37aa9d3c5-s0",
+     "R3-c46605d5c5-s0",
+     "R3-dbe29a3a8c-s0",
+     "R3-ed263acff8-s0",
+     "R3-f2b2a34665-s0",
+     "R4-0030a443eb-s2",
+     "R4-0498a08e05-s0",
+     "R4-07f094cdc4-s2",
+     "R4-0ae9f12ea1-s3",
+     "R4-0fd2e8429c-s0",
+     "R4-11039a3180-s2",
+     "R4-23a0226c63-s3",
+     "R4-24b7ee91e1-s4",
+     "R4-33e673b1dd-s2",
+     "R4-3ece82aa32-s1",
+     "R4-40e9726290-s0",
+     "R4-41065ca9cc-s4",
+     "R4-4878f18871-s0",
+     "R4-49be66a414-s0",
+     "R4-4a8fcca609-s4",
+     "R4-4bf5242564-s1",
+     "R4-4c5f445c4b-s2",
+     "R4-588250b373-s3",
+     "R4-59cada6ce1-s1",
+     "R4-5d4b3dd78f-s4",
+     "R4-6db1bbaaa3-s3",
+     "R4-7568f2c93d-s1",
+     "R4-76f5ef28a9-s4",
+     "R4-78eac314ed-s2",
+     "R4-7c830169ed-s0",
+     "R4-7fd1a386ee-s4",
+     "R4-83500d30ab-s3",
+     "R4-83698f5a77-s3",
+     "R4-97f971cded-s0",
+     "R4-97f99c223f-s1",
+     "R4-a0260da662-s0",
+     "R4-a1f5490519-s3",
+     "R4-a9cb31e199-s1",
+     "R4-aa85d4b2d3-s2",
+     "R4-bcd3c65b21-s0",
+     "R4-bee69261d0-s2",
+     "R4-c17057353a-s1",
+     "R4-d64502b079-s4",
+     "R4-dc457bea42-s0",
+     "R4-e55087d58e-s0",
+     "R4-e79f69b1b5-s4",
+     "R4-ec05e1fd37-s1",
+     "R4-f7b30579b5-s3"
+    ]
+   }
+  },
+  "source": "run-record.json git_sha of every Phase 4 run (Table D.2 input, gap item 5)"
+ },
+ "runs": [
+  {
+   "batch": "turing CPU (BS)",
+   "config": "configs/scoring/bodega-turing.yaml",
+   "determinism_level": "BODEGA metrics/BODEGAScore.py 2dda5a6e with the task shim; BLEURT-20 e22b9eb0 fp32 eval on cpu, 8 threads; LAMBO c699c6d0 alignment for RD",
+   "gpu_hours": 0.0,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "bs-turing",
+   "regime": "BS",
+   "release_sha": "9d5563409e818b39bd4af6313356c6457dfc3e0f",
+   "run_id": "BS-2fc29efca9-s0",
+   "seed": 0,
+   "validation": {
+    "records": 0,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/scoring/bodega-cpu-host.yaml",
+   "determinism_level": "BODEGA metrics/BODEGAScore.py 2dda5a6e with the task shim; BLEURT-20 e22b9eb0 fp32 eval on cpu, 8 threads; LAMBO c699c6d0 alignment for RD",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "n/a (no ledger)",
+   "name": "bs-cpu-host",
+   "regime": "BS",
+   "release_sha": "2471a744e073e4a1145ce1440eba2d41c0c47e8c",
+   "run_id": "BS-6fa269ccbd-s0",
+   "seed": 0,
+   "validation": {
+    "records": 0,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-6",
+   "config": "configs/regimes/real/r1-chrono-full-goldqa.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.012374,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r1-chrono-full-goldqa",
+   "regime": "R1",
+   "release_sha": "9d5563409e818b39bd4af6313356c6457dfc3e0f",
+   "run_id": "R1-2468bac642-s2",
+   "seed": 2,
+   "validation": {
+    "records": 1211,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-6",
+   "config": "configs/regimes/real/r1-chrono-full-goldqa.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.012402,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r1-chrono-full-goldqa",
+   "regime": "R1",
+   "release_sha": "9d5563409e818b39bd4af6313356c6457dfc3e0f",
+   "run_id": "R1-693affa56d-s1",
+   "seed": 1,
+   "validation": {
+    "records": 1211,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-6",
+   "config": "configs/regimes/real/r1-chrono-full-goldqa.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.012365,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r1-chrono-full-goldqa",
+   "regime": "R1",
+   "release_sha": "9d5563409e818b39bd4af6313356c6457dfc3e0f",
+   "run_id": "R1-8296ba03a8-s3",
+   "seed": 3,
+   "validation": {
+    "records": 1211,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-6",
+   "config": "configs/regimes/real/r1-chrono-full-goldqa.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.012362,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r1-chrono-full-goldqa",
+   "regime": "R1",
+   "release_sha": "9d5563409e818b39bd4af6313356c6457dfc3e0f",
+   "run_id": "R1-ace8c5d08e-s4",
+   "seed": 4,
+   "validation": {
+    "records": 1211,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-6",
+   "config": "configs/regimes/real/r1-chrono-full-goldqa.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.012364,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r1-chrono-full-goldqa",
+   "regime": "R1",
+   "release_sha": "9d5563409e818b39bd4af6313356c6457dfc3e0f",
+   "run_id": "R1-d1485565cc-s0",
+   "seed": 0,
+   "validation": {
+    "records": 1211,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r3-a-rd.yaml",
+   "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "R3-1b4cffb292-s0: L2: ok (220738 records == 220738 ledger queries)",
+   "name": "r3-a-rd",
+   "regime": "R3",
+   "release_sha": "63e095b1b62d47b0caff3b8aad6ebb1316cab538",
+   "run_id": "R3-1b4cffb292-s0",
+   "seed": 0,
+   "session": {
+    "limit_s": 43200,
+    "limit_source": "caller deadline (ATTACK_TIMEOUT), phase4-session.json runs[].session.deadline_s",
+    "session_seconds": 26514.531704,
+    "sessions": 1,
+    "share_of_limit": 0.613762,
+    "within_limit": true
+   },
+   "validation": {
+    "records": 220738,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-2b",
+   "config": "configs/regimes/real/r3-b-last200-deepwordbug.yaml",
+   "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+   "gpu_hours": 0.142325,
+   "host": "turing",
+   "l2": "R3-2721e6be83-s0: L2: ok (2972 records == 2972 ledger queries)",
+   "name": "r3-b-last200-deepwordbug",
+   "regime": "R3",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R3-2721e6be83-s0",
+   "seed": 0,
+   "session": {
+    "limit_s": 25200,
+    "limit_source": "config.resolved.json attack.session_timeout_s",
+    "session_seconds": 517.241608,
+    "sessions": 1,
+    "share_of_limit": 0.020525,
+    "within_limit": true
+   },
+   "validation": {
+    "records": 2972,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-2b",
+   "config": "configs/regimes/real/r3-b-last200-bert_attack.yaml",
+   "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+   "gpu_hours": 0.617898,
+   "host": "turing",
+   "l2": "R3-330efa45f0-s0: L2: ok (13506 records == 13506 ledger queries)",
+   "name": "r3-b-last200-bert_attack",
+   "regime": "R3",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R3-330efa45f0-s0",
+   "seed": 0,
+   "session": {
+    "limit_s": 25200,
+    "limit_source": "config.resolved.json attack.session_timeout_s",
+    "session_seconds": 2260.532635,
+    "sessions": 1,
+    "share_of_limit": 0.089704,
+    "within_limit": true
+   },
+   "validation": {
+    "records": 13506,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-2a",
+   "config": "configs/regimes/real/r3-b-first200-textfooler.yaml",
+   "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+   "gpu_hours": 0.238324,
+   "host": "turing",
+   "l2": "R3-39b2489296-s0: L2: ok (7686 records == 7686 ledger queries)",
+   "name": "r3-b-first200-textfooler",
+   "regime": "R3",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R3-39b2489296-s0",
+   "seed": 0,
+   "session": {
+    "limit_s": 21600,
+    "limit_source": "config.resolved.json attack.session_timeout_s",
+    "session_seconds": 875.793276,
+    "sessions": 1,
+    "share_of_limit": 0.040546,
+    "within_limit": true
+   },
+   "validation": {
+    "records": 7686,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-4",
+   "config": "configs/regimes/real/r3-beam-a.yaml",
+   "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+   "gpu_hours": 0.077918,
+   "host": "turing",
+   "l2": "R3-5d765f9257-s0: L2: ok (18265 records == 18265 ledger queries)",
+   "name": "r3-beam-a",
+   "regime": "R3",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R3-5d765f9257-s0",
+   "seed": 0,
+   "session": {
+    "limit_s": 18000,
+    "limit_source": "config.resolved.json attack.session_timeout_s",
+    "session_seconds": 595.017568,
+    "sessions": 1,
+    "share_of_limit": 0.033057,
+    "within_limit": true
+   },
+   "validation": {
+    "records": 18265,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-6",
+   "config": "configs/regimes/real/r3-gate-aware.yaml",
+   "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+   "gpu_hours": 1.05471,
+   "host": "turing",
+   "l2": "R3-60479e7e32-s0: L2: ok (21622 records == 21622 ledger queries)",
+   "name": "r3-gate-aware",
+   "regime": "R3",
+   "release_sha": "9d5563409e818b39bd4af6313356c6457dfc3e0f",
+   "run_id": "R3-60479e7e32-s0",
+   "seed": 0,
+   "session": {
+    "limit_s": 21600,
+    "limit_source": "config.resolved.json attack.session_timeout_s",
+    "session_seconds": 3850.770593,
+    "sessions": 1,
+    "share_of_limit": 0.178276,
+    "within_limit": true
+   },
+   "validation": {
+    "records": 21622,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-2a",
+   "config": "configs/regimes/real/r3-b-first200-bert_attack.yaml",
+   "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+   "gpu_hours": 0.536838,
+   "host": "turing",
+   "l2": "R3-8242a107fc-s0: L2: ok (11557 records == 11557 ledger queries)",
+   "name": "r3-b-first200-bert_attack",
+   "regime": "R3",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R3-8242a107fc-s0",
+   "seed": 0,
+   "session": {
+    "limit_s": 21600,
+    "limit_source": "config.resolved.json attack.session_timeout_s",
+    "session_seconds": 1964.944927,
+    "sessions": 1,
+    "share_of_limit": 0.09097,
+    "within_limit": true
+   },
+   "validation": {
+    "records": 11557,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-4",
+   "config": "configs/regimes/real/r3-beam-b-last200.yaml",
+   "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+   "gpu_hours": 0.820972,
+   "host": "turing",
+   "l2": "R3-a919c6fb2f-s0: L2: ok (18388 records == 18388 ledger queries)",
+   "name": "r3-beam-b-last200",
+   "regime": "R3",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R3-a919c6fb2f-s0",
+   "seed": 0,
+   "session": {
+    "limit_s": 28800,
+    "limit_source": "config.resolved.json attack.session_timeout_s",
+    "session_seconds": 3359.325809,
+    "sessions": 1,
+    "share_of_limit": 0.116643,
+    "within_limit": true
+   },
+   "validation": {
+    "records": 18388,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-2b",
+   "config": "configs/regimes/real/r3-b-last200-pwws.yaml",
+   "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+   "gpu_hours": 0.453472,
+   "host": "turing",
+   "l2": "R3-ac741ca97d-s0: L2: ok (14443 records == 14443 ledger queries)",
+   "name": "r3-b-last200-pwws",
+   "regime": "R3",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R3-ac741ca97d-s0",
+   "seed": 0,
+   "session": {
+    "limit_s": 25200,
+    "limit_source": "config.resolved.json attack.session_timeout_s",
+    "session_seconds": 1638.8783,
+    "sessions": 1,
+    "share_of_limit": 0.065035,
+    "within_limit": true
+   },
+   "validation": {
+    "records": 14443,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-4",
+   "config": "configs/regimes/real/r3-beam-b-first200.yaml",
+   "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+   "gpu_hours": 0.965178,
+   "host": "turing",
+   "l2": "R3-b37aa9d3c5-s0: L2: ok (20323 records == 20323 ledger queries)",
+   "name": "r3-beam-b-first200",
+   "regime": "R3",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R3-b37aa9d3c5-s0",
+   "seed": 0,
+   "session": {
+    "limit_s": 25200,
+    "limit_source": "config.resolved.json attack.session_timeout_s",
+    "session_seconds": 3944.266501,
+    "sessions": 1,
+    "share_of_limit": 0.156519,
+    "within_limit": true
+   },
+   "validation": {
+    "records": 20323,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-1",
+   "config": "configs/regimes/real/r3-a.yaml",
+   "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+   "gpu_hours": 0.169452,
+   "host": "turing",
+   "l2": "R3-c46605d5c5-s0: L2: ok (75140 records == 75140 ledger queries)",
+   "name": "r3-a",
+   "regime": "R3",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R3-c46605d5c5-s0",
+   "seed": 0,
+   "session": {
+    "limit_s": 14400,
+    "limit_source": "config.resolved.json attack.session_timeout_s",
+    "session_seconds": 729.713508,
+    "sessions": 1,
+    "share_of_limit": 0.050675,
+    "within_limit": true
+   },
+   "validation": {
+    "records": 75140,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r3-beam-a-rd.yaml",
+   "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "R3-c89ffa5921-s0: L2: ok (71686 records == 71686 ledger queries)",
+   "name": "r3-beam-a-rd",
+   "regime": "R3",
+   "release_sha": "6507c78a58e39c2900aabc6b8d5a4ffd4fd471ce",
+   "run_id": "R3-c89ffa5921-s0",
+   "seed": 0,
+   "session": {
+    "limit_s": 21600,
+    "limit_source": "caller deadline (ATTACK_TIMEOUT), phase4-session.json runs[].session.deadline_s",
+    "session_seconds": 12842.991158,
+    "sessions": 1,
+    "share_of_limit": 0.594583,
+    "within_limit": true
+   },
+   "validation": {
+    "records": 71686,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-2b",
+   "config": "configs/regimes/real/r3-b-last200-textfooler.yaml",
+   "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+   "gpu_hours": 0.26806,
+   "host": "turing",
+   "l2": "R3-dbe29a3a8c-s0: L2: ok (8784 records == 8784 ledger queries)",
+   "name": "r3-b-last200-textfooler",
+   "regime": "R3",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R3-dbe29a3a8c-s0",
+   "seed": 0,
+   "session": {
+    "limit_s": 25200,
+    "limit_source": "config.resolved.json attack.session_timeout_s",
+    "session_seconds": 985.109844,
+    "sessions": 1,
+    "share_of_limit": 0.039092,
+    "within_limit": true
+   },
+   "validation": {
+    "records": 8784,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-2a",
+   "config": "configs/regimes/real/r3-b-first200-pwws.yaml",
+   "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+   "gpu_hours": 0.404681,
+   "host": "turing",
+   "l2": "R3-ed263acff8-s0: L2: ok (12738 records == 12738 ledger queries)",
+   "name": "r3-b-first200-pwws",
+   "regime": "R3",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R3-ed263acff8-s0",
+   "seed": 0,
+   "session": {
+    "limit_s": 21600,
+    "limit_source": "config.resolved.json attack.session_timeout_s",
+    "session_seconds": 1462.811188,
+    "sessions": 1,
+    "share_of_limit": 0.067723,
+    "within_limit": true
+   },
+   "validation": {
+    "records": 12738,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-2a",
+   "config": "configs/regimes/real/r3-b-first200-deepwordbug.yaml",
+   "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+   "gpu_hours": 0.127008,
+   "host": "turing",
+   "l2": "R3-f2b2a34665-s0: L2: ok (2592 records == 2592 ledger queries)",
+   "name": "r3-b-first200-deepwordbug",
+   "regime": "R3",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R3-f2b2a34665-s0",
+   "seed": 0,
+   "session": {
+    "limit_s": 21600,
+    "limit_source": "config.resolved.json attack.session_timeout_s",
+    "session_seconds": 461.49763,
+    "sessions": 1,
+    "share_of_limit": 0.021366,
+    "within_limit": true
+   },
+   "validation": {
+    "records": 2592,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-retrieval-fc.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.000683,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-retrieval-fc",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-0030a443eb-s2",
+   "seed": 2,
+   "validation": {
+    "records": 940,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-retrieval-fc.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.000696,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-retrieval-fc",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-0498a08e05-s0",
+   "seed": 0,
+   "validation": {
+    "records": 940,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-content-only.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.000541,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-content-only",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-07f094cdc4-s2",
+   "seed": 2,
+   "validation": {
+    "records": 676,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-content-only.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.000538,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-content-only",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-0ae9f12ea1-s3",
+   "seed": 3,
+   "validation": {
+    "records": 676,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-content-only.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.000541,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-content-only",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-0fd2e8429c-s0",
+   "seed": 0,
+   "validation": {
+    "records": 676,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-abstention.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.004484,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-abstention",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-11039a3180-s2",
+   "seed": 2,
+   "validation": {
+    "records": 1211,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r4-content-only-rd.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "n/a (no ledger)",
+   "name": "r4-content-only-rd",
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-17be936433-s3",
+   "seed": 3,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-retrieval.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.000848,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-retrieval",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-23a0226c63-s3",
+   "seed": 3,
+   "validation": {
+    "records": 1211,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-content-only.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.000532,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-content-only",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-24b7ee91e1-s4",
+   "seed": 4,
+   "validation": {
+    "records": 676,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r4-no-abstention-rd.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-abstention-rd",
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-31a384cd3e-s0",
+   "seed": 0,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r4-no-abstention-rd.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-abstention-rd",
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-33ca73a1ef-s4",
+   "seed": 4,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-abstention-fc.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.004048,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-abstention-fc",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-33e673b1dd-s2",
+   "seed": 2,
+   "validation": {
+    "records": 940,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-abstention.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.004478,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-abstention",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-3ece82aa32-s1",
+   "seed": 1,
+   "validation": {
+    "records": 1211,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-retrieval.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.000842,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-retrieval",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-40e9726290-s0",
+   "seed": 0,
+   "validation": {
+    "records": 1211,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-calibration-fc.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.004037,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-calibration-fc",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-41065ca9cc-s4",
+   "seed": 4,
+   "validation": {
+    "records": 940,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r4-no-retrieval-rd.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-retrieval-rd",
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-4672b7e33c-s2",
+   "seed": 2,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-calibration.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.004483,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-calibration",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-4878f18871-s0",
+   "seed": 0,
+   "validation": {
+    "records": 1211,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-5",
+   "config": "configs/regimes/real/r4-no-calibration-replay.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.019949,
+   "host": "turing",
+   "l2": "R4-49be66a414-s0: L2: ok (1544 records == 1544 ledger queries)",
+   "name": "r4-no-calibration-replay",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-49be66a414-s0",
+   "seed": 0,
+   "validation": {
+    "records": 1544,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-retrieval-fc.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.000695,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-retrieval-fc",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-4a8fcca609-s4",
+   "seed": 4,
+   "validation": {
+    "records": 940,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-content-only-fc.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.00038,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-content-only-fc",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-4bf5242564-s1",
+   "seed": 1,
+   "validation": {
+    "records": 405,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-content-only-fc.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.000388,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-content-only-fc",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-4c5f445c4b-s2",
+   "seed": 2,
+   "validation": {
+    "records": 405,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-abstention-fc.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.004009,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-abstention-fc",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-588250b373-s3",
+   "seed": 3,
+   "validation": {
+    "records": 940,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-content-only.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.000527,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-content-only",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-59cada6ce1-s1",
+   "seed": 1,
+   "validation": {
+    "records": 676,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-retrieval.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.000862,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-retrieval",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-5d4b3dd78f-s4",
+   "seed": 4,
+   "validation": {
+    "records": 1211,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r4-content-only-rd.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "n/a (no ledger)",
+   "name": "r4-content-only-rd",
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-62b02e535b-s1",
+   "seed": 1,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-calibration-fc.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.00403,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-calibration-fc",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-6db1bbaaa3-s3",
+   "seed": 3,
+   "validation": {
+    "records": 940,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-6",
+   "config": "configs/regimes/real/r4-transfer-a-to-b-replay.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.028586,
+   "host": "turing",
+   "l2": "R4-6e542feded-s0: L2: ok (1732 records == 1732 ledger queries)",
+   "name": "r4-transfer-a-to-b-replay",
+   "regime": "R4",
+   "release_sha": "9d5563409e818b39bd4af6313356c6457dfc3e0f",
+   "run_id": "R4-6e542feded-s0",
+   "seed": 0,
+   "validation": {
+    "records": 1732,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-retrieval-fc.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.00068,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-retrieval-fc",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-7568f2c93d-s1",
+   "seed": 1,
+   "validation": {
+    "records": 940,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-calibration.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.004494,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-calibration",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-76f5ef28a9-s4",
+   "seed": 4,
+   "validation": {
+    "records": 1211,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-retrieval.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.000838,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-retrieval",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-78eac314ed-s2",
+   "seed": 2,
+   "validation": {
+    "records": 1211,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-abstention.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.004465,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-abstention",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-7c830169ed-s0",
+   "seed": 0,
+   "validation": {
+    "records": 1211,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r4-content-only-rd.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "n/a (no ledger)",
+   "name": "r4-content-only-rd",
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-7d3fc6f419-s2",
+   "seed": 2,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r4-no-calibration-rd.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-calibration-rd",
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-7dc56cf976-s2",
+   "seed": 2,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-abstention-fc.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.004021,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-abstention-fc",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-7fd1a386ee-s4",
+   "seed": 4,
+   "validation": {
+    "records": 940,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r4-no-calibration-rd.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-calibration-rd",
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-834501dacf-s1",
+   "seed": 1,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-abstention.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.004458,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-abstention",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-83500d30ab-s3",
+   "seed": 3,
+   "validation": {
+    "records": 1211,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-retrieval-fc.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.000693,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-retrieval-fc",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-83698f5a77-s3",
+   "seed": 3,
+   "validation": {
+    "records": 940,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r4-no-calibration-rd.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-calibration-rd",
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-8417a635be-s0",
+   "seed": 0,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r4-no-abstention-rd.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-abstention-rd",
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-8dfa23c723-s2",
+   "seed": 2,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-6",
+   "config": "configs/regimes/real/r4-gate-only-a-replay.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.001321,
+   "host": "turing",
+   "l2": "R4-8e81adc944-s0: L2: ok (1636 records == 1636 ledger queries)",
+   "name": "r4-gate-only-a-replay",
+   "regime": "R4",
+   "release_sha": "9d5563409e818b39bd4af6313356c6457dfc3e0f",
+   "run_id": "R4-8e81adc944-s0",
+   "seed": 0,
+   "validation": {
+    "records": 1636,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-5",
+   "config": "configs/regimes/real/r4-no-retrieval-replay.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.001336,
+   "host": "turing",
+   "l2": "R4-97f971cded-s0: L2: ok (1538 records == 1538 ledger queries)",
+   "name": "r4-no-retrieval-replay",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-97f971cded-s0",
+   "seed": 0,
+   "validation": {
+    "records": 1538,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-calibration.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.004481,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-calibration",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-97f99c223f-s1",
+   "seed": 1,
+   "validation": {
+    "records": 1211,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r4-no-retrieval-rd.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-retrieval-rd",
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-9a0ac6b07b-s1",
+   "seed": 1,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r4-content-only-rd.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "n/a (no ledger)",
+   "name": "r4-content-only-rd",
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-9b0bb14ac7-s0",
+   "seed": 0,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-calibration-fc.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.004115,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-calibration-fc",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-a0260da662-s0",
+   "seed": 0,
+   "validation": {
+    "records": 940,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-content-only-fc.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.000389,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-content-only-fc",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-a1f5490519-s3",
+   "seed": 3,
+   "validation": {
+    "records": 405,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-calibration-fc.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.003995,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-calibration-fc",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-a9cb31e199-s1",
+   "seed": 1,
+   "validation": {
+    "records": 940,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-calibration-fc.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.004013,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-calibration-fc",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-aa85d4b2d3-s2",
+   "seed": 2,
+   "validation": {
+    "records": 940,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-5",
+   "config": "configs/regimes/real/r4-no-abstention-replay.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.025977,
+   "host": "turing",
+   "l2": "R4-bcd3c65b21-s0: L2: ok (1768 records == 1768 ledger queries)",
+   "name": "r4-no-abstention-replay",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-bcd3c65b21-s0",
+   "seed": 0,
+   "validation": {
+    "records": 1768,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-calibration.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.004493,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-calibration",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-bee69261d0-s2",
+   "seed": 2,
+   "validation": {
+    "records": 1211,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-retrieval.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.000846,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-retrieval",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-c17057353a-s1",
+   "seed": 1,
+   "validation": {
+    "records": 1211,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r4-no-calibration-rd.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-calibration-rd",
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-c784793afc-s4",
+   "seed": 4,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r4-no-calibration-rd.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-calibration-rd",
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-c9e7bbf12f-s3",
+   "seed": 3,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r4-no-retrieval-rd.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-retrieval-rd",
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-d016b68f0a-s4",
+   "seed": 4,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r4-no-abstention-rd.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-abstention-rd",
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-d4bc8b4143-s1",
+   "seed": 1,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-content-only-fc.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.000381,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-content-only-fc",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-d64502b079-s4",
+   "seed": 4,
+   "validation": {
+    "records": 405,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r4-content-only-rd.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "n/a (no ledger)",
+   "name": "r4-content-only-rd",
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-daa4d85fbc-s4",
+   "seed": 4,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-abstention-fc.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.003992,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-abstention-fc",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-dc457bea42-s0",
+   "seed": 0,
+   "validation": {
+    "records": 940,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r4-no-abstention-rd.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-abstention-rd",
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-e0269dec82-s3",
+   "seed": 3,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-content-only-fc.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.000386,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-content-only-fc",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-e55087d58e-s0",
+   "seed": 0,
+   "validation": {
+    "records": 405,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-abstention.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.004461,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-abstention",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-e79f69b1b5-s4",
+   "seed": 4,
+   "validation": {
+    "records": 1211,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-abstention-fc.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.004007,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-abstention-fc",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-ec05e1fd37-s1",
+   "seed": 1,
+   "validation": {
+    "records": 940,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r4-no-retrieval-rd.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-retrieval-rd",
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-f740f32e72-s3",
+   "seed": 3,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "P4-3",
+   "config": "configs/regimes/real/r4-no-calibration.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.004497,
+   "host": "turing",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-calibration",
+   "regime": "R4",
+   "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+   "run_id": "R4-f7b30579b5-s3",
+   "seed": 3,
+   "validation": {
+    "records": 1211,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  },
+  {
+   "batch": "cpu-runner",
+   "config": "configs/regimes/real/r4-no-retrieval-rd.yaml",
+   "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+   "gpu_hours": 0.0,
+   "host": "cpu-host",
+   "l2": "n/a (no ledger)",
+   "name": "r4-no-retrieval-rd",
+   "regime": "R4",
+   "release_sha": "662cca8fbdd069ce64982ba356d1aa8ef617fe7c",
+   "run_id": "R4-fe4d0fcaff-s0",
+   "seed": 0,
+   "validation": {
+    "records": 415,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "violations": 0
+   }
+  }
+ ],
+ "runs_summary": {
+  "attack_sessions": 15,
+  "attack_sessions_within_limit": 15,
+  "by_regime": {
+   "BS": 2,
+   "R1": 5,
+   "R3": 15,
+   "R4": 65
+  },
+  "determinism_levels": {
+   "BODEGA metrics/BODEGAScore.py 2dda5a6e with the task shim; BLEURT-20 e22b9eb0 fp32 eval on cpu, 8 threads; LAMBO c699c6d0 alignment for RD": 2,
+   "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only": 70,
+   "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)": 15
+  },
+  "l2_ok": 20,
+  "n": 87,
+  "records_with_claim_text": 0,
+  "records_with_user_id": 0,
+  "violations": 0
+ },
+ "schema": "aac-phase-exit/phase4",
+ "socket_overhead_share": {
+  "closed": "dropped by the protocol 19 Oct 2026 (adjustments row 85): no Phase 5 counter; the text quotes per-query latencies only",
+  "original": {
+   "missing": "attack-phase server inference seconds: the victim server journals per-batch phase, n and seconds in attack-queries.partial.jsonl but deletes it at seal (_drop_held); attack-counters.jsonl server_seconds, the session files' server_seconds_attacked, attack-timings.json cells and wallclock.jsonl all sum the clean, attack and post-hoc phases of an item",
+   "owner": "Phase 5 (deferred-items.md, From 04-15)",
+   "phase3_column": "kept as built in reports/r3-budget-projection.csv (server seconds over every record vs runner round trips over attack queries); it understates the overhead because single-text clean and post-hoc calls cost more per text than batched attack calls",
+   "request": "UAT-3 item 5 (protocol 2026-10-18, 'Redefine in Phase 4'): attack-phase server seconds / attack-phase queries vs the runner round trips over the same queries",
+   "status": "not built"
+  }
+ },
+ "text_contradictions": {
+  "items": "24-32",
+  "status": "open"
+ },
+ "tidy": {
+  "loki_leftovers": {
+   "action": "left in place, reported to the protocol",
+   "dirs": {
+    "_test-2895617": [
+     3182,
+     "38M"
+    ],
+    "_test-3067638": [
+     1771,
+     "17M"
+    ],
+    "_test-388033": [
+     4982,
+     "18G"
+    ],
+    "_test-447908": [
+     4378,
+     "11G"
+    ]
+   },
+   "finding": "partial copies of the real tree from old test_backup runs (not empty, not test-only content); no secrets/ and no data/derived/private; _test-388033 and _test-447908 hold aac-pipeline/build",
+   "path": "/mnt/loki/backups/dissertation/leftovers/backup-smoke-tests"
+  },
+  "runs/R3-b8d0be8ef8-s0": {
+   "action": "moved to runs/_superseded/R3-b8d0be8ef8-s0-serve-smoke-leftover (rm -rf refused by the session's permission classifier); deletion left to the protocol",
+   "facts_checked": [
+    "config.resolved.json + env.json only (2 files, name r3-serve-smoke, mtime 2026-10-18T00:43:20Z)",
+    "no SEALED file",
+    "not in runs/INDEX.json; no runs/MANIFEST.sha256 exists"
+   ],
+   "sha256": {
+    "config.resolved.json": "c7f63e51490d9f96e0aa7aabb47a8d1aac44d18a71508e6f6e28404d992449e1",
+    "env.json": "e3f18e78d794222a3b85fb96c6bf1a06a4e44898c39ce3f2808e7570f3d7edab"
+   }
+  }
+ },
+ "value_audit": {
+  "checks": 816,
+  "commit": "9b72ffd",
+  "file": ".planning/phases/04-attacks-and-ablations-c/04-VALUE-AUDIT-0414-2026-10-19.md",
+  "mismatches": 0,
+  "not_recomputed": 80,
+  "recomputed": 736,
+  "verdict": "ALL MATCH"
+ }
+}

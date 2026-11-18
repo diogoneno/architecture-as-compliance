@@ -1,0 +1,2 @@
+extends: [c1-smoke.yaml]
+name: c1-smoke-repeat

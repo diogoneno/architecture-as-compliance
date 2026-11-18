@@ -1,0 +1,1218 @@
+{
+ "bs_cpu-host": {
+  "aggregate_checks": 20,
+  "command": "make cpu-host-bodega CONFIG=configs/scoring/bodega-cpu-host.yaml BENGIO_SHA=2471a744e073e4a1145ce1440eba2d41c0c47e8c (tmux; dry run first: run_id=BS-6fa269ccbd-s0)",
+  "finished_utc": "2026-10-19T10:38:55.825Z",
+  "gpu_hours": 0.0,
+  "groups": 5,
+  "host": "cpu-host",
+  "name": "bs-cpu-host",
+  "rd_job_check": "pgrep before launch: no victim server, attack session or regime run on cpu-host; cpu-host-bodega's own victim-server guard passed",
+  "release_sha": "2471a744e073e4a1145ce1440eba2d41c0c47e8c",
+  "rows": 675,
+  "run_id": "BS-6fa269ccbd-s0",
+  "scorer_line": "bodega-score BS-6fa269ccbd-s0: 675 rows (262 strict successes) from 2 source runs, 20 aggregate equalities, text-free, SEALED 3afb5a268667",
+  "sealed_sha256": "3afb5a268667cc8d895c6076ef502186e865c1de4507e7a957146b946063b171",
+  "source_runs": [
+   "R3-1b4cffb292-s0",
+   "R3-c89ffa5921-s0"
+  ],
+  "started_utc": "2026-10-19T10:16:48.516Z",
+  "strict_successes": 262,
+  "text_free": true,
+  "text_free_check": "aac.attacks.bodega.text_free_check on cpu-host (holds the RD stores): 675 rows; interface keys only; no aac-bodega-* staging left; release removed on exit",
+  "tolerance": 1e-09
+ },
+ "bs_turing": {
+  "aggregate_checks": 84,
+  "command": "make turing-run PHASE=C-bs TARGET=bodega-score ARGS=\"CONFIG=configs/scoring/bodega-turing.yaml\" SHA=9d5563409e818b39bd4af6313356c6457dfc3e0f",
+  "compute_apps_after": 0,
+  "cuda_visible_devices": "",
+  "finished_utc": "2026-10-19T10:23:07.781Z",
+  "gpu_hours": 0.0,
+  "groups": 21,
+  "host": "turing",
+  "name": "bs-turing",
+  "pull": "make gpu-pull RUN_ID=BS-2fc29efca9-s0: pulled BS-2fc29efca9-s0: SEALED 9acaca58ee1b verified; INDEX.json updated",
+  "release_reuse": "release 9d55634 (04-12 P4-6 release, already set up on turing with TURING_ATTACK=1) holds the 04-10 scoring code and configs/scoring/bodega-turing.yaml byte-identical to HEAD (git diff 9d55634 HEAD over src/, attacks/, configs/scoring, scripts/turing_run.sh, mk/bodega.mk, uv.lock: empty); the 04-12 release_sha b9e841a does NOT contain the scoring code (04-12 release_reuse_check), so the plan's 'reuse the 04-12 release SHA' reads as 9d55634; no new release",
+  "release_sha": "9d5563409e818b39bd4af6313356c6457dfc3e0f",
+  "rows": 3166,
+  "run_id": "BS-2fc29efca9-s0",
+  "scorer_line": "bodega-score BS-2fc29efca9-s0: 3166 rows (1357 strict successes) from 13 source runs, 84 aggregate equalities, text-free, SEALED 9acaca58ee1b",
+  "sealed_sha256": "9acaca58ee1b63e396d8bebeedb06627d8f7b69445ad68a7b2adcc5a33abf5d4",
+  "source_runs": [
+   "R3-c46605d5c5-s0",
+   "R3-8242a107fc-s0",
+   "R3-39b2489296-s0",
+   "R3-f2b2a34665-s0",
+   "R3-ed263acff8-s0",
+   "R3-330efa45f0-s0",
+   "R3-dbe29a3a8c-s0",
+   "R3-2721e6be83-s0",
+   "R3-ac741ca97d-s0",
+   "R3-5d765f9257-s0",
+   "R3-b37aa9d3c5-s0",
+   "R3-a919c6fb2f-s0",
+   "R3-60479e7e32-s0"
+  ],
+  "started_utc": "2026-10-19T10:16:16.045Z",
+  "strict_successes": 1357,
+  "text_free": true,
+  "text_free_check": "aac.attacks.bodega.text_free_check on turing inside release 9d55634 (holds the stores): 3166 rows; every bodega-scores.jsonl row has exactly the 9 interface keys (checked on turing and again on cpu-host after the pull); no aac-bodega-* staging left",
+  "tolerance": 1e-09
+ },
+ "cut_state": "configs/cuts.yaml: all four steps active false, fired_on null at build (2026-10-19); bodega-turing.yaml and bodega-cpu-host.yaml sources unedited",
+ "gpu_hours": 0,
+ "operator_decision_r47": {
+  "reading": "ASR = strict successes / attacked rows (spec item 13); budget-exhausted items stay in the denominator as non-successes and are reported as their own long rows; the R47 outside-the-denominator rule applies to wall-clock timeouts only (none occurred)",
+  "source": "protocol message of 2026-10-19 (paper-legwork notes, confirmed with \"Yeah\"), relayed verbatim by the orchestrator during 04-14",
+  "words": "Item 3: (a). Query-budget exhaustion is a legitimate attack failure and BODEGA's confusion score counts it as 0, so the 110 stay in the denominator; show them as their own row. R47 was about wall-clock deadline timeouts, a different thing — keep that rule for those only."
+ },
+ "phase4_gpu_hours_actuals": {
+  "BS": 0,
+  "R1_goldqa_oracle": 0.061867,
+  "R3": 5.876836,
+  "R4": 0.174516,
+  "draft_table_f2_r3_r4": "25-35 GPU-h (draft v0.5 Table F.2, for 04-15's text-contradictions item)",
+  "rule": "sum of run-record gpu_hours over the Phase 4 runs of runs/INDEX.json; equals the sum of the session files' session_gpu_hours (p4-1 0.266799 + p4-2 2.788606 + p4-4 3.057814 = 6.113219); cpu-host session 0, this session 0",
+  "total": 6.113219
+ },
+ "plan": "04-14",
+ "post_hoc_counts": {
+  "instruction": "R46 (protocol 2026-10-18 ~15:25 and ~11:05, verbatim in STATE.md): count adversarial examples whose perturbations fall beyond token 256; completes the 04-11/04-13 counts for the four turing runs that had none (BeamAttack victim A, both BeamAttack victim-B halves, the gate-aware run)",
+  "runs": {
+   "R3-5d765f9257-s0": {
+    "c1_max_length": 128,
+    "cells": {
+     "beamattack|content_only|averitec_chrono": {
+      "token_position": {
+       "clean_longer_than_256": 0,
+       "clean_longer_than_max_length": 0,
+       "entirely_beyond_128": 0,
+       "entirely_beyond_256": 0,
+       "ids_identical": 0,
+       "max_adv_tokens": 74,
+       "max_clean_tokens": 70,
+       "partly_beyond_128": 0,
+       "partly_beyond_256": 0,
+       "successes_in_store": 201
+      }
+     },
+     "beamattack|content_only|fc": {
+      "token_position": {
+       "clean_longer_than_256": 0,
+       "clean_longer_than_max_length": 0,
+       "entirely_beyond_128": 0,
+       "entirely_beyond_256": 0,
+       "ids_identical": 0,
+       "max_adv_tokens": 25,
+       "max_clean_tokens": 24,
+       "partly_beyond_128": 0,
+       "partly_beyond_256": 0,
+       "successes_in_store": 175
+      }
+     }
+    },
+    "claim_hashes_beyond": {},
+    "name": "r3-beam-a",
+    "scorer_max_length": 256,
+    "tokenizer": {
+     "hf_id": "microsoft/mdeberta-v3-base",
+     "revision": "a0484667b22365f84929a935b5e50a51f71f159d"
+    }
+   },
+   "R3-60479e7e32-s0": {
+    "c1_max_length": 128,
+    "cells": {
+     "bert_attack|full|averitec_chrono": {
+      "token_position": {
+       "clean_longer_than_256": 0,
+       "clean_longer_than_max_length": 0,
+       "entirely_beyond_128": 0,
+       "entirely_beyond_256": 0,
+       "ids_identical": 0,
+       "max_adv_tokens": 61,
+       "max_clean_tokens": 58,
+       "partly_beyond_128": 0,
+       "partly_beyond_256": 0,
+       "successes_in_store": 24
+      }
+     }
+    },
+    "claim_hashes_beyond": {},
+    "name": "r3-gate-aware",
+    "scorer_max_length": 256,
+    "tokenizer": {
+     "hf_id": "microsoft/mdeberta-v3-base",
+     "revision": "a0484667b22365f84929a935b5e50a51f71f159d"
+    }
+   },
+   "R3-a919c6fb2f-s0": {
+    "c1_max_length": 128,
+    "cells": {
+     "beamattack|full|averitec_chrono": {
+      "token_position": {
+       "clean_longer_than_256": 0,
+       "clean_longer_than_max_length": 0,
+       "entirely_beyond_128": 0,
+       "entirely_beyond_256": 0,
+       "ids_identical": 0,
+       "max_adv_tokens": 70,
+       "max_clean_tokens": 68,
+       "partly_beyond_128": 0,
+       "partly_beyond_256": 0,
+       "successes_in_store": 92
+      }
+     }
+    },
+    "claim_hashes_beyond": {},
+    "name": "r3-beam-b-last200",
+    "scorer_max_length": 256,
+    "tokenizer": {
+     "hf_id": "microsoft/mdeberta-v3-base",
+     "revision": "a0484667b22365f84929a935b5e50a51f71f159d"
+    }
+   },
+   "R3-b37aa9d3c5-s0": {
+    "c1_max_length": 128,
+    "cells": {
+     "beamattack|full|averitec_chrono": {
+      "token_position": {
+       "clean_longer_than_256": 0,
+       "clean_longer_than_max_length": 0,
+       "entirely_beyond_128": 0,
+       "entirely_beyond_256": 0,
+       "ids_identical": 0,
+       "max_adv_tokens": 60,
+       "max_clean_tokens": 58,
+       "partly_beyond_128": 0,
+       "partly_beyond_256": 0,
+       "successes_in_store": 70
+      }
+     }
+    },
+    "claim_hashes_beyond": {},
+    "name": "r3-beam-b-first200",
+    "scorer_max_length": 256,
+    "tokenizer": {
+     "hf_id": "microsoft/mdeberta-v3-base",
+     "revision": "a0484667b22365f84929a935b5e50a51f71f159d"
+    }
+   }
+  },
+  "token_rule": "as phase4-gpu-p4-2.json post_hoc_counts.token_rule (successes kept in the run's private store = strict success plus deferred where the store holds them; the run's own C1 tokenizer, ids with special tokens, untruncated; entirely beyond T iff common prefix >= T; partly iff prefix < T < len_adv - common suffix; T = 256 and 128)",
+  "token_where": "turing, inside release 9d55634, CPU (CUDA_VISIBLE_DEVICES empty, OMP 4 threads), texts in memory only; script = 04-11 beyond256.py copied unchanged (sha256 prefix b76762e737a1c195) to the 04-14 scratch dir; output counts and claim hashes only; absent counter keys written as 0 here"
+ },
+ "rules": {
+  "gpu": "no GPU work authorised in Phase 4 after 04-12; turing jobs run with CUDA_VISIBLE_DEVICES empty (make turing-run); gpu_hours 0",
+  "hosts": "BODEGA scoring runs where the adversarial texts live (adjustments row 54): bs-turing on turing CPU (AVeriTeC, FC), bs-cpu-host on cpu-host (RD; row 37)",
+  "texts": "outputs are ids, booleans and numbers only (aac.attacks.bodega INTERFACE_KEYS); staging deleted on success"
+ },
+ "schema": "aac-phase4-scoring-session/1",
+ "validation": [
+  {
+   "check": "record_count 0: no decision log, so aac validate does not apply (no schema-validation.txt); leak check = text_free_check on the host holding the store (bs_turing/bs_cpu-host.text_free_check)",
+   "name": "bs-turing",
+   "records": 0,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "BS",
+   "run_id": "BS-2fc29efca9-s0",
+   "violations": 0
+  },
+  {
+   "check": "record_count 0: no decision log, so aac validate does not apply (no schema-validation.txt); leak check = text_free_check on the host holding the store (bs_turing/bs_cpu-host.text_free_check)",
+   "name": "bs-cpu-host",
+   "records": 0,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "BS",
+   "run_id": "BS-6fa269ccbd-s0",
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r1-chrono-full-goldqa",
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R1",
+   "run_id": "R1-2468bac642-s2",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r1-chrono-full-goldqa",
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R1",
+   "run_id": "R1-693affa56d-s1",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r1-chrono-full-goldqa",
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R1",
+   "run_id": "R1-8296ba03a8-s3",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r1-chrono-full-goldqa",
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R1",
+   "run_id": "R1-ace8c5d08e-s4",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r1-chrono-full-goldqa",
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R1",
+   "run_id": "R1-d1485565cc-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "l2": "L2 ok",
+   "l2_line": "R3-1b4cffb292-s0: L2: ok (220738 records == 220738 ledger queries)",
+   "name": "r3-a-rd",
+   "records": 220738,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R3",
+   "run_id": "R3-1b4cffb292-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "l2": "L2 ok",
+   "l2_line": "R3-2721e6be83-s0: L2: ok (2972 records == 2972 ledger queries)",
+   "name": "r3-b-last200-deepwordbug",
+   "records": 2972,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R3",
+   "run_id": "R3-2721e6be83-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "l2": "L2 ok",
+   "l2_line": "R3-330efa45f0-s0: L2: ok (13506 records == 13506 ledger queries)",
+   "name": "r3-b-last200-bert_attack",
+   "records": 13506,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R3",
+   "run_id": "R3-330efa45f0-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "l2": "L2 ok",
+   "l2_line": "R3-39b2489296-s0: L2: ok (7686 records == 7686 ledger queries)",
+   "name": "r3-b-first200-textfooler",
+   "records": 7686,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R3",
+   "run_id": "R3-39b2489296-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "l2": "L2 ok",
+   "l2_line": "R3-5d765f9257-s0: L2: ok (18265 records == 18265 ledger queries)",
+   "name": "r3-beam-a",
+   "records": 18265,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R3",
+   "run_id": "R3-5d765f9257-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "l2": "L2 ok",
+   "l2_line": "R3-60479e7e32-s0: L2: ok (21622 records == 21622 ledger queries)",
+   "name": "r3-gate-aware",
+   "records": 21622,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R3",
+   "run_id": "R3-60479e7e32-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "l2": "L2 ok",
+   "l2_line": "R3-8242a107fc-s0: L2: ok (11557 records == 11557 ledger queries)",
+   "name": "r3-b-first200-bert_attack",
+   "records": 11557,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R3",
+   "run_id": "R3-8242a107fc-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "l2": "L2 ok",
+   "l2_line": "R3-a919c6fb2f-s0: L2: ok (18388 records == 18388 ledger queries)",
+   "name": "r3-beam-b-last200",
+   "records": 18388,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R3",
+   "run_id": "R3-a919c6fb2f-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "l2": "L2 ok",
+   "l2_line": "R3-ac741ca97d-s0: L2: ok (14443 records == 14443 ledger queries)",
+   "name": "r3-b-last200-pwws",
+   "records": 14443,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R3",
+   "run_id": "R3-ac741ca97d-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "l2": "L2 ok",
+   "l2_line": "R3-b37aa9d3c5-s0: L2: ok (20323 records == 20323 ledger queries)",
+   "name": "r3-beam-b-first200",
+   "records": 20323,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R3",
+   "run_id": "R3-b37aa9d3c5-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "l2": "L2 ok",
+   "l2_line": "R3-c46605d5c5-s0: L2: ok (75140 records == 75140 ledger queries)",
+   "name": "r3-a",
+   "records": 75140,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R3",
+   "run_id": "R3-c46605d5c5-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "l2": "L2 ok",
+   "l2_line": "R3-c89ffa5921-s0: L2: ok (71686 records == 71686 ledger queries)",
+   "name": "r3-beam-a-rd",
+   "records": 71686,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R3",
+   "run_id": "R3-c89ffa5921-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "l2": "L2 ok",
+   "l2_line": "R3-dbe29a3a8c-s0: L2: ok (8784 records == 8784 ledger queries)",
+   "name": "r3-b-last200-textfooler",
+   "records": 8784,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R3",
+   "run_id": "R3-dbe29a3a8c-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "l2": "L2 ok",
+   "l2_line": "R3-ed263acff8-s0: L2: ok (12738 records == 12738 ledger queries)",
+   "name": "r3-b-first200-pwws",
+   "records": 12738,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R3",
+   "run_id": "R3-ed263acff8-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "l2": "L2 ok",
+   "l2_line": "R3-f2b2a34665-s0: L2: ok (2592 records == 2592 ledger queries)",
+   "name": "r3-b-first200-deepwordbug",
+   "records": 2592,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R3",
+   "run_id": "R3-f2b2a34665-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-retrieval-fc",
+   "records": 940,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-0030a443eb-s2",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-retrieval-fc",
+   "records": 940,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-0498a08e05-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-content-only",
+   "records": 676,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-07f094cdc4-s2",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-content-only",
+   "records": 676,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-0ae9f12ea1-s3",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-content-only",
+   "records": 676,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-0fd2e8429c-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-abstention",
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-11039a3180-s2",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-content-only-rd",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-17be936433-s3",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-retrieval",
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-23a0226c63-s3",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-content-only",
+   "records": 676,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-24b7ee91e1-s4",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-abstention-rd",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-31a384cd3e-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-abstention-rd",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-33ca73a1ef-s4",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-abstention-fc",
+   "records": 940,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-33e673b1dd-s2",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-abstention",
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-3ece82aa32-s1",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-retrieval",
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-40e9726290-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-calibration-fc",
+   "records": 940,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-41065ca9cc-s4",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-retrieval-rd",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-4672b7e33c-s2",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-calibration",
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-4878f18871-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "l2": "L2 ok",
+   "l2_line": "R4-49be66a414-s0: L2: ok (1544 records == 1544 ledger queries)",
+   "name": "r4-no-calibration-replay",
+   "records": 1544,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-49be66a414-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-retrieval-fc",
+   "records": 940,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-4a8fcca609-s4",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-content-only-fc",
+   "records": 405,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-4bf5242564-s1",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-content-only-fc",
+   "records": 405,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-4c5f445c4b-s2",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-abstention-fc",
+   "records": 940,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-588250b373-s3",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-content-only",
+   "records": 676,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-59cada6ce1-s1",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-retrieval",
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-5d4b3dd78f-s4",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-content-only-rd",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-62b02e535b-s1",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-calibration-fc",
+   "records": 940,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-6db1bbaaa3-s3",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "l2": "L2 ok",
+   "l2_line": "R4-6e542feded-s0: L2: ok (1732 records == 1732 ledger queries)",
+   "name": "r4-transfer-a-to-b-replay",
+   "records": 1732,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-6e542feded-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-retrieval-fc",
+   "records": 940,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-7568f2c93d-s1",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-calibration",
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-76f5ef28a9-s4",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-retrieval",
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-78eac314ed-s2",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-abstention",
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-7c830169ed-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-content-only-rd",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-7d3fc6f419-s2",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-calibration-rd",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-7dc56cf976-s2",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-abstention-fc",
+   "records": 940,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-7fd1a386ee-s4",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-calibration-rd",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-834501dacf-s1",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-abstention",
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-83500d30ab-s3",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-retrieval-fc",
+   "records": 940,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-83698f5a77-s3",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-calibration-rd",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-8417a635be-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-abstention-rd",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-8dfa23c723-s2",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "l2": "L2 ok",
+   "l2_line": "R4-8e81adc944-s0: L2: ok (1636 records == 1636 ledger queries)",
+   "name": "r4-gate-only-a-replay",
+   "records": 1636,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-8e81adc944-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "l2": "L2 ok",
+   "l2_line": "R4-97f971cded-s0: L2: ok (1538 records == 1538 ledger queries)",
+   "name": "r4-no-retrieval-replay",
+   "records": 1538,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-97f971cded-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-calibration",
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-97f99c223f-s1",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-retrieval-rd",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-9a0ac6b07b-s1",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-content-only-rd",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-9b0bb14ac7-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-calibration-fc",
+   "records": 940,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-a0260da662-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-content-only-fc",
+   "records": 405,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-a1f5490519-s3",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-calibration-fc",
+   "records": 940,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-a9cb31e199-s1",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-calibration-fc",
+   "records": 940,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-aa85d4b2d3-s2",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "l2": "L2 ok",
+   "l2_line": "R4-bcd3c65b21-s0: L2: ok (1768 records == 1768 ledger queries)",
+   "name": "r4-no-abstention-replay",
+   "records": 1768,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-bcd3c65b21-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-calibration",
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-bee69261d0-s2",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-retrieval",
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-c17057353a-s1",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-calibration-rd",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-c784793afc-s4",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-calibration-rd",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-c9e7bbf12f-s3",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-retrieval-rd",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-d016b68f0a-s4",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-abstention-rd",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-d4bc8b4143-s1",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-content-only-fc",
+   "records": 405,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-d64502b079-s4",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-content-only-rd",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-daa4d85fbc-s4",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-abstention-fc",
+   "records": 940,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-dc457bea42-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-abstention-rd",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-e0269dec82-s3",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-content-only-fc",
+   "records": 405,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-e55087d58e-s0",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-abstention",
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-e79f69b1b5-s4",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-abstention-fc",
+   "records": 940,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-ec05e1fd37-s1",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-retrieval-rd",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-f740f32e72-s3",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-calibration",
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-f7b30579b5-s3",
+   "validate_rc": 0,
+   "violations": 0
+  },
+  {
+   "agrees_with_sealed_schema_validation": true,
+   "name": "r4-no-retrieval-rd",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "regime": "R4",
+   "run_id": "R4-fe4d0fcaff-s0",
+   "validate_rc": 0,
+   "violations": 0
+  }
+ ],
+ "validation_rule": "every Phase 4 sealed run in runs/INDEX.json (R3 except r3-pilot, which is Phase 3; all 65 R4; the five r1-chrono-full-goldqa R1 runs; the two BS runs): `aac validate --run <id>` (independent recount, must equal the sealed schema-validation.txt; output under runs/_validation/) and, for the 20 ledger runs, `aac ledger-check runs/<id>` (strict L2); run on cpu-host 2026-10-19 10:29Z-11:41Z, 6 in parallel at nice 10",
+ "validation_summary": {
+  "ledger_runs_l2_ok": 20,
+  "records_with_claim_text": 0,
+  "records_with_user_id": 0,
+  "runs": 87,
+  "validated_by_aac_validate": 85,
+  "violations": 0
+ }
+}

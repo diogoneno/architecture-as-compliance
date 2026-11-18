@@ -1,0 +1,27 @@
+schema: aac-train/1
+regime: C1
+seed: 0
+train:
+ model:
+ key: mdeberta-v3-base
+ hf_id: microsoft/mdeberta-v3-base
+ revision: a0484667b22365f84929a935b5e50a51f71f159d
+ num_labels: 4
+ dtype: float32
+ max_length: 128
+ labels: [Supported, Refuted, Not Enough Evidence, Conflicting Evidence/Cherrypicking]
+ optimizer: {name: adamw, lr: 2.0e-5, weight_decay: 0.01, betas: [0.9, 0.999], eps: 1.0e-8}
+ schedule: {name: linear, warmup_fraction: 0.1}
+ grad_clip_norm: 1.0
+ epochs: 5
+ batch_size: 16
+ max_steps: null
+ class_weights: none
+ precision: {weights: float32, autocast_cuda: bfloat16, autocast_cpu: none}
+ early_stopping: false
+ checkpoint: last
+ train_partition: train
+ loader: {shuffle: true, num_workers: 0, seed_key_template: "c1.loader.{split}.{seed}"}
+ determinism: strict
+env: {lock_sha256: AUTO, python: AUTO, torch: AUTO, transformers: AUTO, numpy: AUTO}
+code: {git_sha: AUTO}

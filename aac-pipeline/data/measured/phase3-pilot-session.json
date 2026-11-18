@@ -1,0 +1,250 @@
+{
+  "schema": "aac-gpu-session/phase3-pilot",
+  "plan": "03-13",
+  "turing_host": "turing",
+  "release_sha": "28542d2aaa4c518885ee3e28158070459317c9c7",
+  "release_contains": [
+    "85f2477 runner device option",
+    "8950763 projection in-progress session skip",
+    "28542d2 pilot config, batch, adjustments row 42"
+  ],
+  "smoke_list_where": "cpu-host, isolated clone (git clone --shared, checkout 28542d2; submodules initialised from the main tree's submodule repositories at the gitlinked commits; own .venv-main from uv sync --frozen --extra cpu --group lint, so aac imports from the clone; .venv-attack, .hf, data/raw/{averitec,incrediblae}, the real run directories and data/derived/private symlinked from the main tree; secrets/ not linked); 0 dirty lines before and after",
+  "smoke_list": {
+    "smoke": "ok",
+    "test-unit": "ok",
+    "runner-test": "ok",
+    "attack-session-smoke": "ok",
+    "pilot-smoke": "ok",
+    "lint-imports": "ok"
+  },
+  "smoke_list_lines": {
+    "smoke": "SMOKE golden-diff: ok (day1_docs spec e8e6af3a355c)",
+    "test-unit": "1256 passed, 29 skipped, 2 warnings in 491.48s (second pass; the first pass ran before make smoke had built the stub namespace build/smoke and stopped at 1 error, MissingRun BASE/r0-fc-rd-clean)",
+    "runner-test": "Ran 11 tests; OK",
+    "attack-session-smoke": "attack-session-smoke: R3-b8d0be8ef8-s0 L2 ok",
+    "pilot-smoke": "pilot-smoke: R3-d0f2f7e45f-s0 L2 ok; pilot-projection: 138 rows ok",
+    "lint-imports": "T-L2: import-linter (2 kept, 0 broken) + AST"
+  },
+  "turing_setup": "make turing-setup SHA=28542d2 TURING_ATTACK=1: release setup: ok; env-attack ok: python 3.10.22 transformers 4.38.1 tensorflow 2.21.0",
+  "preflight": {
+    "sha": "28542d2aaa4c518885ee3e28158070459317c9c7",
+    "fail": 0,
+    "ok_lines": 9,
+    "lines": [
+      "release",
+      "venv",
+      "torch-build: 2.14.1+cu126 12.6",
+      "symlinks",
+      "raw-layout",
+      "submodules",
+      "index: 52 runs",
+      "manifest-check: 34 entries, data_version=648d8eb14b0e24a73923be0e0094310458b98da91c61d39b734694100f64746b",
+      "offline-models: 16 passed"
+    ]
+  },
+  "assets_ok": true,
+  "assets_lines": "assets: 7 ok/unpinned, 0 failed (TProcess.NLTKWordNet not pinned by digest in third_party/PINS.json, present on turing, 35M)",
+  "runner_test_turing": "make runner-test in the release, CUDA_VISIBLE_DEVICES empty: Ran 11 tests in 16.772s, OK",
+  "dry_run": "make attack RUN=configs/regimes/real/r3-pilot.yaml SEED=0",
+  "plan_printer": "total: 1 runs, 0.30-1.50 GPU-h (ceiling 1.5 GPU-h)",
+  "expected_run_id": "R3-d6e8659ea8-s0",
+  "victim_source_run": "R1-4805ab6250-s0",
+  "producers_sealed_on_turing": [
+    "EV-7ceb148b39-s0",
+    "C2S-3530beba01-s0",
+    "R1-4805ab6250-s0"
+  ],
+  "gpu_check_before": {
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "driver": "550.163.01",
+    "memory_used_mib": 2,
+    "compute_apps": 0,
+    "sentinel_gpu_cleared": "present",
+    "tmux_sessions": 0
+  },
+  "turing_resources_before": {
+    "cpus": 10,
+    "mem_total_gib": 62,
+    "disk_free": "243G"
+  },
+  "ceiling_gpu_hours": 1.5,
+  "session_timeout_s": 5400,
+  "gpu_hours_before_pilot": {
+    "phase2": 0.472989,
+    "phase3_session": 3.875854,
+    "phase3_ceiling": 8.0,
+    "phase3_left_before_pilot": 4.124146,
+    "project_total": 4.348843,
+    "sources": [
+      "data/measured/phase2-gpu-session.json",
+      "data/measured/phase3-gpu-session.json"
+    ]
+  },
+  "operator_reply": "Go now what we waiting from Turing also needs awaiting rigjt",
+  "operator_reply_given": "2026-10-17 about 15:25 UTC, in answer to the offer of a pilot go in advance",
+  "operator_reply_relayed_by": "orchestrator, at the Stage Task 2 checkpoint",
+  "operator_reply_relayed_utc": "2026-10-17T18:09:46Z",
+  "operator_reply_reading": "GO on release 28542d2aaa4c518885ee3e28158070459317c9c7, no amendments; adjustments row 42 flips to confirmed (protocol advance go, 17 Oct 2026)",
+  "gpu_run": {
+    "phase": "B-pilot",
+    "command": "make -C aac-pipeline gpu-run PHASE=B-pilot BATCH=configs/batches/phase3-pilot.txt SHA=28542d2aaa4c518885ee3e28158070459317c9c7",
+    "dispatched_utc": "2026-10-17T18:09:59Z",
+    "started_utc": "20261017T181004Z",
+    "finished_heartbeat_utc": "2026-10-17T18:22:16Z",
+    "state": "finished",
+    "exit": 0,
+    "log": "logs/B-pilot-20261017T181004Z.log",
+    "log_sha256": "482550fab6a98fdd1cfee04826745d15df04b5f10c33677df3dcb9ffa48e0d02",
+    "log_lines": [
+      "attack-session: 80 items attacked",
+      "L2: ok (6703 records == 6703 ledger queries)",
+      "served R3-d6e8659ea8-s0: 6703 records, 80 ledger rows, SEALED dcb5d7490f78",
+      "== batch line 1/1 ok"
+    ]
+  },
+  "run_id": "R3-d6e8659ea8-s0",
+  "config_hash": "d6e8659ea8a1baf900e9f7d9c163b8cb32c711dd58b5200909da2e4949f9f41a",
+  "seal_digest": "dcb5d7490f7878cd9a809336b7843cfe9b508d4ac2afffeb0a9122ffe38fbb39",
+  "validation": {
+    "records": 6703,
+    "violations": 0,
+    "records_with_claim_text": 0,
+    "records_with_user_id": 0,
+    "command": ".venv-main/bin/aac validate --run R3-d6e8659ea8-s0 (exit 0)"
+  },
+  "l2_ok": true,
+  "l2_line": "R3-d6e8659ea8-s0: L2: ok (6703 records == 6703 ledger queries) (aac ledger-check, strict by default)",
+  "counters_check": {
+    "rows": 80,
+    "runner_ne_server_or_over_1000": 0,
+    "max_server_queries": 245
+  },
+  "resume_log": {
+    "resumed": false,
+    "dropped_records": 0
+  },
+  "run_record_gpu_hours": 0.166927,
+  "session_gpu_hours": 0.166927,
+  "session_gpu_hours_rule": "run-record.json gpu_hours of the one run, as Stage summed run records; tmux wall from start to the finished heartbeat was 732 s (0.203333 h)",
+  "session_seconds": 615.385383,
+  "ceiling_check": "0.166927 GPU-h (run record) and 0.203333 h tmux wall, both <= 1.5",
+  "gpu_hours_after_pilot": {
+    "phase3_total": 4.042781,
+    "phase3_ceiling": 8.0,
+    "project_total": 4.51577
+  },
+  "gpu_usage_checks": {
+    "watcher": "read-only, 10 s, 72 samples 18:10:19-18:22:14",
+    "samples_with_compute_app": 66,
+    "max_compute_apps": 1,
+    "foreign_compute_apps": 0,
+    "compute_app_cwd_is_release": "66 of 66",
+    "env_pins_present": "66 of 66: AAC_GIT_SHA=28542d2, CUBLAS_WORKSPACE_CONFIG=:4096:8, HF_HUB_OFFLINE=1, PYTHONHASHSEED=0",
+    "peak_gpu_memory_mib": 8541,
+    "server_peak_vmhwm_kib": 8211064,
+    "runner_peak_rss": "not measured (the watcher's pgrep matched a wrapper process, 1,756 KiB is not the runner)",
+    "after": "compute_apps 0, 2 MiB, no tmux session; watcher files removed from turing /tmp"
+  },
+  "measured_latency_by_cell": {
+    "pwws/content_only": {
+      "server_seconds_per_query": "0.004325",
+      "rtt_seconds_per_query": "0.004086",
+      "runner_seconds_per_query": "0.004663",
+      "runner_seconds_per_item": "0.453714",
+      "socket_overhead_share": "-5.9",
+      "items_attacked": "17",
+      "items_skipped_wrong_clean": "3",
+      "queries_median": "90",
+      "queries_p90": "138",
+      "queries_max": "240",
+      "share_at_budget": "0.0"
+    },
+    "pwws/full": {
+      "server_seconds_per_query": "0.119023",
+      "rtt_seconds_per_query": "0.119616",
+      "runner_seconds_per_query": "0.120141",
+      "runner_seconds_per_item": "11.375473",
+      "socket_overhead_share": "0.5",
+      "items_attacked": "19",
+      "items_skipped_wrong_clean": "1",
+      "queries_median": "89",
+      "queries_p90": "138",
+      "queries_max": "241",
+      "share_at_budget": "0.0"
+    },
+    "bert_attack/content_only": {
+      "server_seconds_per_query": "0.016061",
+      "rtt_seconds_per_query": "0.016711",
+      "runner_seconds_per_query": "0.022213",
+      "runner_seconds_per_item": "1.315790",
+      "socket_overhead_share": "3.9",
+      "items_attacked": "17",
+      "items_skipped_wrong_clean": "3",
+      "queries_median": "53",
+      "queries_p90": "111",
+      "queries_max": "117",
+      "share_at_budget": "0.0"
+    },
+    "bert_attack/full": {
+      "server_seconds_per_query": "0.165487",
+      "rtt_seconds_per_query": "0.167496",
+      "runner_seconds_per_query": "0.169220",
+      "runner_seconds_per_item": "19.050585",
+      "socket_overhead_share": "1.2",
+      "items_attacked": "19",
+      "items_skipped_wrong_clean": "1",
+      "queries_median": "87",
+      "queries_p90": "234",
+      "queries_max": "245",
+      "share_at_budget": "0.0"
+    }
+  },
+  "projection_totals": {
+    "phase4_gpu_wall_hours": "38.762137",
+    "phase4_gpu_wall_hours_cut_2": "21.760176",
+    "used_gpu_hours": "4.348843",
+    "remaining_at_50": "45.651157",
+    "remaining_at_75": "70.651157",
+    "fits_50": "true",
+    "fits_75": "true"
+  },
+  "projection_fetch": {
+    "generated_on": "turing, inside the release, python -m aac.attacks.projection --run-id R3-d6e8659ea8-s0 --out <mktemp dir>",
+    "check_turing": "projection-check: 138 rows ok",
+    "check_cpu-host": "projection-check: 138 rows ok",
+    "sha256_turing": "daca24178f108cd97820c3aa44288e429c5ae9c27b518764819adcc6e2ef2840",
+    "sha256_cpu-host": "daca24178f108cd97820c3aa44288e429c5ae9c27b518764819adcc6e2ef2840",
+    "used_gpu_hours_note": "the release has no pilot session file, so used_gpu_hours (4.348843) excludes the pilot's 0.166927; Stage regenerates on cpu-host, where this file carries session_gpu_hours"
+  },
+  "pilot_end_states_not_a_result": {
+    "note": "attack-ledger.jsonl end_state counts; a sizing measurement, not a Table 4.4 result (adjustments row 42); unchanged includes the items skipped because the clean decision was already wrong (pwws and bert_attack: 3 on victim A, 1 on victim B)",
+    "pwws/content_only": {
+      "success": 12,
+      "unchanged": 8
+    },
+    "pwws/full": {
+      "deferred(deflected)": 11,
+      "success(flip)": 1,
+      "unchanged": 8
+    },
+    "bert_attack/content_only": {
+      "success": 14,
+      "unchanged": 6
+    },
+    "bert_attack/full": {
+      "deferred(deflected)": 12,
+      "unchanged": 8
+    }
+  },
+  "operator_reply_given_corrected": "2026-10-17T15:55:38Z (session transcript line 7529); the original field above said \"about 15:25 UTC\" and is kept verbatim",
+  "corrections": [
+    {
+      "date": "2026-10-18",
+      "field": "operator_reply_given",
+      "was": "2026-10-17 about 15:25 UTC, in answer to the offer of a pilot go in advance",
+      "now": "2026-10-17T15:55:38Z",
+      "source": "session transcript 1130218a-3dd7-4e3a-8d2c-c19275b27cdf.jsonl line 7529; dispatch 2026-10-17T18:09:59Z (+02:14:20)",
+      "evidence": ".planning/phases/03-minimum-viable-pipeline-b/03-UAT-item3-gpu-go-evidence.md"
+    }
+  ]
+}

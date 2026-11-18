@@ -1,0 +1,16 @@
+{
+ "max": 120,
+ "max_length": 128,
+ "n": 3568,
+ "n_over_max_length": 0,
+ "p50": 25,
+ "p95": 53,
+ "p99": 73,
+ "percentile_rule": "nearest-rank",
+ "source": "aac.data.averitec.load_claims(data/raw/averitec/data): all labelled train+dev claims",
+ "special_tokens_included": true,
+ "tokenizer": {
+  "hf_id": "microsoft/mdeberta-v3-base",
+  "revision": "a0484667b22365f84929a935b5e50a51f71f159d"
+ }
+}

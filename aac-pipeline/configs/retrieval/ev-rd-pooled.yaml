@@ -1,0 +1,27 @@
+schema: aac-evidence/1
+name: ev-rd-pooled
+regime: EV
+seed: 0
+data:
+ dataset: averitec
+ manifest: data/derived/MANIFEST.sha256
+ split_manifest: data/derived/splits/averitec-chrono-v1.json
+ claims: data/raw/averitec/data
+ labels: data/derived/averitec/labels.csv
+ rd_items: data/derived/incrediblae/rd-attack.items.json
+evidence:
+ mode: pooled_rd
+ pool_from: evidence
+ bm25_top_n: 1000
+ variants: [primary]
+ dense: {hf_id: BAAI/bge-m3, revision: 5617a9f61b028005a4858fdac845db406aefb181, pooling: cls, normalize: true,
+ max_seq_length: 128, precision: float32, batch_size: 128}
+ reranker: {hf_id: BAAI/bge-reranker-v2-m3, revision: 953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e, max_length: 256,
+ batch_size: 64, activation: sigmoid}
+ k_dense: 20
+ k: 5
+ pooled: {enabled: false, partitions: , dedup: sentence-sha256}
+ stores: {limit: null, include: }
+ determinism: strict
+env: {lock_sha256: AUTO, python: AUTO, torch: AUTO, transformers: AUTO, numpy: AUTO}
+code: {git_sha: AUTO}

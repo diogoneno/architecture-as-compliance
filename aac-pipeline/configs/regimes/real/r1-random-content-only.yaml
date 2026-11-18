@@ -1,0 +1,25 @@
+extends: [../../base.yaml, ../../stats.yaml]
+name: r1-random-content-only
+regime: R1
+system: content_only
+seed: 0
+data:
+ dataset: averitec
+ manifest: data/derived/MANIFEST.sha256
+ split_manifest: data/derived/splits/averitec-random-v1.json
+ claims: data/raw/averitec/data
+ labels: data/derived/averitec/labels.csv
+ targets: [averitec_chrono]
+components:
+ c1: !replace
+ enabled: true
+ kind: mdeberta-v3-base
+ num_labels: 4
+ hf_id: microsoft/mdeberta-v3-base
+ revision: a0484667b22365f84929a935b5e50a51f71f159d
+ max_length: 128
+ trained_by: c1-random
+ c2: {enabled: false}
+ c3: {gate: content-only-passthrough, weights: , bias: 0.0}
+ c4: {enabled: false}
+ c5: {enabled: false}

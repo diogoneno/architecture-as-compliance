@@ -1,0 +1,186 @@
+{
+ "filter": {
+  "n_docs_filtered": 103059,
+  "n_docs_filtered_by_split": {
+   "dev": 17787,
+   "train": 85272
+  },
+  "n_hosts_listed": 47,
+  "n_sentences_filtered": 6055366,
+  "n_stores_with_filtered_docs": 3545,
+  "per_host": {
+   "aap.com.au": 63,
+   "abc.net.au": 981,
+   "africacheck.org": 2104,
+   "altnews.in": 464,
+   "bbc.co.uk": 4454,
+   "boomlive.in": 327,
+   "cbsnews.com": 15493,
+   "checkyourfact.com": 32,
+   "climatefeedback.org": 15,
+   "covid19facts.ca": 0,
+   "dubawa.org": 100,
+   "factcheck.afp.com": 795,
+   "factcheck.org": 4167,
+   "factcheck.thedispatch.com": 0,
+   "factcheckni.org": 23,
+   "factly.in": 215,
+   "fit.thequint.com": 15,
+   "fullfact.org": 827,
+   "ghana.dubawa.org": 2,
+   "ghanafact.com": 22,
+   "ha-asia.com": 0,
+   "healthfeedback.org": 61,
+   "icirnigeria.org": 302,
+   "indiatoday.in": 1996,
+   "leadstories.com": 103,
+   "misbar.com": 86,
+   "namibiafactcheck.org.na": 16,
+   "newsmeter.in": 58,
+   "newsmobile.in": 63,
+   "newsweek.com": 1454,
+   "nytimes.com": 34014,
+   "pesacheck.org": 116,
+   "politifact.com": 4748,
+   "polygraph.info": 80,
+   "poynter.org": 1509,
+   "rappler.com": 440,
+   "sciencefeedback.co": 2,
+   "theferret.scot": 36,
+   "thegazette.com": 47,
+   "thejournal.ie": 222,
+   "thelogicalindian.com": 339,
+   "thequint.com": 699,
+   "usatoday.com": 6334,
+   "verafiles.org": 167,
+   "vishvasnews.com": 80,
+   "washingtonpost.com": 19981,
+   "zimfact.org": 7
+  },
+  "rule": "PREREG item 18: drop a document when its URL host (archive-unwrapped, lowercased, www. removed) equals a host of configs/factchecker-domains.txt",
+  "share_docs_filtered": "0.028902",
+  "share_sentences_filtered": "0.002420"
+ },
+ "leakage": {
+  "n_docs_factchecker_host": 103059,
+  "n_docs_url_eq_answer_exact": 9295,
+  "n_docs_url_eq_answer_norm": 10209,
+  "n_docs_url_eq_answer_norm_gold": 7556,
+  "n_stores_with_factchecker_host": 3545,
+  "n_stores_with_url_eq_answer_exact": 3568,
+  "n_stores_with_url_eq_answer_norm": 3568,
+  "share_factchecker_host": "0.028902",
+  "share_gold_docs_url_eq_answer_norm": "1.000000",
+  "share_url_eq_answer_exact": "0.002607",
+  "share_url_eq_answer_norm": "0.002863"
+ },
+ "other_type_values": {
+  "NER": 226413,
+  "background_questions": 347671,
+  "claim": 19290,
+  "claim+question": 91237,
+  "gpt_url_only": 439684,
+  "most_similar": 331901,
+  "provenance": 261155,
+  "same_entity_questions": 301612
+ },
+ "provenance": {
+  "audit": "ks-audit-v1",
+  "claims_index_sha256": "91a5e0253e237fdd355d209a014ac0ad592dac34634324973e0a216745d3410e",
+  "config_hash": "10d84098f200f44e6c4ce0a77b35059d8e128abeb6678660e621494fa7c0f8e2",
+  "data_version": "0f2ec92fc179875b2f351b9302275addaf60005a3c9d847c3410139ec5777abe",
+  "domains_sha256": "080e4435e4e50e41bcbc0417f4b28fa7e1bd319f103878431121ad502fcc777b",
+  "git_sha": "9c85dcff8de87d578bc27cf4a84d4e9a25e3c814",
+  "limit": null,
+  "stores": 3568
+ },
+ "totals": {
+  "all": {
+   "bytes_uncompressed": 237431428504,
+   "n_docs": 3565779,
+   "n_docs_by_type": {
+    "answer": 198660,
+    "background": 223194,
+    "gold": 7556,
+    "gpt_question": 383564,
+    "other_type": 2018963,
+    "question": 215197,
+    "question_duplicate": 518645
+   },
+   "n_lines_unparsable": 0,
+   "n_sentences": 2502365199,
+   "n_stores": 3568,
+   "n_stores_empty": 0,
+   "n_unique_sentences_summed_over_stores": 2326100504
+  },
+  "dev": {
+   "bytes_uncompressed": 36550657230,
+   "n_docs": 506640,
+   "n_docs_by_type": {
+    "answer": 27502,
+    "background": 30708,
+    "gold": 1096,
+    "gpt_question": 52908,
+    "other_type": 285571,
+    "question": 29380,
+    "question_duplicate": 79475
+   },
+   "n_lines_unparsable": 0,
+   "n_sentences": 380234341,
+   "n_stores": 500,
+   "n_stores_empty": 0,
+   "n_unique_sentences_summed_over_stores": 352707466
+  },
+  "train": {
+   "bytes_uncompressed": 200880771274,
+   "n_docs": 3059139,
+   "n_docs_by_type": {
+    "answer": 171158,
+    "background": 192486,
+    "gold": 6460,
+    "gpt_question": 330656,
+    "other_type": 1733392,
+    "question": 185817,
+    "question_duplicate": 439170
+   },
+   "n_lines_unparsable": 0,
+   "n_sentences": 2122130858,
+   "n_stores": 3068,
+   "n_stores_empty": 0,
+   "n_unique_sentences_summed_over_stores": 1973393038
+  }
+ },
+ "type_shares": {
+  "answer": "0.055713",
+  "background": "0.062593",
+  "gold": "0.002119",
+  "gpt_question": "0.107568",
+  "other_type": "0.566205",
+  "question": "0.060351",
+  "question_duplicate": "0.145451"
+ },
+ "unparsable": {
+  "n_lines_unparsable": 0,
+  "n_stores_with_unparsable": 0
+ },
+ "url_date": {
+  "after_claim_is_lower_bound": true,
+  "coverage": "0.132892",
+  "n_claims_date_null": 105,
+  "n_docs_in_undated_stores": 107277,
+  "n_docs_url_date_after_claim": 22026,
+  "n_docs_url_date_parsed": 473865,
+  "patterns": [
+   "/(\\d{4})/(\\d{2})/(\\d{2})(?![0-9])",
+   "/(\\d{4})-(\\d{2})-(\\d{2})(?![0-9])",
+   "/(\\d{4})/(\\d{2})(?=/|$)(?!/\\d{2}(?![0-9]))",
+   "/(\\d{4})-(\\d{2})(?=/|$)"
+  ],
+  "share_of_docs_after_claim": "0.006177",
+  "share_of_parsed_after_claim": "0.046482",
+  "year_range": [
+   1990,
+   2025
+  ]
+ }
+}

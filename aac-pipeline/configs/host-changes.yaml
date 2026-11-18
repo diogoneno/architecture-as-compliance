@@ -1,0 +1,37 @@
+changes:
+ - host: local-workstation
+ date: 2026-10-15
+ command: "sudo -n apt-get install -y rsync"
+ exit: 0
+ scope: 
+ note: "Debian package from the host's configured apt sources; missing: rsync"
+ - host: gpu-node
+ date: 2026-10-15
+ command: "sudo -n apt-get install -y rsync tmux"
+ exit: 0
+ scope: 
+ note: "Debian packages from the host's configured apt sources; missing: rsync tmux"
+ - host: gpu-node
+ date: 2026-10-15
+ command: "sudo -n install -d -o neno -g neno /data/aac"
+ exit: 0
+ scope: outside--package-list
+ note: " persistent data root; parent not writable by the unprivileged user, so sudo created it owned by neno"
+ - host: gpu-node
+ date: 2026-10-16
+ command: "scp ~/.local/bin/uv gpu-node:/data/aac/tools/uv"
+ exit: 0
+ scope: user-level-no-sudo
+ note: "uv binary copied from local-workstation (uv 0.13.1 (x86_64-unknown-linux-gnu), sha256 db919fb9428cc8ad04377ba3c898e0ec5fbee83700da5b982b1c9539f1e1b34f); not on PATH, called by absolute path"
+ - host: gpu-node
+ date: 2026-10-16
+ command: "UV_PYTHON_INSTALL_DIR=/data/aac/python /data/aac/tools/uv python install 3.11"
+ exit: 0
+ scope: user-level-no-sudo
+ note: "uv-managed CPython request 3.11 -> Python 3.11.17 at /data/aac/python/cpython-3.11-linux-x86_64-gnu/bin/python3.11"
+ - host: gpu-node
+ date: 2026-10-16
+ command: "UV_PYTHON_INSTALL_DIR=/data/aac/python /data/aac/tools/uv python install 3.10.22"
+ exit: 0
+ scope: user-level-no-sudo
+ note: "uv-managed CPython request 3.10.22 -> Python 3.10.22 at /data/aac/python/cpython-3.10.22-linux-x86_64-gnu/bin/python3.10"

@@ -1,0 +1,4 @@
+extends: [shortlist.yaml]
+name: shortlist-pilot
+shortlist:
+ stores: {limit: 49, include: [averitec/train/1866]}

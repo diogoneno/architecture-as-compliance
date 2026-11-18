@@ -1,0 +1,15 @@
+stats:
+ bootstrap: 1000
+ level: 0.95
+ unit: item
+ test_family: per_regime
+ primary: [item_bootstrap, mcnemar_exact]
+ secondary: [paired_t_dz]
+ descriptive: [wilcoxon]
+ wilcoxon_floor: {n: 5, p: 0.0625, rule: "exact two-sided minimum 2 / 2**n"}
+ correction: holm
+ families:
+ R1: [H1-chrono-vs-random-content, H1-chrono-vs-random-full]
+ R2: [H2-fc, H2-rd]
+ R3: [H3-asr-full-vs-content, H3-deflection]
+ R4: [H4-no-retrieval, H4-no-calibration, H4-no-abstention, H4-content-only]

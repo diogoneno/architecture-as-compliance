@@ -1,0 +1,3569 @@
+claim_id,label
+averitec/train/0,Supported
+averitec/train/1,Refuted
+averitec/train/2,Supported
+averitec/train/3,Supported
+averitec/train/4,Refuted
+averitec/train/5,Refuted
+averitec/train/6,Refuted
+averitec/train/7,Conflicting Evidence/Cherrypicking
+averitec/train/8,Conflicting Evidence/Cherrypicking
+averitec/train/9,Refuted
+averitec/train/10,Refuted
+averitec/train/11,Refuted
+averitec/train/12,Conflicting Evidence/Cherrypicking
+averitec/train/13,Supported
+averitec/train/14,Supported
+averitec/train/15,Refuted
+averitec/train/16,Refuted
+averitec/train/17,Supported
+averitec/train/18,Conflicting Evidence/Cherrypicking
+averitec/train/19,Conflicting Evidence/Cherrypicking
+averitec/train/20,Refuted
+averitec/train/21,Not Enough Evidence
+averitec/train/22,Supported
+averitec/train/23,Not Enough Evidence
+averitec/train/24,Conflicting Evidence/Cherrypicking
+averitec/train/25,Supported
+averitec/train/26,Not Enough Evidence
+averitec/train/27,Not Enough Evidence
+averitec/train/28,Supported
+averitec/train/29,Supported
+averitec/train/30,Supported
+averitec/train/31,Not Enough Evidence
+averitec/train/32,Supported
+averitec/train/33,Supported
+averitec/train/34,Refuted
+averitec/train/35,Not Enough Evidence
+averitec/train/36,Refuted
+averitec/train/37,Supported
+averitec/train/38,Supported
+averitec/train/39,Not Enough Evidence
+averitec/train/40,Supported
+averitec/train/41,Refuted
+averitec/train/42,Supported
+averitec/train/43,Refuted
+averitec/train/44,Refuted
+averitec/train/45,Supported
+averitec/train/46,Supported
+averitec/train/47,Refuted
+averitec/train/48,Refuted
+averitec/train/49,Not Enough Evidence
+averitec/train/50,Refuted
+averitec/train/51,Supported
+averitec/train/52,Supported
+averitec/train/53,Supported
+averitec/train/54,Supported
+averitec/train/55,Conflicting Evidence/Cherrypicking
+averitec/train/56,Refuted
+averitec/train/57,Refuted
+averitec/train/58,Refuted
+averitec/train/59,Refuted
+averitec/train/60,Refuted
+averitec/train/61,Supported
+averitec/train/62,Supported
+averitec/train/63,Refuted
+averitec/train/64,Conflicting Evidence/Cherrypicking
+averitec/train/65,Refuted
+averitec/train/66,Refuted
+averitec/train/67,Conflicting Evidence/Cherrypicking
+averitec/train/68,Refuted
+averitec/train/69,Supported
+averitec/train/70,Supported
+averitec/train/71,Supported
+averitec/train/72,Refuted
+averitec/train/73,Refuted
+averitec/train/74,Conflicting Evidence/Cherrypicking
+averitec/train/75,Refuted
+averitec/train/76,Refuted
+averitec/train/77,Refuted
+averitec/train/78,Refuted
+averitec/train/79,Supported
+averitec/train/80,Supported
+averitec/train/81,Supported
+averitec/train/82,Supported
+averitec/train/83,Supported
+averitec/train/84,Supported
+averitec/train/85,Refuted
+averitec/train/86,Refuted
+averitec/train/87,Supported
+averitec/train/88,Conflicting Evidence/Cherrypicking
+averitec/train/89,Conflicting Evidence/Cherrypicking
+averitec/train/90,Conflicting Evidence/Cherrypicking
+averitec/train/91,Supported
+averitec/train/92,Supported
+averitec/train/93,Refuted
+averitec/train/94,Refuted
+averitec/train/95,Refuted
+averitec/train/96,Refuted
+averitec/train/97,Refuted
+averitec/train/98,Refuted
+averitec/train/99,Not Enough Evidence
+averitec/train/100,Refuted
+averitec/train/101,Refuted
+averitec/train/102,Refuted
+averitec/train/103,Not Enough Evidence
+averitec/train/104,Refuted
+averitec/train/105,Supported
+averitec/train/106,Refuted
+averitec/train/107,Supported
+averitec/train/108,Supported
+averitec/train/109,Refuted
+averitec/train/110,Refuted
+averitec/train/111,Refuted
+averitec/train/112,Not Enough Evidence
+averitec/train/113,Refuted
+averitec/train/114,Refuted
+averitec/train/115,Refuted
+averitec/train/116,Refuted
+averitec/train/117,Refuted
+averitec/train/118,Refuted
+averitec/train/119,Refuted
+averitec/train/120,Refuted
+averitec/train/121,Refuted
+averitec/train/122,Refuted
+averitec/train/123,Refuted
+averitec/train/124,Refuted
+averitec/train/125,Refuted
+averitec/train/126,Supported
+averitec/train/127,Refuted
+averitec/train/128,Supported
+averitec/train/129,Refuted
+averitec/train/130,Refuted
+averitec/train/131,Refuted
+averitec/train/132,Not Enough Evidence
+averitec/train/133,Refuted
+averitec/train/134,Refuted
+averitec/train/135,Refuted
+averitec/train/136,Supported
+averitec/train/137,Conflicting Evidence/Cherrypicking
+averitec/train/138,Supported
+averitec/train/139,Supported
+averitec/train/140,Refuted
+averitec/train/141,Refuted
+averitec/train/142,Refuted
+averitec/train/143,Supported
+averitec/train/144,Supported
+averitec/train/145,Refuted
+averitec/train/146,Refuted
+averitec/train/147,Supported
+averitec/train/148,Refuted
+averitec/train/149,Refuted
+averitec/train/150,Refuted
+averitec/train/151,Refuted
+averitec/train/152,Refuted
+averitec/train/153,Refuted
+averitec/train/154,Refuted
+averitec/train/155,Supported
+averitec/train/156,Conflicting Evidence/Cherrypicking
+averitec/train/157,Refuted
+averitec/train/158,Supported
+averitec/train/159,Supported
+averitec/train/160,Refuted
+averitec/train/161,Refuted
+averitec/train/162,Supported
+averitec/train/163,Refuted
+averitec/train/164,Conflicting Evidence/Cherrypicking
+averitec/train/165,Conflicting Evidence/Cherrypicking
+averitec/train/166,Refuted
+averitec/train/167,Refuted
+averitec/train/168,Refuted
+averitec/train/169,Refuted
+averitec/train/170,Supported
+averitec/train/171,Supported
+averitec/train/172,Refuted
+averitec/train/173,Refuted
+averitec/train/174,Supported
+averitec/train/175,Supported
+averitec/train/176,Refuted
+averitec/train/177,Refuted
+averitec/train/178,Refuted
+averitec/train/179,Supported
+averitec/train/180,Supported
+averitec/train/181,Supported
+averitec/train/182,Supported
+averitec/train/183,Supported
+averitec/train/184,Supported
+averitec/train/185,Supported
+averitec/train/186,Supported
+averitec/train/187,Supported
+averitec/train/188,Refuted
+averitec/train/189,Supported
+averitec/train/190,Supported
+averitec/train/191,Not Enough Evidence
+averitec/train/192,Refuted
+averitec/train/193,Refuted
+averitec/train/194,Supported
+averitec/train/195,Refuted
+averitec/train/196,Refuted
+averitec/train/197,Conflicting Evidence/Cherrypicking
+averitec/train/198,Supported
+averitec/train/199,Supported
+averitec/train/200,Refuted
+averitec/train/201,Refuted
+averitec/train/202,Supported
+averitec/train/203,Refuted
+averitec/train/204,Refuted
+averitec/train/205,Supported
+averitec/train/206,Supported
+averitec/train/207,Refuted
+averitec/train/208,Supported
+averitec/train/209,Supported
+averitec/train/210,Refuted
+averitec/train/211,Refuted
+averitec/train/212,Refuted
+averitec/train/213,Supported
+averitec/train/214,Supported
+averitec/train/215,Supported
+averitec/train/216,Supported
+averitec/train/217,Refuted
+averitec/train/218,Refuted
+averitec/train/219,Refuted
+averitec/train/220,Refuted
+averitec/train/221,Refuted
+averitec/train/222,Refuted
+averitec/train/223,Refuted
+averitec/train/224,Supported
+averitec/train/225,Supported
+averitec/train/226,Refuted
+averitec/train/227,Refuted
+averitec/train/228,Refuted
+averitec/train/229,Refuted
+averitec/train/230,Refuted
+averitec/train/231,Supported
+averitec/train/232,Refuted
+averitec/train/233,Refuted
+averitec/train/234,Supported
+averitec/train/235,Refuted
+averitec/train/236,Supported
+averitec/train/237,Not Enough Evidence
+averitec/train/238,Refuted
+averitec/train/239,Refuted
+averitec/train/240,Refuted
+averitec/train/241,Not Enough Evidence
+averitec/train/242,Refuted
+averitec/train/243,Refuted
+averitec/train/244,Not Enough Evidence
+averitec/train/245,Not Enough Evidence
+averitec/train/246,Refuted
+averitec/train/247,Not Enough Evidence
+averitec/train/248,Supported
+averitec/train/249,Not Enough Evidence
+averitec/train/250,Refuted
+averitec/train/251,Refuted
+averitec/train/252,Refuted
+averitec/train/253,Refuted
+averitec/train/254,Refuted
+averitec/train/255,Not Enough Evidence
+averitec/train/256,Supported
+averitec/train/257,Supported
+averitec/train/258,Refuted
+averitec/train/259,Supported
+averitec/train/260,Refuted
+averitec/train/261,Refuted
+averitec/train/262,Refuted
+averitec/train/263,Refuted
+averitec/train/264,Not Enough Evidence
+averitec/train/265,Refuted
+averitec/train/266,Supported
+averitec/train/267,Not Enough Evidence
+averitec/train/268,Refuted
+averitec/train/269,Refuted
+averitec/train/270,Refuted
+averitec/train/271,Supported
+averitec/train/272,Supported
+averitec/train/273,Conflicting Evidence/Cherrypicking
+averitec/train/274,Refuted
+averitec/train/275,Conflicting Evidence/Cherrypicking
+averitec/train/276,Refuted
+averitec/train/277,Supported
+averitec/train/278,Refuted
+averitec/train/279,Refuted
+averitec/train/280,Refuted
+averitec/train/281,Refuted
+averitec/train/282,Refuted
+averitec/train/283,Refuted
+averitec/train/284,Refuted
+averitec/train/285,Refuted
+averitec/train/286,Refuted
+averitec/train/287,Refuted
+averitec/train/288,Refuted
+averitec/train/289,Supported
+averitec/train/290,Refuted
+averitec/train/291,Refuted
+averitec/train/292,Refuted
+averitec/train/293,Refuted
+averitec/train/294,Supported
+averitec/train/295,Refuted
+averitec/train/296,Refuted
+averitec/train/297,Refuted
+averitec/train/298,Refuted
+averitec/train/299,Refuted
+averitec/train/300,Refuted
+averitec/train/301,Refuted
+averitec/train/302,Supported
+averitec/train/303,Refuted
+averitec/train/304,Supported
+averitec/train/305,Supported
+averitec/train/306,Refuted
+averitec/train/307,Supported
+averitec/train/308,Refuted
+averitec/train/309,Refuted
+averitec/train/310,Refuted
+averitec/train/311,Refuted
+averitec/train/312,Supported
+averitec/train/313,Refuted
+averitec/train/314,Refuted
+averitec/train/315,Refuted
+averitec/train/316,Refuted
+averitec/train/317,Refuted
+averitec/train/318,Supported
+averitec/train/319,Supported
+averitec/train/320,Refuted
+averitec/train/321,Refuted
+averitec/train/322,Refuted
+averitec/train/323,Refuted
+averitec/train/324,Not Enough Evidence
+averitec/train/325,Refuted
+averitec/train/326,Supported
+averitec/train/327,Conflicting Evidence/Cherrypicking
+averitec/train/328,Supported
+averitec/train/329,Refuted
+averitec/train/330,Refuted
+averitec/train/331,Refuted
+averitec/train/332,Refuted
+averitec/train/333,Refuted
+averitec/train/334,Supported
+averitec/train/335,Supported
+averitec/train/336,Supported
+averitec/train/337,Refuted
+averitec/train/338,Refuted
+averitec/train/339,Refuted
+averitec/train/340,Conflicting Evidence/Cherrypicking
+averitec/train/341,Refuted
+averitec/train/342,Refuted
+averitec/train/343,Refuted
+averitec/train/344,Not Enough Evidence
+averitec/train/345,Refuted
+averitec/train/346,Supported
+averitec/train/347,Refuted
+averitec/train/348,Refuted
+averitec/train/349,Refuted
+averitec/train/350,Refuted
+averitec/train/351,Refuted
+averitec/train/352,Conflicting Evidence/Cherrypicking
+averitec/train/353,Conflicting Evidence/Cherrypicking
+averitec/train/354,Refuted
+averitec/train/355,Refuted
+averitec/train/356,Refuted
+averitec/train/357,Refuted
+averitec/train/358,Conflicting Evidence/Cherrypicking
+averitec/train/359,Supported
+averitec/train/360,Supported
+averitec/train/361,Conflicting Evidence/Cherrypicking
+averitec/train/362,Not Enough Evidence
+averitec/train/363,Refuted
+averitec/train/364,Refuted
+averitec/train/365,Refuted
+averitec/train/366,Refuted
+averitec/train/367,Refuted
+averitec/train/368,Not Enough Evidence
+averitec/train/369,Not Enough Evidence
+averitec/train/370,Refuted
+averitec/train/371,Refuted
+averitec/train/372,Conflicting Evidence/Cherrypicking
+averitec/train/373,Supported
+averitec/train/374,Refuted
+averitec/train/375,Refuted
+averitec/train/376,Refuted
+averitec/train/377,Supported
+averitec/train/378,Not Enough Evidence
+averitec/train/379,Conflicting Evidence/Cherrypicking
+averitec/train/380,Refuted
+averitec/train/381,Refuted
+averitec/train/382,Refuted
+averitec/train/383,Refuted
+averitec/train/384,Refuted
+averitec/train/385,Refuted
+averitec/train/386,Refuted
+averitec/train/387,Refuted
+averitec/train/388,Refuted
+averitec/train/389,Not Enough Evidence
+averitec/train/390,Refuted
+averitec/train/391,Refuted
+averitec/train/392,Refuted
+averitec/train/393,Refuted
+averitec/train/394,Refuted
+averitec/train/395,Supported
+averitec/train/396,Refuted
+averitec/train/397,Refuted
+averitec/train/398,Refuted
+averitec/train/399,Supported
+averitec/train/400,Refuted
+averitec/train/401,Refuted
+averitec/train/402,Refuted
+averitec/train/403,Refuted
+averitec/train/404,Refuted
+averitec/train/405,Refuted
+averitec/train/406,Refuted
+averitec/train/407,Refuted
+averitec/train/408,Refuted
+averitec/train/409,Refuted
+averitec/train/410,Supported
+averitec/train/411,Refuted
+averitec/train/412,Refuted
+averitec/train/413,Refuted
+averitec/train/414,Refuted
+averitec/train/415,Refuted
+averitec/train/416,Refuted
+averitec/train/417,Refuted
+averitec/train/418,Refuted
+averitec/train/419,Refuted
+averitec/train/420,Refuted
+averitec/train/421,Refuted
+averitec/train/422,Refuted
+averitec/train/423,Refuted
+averitec/train/424,Supported
+averitec/train/425,Supported
+averitec/train/426,Supported
+averitec/train/427,Refuted
+averitec/train/428,Supported
+averitec/train/429,Refuted
+averitec/train/430,Conflicting Evidence/Cherrypicking
+averitec/train/431,Supported
+averitec/train/432,Supported
+averitec/train/433,Conflicting Evidence/Cherrypicking
+averitec/train/434,Supported
+averitec/train/435,Supported
+averitec/train/436,Supported
+averitec/train/437,Refuted
+averitec/train/438,Not Enough Evidence
+averitec/train/439,Refuted
+averitec/train/440,Refuted
+averitec/train/441,Supported
+averitec/train/442,Refuted
+averitec/train/443,Refuted
+averitec/train/444,Refuted
+averitec/train/445,Refuted
+averitec/train/446,Refuted
+averitec/train/447,Refuted
+averitec/train/448,Refuted
+averitec/train/449,Supported
+averitec/train/450,Supported
+averitec/train/451,Not Enough Evidence
+averitec/train/452,Not Enough Evidence
+averitec/train/453,Supported
+averitec/train/454,Supported
+averitec/train/455,Refuted
+averitec/train/456,Supported
+averitec/train/457,Refuted
+averitec/train/458,Refuted
+averitec/train/459,Refuted
+averitec/train/460,Refuted
+averitec/train/461,Refuted
+averitec/train/462,Refuted
+averitec/train/463,Refuted
+averitec/train/464,Supported
+averitec/train/465,Refuted
+averitec/train/466,Supported
+averitec/train/467,Supported
+averitec/train/468,Not Enough Evidence
+averitec/train/469,Refuted
+averitec/train/470,Refuted
+averitec/train/471,Refuted
+averitec/train/472,Refuted
+averitec/train/473,Supported
+averitec/train/474,Refuted
+averitec/train/475,Refuted
+averitec/train/476,Supported
+averitec/train/477,Supported
+averitec/train/478,Refuted
+averitec/train/479,Refuted
+averitec/train/480,Refuted
+averitec/train/481,Refuted
+averitec/train/482,Refuted
+averitec/train/483,Refuted
+averitec/train/484,Refuted
+averitec/train/485,Refuted
+averitec/train/486,Refuted
+averitec/train/487,Refuted
+averitec/train/488,Refuted
+averitec/train/489,Refuted
+averitec/train/490,Refuted
+averitec/train/491,Refuted
+averitec/train/492,Supported
+averitec/train/493,Conflicting Evidence/Cherrypicking
+averitec/train/494,Refuted
+averitec/train/495,Supported
+averitec/train/496,Supported
+averitec/train/497,Conflicting Evidence/Cherrypicking
+averitec/train/498,Refuted
+averitec/train/499,Conflicting Evidence/Cherrypicking
+averitec/train/500,Conflicting Evidence/Cherrypicking
+averitec/train/501,Refuted
+averitec/train/502,Refuted
+averitec/train/503,Refuted
+averitec/train/504,Refuted
+averitec/train/505,Refuted
+averitec/train/506,Refuted
+averitec/train/507,Refuted
+averitec/train/508,Supported
+averitec/train/509,Refuted
+averitec/train/510,Refuted
+averitec/train/511,Refuted
+averitec/train/512,Not Enough Evidence
+averitec/train/513,Supported
+averitec/train/514,Refuted
+averitec/train/515,Refuted
+averitec/train/516,Supported
+averitec/train/517,Refuted
+averitec/train/518,Refuted
+averitec/train/519,Not Enough Evidence
+averitec/train/520,Not Enough Evidence
+averitec/train/521,Refuted
+averitec/train/522,Refuted
+averitec/train/523,Refuted
+averitec/train/524,Refuted
+averitec/train/525,Supported
+averitec/train/526,Supported
+averitec/train/527,Refuted
+averitec/train/528,Refuted
+averitec/train/529,Supported
+averitec/train/530,Supported
+averitec/train/531,Refuted
+averitec/train/532,Not Enough Evidence
+averitec/train/533,Supported
+averitec/train/534,Refuted
+averitec/train/535,Conflicting Evidence/Cherrypicking
+averitec/train/536,Supported
+averitec/train/537,Refuted
+averitec/train/538,Refuted
+averitec/train/539,Supported
+averitec/train/540,Not Enough Evidence
+averitec/train/541,Refuted
+averitec/train/542,Refuted
+averitec/train/543,Refuted
+averitec/train/544,Supported
+averitec/train/545,Supported
+averitec/train/546,Supported
+averitec/train/547,Refuted
+averitec/train/548,Supported
+averitec/train/549,Supported
+averitec/train/550,Conflicting Evidence/Cherrypicking
+averitec/train/551,Conflicting Evidence/Cherrypicking
+averitec/train/552,Refuted
+averitec/train/553,Refuted
+averitec/train/554,Refuted
+averitec/train/555,Supported
+averitec/train/556,Supported
+averitec/train/557,Refuted
+averitec/train/558,Refuted
+averitec/train/559,Supported
+averitec/train/560,Refuted
+averitec/train/561,Refuted
+averitec/train/562,Refuted
+averitec/train/563,Refuted
+averitec/train/564,Supported
+averitec/train/565,Not Enough Evidence
+averitec/train/566,Not Enough Evidence
+averitec/train/567,Supported
+averitec/train/568,Supported
+averitec/train/569,Supported
+averitec/train/570,Supported
+averitec/train/571,Refuted
+averitec/train/572,Supported
+averitec/train/573,Refuted
+averitec/train/574,Refuted
+averitec/train/575,Supported
+averitec/train/576,Refuted
+averitec/train/577,Not Enough Evidence
+averitec/train/578,Supported
+averitec/train/579,Supported
+averitec/train/580,Refuted
+averitec/train/581,Refuted
+averitec/train/582,Conflicting Evidence/Cherrypicking
+averitec/train/583,Refuted
+averitec/train/584,Refuted
+averitec/train/585,Supported
+averitec/train/586,Refuted
+averitec/train/587,Not Enough Evidence
+averitec/train/588,Refuted
+averitec/train/589,Refuted
+averitec/train/590,Refuted
+averitec/train/591,Supported
+averitec/train/592,Supported
+averitec/train/593,Refuted
+averitec/train/594,Refuted
+averitec/train/595,Not Enough Evidence
+averitec/train/596,Refuted
+averitec/train/597,Refuted
+averitec/train/598,Refuted
+averitec/train/599,Supported
+averitec/train/600,Refuted
+averitec/train/601,Refuted
+averitec/train/602,Supported
+averitec/train/603,Refuted
+averitec/train/604,Refuted
+averitec/train/605,Not Enough Evidence
+averitec/train/606,Supported
+averitec/train/607,Not Enough Evidence
+averitec/train/608,Supported
+averitec/train/609,Not Enough Evidence
+averitec/train/610,Refuted
+averitec/train/611,Supported
+averitec/train/612,Supported
+averitec/train/613,Refuted
+averitec/train/614,Refuted
+averitec/train/615,Refuted
+averitec/train/616,Refuted
+averitec/train/617,Refuted
+averitec/train/618,Refuted
+averitec/train/619,Supported
+averitec/train/620,Refuted
+averitec/train/621,Not Enough Evidence
+averitec/train/622,Supported
+averitec/train/623,Supported
+averitec/train/624,Refuted
+averitec/train/625,Refuted
+averitec/train/626,Supported
+averitec/train/627,Refuted
+averitec/train/628,Supported
+averitec/train/629,Refuted
+averitec/train/630,Supported
+averitec/train/631,Refuted
+averitec/train/632,Refuted
+averitec/train/633,Supported
+averitec/train/634,Not Enough Evidence
+averitec/train/635,Refuted
+averitec/train/636,Refuted
+averitec/train/637,Refuted
+averitec/train/638,Supported
+averitec/train/639,Refuted
+averitec/train/640,Refuted
+averitec/train/641,Refuted
+averitec/train/642,Refuted
+averitec/train/643,Refuted
+averitec/train/644,Refuted
+averitec/train/645,Conflicting Evidence/Cherrypicking
+averitec/train/646,Refuted
+averitec/train/647,Refuted
+averitec/train/648,Refuted
+averitec/train/649,Refuted
+averitec/train/650,Refuted
+averitec/train/651,Refuted
+averitec/train/652,Refuted
+averitec/train/653,Refuted
+averitec/train/654,Supported
+averitec/train/655,Refuted
+averitec/train/656,Refuted
+averitec/train/657,Refuted
+averitec/train/658,Refuted
+averitec/train/659,Refuted
+averitec/train/660,Supported
+averitec/train/661,Refuted
+averitec/train/662,Refuted
+averitec/train/663,Refuted
+averitec/train/664,Refuted
+averitec/train/665,Refuted
+averitec/train/666,Supported
+averitec/train/667,Refuted
+averitec/train/668,Refuted
+averitec/train/669,Conflicting Evidence/Cherrypicking
+averitec/train/670,Refuted
+averitec/train/671,Refuted
+averitec/train/672,Supported
+averitec/train/673,Refuted
+averitec/train/674,Refuted
+averitec/train/675,Refuted
+averitec/train/676,Refuted
+averitec/train/677,Supported
+averitec/train/678,Supported
+averitec/train/679,Conflicting Evidence/Cherrypicking
+averitec/train/680,Refuted
+averitec/train/681,Refuted
+averitec/train/682,Supported
+averitec/train/683,Supported
+averitec/train/684,Supported
+averitec/train/685,Supported
+averitec/train/686,Refuted
+averitec/train/687,Refuted
+averitec/train/688,Refuted
+averitec/train/689,Refuted
+averitec/train/690,Supported
+averitec/train/691,Supported
+averitec/train/692,Supported
+averitec/train/693,Refuted
+averitec/train/694,Refuted
+averitec/train/695,Refuted
+averitec/train/696,Refuted
+averitec/train/697,Supported
+averitec/train/698,Refuted
+averitec/train/699,Refuted
+averitec/train/700,Refuted
+averitec/train/701,Not Enough Evidence
+averitec/train/702,Supported
+averitec/train/703,Not Enough Evidence
+averitec/train/704,Refuted
+averitec/train/705,Refuted
+averitec/train/706,Refuted
+averitec/train/707,Supported
+averitec/train/708,Refuted
+averitec/train/709,Refuted
+averitec/train/710,Refuted
+averitec/train/711,Supported
+averitec/train/712,Supported
+averitec/train/713,Not Enough Evidence
+averitec/train/714,Not Enough Evidence
+averitec/train/715,Supported
+averitec/train/716,Refuted
+averitec/train/717,Supported
+averitec/train/718,Supported
+averitec/train/719,Refuted
+averitec/train/720,Supported
+averitec/train/721,Refuted
+averitec/train/722,Refuted
+averitec/train/723,Refuted
+averitec/train/724,Supported
+averitec/train/725,Refuted
+averitec/train/726,Refuted
+averitec/train/727,Refuted
+averitec/train/728,Not Enough Evidence
+averitec/train/729,Refuted
+averitec/train/730,Refuted
+averitec/train/731,Supported
+averitec/train/732,Supported
+averitec/train/733,Refuted
+averitec/train/734,Refuted
+averitec/train/735,Refuted
+averitec/train/736,Refuted
+averitec/train/737,Refuted
+averitec/train/738,Supported
+averitec/train/739,Refuted
+averitec/train/740,Refuted
+averitec/train/741,Refuted
+averitec/train/742,Refuted
+averitec/train/743,Refuted
+averitec/train/744,Refuted
+averitec/train/745,Supported
+averitec/train/746,Supported
+averitec/train/747,Refuted
+averitec/train/748,Not Enough Evidence
+averitec/train/749,Refuted
+averitec/train/750,Refuted
+averitec/train/751,Refuted
+averitec/train/752,Refuted
+averitec/train/753,Conflicting Evidence/Cherrypicking
+averitec/train/754,Conflicting Evidence/Cherrypicking
+averitec/train/755,Refuted
+averitec/train/756,Refuted
+averitec/train/757,Supported
+averitec/train/758,Refuted
+averitec/train/759,Refuted
+averitec/train/760,Refuted
+averitec/train/761,Refuted
+averitec/train/762,Refuted
+averitec/train/763,Refuted
+averitec/train/764,Refuted
+averitec/train/765,Refuted
+averitec/train/766,Refuted
+averitec/train/767,Refuted
+averitec/train/768,Refuted
+averitec/train/769,Refuted
+averitec/train/770,Not Enough Evidence
+averitec/train/771,Refuted
+averitec/train/772,Supported
+averitec/train/773,Refuted
+averitec/train/774,Not Enough Evidence
+averitec/train/775,Supported
+averitec/train/776,Supported
+averitec/train/777,Not Enough Evidence
+averitec/train/778,Refuted
+averitec/train/779,Refuted
+averitec/train/780,Refuted
+averitec/train/781,Refuted
+averitec/train/782,Refuted
+averitec/train/783,Supported
+averitec/train/784,Refuted
+averitec/train/785,Conflicting Evidence/Cherrypicking
+averitec/train/786,Conflicting Evidence/Cherrypicking
+averitec/train/787,Refuted
+averitec/train/788,Refuted
+averitec/train/789,Supported
+averitec/train/790,Refuted
+averitec/train/791,Refuted
+averitec/train/792,Refuted
+averitec/train/793,Refuted
+averitec/train/794,Refuted
+averitec/train/795,Refuted
+averitec/train/796,Supported
+averitec/train/797,Refuted
+averitec/train/798,Conflicting Evidence/Cherrypicking
+averitec/train/799,Supported
+averitec/train/800,Supported
+averitec/train/801,Refuted
+averitec/train/802,Refuted
+averitec/train/803,Refuted
+averitec/train/804,Refuted
+averitec/train/805,Refuted
+averitec/train/806,Refuted
+averitec/train/807,Refuted
+averitec/train/808,Refuted
+averitec/train/809,Supported
+averitec/train/810,Refuted
+averitec/train/811,Refuted
+averitec/train/812,Refuted
+averitec/train/813,Not Enough Evidence
+averitec/train/814,Supported
+averitec/train/815,Refuted
+averitec/train/816,Refuted
+averitec/train/817,Refuted
+averitec/train/818,Supported
+averitec/train/819,Refuted
+averitec/train/820,Refuted
+averitec/train/821,Not Enough Evidence
+averitec/train/822,Refuted
+averitec/train/823,Refuted
+averitec/train/824,Refuted
+averitec/train/825,Refuted
+averitec/train/826,Refuted
+averitec/train/827,Not Enough Evidence
+averitec/train/828,Refuted
+averitec/train/829,Supported
+averitec/train/830,Refuted
+averitec/train/831,Refuted
+averitec/train/832,Refuted
+averitec/train/833,Supported
+averitec/train/834,Not Enough Evidence
+averitec/train/835,Supported
+averitec/train/836,Conflicting Evidence/Cherrypicking
+averitec/train/837,Refuted
+averitec/train/838,Refuted
+averitec/train/839,Refuted
+averitec/train/840,Refuted
+averitec/train/841,Supported
+averitec/train/842,Supported
+averitec/train/843,Refuted
+averitec/train/844,Refuted
+averitec/train/845,Supported
+averitec/train/846,Refuted
+averitec/train/847,Not Enough Evidence
+averitec/train/848,Supported
+averitec/train/849,Not Enough Evidence
+averitec/train/850,Refuted
+averitec/train/851,Refuted
+averitec/train/852,Refuted
+averitec/train/853,Refuted
+averitec/train/854,Refuted
+averitec/train/855,Refuted
+averitec/train/856,Refuted
+averitec/train/857,Refuted
+averitec/train/858,Refuted
+averitec/train/859,Refuted
+averitec/train/860,Refuted
+averitec/train/861,Refuted
+averitec/train/862,Refuted
+averitec/train/863,Refuted
+averitec/train/864,Supported
+averitec/train/865,Refuted
+averitec/train/866,Refuted
+averitec/train/867,Refuted
+averitec/train/868,Refuted
+averitec/train/869,Refuted
+averitec/train/870,Refuted
+averitec/train/871,Refuted
+averitec/train/872,Refuted
+averitec/train/873,Supported
+averitec/train/874,Refuted
+averitec/train/875,Refuted
+averitec/train/876,Refuted
+averitec/train/877,Not Enough Evidence
+averitec/train/878,Refuted
+averitec/train/879,Refuted
+averitec/train/880,Supported
+averitec/train/881,Refuted
+averitec/train/882,Refuted
+averitec/train/883,Refuted
+averitec/train/884,Refuted
+averitec/train/885,Refuted
+averitec/train/886,Refuted
+averitec/train/887,Refuted
+averitec/train/888,Refuted
+averitec/train/889,Supported
+averitec/train/890,Supported
+averitec/train/891,Refuted
+averitec/train/892,Refuted
+averitec/train/893,Refuted
+averitec/train/894,Refuted
+averitec/train/895,Refuted
+averitec/train/896,Refuted
+averitec/train/897,Not Enough Evidence
+averitec/train/898,Refuted
+averitec/train/899,Refuted
+averitec/train/900,Refuted
+averitec/train/901,Refuted
+averitec/train/902,Not Enough Evidence
+averitec/train/903,Refuted
+averitec/train/904,Refuted
+averitec/train/905,Supported
+averitec/train/906,Refuted
+averitec/train/907,Refuted
+averitec/train/908,Refuted
+averitec/train/909,Refuted
+averitec/train/910,Refuted
+averitec/train/911,Not Enough Evidence
+averitec/train/912,Supported
+averitec/train/913,Refuted
+averitec/train/914,Refuted
+averitec/train/915,Supported
+averitec/train/916,Supported
+averitec/train/917,Supported
+averitec/train/918,Refuted
+averitec/train/919,Supported
+averitec/train/920,Supported
+averitec/train/921,Supported
+averitec/train/922,Refuted
+averitec/train/923,Refuted
+averitec/train/924,Supported
+averitec/train/925,Conflicting Evidence/Cherrypicking
+averitec/train/926,Refuted
+averitec/train/927,Refuted
+averitec/train/928,Refuted
+averitec/train/929,Conflicting Evidence/Cherrypicking
+averitec/train/930,Refuted
+averitec/train/931,Supported
+averitec/train/932,Refuted
+averitec/train/933,Refuted
+averitec/train/934,Refuted
+averitec/train/935,Refuted
+averitec/train/936,Refuted
+averitec/train/937,Refuted
+averitec/train/938,Refuted
+averitec/train/939,Not Enough Evidence
+averitec/train/940,Refuted
+averitec/train/941,Refuted
+averitec/train/942,Supported
+averitec/train/943,Refuted
+averitec/train/944,Refuted
+averitec/train/945,Refuted
+averitec/train/946,Refuted
+averitec/train/947,Refuted
+averitec/train/948,Refuted
+averitec/train/949,Refuted
+averitec/train/950,Not Enough Evidence
+averitec/train/951,Refuted
+averitec/train/952,Refuted
+averitec/train/953,Refuted
+averitec/train/954,Refuted
+averitec/train/955,Supported
+averitec/train/956,Refuted
+averitec/train/957,Refuted
+averitec/train/958,Refuted
+averitec/train/959,Refuted
+averitec/train/960,Refuted
+averitec/train/961,Conflicting Evidence/Cherrypicking
+averitec/train/962,Refuted
+averitec/train/963,Supported
+averitec/train/964,Refuted
+averitec/train/965,Refuted
+averitec/train/966,Refuted
+averitec/train/967,Refuted
+averitec/train/968,Conflicting Evidence/Cherrypicking
+averitec/train/969,Refuted
+averitec/train/970,Conflicting Evidence/Cherrypicking
+averitec/train/971,Refuted
+averitec/train/972,Not Enough Evidence
+averitec/train/973,Refuted
+averitec/train/974,Refuted
+averitec/train/975,Refuted
+averitec/train/976,Refuted
+averitec/train/977,Refuted
+averitec/train/978,Supported
+averitec/train/979,Conflicting Evidence/Cherrypicking
+averitec/train/980,Refuted
+averitec/train/981,Refuted
+averitec/train/982,Supported
+averitec/train/983,Refuted
+averitec/train/984,Refuted
+averitec/train/985,Refuted
+averitec/train/986,Refuted
+averitec/train/987,Refuted
+averitec/train/988,Refuted
+averitec/train/989,Refuted
+averitec/train/990,Refuted
+averitec/train/991,Conflicting Evidence/Cherrypicking
+averitec/train/992,Refuted
+averitec/train/993,Refuted
+averitec/train/994,Refuted
+averitec/train/995,Refuted
+averitec/train/996,Not Enough Evidence
+averitec/train/997,Refuted
+averitec/train/998,Refuted
+averitec/train/999,Refuted
+averitec/train/1000,Conflicting Evidence/Cherrypicking
+averitec/train/1001,Refuted
+averitec/train/1002,Refuted
+averitec/train/1003,Refuted
+averitec/train/1004,Refuted
+averitec/train/1005,Refuted
+averitec/train/1006,Refuted
+averitec/train/1007,Refuted
+averitec/train/1008,Refuted
+averitec/train/1009,Refuted
+averitec/train/1010,Not Enough Evidence
+averitec/train/1011,Refuted
+averitec/train/1012,Refuted
+averitec/train/1013,Conflicting Evidence/Cherrypicking
+averitec/train/1014,Refuted
+averitec/train/1015,Refuted
+averitec/train/1016,Refuted
+averitec/train/1017,Refuted
+averitec/train/1018,Refuted
+averitec/train/1019,Refuted
+averitec/train/1020,Refuted
+averitec/train/1021,Refuted
+averitec/train/1022,Refuted
+averitec/train/1023,Refuted
+averitec/train/1024,Refuted
+averitec/train/1025,Refuted
+averitec/train/1026,Refuted
+averitec/train/1027,Refuted
+averitec/train/1028,Conflicting Evidence/Cherrypicking
+averitec/train/1029,Refuted
+averitec/train/1030,Refuted
+averitec/train/1031,Refuted
+averitec/train/1032,Refuted
+averitec/train/1033,Refuted
+averitec/train/1034,Refuted
+averitec/train/1035,Refuted
+averitec/train/1036,Refuted
+averitec/train/1037,Refuted
+averitec/train/1038,Refuted
+averitec/train/1039,Refuted
+averitec/train/1040,Supported
+averitec/train/1041,Refuted
+averitec/train/1042,Refuted
+averitec/train/1043,Refuted
+averitec/train/1044,Refuted
+averitec/train/1045,Refuted
+averitec/train/1046,Refuted
+averitec/train/1047,Refuted
+averitec/train/1048,Refuted
+averitec/train/1049,Refuted
+averitec/train/1050,Supported
+averitec/train/1051,Refuted
+averitec/train/1052,Not Enough Evidence
+averitec/train/1053,Refuted
+averitec/train/1054,Refuted
+averitec/train/1055,Refuted
+averitec/train/1056,Refuted
+averitec/train/1057,Supported
+averitec/train/1058,Supported
+averitec/train/1059,Refuted
+averitec/train/1060,Refuted
+averitec/train/1061,Refuted
+averitec/train/1062,Refuted
+averitec/train/1063,Refuted
+averitec/train/1064,Supported
+averitec/train/1065,Not Enough Evidence
+averitec/train/1066,Refuted
+averitec/train/1067,Refuted
+averitec/train/1068,Refuted
+averitec/train/1069,Refuted
+averitec/train/1070,Refuted
+averitec/train/1071,Supported
+averitec/train/1072,Refuted
+averitec/train/1073,Refuted
+averitec/train/1074,Refuted
+averitec/train/1075,Refuted
+averitec/train/1076,Refuted
+averitec/train/1077,Not Enough Evidence
+averitec/train/1078,Refuted
+averitec/train/1079,Refuted
+averitec/train/1080,Refuted
+averitec/train/1081,Refuted
+averitec/train/1082,Supported
+averitec/train/1083,Refuted
+averitec/train/1084,Refuted
+averitec/train/1085,Conflicting Evidence/Cherrypicking
+averitec/train/1086,Supported
+averitec/train/1087,Supported
+averitec/train/1088,Not Enough Evidence
+averitec/train/1089,Refuted
+averitec/train/1090,Refuted
+averitec/train/1091,Refuted
+averitec/train/1092,Supported
+averitec/train/1093,Refuted
+averitec/train/1094,Refuted
+averitec/train/1095,Refuted
+averitec/train/1096,Refuted
+averitec/train/1097,Refuted
+averitec/train/1098,Refuted
+averitec/train/1099,Refuted
+averitec/train/1100,Refuted
+averitec/train/1101,Refuted
+averitec/train/1102,Conflicting Evidence/Cherrypicking
+averitec/train/1103,Refuted
+averitec/train/1104,Refuted
+averitec/train/1105,Not Enough Evidence
+averitec/train/1106,Refuted
+averitec/train/1107,Refuted
+averitec/train/1108,Supported
+averitec/train/1109,Refuted
+averitec/train/1110,Refuted
+averitec/train/1111,Refuted
+averitec/train/1112,Refuted
+averitec/train/1113,Supported
+averitec/train/1114,Not Enough Evidence
+averitec/train/1115,Refuted
+averitec/train/1116,Refuted
+averitec/train/1117,Not Enough Evidence
+averitec/train/1118,Not Enough Evidence
+averitec/train/1119,Refuted
+averitec/train/1120,Not Enough Evidence
+averitec/train/1121,Supported
+averitec/train/1122,Not Enough Evidence
+averitec/train/1123,Refuted
+averitec/train/1124,Refuted
+averitec/train/1125,Refuted
+averitec/train/1126,Refuted
+averitec/train/1127,Refuted
+averitec/train/1128,Refuted
+averitec/train/1129,Refuted
+averitec/train/1130,Refuted
+averitec/train/1131,Supported
+averitec/train/1132,Refuted
+averitec/train/1133,Refuted
+averitec/train/1134,Refuted
+averitec/train/1135,Conflicting Evidence/Cherrypicking
+averitec/train/1136,Refuted
+averitec/train/1137,Refuted
+averitec/train/1138,Refuted
+averitec/train/1139,Supported
+averitec/train/1140,Refuted
+averitec/train/1141,Refuted
+averitec/train/1142,Refuted
+averitec/train/1143,Refuted
+averitec/train/1144,Refuted
+averitec/train/1145,Refuted
+averitec/train/1146,Refuted
+averitec/train/1147,Refuted
+averitec/train/1148,Refuted
+averitec/train/1149,Refuted
+averitec/train/1150,Supported
+averitec/train/1151,Refuted
+averitec/train/1152,Not Enough Evidence
+averitec/train/1153,Refuted
+averitec/train/1154,Not Enough Evidence
+averitec/train/1155,Refuted
+averitec/train/1156,Refuted
+averitec/train/1157,Supported
+averitec/train/1158,Refuted
+averitec/train/1159,Refuted
+averitec/train/1160,Refuted
+averitec/train/1161,Refuted
+averitec/train/1162,Supported
+averitec/train/1163,Refuted
+averitec/train/1164,Refuted
+averitec/train/1165,Refuted
+averitec/train/1166,Not Enough Evidence
+averitec/train/1167,Refuted
+averitec/train/1168,Refuted
+averitec/train/1169,Refuted
+averitec/train/1170,Refuted
+averitec/train/1171,Not Enough Evidence
+averitec/train/1172,Refuted
+averitec/train/1173,Refuted
+averitec/train/1174,Refuted
+averitec/train/1175,Refuted
+averitec/train/1176,Supported
+averitec/train/1177,Refuted
+averitec/train/1178,Supported
+averitec/train/1179,Not Enough Evidence
+averitec/train/1180,Refuted
+averitec/train/1181,Refuted
+averitec/train/1182,Refuted
+averitec/train/1183,Refuted
+averitec/train/1184,Refuted
+averitec/train/1185,Refuted
+averitec/train/1186,Not Enough Evidence
+averitec/train/1187,Refuted
+averitec/train/1188,Refuted
+averitec/train/1189,Supported
+averitec/train/1190,Refuted
+averitec/train/1191,Refuted
+averitec/train/1192,Refuted
+averitec/train/1193,Refuted
+averitec/train/1194,Refuted
+averitec/train/1195,Refuted
+averitec/train/1196,Refuted
+averitec/train/1197,Refuted
+averitec/train/1198,Supported
+averitec/train/1199,Refuted
+averitec/train/1200,Refuted
+averitec/train/1201,Not Enough Evidence
+averitec/train/1202,Supported
+averitec/train/1203,Refuted
+averitec/train/1204,Refuted
+averitec/train/1205,Refuted
+averitec/train/1206,Refuted
+averitec/train/1207,Not Enough Evidence
+averitec/train/1208,Refuted
+averitec/train/1209,Conflicting Evidence/Cherrypicking
+averitec/train/1210,Refuted
+averitec/train/1211,Supported
+averitec/train/1212,Conflicting Evidence/Cherrypicking
+averitec/train/1213,Refuted
+averitec/train/1214,Conflicting Evidence/Cherrypicking
+averitec/train/1215,Not Enough Evidence
+averitec/train/1216,Refuted
+averitec/train/1217,Not Enough Evidence
+averitec/train/1218,Conflicting Evidence/Cherrypicking
+averitec/train/1219,Supported
+averitec/train/1220,Not Enough Evidence
+averitec/train/1221,Conflicting Evidence/Cherrypicking
+averitec/train/1222,Refuted
+averitec/train/1223,Refuted
+averitec/train/1224,Supported
+averitec/train/1225,Supported
+averitec/train/1226,Refuted
+averitec/train/1227,Refuted
+averitec/train/1228,Refuted
+averitec/train/1229,Refuted
+averitec/train/1230,Refuted
+averitec/train/1231,Refuted
+averitec/train/1232,Refuted
+averitec/train/1233,Conflicting Evidence/Cherrypicking
+averitec/train/1234,Refuted
+averitec/train/1235,Refuted
+averitec/train/1236,Refuted
+averitec/train/1237,Supported
+averitec/train/1238,Supported
+averitec/train/1239,Refuted
+averitec/train/1240,Refuted
+averitec/train/1241,Supported
+averitec/train/1242,Supported
+averitec/train/1243,Refuted
+averitec/train/1244,Not Enough Evidence
+averitec/train/1245,Refuted
+averitec/train/1246,Supported
+averitec/train/1247,Conflicting Evidence/Cherrypicking
+averitec/train/1248,Refuted
+averitec/train/1249,Conflicting Evidence/Cherrypicking
+averitec/train/1250,Supported
+averitec/train/1251,Refuted
+averitec/train/1252,Not Enough Evidence
+averitec/train/1253,Refuted
+averitec/train/1254,Refuted
+averitec/train/1255,Refuted
+averitec/train/1256,Conflicting Evidence/Cherrypicking
+averitec/train/1257,Refuted
+averitec/train/1258,Supported
+averitec/train/1259,Refuted
+averitec/train/1260,Refuted
+averitec/train/1261,Refuted
+averitec/train/1262,Refuted
+averitec/train/1263,Supported
+averitec/train/1264,Refuted
+averitec/train/1265,Supported
+averitec/train/1266,Refuted
+averitec/train/1267,Refuted
+averitec/train/1268,Refuted
+averitec/train/1269,Refuted
+averitec/train/1270,Refuted
+averitec/train/1271,Refuted
+averitec/train/1272,Refuted
+averitec/train/1273,Supported
+averitec/train/1274,Refuted
+averitec/train/1275,Refuted
+averitec/train/1276,Supported
+averitec/train/1277,Refuted
+averitec/train/1278,Supported
+averitec/train/1279,Refuted
+averitec/train/1280,Refuted
+averitec/train/1281,Refuted
+averitec/train/1282,Refuted
+averitec/train/1283,Refuted
+averitec/train/1284,Supported
+averitec/train/1285,Refuted
+averitec/train/1286,Refuted
+averitec/train/1287,Refuted
+averitec/train/1288,Refuted
+averitec/train/1289,Refuted
+averitec/train/1290,Refuted
+averitec/train/1291,Refuted
+averitec/train/1292,Refuted
+averitec/train/1293,Refuted
+averitec/train/1294,Refuted
+averitec/train/1295,Refuted
+averitec/train/1296,Refuted
+averitec/train/1297,Supported
+averitec/train/1298,Refuted
+averitec/train/1299,Refuted
+averitec/train/1300,Refuted
+averitec/train/1301,Supported
+averitec/train/1302,Refuted
+averitec/train/1303,Refuted
+averitec/train/1304,Conflicting Evidence/Cherrypicking
+averitec/train/1305,Refuted
+averitec/train/1306,Refuted
+averitec/train/1307,Refuted
+averitec/train/1308,Refuted
+averitec/train/1309,Refuted
+averitec/train/1310,Refuted
+averitec/train/1311,Refuted
+averitec/train/1312,Supported
+averitec/train/1313,Not Enough Evidence
+averitec/train/1314,Refuted
+averitec/train/1315,Refuted
+averitec/train/1316,Refuted
+averitec/train/1317,Refuted
+averitec/train/1318,Refuted
+averitec/train/1319,Refuted
+averitec/train/1320,Refuted
+averitec/train/1321,Refuted
+averitec/train/1322,Refuted
+averitec/train/1323,Refuted
+averitec/train/1324,Not Enough Evidence
+averitec/train/1325,Refuted
+averitec/train/1326,Conflicting Evidence/Cherrypicking
+averitec/train/1327,Refuted
+averitec/train/1328,Refuted
+averitec/train/1329,Supported
+averitec/train/1330,Supported
+averitec/train/1331,Supported
+averitec/train/1332,Supported
+averitec/train/1333,Refuted
+averitec/train/1334,Refuted
+averitec/train/1335,Refuted
+averitec/train/1336,Refuted
+averitec/train/1337,Supported
+averitec/train/1338,Supported
+averitec/train/1339,Not Enough Evidence
+averitec/train/1340,Supported
+averitec/train/1341,Supported
+averitec/train/1342,Not Enough Evidence
+averitec/train/1343,Refuted
+averitec/train/1344,Supported
+averitec/train/1345,Supported
+averitec/train/1346,Supported
+averitec/train/1347,Supported
+averitec/train/1348,Refuted
+averitec/train/1349,Refuted
+averitec/train/1350,Refuted
+averitec/train/1351,Refuted
+averitec/train/1352,Conflicting Evidence/Cherrypicking
+averitec/train/1353,Not Enough Evidence
+averitec/train/1354,Conflicting Evidence/Cherrypicking
+averitec/train/1355,Refuted
+averitec/train/1356,Supported
+averitec/train/1357,Refuted
+averitec/train/1358,Refuted
+averitec/train/1359,Supported
+averitec/train/1360,Not Enough Evidence
+averitec/train/1361,Not Enough Evidence
+averitec/train/1362,Refuted
+averitec/train/1363,Not Enough Evidence
+averitec/train/1364,Supported
+averitec/train/1365,Refuted
+averitec/train/1366,Refuted
+averitec/train/1367,Not Enough Evidence
+averitec/train/1368,Refuted
+averitec/train/1369,Supported
+averitec/train/1370,Supported
+averitec/train/1371,Conflicting Evidence/Cherrypicking
+averitec/train/1372,Not Enough Evidence
+averitec/train/1373,Refuted
+averitec/train/1374,Not Enough Evidence
+averitec/train/1375,Supported
+averitec/train/1376,Refuted
+averitec/train/1377,Refuted
+averitec/train/1378,Refuted
+averitec/train/1379,Not Enough Evidence
+averitec/train/1380,Refuted
+averitec/train/1381,Refuted
+averitec/train/1382,Refuted
+averitec/train/1383,Refuted
+averitec/train/1384,Refuted
+averitec/train/1385,Refuted
+averitec/train/1386,Refuted
+averitec/train/1387,Refuted
+averitec/train/1388,Refuted
+averitec/train/1389,Refuted
+averitec/train/1390,Supported
+averitec/train/1391,Refuted
+averitec/train/1392,Conflicting Evidence/Cherrypicking
+averitec/train/1393,Supported
+averitec/train/1394,Supported
+averitec/train/1395,Supported
+averitec/train/1396,Not Enough Evidence
+averitec/train/1397,Supported
+averitec/train/1398,Supported
+averitec/train/1399,Conflicting Evidence/Cherrypicking
+averitec/train/1400,Refuted
+averitec/train/1401,Supported
+averitec/train/1402,Refuted
+averitec/train/1403,Refuted
+averitec/train/1404,Refuted
+averitec/train/1405,Supported
+averitec/train/1406,Refuted
+averitec/train/1407,Not Enough Evidence
+averitec/train/1408,Not Enough Evidence
+averitec/train/1409,Refuted
+averitec/train/1410,Not Enough Evidence
+averitec/train/1411,Refuted
+averitec/train/1412,Conflicting Evidence/Cherrypicking
+averitec/train/1413,Refuted
+averitec/train/1414,Refuted
+averitec/train/1415,Conflicting Evidence/Cherrypicking
+averitec/train/1416,Refuted
+averitec/train/1417,Refuted
+averitec/train/1418,Refuted
+averitec/train/1419,Refuted
+averitec/train/1420,Conflicting Evidence/Cherrypicking
+averitec/train/1421,Refuted
+averitec/train/1422,Refuted
+averitec/train/1423,Not Enough Evidence
+averitec/train/1424,Supported
+averitec/train/1425,Supported
+averitec/train/1426,Refuted
+averitec/train/1427,Refuted
+averitec/train/1428,Supported
+averitec/train/1429,Supported
+averitec/train/1430,Supported
+averitec/train/1431,Not Enough Evidence
+averitec/train/1432,Refuted
+averitec/train/1433,Refuted
+averitec/train/1434,Supported
+averitec/train/1435,Supported
+averitec/train/1436,Refuted
+averitec/train/1437,Conflicting Evidence/Cherrypicking
+averitec/train/1438,Refuted
+averitec/train/1439,Refuted
+averitec/train/1440,Conflicting Evidence/Cherrypicking
+averitec/train/1441,Refuted
+averitec/train/1442,Refuted
+averitec/train/1443,Refuted
+averitec/train/1444,Refuted
+averitec/train/1445,Refuted
+averitec/train/1446,Supported
+averitec/train/1447,Refuted
+averitec/train/1448,Supported
+averitec/train/1449,Refuted
+averitec/train/1450,Refuted
+averitec/train/1451,Supported
+averitec/train/1452,Supported
+averitec/train/1453,Refuted
+averitec/train/1454,Conflicting Evidence/Cherrypicking
+averitec/train/1455,Supported
+averitec/train/1456,Refuted
+averitec/train/1457,Refuted
+averitec/train/1458,Supported
+averitec/train/1459,Refuted
+averitec/train/1460,Supported
+averitec/train/1461,Refuted
+averitec/train/1462,Refuted
+averitec/train/1463,Refuted
+averitec/train/1464,Refuted
+averitec/train/1465,Not Enough Evidence
+averitec/train/1466,Refuted
+averitec/train/1467,Supported
+averitec/train/1468,Supported
+averitec/train/1469,Refuted
+averitec/train/1470,Refuted
+averitec/train/1471,Conflicting Evidence/Cherrypicking
+averitec/train/1472,Not Enough Evidence
+averitec/train/1473,Supported
+averitec/train/1474,Not Enough Evidence
+averitec/train/1475,Not Enough Evidence
+averitec/train/1476,Refuted
+averitec/train/1477,Supported
+averitec/train/1478,Refuted
+averitec/train/1479,Refuted
+averitec/train/1480,Refuted
+averitec/train/1481,Supported
+averitec/train/1482,Refuted
+averitec/train/1483,Refuted
+averitec/train/1484,Supported
+averitec/train/1485,Refuted
+averitec/train/1486,Refuted
+averitec/train/1487,Conflicting Evidence/Cherrypicking
+averitec/train/1488,Refuted
+averitec/train/1489,Supported
+averitec/train/1490,Supported
+averitec/train/1491,Refuted
+averitec/train/1492,Refuted
+averitec/train/1493,Refuted
+averitec/train/1494,Refuted
+averitec/train/1495,Refuted
+averitec/train/1496,Supported
+averitec/train/1497,Refuted
+averitec/train/1498,Refuted
+averitec/train/1499,Refuted
+averitec/train/1500,Conflicting Evidence/Cherrypicking
+averitec/train/1501,Conflicting Evidence/Cherrypicking
+averitec/train/1502,Refuted
+averitec/train/1503,Refuted
+averitec/train/1504,Refuted
+averitec/train/1505,Refuted
+averitec/train/1506,Refuted
+averitec/train/1507,Not Enough Evidence
+averitec/train/1508,Refuted
+averitec/train/1509,Not Enough Evidence
+averitec/train/1510,Refuted
+averitec/train/1511,Supported
+averitec/train/1512,Supported
+averitec/train/1513,Supported
+averitec/train/1514,Not Enough Evidence
+averitec/train/1515,Not Enough Evidence
+averitec/train/1516,Refuted
+averitec/train/1517,Conflicting Evidence/Cherrypicking
+averitec/train/1518,Refuted
+averitec/train/1519,Refuted
+averitec/train/1520,Supported
+averitec/train/1521,Supported
+averitec/train/1522,Refuted
+averitec/train/1523,Refuted
+averitec/train/1524,Refuted
+averitec/train/1525,Not Enough Evidence
+averitec/train/1526,Refuted
+averitec/train/1527,Refuted
+averitec/train/1528,Supported
+averitec/train/1529,Refuted
+averitec/train/1530,Supported
+averitec/train/1531,Refuted
+averitec/train/1532,Refuted
+averitec/train/1533,Not Enough Evidence
+averitec/train/1534,Not Enough Evidence
+averitec/train/1535,Supported
+averitec/train/1536,Supported
+averitec/train/1537,Refuted
+averitec/train/1538,Refuted
+averitec/train/1539,Supported
+averitec/train/1540,Refuted
+averitec/train/1541,Not Enough Evidence
+averitec/train/1542,Refuted
+averitec/train/1543,Refuted
+averitec/train/1544,Supported
+averitec/train/1545,Supported
+averitec/train/1546,Supported
+averitec/train/1547,Supported
+averitec/train/1548,Refuted
+averitec/train/1549,Supported
+averitec/train/1550,Supported
+averitec/train/1551,Supported
+averitec/train/1552,Supported
+averitec/train/1553,Supported
+averitec/train/1554,Supported
+averitec/train/1555,Supported
+averitec/train/1556,Supported
+averitec/train/1557,Refuted
+averitec/train/1558,Refuted
+averitec/train/1559,Not Enough Evidence
+averitec/train/1560,Refuted
+averitec/train/1561,Refuted
+averitec/train/1562,Refuted
+averitec/train/1563,Supported
+averitec/train/1564,Supported
+averitec/train/1565,Refuted
+averitec/train/1566,Refuted
+averitec/train/1567,Refuted
+averitec/train/1568,Refuted
+averitec/train/1569,Supported
+averitec/train/1570,Refuted
+averitec/train/1571,Refuted
+averitec/train/1572,Supported
+averitec/train/1573,Refuted
+averitec/train/1574,Not Enough Evidence
+averitec/train/1575,Refuted
+averitec/train/1576,Not Enough Evidence
+averitec/train/1577,Refuted
+averitec/train/1578,Conflicting Evidence/Cherrypicking
+averitec/train/1579,Refuted
+averitec/train/1580,Refuted
+averitec/train/1581,Refuted
+averitec/train/1582,Supported
+averitec/train/1583,Refuted
+averitec/train/1584,Refuted
+averitec/train/1585,Supported
+averitec/train/1586,Refuted
+averitec/train/1587,Refuted
+averitec/train/1588,Refuted
+averitec/train/1589,Refuted
+averitec/train/1590,Refuted
+averitec/train/1591,Refuted
+averitec/train/1592,Refuted
+averitec/train/1593,Refuted
+averitec/train/1594,Refuted
+averitec/train/1595,Supported
+averitec/train/1596,Refuted
+averitec/train/1597,Refuted
+averitec/train/1598,Refuted
+averitec/train/1599,Refuted
+averitec/train/1600,Refuted
+averitec/train/1601,Supported
+averitec/train/1602,Supported
+averitec/train/1603,Refuted
+averitec/train/1604,Refuted
+averitec/train/1605,Supported
+averitec/train/1606,Refuted
+averitec/train/1607,Supported
+averitec/train/1608,Refuted
+averitec/train/1609,Refuted
+averitec/train/1610,Supported
+averitec/train/1611,Refuted
+averitec/train/1612,Refuted
+averitec/train/1613,Refuted
+averitec/train/1614,Refuted
+averitec/train/1615,Refuted
+averitec/train/1616,Refuted
+averitec/train/1617,Supported
+averitec/train/1618,Refuted
+averitec/train/1619,Refuted
+averitec/train/1620,Refuted
+averitec/train/1621,Conflicting Evidence/Cherrypicking
+averitec/train/1622,Conflicting Evidence/Cherrypicking
+averitec/train/1623,Not Enough Evidence
+averitec/train/1624,Refuted
+averitec/train/1625,Not Enough Evidence
+averitec/train/1626,Conflicting Evidence/Cherrypicking
+averitec/train/1627,Conflicting Evidence/Cherrypicking
+averitec/train/1628,Refuted
+averitec/train/1629,Not Enough Evidence
+averitec/train/1630,Not Enough Evidence
+averitec/train/1631,Supported
+averitec/train/1632,Supported
+averitec/train/1633,Refuted
+averitec/train/1634,Refuted
+averitec/train/1635,Not Enough Evidence
+averitec/train/1636,Supported
+averitec/train/1637,Refuted
+averitec/train/1638,Refuted
+averitec/train/1639,Supported
+averitec/train/1640,Not Enough Evidence
+averitec/train/1641,Not Enough Evidence
+averitec/train/1642,Refuted
+averitec/train/1643,Not Enough Evidence
+averitec/train/1644,Refuted
+averitec/train/1645,Not Enough Evidence
+averitec/train/1646,Refuted
+averitec/train/1647,Not Enough Evidence
+averitec/train/1648,Supported
+averitec/train/1649,Refuted
+averitec/train/1650,Not Enough Evidence
+averitec/train/1651,Refuted
+averitec/train/1652,Supported
+averitec/train/1653,Not Enough Evidence
+averitec/train/1654,Not Enough Evidence
+averitec/train/1655,Refuted
+averitec/train/1656,Refuted
+averitec/train/1657,Refuted
+averitec/train/1658,Refuted
+averitec/train/1659,Supported
+averitec/train/1660,Refuted
+averitec/train/1661,Refuted
+averitec/train/1662,Refuted
+averitec/train/1663,Refuted
+averitec/train/1664,Supported
+averitec/train/1665,Supported
+averitec/train/1666,Not Enough Evidence
+averitec/train/1667,Supported
+averitec/train/1668,Refuted
+averitec/train/1669,Conflicting Evidence/Cherrypicking
+averitec/train/1670,Refuted
+averitec/train/1671,Refuted
+averitec/train/1672,Not Enough Evidence
+averitec/train/1673,Refuted
+averitec/train/1674,Refuted
+averitec/train/1675,Not Enough Evidence
+averitec/train/1676,Not Enough Evidence
+averitec/train/1677,Supported
+averitec/train/1678,Supported
+averitec/train/1679,Refuted
+averitec/train/1680,Supported
+averitec/train/1681,Supported
+averitec/train/1682,Refuted
+averitec/train/1683,Refuted
+averitec/train/1684,Refuted
+averitec/train/1685,Not Enough Evidence
+averitec/train/1686,Not Enough Evidence
+averitec/train/1687,Refuted
+averitec/train/1688,Refuted
+averitec/train/1689,Supported
+averitec/train/1690,Supported
+averitec/train/1691,Supported
+averitec/train/1692,Refuted
+averitec/train/1693,Refuted
+averitec/train/1694,Conflicting Evidence/Cherrypicking
+averitec/train/1695,Refuted
+averitec/train/1696,Conflicting Evidence/Cherrypicking
+averitec/train/1697,Refuted
+averitec/train/1698,Refuted
+averitec/train/1699,Not Enough Evidence
+averitec/train/1700,Supported
+averitec/train/1701,Not Enough Evidence
+averitec/train/1702,Not Enough Evidence
+averitec/train/1703,Not Enough Evidence
+averitec/train/1704,Refuted
+averitec/train/1705,Refuted
+averitec/train/1706,Not Enough Evidence
+averitec/train/1707,Not Enough Evidence
+averitec/train/1708,Supported
+averitec/train/1709,Refuted
+averitec/train/1710,Refuted
+averitec/train/1711,Supported
+averitec/train/1712,Supported
+averitec/train/1713,Supported
+averitec/train/1714,Refuted
+averitec/train/1715,Refuted
+averitec/train/1716,Refuted
+averitec/train/1717,Refuted
+averitec/train/1718,Refuted
+averitec/train/1719,Conflicting Evidence/Cherrypicking
+averitec/train/1720,Supported
+averitec/train/1721,Supported
+averitec/train/1722,Refuted
+averitec/train/1723,Not Enough Evidence
+averitec/train/1724,Supported
+averitec/train/1725,Refuted
+averitec/train/1726,Refuted
+averitec/train/1727,Supported
+averitec/train/1728,Refuted
+averitec/train/1729,Refuted
+averitec/train/1730,Refuted
+averitec/train/1731,Refuted
+averitec/train/1732,Refuted
+averitec/train/1733,Refuted
+averitec/train/1734,Supported
+averitec/train/1735,Refuted
+averitec/train/1736,Refuted
+averitec/train/1737,Refuted
+averitec/train/1738,Refuted
+averitec/train/1739,Refuted
+averitec/train/1740,Refuted
+averitec/train/1741,Supported
+averitec/train/1742,Supported
+averitec/train/1743,Refuted
+averitec/train/1744,Refuted
+averitec/train/1745,Supported
+averitec/train/1746,Not Enough Evidence
+averitec/train/1747,Refuted
+averitec/train/1748,Refuted
+averitec/train/1749,Refuted
+averitec/train/1750,Refuted
+averitec/train/1751,Refuted
+averitec/train/1752,Not Enough Evidence
+averitec/train/1753,Conflicting Evidence/Cherrypicking
+averitec/train/1754,Refuted
+averitec/train/1755,Refuted
+averitec/train/1756,Refuted
+averitec/train/1757,Not Enough Evidence
+averitec/train/1758,Refuted
+averitec/train/1759,Refuted
+averitec/train/1760,Supported
+averitec/train/1761,Supported
+averitec/train/1762,Refuted
+averitec/train/1763,Refuted
+averitec/train/1764,Refuted
+averitec/train/1765,Not Enough Evidence
+averitec/train/1766,Refuted
+averitec/train/1767,Refuted
+averitec/train/1768,Refuted
+averitec/train/1769,Refuted
+averitec/train/1770,Refuted
+averitec/train/1771,Supported
+averitec/train/1772,Refuted
+averitec/train/1773,Refuted
+averitec/train/1774,Refuted
+averitec/train/1775,Refuted
+averitec/train/1776,Refuted
+averitec/train/1777,Refuted
+averitec/train/1778,Refuted
+averitec/train/1779,Supported
+averitec/train/1780,Refuted
+averitec/train/1781,Refuted
+averitec/train/1782,Supported
+averitec/train/1783,Refuted
+averitec/train/1784,Refuted
+averitec/train/1785,Not Enough Evidence
+averitec/train/1786,Conflicting Evidence/Cherrypicking
+averitec/train/1787,Refuted
+averitec/train/1788,Refuted
+averitec/train/1789,Refuted
+averitec/train/1790,Supported
+averitec/train/1791,Refuted
+averitec/train/1792,Conflicting Evidence/Cherrypicking
+averitec/train/1793,Refuted
+averitec/train/1794,Refuted
+averitec/train/1795,Refuted
+averitec/train/1796,Refuted
+averitec/train/1797,Not Enough Evidence
+averitec/train/1798,Refuted
+averitec/train/1799,Refuted
+averitec/train/1800,Supported
+averitec/train/1801,Supported
+averitec/train/1802,Supported
+averitec/train/1803,Not Enough Evidence
+averitec/train/1804,Refuted
+averitec/train/1805,Refuted
+averitec/train/1806,Refuted
+averitec/train/1807,Conflicting Evidence/Cherrypicking
+averitec/train/1808,Supported
+averitec/train/1809,Supported
+averitec/train/1810,Not Enough Evidence
+averitec/train/1811,Refuted
+averitec/train/1812,Supported
+averitec/train/1813,Refuted
+averitec/train/1814,Not Enough Evidence
+averitec/train/1815,Supported
+averitec/train/1816,Refuted
+averitec/train/1817,Refuted
+averitec/train/1818,Refuted
+averitec/train/1819,Supported
+averitec/train/1820,Refuted
+averitec/train/1821,Not Enough Evidence
+averitec/train/1822,Supported
+averitec/train/1823,Supported
+averitec/train/1824,Refuted
+averitec/train/1825,Refuted
+averitec/train/1826,Refuted
+averitec/train/1827,Supported
+averitec/train/1828,Refuted
+averitec/train/1829,Refuted
+averitec/train/1830,Refuted
+averitec/train/1831,Refuted
+averitec/train/1832,Refuted
+averitec/train/1833,Refuted
+averitec/train/1834,Refuted
+averitec/train/1835,Conflicting Evidence/Cherrypicking
+averitec/train/1836,Supported
+averitec/train/1837,Refuted
+averitec/train/1838,Supported
+averitec/train/1839,Refuted
+averitec/train/1840,Refuted
+averitec/train/1841,Refuted
+averitec/train/1842,Refuted
+averitec/train/1843,Refuted
+averitec/train/1844,Refuted
+averitec/train/1845,Refuted
+averitec/train/1846,Refuted
+averitec/train/1847,Refuted
+averitec/train/1848,Refuted
+averitec/train/1849,Refuted
+averitec/train/1850,Refuted
+averitec/train/1851,Supported
+averitec/train/1852,Not Enough Evidence
+averitec/train/1853,Refuted
+averitec/train/1854,Supported
+averitec/train/1855,Supported
+averitec/train/1856,Supported
+averitec/train/1857,Supported
+averitec/train/1858,Refuted
+averitec/train/1859,Refuted
+averitec/train/1860,Conflicting Evidence/Cherrypicking
+averitec/train/1861,Refuted
+averitec/train/1862,Refuted
+averitec/train/1863,Refuted
+averitec/train/1864,Supported
+averitec/train/1865,Refuted
+averitec/train/1866,Not Enough Evidence
+averitec/train/1867,Refuted
+averitec/train/1868,Refuted
+averitec/train/1869,Refuted
+averitec/train/1870,Refuted
+averitec/train/1871,Refuted
+averitec/train/1872,Supported
+averitec/train/1873,Refuted
+averitec/train/1874,Supported
+averitec/train/1875,Refuted
+averitec/train/1876,Refuted
+averitec/train/1877,Refuted
+averitec/train/1878,Not Enough Evidence
+averitec/train/1879,Refuted
+averitec/train/1880,Supported
+averitec/train/1881,Supported
+averitec/train/1882,Supported
+averitec/train/1883,Refuted
+averitec/train/1884,Supported
+averitec/train/1885,Supported
+averitec/train/1886,Conflicting Evidence/Cherrypicking
+averitec/train/1887,Refuted
+averitec/train/1888,Refuted
+averitec/train/1889,Not Enough Evidence
+averitec/train/1890,Supported
+averitec/train/1891,Supported
+averitec/train/1892,Refuted
+averitec/train/1893,Refuted
+averitec/train/1894,Refuted
+averitec/train/1895,Refuted
+averitec/train/1896,Not Enough Evidence
+averitec/train/1897,Refuted
+averitec/train/1898,Refuted
+averitec/train/1899,Refuted
+averitec/train/1900,Refuted
+averitec/train/1901,Refuted
+averitec/train/1902,Conflicting Evidence/Cherrypicking
+averitec/train/1903,Refuted
+averitec/train/1904,Supported
+averitec/train/1905,Refuted
+averitec/train/1906,Refuted
+averitec/train/1907,Supported
+averitec/train/1908,Supported
+averitec/train/1909,Supported
+averitec/train/1910,Supported
+averitec/train/1911,Refuted
+averitec/train/1912,Supported
+averitec/train/1913,Refuted
+averitec/train/1914,Supported
+averitec/train/1915,Refuted
+averitec/train/1916,Refuted
+averitec/train/1917,Supported
+averitec/train/1918,Refuted
+averitec/train/1919,Refuted
+averitec/train/1920,Refuted
+averitec/train/1921,Conflicting Evidence/Cherrypicking
+averitec/train/1922,Supported
+averitec/train/1923,Refuted
+averitec/train/1924,Refuted
+averitec/train/1925,Refuted
+averitec/train/1926,Not Enough Evidence
+averitec/train/1927,Refuted
+averitec/train/1928,Refuted
+averitec/train/1929,Refuted
+averitec/train/1930,Supported
+averitec/train/1931,Refuted
+averitec/train/1932,Refuted
+averitec/train/1933,Not Enough Evidence
+averitec/train/1934,Refuted
+averitec/train/1935,Refuted
+averitec/train/1936,Not Enough Evidence
+averitec/train/1937,Refuted
+averitec/train/1938,Not Enough Evidence
+averitec/train/1939,Not Enough Evidence
+averitec/train/1940,Refuted
+averitec/train/1941,Supported
+averitec/train/1942,Refuted
+averitec/train/1943,Refuted
+averitec/train/1944,Supported
+averitec/train/1945,Refuted
+averitec/train/1946,Refuted
+averitec/train/1947,Refuted
+averitec/train/1948,Supported
+averitec/train/1949,Refuted
+averitec/train/1950,Refuted
+averitec/train/1951,Supported
+averitec/train/1952,Supported
+averitec/train/1953,Supported
+averitec/train/1954,Supported
+averitec/train/1955,Conflicting Evidence/Cherrypicking
+averitec/train/1956,Supported
+averitec/train/1957,Refuted
+averitec/train/1958,Supported
+averitec/train/1959,Not Enough Evidence
+averitec/train/1960,Conflicting Evidence/Cherrypicking
+averitec/train/1961,Supported
+averitec/train/1962,Supported
+averitec/train/1963,Conflicting Evidence/Cherrypicking
+averitec/train/1964,Refuted
+averitec/train/1965,Conflicting Evidence/Cherrypicking
+averitec/train/1966,Not Enough Evidence
+averitec/train/1967,Refuted
+averitec/train/1968,Refuted
+averitec/train/1969,Refuted
+averitec/train/1970,Supported
+averitec/train/1971,Refuted
+averitec/train/1972,Refuted
+averitec/train/1973,Not Enough Evidence
+averitec/train/1974,Conflicting Evidence/Cherrypicking
+averitec/train/1975,Not Enough Evidence
+averitec/train/1976,Refuted
+averitec/train/1977,Conflicting Evidence/Cherrypicking
+averitec/train/1978,Not Enough Evidence
+averitec/train/1979,Supported
+averitec/train/1980,Refuted
+averitec/train/1981,Supported
+averitec/train/1982,Refuted
+averitec/train/1983,Supported
+averitec/train/1984,Refuted
+averitec/train/1985,Supported
+averitec/train/1986,Refuted
+averitec/train/1987,Refuted
+averitec/train/1988,Refuted
+averitec/train/1989,Refuted
+averitec/train/1990,Supported
+averitec/train/1991,Supported
+averitec/train/1992,Supported
+averitec/train/1993,Not Enough Evidence
+averitec/train/1994,Supported
+averitec/train/1995,Refuted
+averitec/train/1996,Supported
+averitec/train/1997,Refuted
+averitec/train/1998,Refuted
+averitec/train/1999,Supported
+averitec/train/2000,Supported
+averitec/train/2001,Refuted
+averitec/train/2002,Supported
+averitec/train/2003,Supported
+averitec/train/2004,Supported
+averitec/train/2005,Refuted
+averitec/train/2006,Refuted
+averitec/train/2007,Supported
+averitec/train/2008,Supported
+averitec/train/2009,Supported
+averitec/train/2010,Supported
+averitec/train/2011,Supported
+averitec/train/2012,Refuted
+averitec/train/2013,Supported
+averitec/train/2014,Supported
+averitec/train/2015,Supported
+averitec/train/2016,Supported
+averitec/train/2017,Supported
+averitec/train/2018,Refuted
+averitec/train/2019,Refuted
+averitec/train/2020,Conflicting Evidence/Cherrypicking
+averitec/train/2021,Refuted
+averitec/train/2022,Supported
+averitec/train/2023,Refuted
+averitec/train/2024,Supported
+averitec/train/2025,Refuted
+averitec/train/2026,Refuted
+averitec/train/2027,Conflicting Evidence/Cherrypicking
+averitec/train/2028,Refuted
+averitec/train/2029,Conflicting Evidence/Cherrypicking
+averitec/train/2030,Supported
+averitec/train/2031,Conflicting Evidence/Cherrypicking
+averitec/train/2032,Refuted
+averitec/train/2033,Conflicting Evidence/Cherrypicking
+averitec/train/2034,Refuted
+averitec/train/2035,Refuted
+averitec/train/2036,Supported
+averitec/train/2037,Conflicting Evidence/Cherrypicking
+averitec/train/2038,Not Enough Evidence
+averitec/train/2039,Supported
+averitec/train/2040,Supported
+averitec/train/2041,Conflicting Evidence/Cherrypicking
+averitec/train/2042,Conflicting Evidence/Cherrypicking
+averitec/train/2043,Conflicting Evidence/Cherrypicking
+averitec/train/2044,Refuted
+averitec/train/2045,Refuted
+averitec/train/2046,Not Enough Evidence
+averitec/train/2047,Refuted
+averitec/train/2048,Refuted
+averitec/train/2049,Refuted
+averitec/train/2050,Supported
+averitec/train/2051,Refuted
+averitec/train/2052,Refuted
+averitec/train/2053,Not Enough Evidence
+averitec/train/2054,Not Enough Evidence
+averitec/train/2055,Refuted
+averitec/train/2056,Refuted
+averitec/train/2057,Refuted
+averitec/train/2058,Refuted
+averitec/train/2059,Refuted
+averitec/train/2060,Refuted
+averitec/train/2061,Refuted
+averitec/train/2062,Refuted
+averitec/train/2063,Conflicting Evidence/Cherrypicking
+averitec/train/2064,Refuted
+averitec/train/2065,Refuted
+averitec/train/2066,Refuted
+averitec/train/2067,Refuted
+averitec/train/2068,Refuted
+averitec/train/2069,Refuted
+averitec/train/2070,Refuted
+averitec/train/2071,Conflicting Evidence/Cherrypicking
+averitec/train/2072,Refuted
+averitec/train/2073,Refuted
+averitec/train/2074,Refuted
+averitec/train/2075,Refuted
+averitec/train/2076,Supported
+averitec/train/2077,Supported
+averitec/train/2078,Supported
+averitec/train/2079,Supported
+averitec/train/2080,Refuted
+averitec/train/2081,Refuted
+averitec/train/2082,Supported
+averitec/train/2083,Supported
+averitec/train/2084,Refuted
+averitec/train/2085,Supported
+averitec/train/2086,Supported
+averitec/train/2087,Refuted
+averitec/train/2088,Supported
+averitec/train/2089,Supported
+averitec/train/2090,Supported
+averitec/train/2091,Supported
+averitec/train/2092,Supported
+averitec/train/2093,Supported
+averitec/train/2094,Supported
+averitec/train/2095,Refuted
+averitec/train/2096,Supported
+averitec/train/2097,Supported
+averitec/train/2098,Supported
+averitec/train/2099,Refuted
+averitec/train/2100,Supported
+averitec/train/2101,Not Enough Evidence
+averitec/train/2102,Refuted
+averitec/train/2103,Supported
+averitec/train/2104,Refuted
+averitec/train/2105,Supported
+averitec/train/2106,Conflicting Evidence/Cherrypicking
+averitec/train/2107,Conflicting Evidence/Cherrypicking
+averitec/train/2108,Supported
+averitec/train/2109,Refuted
+averitec/train/2110,Conflicting Evidence/Cherrypicking
+averitec/train/2111,Refuted
+averitec/train/2112,Conflicting Evidence/Cherrypicking
+averitec/train/2113,Supported
+averitec/train/2114,Supported
+averitec/train/2115,Refuted
+averitec/train/2116,Refuted
+averitec/train/2117,Refuted
+averitec/train/2118,Supported
+averitec/train/2119,Refuted
+averitec/train/2120,Supported
+averitec/train/2121,Supported
+averitec/train/2122,Not Enough Evidence
+averitec/train/2123,Refuted
+averitec/train/2124,Conflicting Evidence/Cherrypicking
+averitec/train/2125,Refuted
+averitec/train/2126,Refuted
+averitec/train/2127,Not Enough Evidence
+averitec/train/2128,Supported
+averitec/train/2129,Refuted
+averitec/train/2130,Not Enough Evidence
+averitec/train/2131,Refuted
+averitec/train/2132,Not Enough Evidence
+averitec/train/2133,Refuted
+averitec/train/2134,Conflicting Evidence/Cherrypicking
+averitec/train/2135,Supported
+averitec/train/2136,Not Enough Evidence
+averitec/train/2137,Refuted
+averitec/train/2138,Supported
+averitec/train/2139,Conflicting Evidence/Cherrypicking
+averitec/train/2140,Refuted
+averitec/train/2141,Refuted
+averitec/train/2142,Conflicting Evidence/Cherrypicking
+averitec/train/2143,Conflicting Evidence/Cherrypicking
+averitec/train/2144,Refuted
+averitec/train/2145,Not Enough Evidence
+averitec/train/2146,Supported
+averitec/train/2147,Refuted
+averitec/train/2148,Supported
+averitec/train/2149,Refuted
+averitec/train/2150,Refuted
+averitec/train/2151,Refuted
+averitec/train/2152,Conflicting Evidence/Cherrypicking
+averitec/train/2153,Not Enough Evidence
+averitec/train/2154,Supported
+averitec/train/2155,Refuted
+averitec/train/2156,Refuted
+averitec/train/2157,Supported
+averitec/train/2158,Supported
+averitec/train/2159,Supported
+averitec/train/2160,Supported
+averitec/train/2161,Conflicting Evidence/Cherrypicking
+averitec/train/2162,Not Enough Evidence
+averitec/train/2163,Refuted
+averitec/train/2164,Conflicting Evidence/Cherrypicking
+averitec/train/2165,Refuted
+averitec/train/2166,Refuted
+averitec/train/2167,Refuted
+averitec/train/2168,Supported
+averitec/train/2169,Refuted
+averitec/train/2170,Refuted
+averitec/train/2171,Supported
+averitec/train/2172,Refuted
+averitec/train/2173,Not Enough Evidence
+averitec/train/2174,Refuted
+averitec/train/2175,Refuted
+averitec/train/2176,Refuted
+averitec/train/2177,Refuted
+averitec/train/2178,Refuted
+averitec/train/2179,Refuted
+averitec/train/2180,Refuted
+averitec/train/2181,Refuted
+averitec/train/2182,Refuted
+averitec/train/2183,Refuted
+averitec/train/2184,Refuted
+averitec/train/2185,Not Enough Evidence
+averitec/train/2186,Refuted
+averitec/train/2187,Refuted
+averitec/train/2188,Supported
+averitec/train/2189,Supported
+averitec/train/2190,Refuted
+averitec/train/2191,Refuted
+averitec/train/2192,Supported
+averitec/train/2193,Refuted
+averitec/train/2194,Supported
+averitec/train/2195,Refuted
+averitec/train/2196,Refuted
+averitec/train/2197,Supported
+averitec/train/2198,Refuted
+averitec/train/2199,Supported
+averitec/train/2200,Supported
+averitec/train/2201,Refuted
+averitec/train/2202,Supported
+averitec/train/2203,Refuted
+averitec/train/2204,Refuted
+averitec/train/2205,Refuted
+averitec/train/2206,Refuted
+averitec/train/2207,Refuted
+averitec/train/2208,Refuted
+averitec/train/2209,Not Enough Evidence
+averitec/train/2210,Refuted
+averitec/train/2211,Refuted
+averitec/train/2212,Supported
+averitec/train/2213,Supported
+averitec/train/2214,Not Enough Evidence
+averitec/train/2215,Refuted
+averitec/train/2216,Refuted
+averitec/train/2217,Supported
+averitec/train/2218,Not Enough Evidence
+averitec/train/2219,Refuted
+averitec/train/2220,Refuted
+averitec/train/2221,Supported
+averitec/train/2222,Supported
+averitec/train/2223,Supported
+averitec/train/2224,Refuted
+averitec/train/2225,Supported
+averitec/train/2226,Supported
+averitec/train/2227,Supported
+averitec/train/2228,Refuted
+averitec/train/2229,Supported
+averitec/train/2230,Refuted
+averitec/train/2231,Not Enough Evidence
+averitec/train/2232,Refuted
+averitec/train/2233,Refuted
+averitec/train/2234,Refuted
+averitec/train/2235,Refuted
+averitec/train/2236,Supported
+averitec/train/2237,Refuted
+averitec/train/2238,Refuted
+averitec/train/2239,Refuted
+averitec/train/2240,Supported
+averitec/train/2241,Supported
+averitec/train/2242,Refuted
+averitec/train/2243,Conflicting Evidence/Cherrypicking
+averitec/train/2244,Refuted
+averitec/train/2245,Supported
+averitec/train/2246,Refuted
+averitec/train/2247,Supported
+averitec/train/2248,Supported
+averitec/train/2249,Supported
+averitec/train/2250,Supported
+averitec/train/2251,Refuted
+averitec/train/2252,Refuted
+averitec/train/2253,Refuted
+averitec/train/2254,Refuted
+averitec/train/2255,Refuted
+averitec/train/2256,Conflicting Evidence/Cherrypicking
+averitec/train/2257,Refuted
+averitec/train/2258,Refuted
+averitec/train/2259,Conflicting Evidence/Cherrypicking
+averitec/train/2260,Not Enough Evidence
+averitec/train/2261,Supported
+averitec/train/2262,Supported
+averitec/train/2263,Supported
+averitec/train/2264,Conflicting Evidence/Cherrypicking
+averitec/train/2265,Supported
+averitec/train/2266,Supported
+averitec/train/2267,Not Enough Evidence
+averitec/train/2268,Supported
+averitec/train/2269,Refuted
+averitec/train/2270,Supported
+averitec/train/2271,Supported
+averitec/train/2272,Conflicting Evidence/Cherrypicking
+averitec/train/2273,Conflicting Evidence/Cherrypicking
+averitec/train/2274,Refuted
+averitec/train/2275,Refuted
+averitec/train/2276,Supported
+averitec/train/2277,Refuted
+averitec/train/2278,Supported
+averitec/train/2279,Conflicting Evidence/Cherrypicking
+averitec/train/2280,Supported
+averitec/train/2281,Supported
+averitec/train/2282,Refuted
+averitec/train/2283,Supported
+averitec/train/2284,Supported
+averitec/train/2285,Refuted
+averitec/train/2286,Supported
+averitec/train/2287,Refuted
+averitec/train/2288,Supported
+averitec/train/2289,Conflicting Evidence/Cherrypicking
+averitec/train/2290,Refuted
+averitec/train/2291,Supported
+averitec/train/2292,Refuted
+averitec/train/2293,Supported
+averitec/train/2294,Supported
+averitec/train/2295,Supported
+averitec/train/2296,Refuted
+averitec/train/2297,Refuted
+averitec/train/2298,Not Enough Evidence
+averitec/train/2299,Supported
+averitec/train/2300,Refuted
+averitec/train/2301,Refuted
+averitec/train/2302,Refuted
+averitec/train/2303,Supported
+averitec/train/2304,Supported
+averitec/train/2305,Supported
+averitec/train/2306,Refuted
+averitec/train/2307,Supported
+averitec/train/2308,Supported
+averitec/train/2309,Supported
+averitec/train/2310,Supported
+averitec/train/2311,Supported
+averitec/train/2312,Supported
+averitec/train/2313,Supported
+averitec/train/2314,Supported
+averitec/train/2315,Supported
+averitec/train/2316,Supported
+averitec/train/2317,Supported
+averitec/train/2318,Refuted
+averitec/train/2319,Supported
+averitec/train/2320,Supported
+averitec/train/2321,Supported
+averitec/train/2322,Supported
+averitec/train/2323,Refuted
+averitec/train/2324,Supported
+averitec/train/2325,Refuted
+averitec/train/2326,Supported
+averitec/train/2327,Supported
+averitec/train/2328,Supported
+averitec/train/2329,Refuted
+averitec/train/2330,Supported
+averitec/train/2331,Supported
+averitec/train/2332,Supported
+averitec/train/2333,Refuted
+averitec/train/2334,Not Enough Evidence
+averitec/train/2335,Supported
+averitec/train/2336,Supported
+averitec/train/2337,Not Enough Evidence
+averitec/train/2338,Supported
+averitec/train/2339,Supported
+averitec/train/2340,Supported
+averitec/train/2341,Not Enough Evidence
+averitec/train/2342,Supported
+averitec/train/2343,Supported
+averitec/train/2344,Supported
+averitec/train/2345,Refuted
+averitec/train/2346,Supported
+averitec/train/2347,Supported
+averitec/train/2348,Refuted
+averitec/train/2349,Not Enough Evidence
+averitec/train/2350,Supported
+averitec/train/2351,Conflicting Evidence/Cherrypicking
+averitec/train/2352,Refuted
+averitec/train/2353,Supported
+averitec/train/2354,Supported
+averitec/train/2355,Supported
+averitec/train/2356,Supported
+averitec/train/2357,Supported
+averitec/train/2358,Supported
+averitec/train/2359,Supported
+averitec/train/2360,Supported
+averitec/train/2361,Not Enough Evidence
+averitec/train/2362,Not Enough Evidence
+averitec/train/2363,Supported
+averitec/train/2364,Refuted
+averitec/train/2365,Supported
+averitec/train/2366,Supported
+averitec/train/2367,Refuted
+averitec/train/2368,Supported
+averitec/train/2369,Refuted
+averitec/train/2370,Conflicting Evidence/Cherrypicking
+averitec/train/2371,Not Enough Evidence
+averitec/train/2372,Supported
+averitec/train/2373,Refuted
+averitec/train/2374,Refuted
+averitec/train/2375,Supported
+averitec/train/2376,Not Enough Evidence
+averitec/train/2377,Supported
+averitec/train/2378,Conflicting Evidence/Cherrypicking
+averitec/train/2379,Supported
+averitec/train/2380,Supported
+averitec/train/2381,Supported
+averitec/train/2382,Refuted
+averitec/train/2383,Refuted
+averitec/train/2384,Refuted
+averitec/train/2385,Supported
+averitec/train/2386,Supported
+averitec/train/2387,Not Enough Evidence
+averitec/train/2388,Not Enough Evidence
+averitec/train/2389,Conflicting Evidence/Cherrypicking
+averitec/train/2390,Refuted
+averitec/train/2391,Refuted
+averitec/train/2392,Refuted
+averitec/train/2393,Not Enough Evidence
+averitec/train/2394,Supported
+averitec/train/2395,Conflicting Evidence/Cherrypicking
+averitec/train/2396,Refuted
+averitec/train/2397,Refuted
+averitec/train/2398,Conflicting Evidence/Cherrypicking
+averitec/train/2399,Refuted
+averitec/train/2400,Refuted
+averitec/train/2401,Refuted
+averitec/train/2402,Conflicting Evidence/Cherrypicking
+averitec/train/2403,Refuted
+averitec/train/2404,Refuted
+averitec/train/2405,Refuted
+averitec/train/2406,Supported
+averitec/train/2407,Refuted
+averitec/train/2408,Not Enough Evidence
+averitec/train/2409,Supported
+averitec/train/2410,Refuted
+averitec/train/2411,Supported
+averitec/train/2412,Refuted
+averitec/train/2413,Conflicting Evidence/Cherrypicking
+averitec/train/2414,Supported
+averitec/train/2415,Conflicting Evidence/Cherrypicking
+averitec/train/2416,Not Enough Evidence
+averitec/train/2417,Supported
+averitec/train/2418,Refuted
+averitec/train/2419,Refuted
+averitec/train/2420,Not Enough Evidence
+averitec/train/2421,Not Enough Evidence
+averitec/train/2422,Supported
+averitec/train/2423,Supported
+averitec/train/2424,Refuted
+averitec/train/2425,Supported
+averitec/train/2426,Refuted
+averitec/train/2427,Supported
+averitec/train/2428,Refuted
+averitec/train/2429,Refuted
+averitec/train/2430,Refuted
+averitec/train/2431,Refuted
+averitec/train/2432,Supported
+averitec/train/2433,Supported
+averitec/train/2434,Supported
+averitec/train/2435,Refuted
+averitec/train/2436,Refuted
+averitec/train/2437,Refuted
+averitec/train/2438,Refuted
+averitec/train/2439,Supported
+averitec/train/2440,Refuted
+averitec/train/2441,Refuted
+averitec/train/2442,Conflicting Evidence/Cherrypicking
+averitec/train/2443,Not Enough Evidence
+averitec/train/2444,Supported
+averitec/train/2445,Refuted
+averitec/train/2446,Refuted
+averitec/train/2447,Refuted
+averitec/train/2448,Supported
+averitec/train/2449,Conflicting Evidence/Cherrypicking
+averitec/train/2450,Supported
+averitec/train/2451,Refuted
+averitec/train/2452,Supported
+averitec/train/2453,Refuted
+averitec/train/2454,Supported
+averitec/train/2455,Refuted
+averitec/train/2456,Supported
+averitec/train/2457,Supported
+averitec/train/2458,Refuted
+averitec/train/2459,Refuted
+averitec/train/2460,Supported
+averitec/train/2461,Refuted
+averitec/train/2462,Refuted
+averitec/train/2463,Refuted
+averitec/train/2464,Conflicting Evidence/Cherrypicking
+averitec/train/2465,Refuted
+averitec/train/2466,Refuted
+averitec/train/2467,Supported
+averitec/train/2468,Refuted
+averitec/train/2469,Refuted
+averitec/train/2470,Not Enough Evidence
+averitec/train/2471,Refuted
+averitec/train/2472,Supported
+averitec/train/2473,Supported
+averitec/train/2474,Refuted
+averitec/train/2475,Refuted
+averitec/train/2476,Supported
+averitec/train/2477,Conflicting Evidence/Cherrypicking
+averitec/train/2478,Supported
+averitec/train/2479,Refuted
+averitec/train/2480,Refuted
+averitec/train/2481,Not Enough Evidence
+averitec/train/2482,Refuted
+averitec/train/2483,Refuted
+averitec/train/2484,Refuted
+averitec/train/2485,Refuted
+averitec/train/2486,Supported
+averitec/train/2487,Not Enough Evidence
+averitec/train/2488,Refuted
+averitec/train/2489,Refuted
+averitec/train/2490,Conflicting Evidence/Cherrypicking
+averitec/train/2491,Refuted
+averitec/train/2492,Not Enough Evidence
+averitec/train/2493,Supported
+averitec/train/2494,Refuted
+averitec/train/2495,Refuted
+averitec/train/2496,Refuted
+averitec/train/2497,Refuted
+averitec/train/2498,Refuted
+averitec/train/2499,Supported
+averitec/train/2500,Refuted
+averitec/train/2501,Refuted
+averitec/train/2502,Not Enough Evidence
+averitec/train/2503,Refuted
+averitec/train/2504,Supported
+averitec/train/2505,Supported
+averitec/train/2506,Refuted
+averitec/train/2507,Conflicting Evidence/Cherrypicking
+averitec/train/2508,Refuted
+averitec/train/2509,Refuted
+averitec/train/2510,Supported
+averitec/train/2511,Refuted
+averitec/train/2512,Refuted
+averitec/train/2513,Refuted
+averitec/train/2514,Supported
+averitec/train/2515,Supported
+averitec/train/2516,Not Enough Evidence
+averitec/train/2517,Refuted
+averitec/train/2518,Refuted
+averitec/train/2519,Refuted
+averitec/train/2520,Supported
+averitec/train/2521,Refuted
+averitec/train/2522,Refuted
+averitec/train/2523,Refuted
+averitec/train/2524,Conflicting Evidence/Cherrypicking
+averitec/train/2525,Not Enough Evidence
+averitec/train/2526,Conflicting Evidence/Cherrypicking
+averitec/train/2527,Supported
+averitec/train/2528,Refuted
+averitec/train/2529,Supported
+averitec/train/2530,Refuted
+averitec/train/2531,Refuted
+averitec/train/2532,Supported
+averitec/train/2533,Supported
+averitec/train/2534,Refuted
+averitec/train/2535,Refuted
+averitec/train/2536,Supported
+averitec/train/2537,Not Enough Evidence
+averitec/train/2538,Refuted
+averitec/train/2539,Supported
+averitec/train/2540,Supported
+averitec/train/2541,Refuted
+averitec/train/2542,Refuted
+averitec/train/2543,Not Enough Evidence
+averitec/train/2544,Not Enough Evidence
+averitec/train/2545,Not Enough Evidence
+averitec/train/2546,Refuted
+averitec/train/2547,Refuted
+averitec/train/2548,Conflicting Evidence/Cherrypicking
+averitec/train/2549,Refuted
+averitec/train/2550,Refuted
+averitec/train/2551,Supported
+averitec/train/2552,Conflicting Evidence/Cherrypicking
+averitec/train/2553,Refuted
+averitec/train/2554,Refuted
+averitec/train/2555,Refuted
+averitec/train/2556,Supported
+averitec/train/2557,Conflicting Evidence/Cherrypicking
+averitec/train/2558,Refuted
+averitec/train/2559,Supported
+averitec/train/2560,Refuted
+averitec/train/2561,Conflicting Evidence/Cherrypicking
+averitec/train/2562,Refuted
+averitec/train/2563,Supported
+averitec/train/2564,Refuted
+averitec/train/2565,Refuted
+averitec/train/2566,Refuted
+averitec/train/2567,Refuted
+averitec/train/2568,Supported
+averitec/train/2569,Refuted
+averitec/train/2570,Refuted
+averitec/train/2571,Refuted
+averitec/train/2572,Supported
+averitec/train/2573,Refuted
+averitec/train/2574,Refuted
+averitec/train/2575,Refuted
+averitec/train/2576,Conflicting Evidence/Cherrypicking
+averitec/train/2577,Supported
+averitec/train/2578,Refuted
+averitec/train/2579,Conflicting Evidence/Cherrypicking
+averitec/train/2580,Supported
+averitec/train/2581,Conflicting Evidence/Cherrypicking
+averitec/train/2582,Refuted
+averitec/train/2583,Not Enough Evidence
+averitec/train/2584,Refuted
+averitec/train/2585,Refuted
+averitec/train/2586,Refuted
+averitec/train/2587,Refuted
+averitec/train/2588,Not Enough Evidence
+averitec/train/2589,Refuted
+averitec/train/2590,Refuted
+averitec/train/2591,Refuted
+averitec/train/2592,Refuted
+averitec/train/2593,Refuted
+averitec/train/2594,Refuted
+averitec/train/2595,Refuted
+averitec/train/2596,Supported
+averitec/train/2597,Refuted
+averitec/train/2598,Refuted
+averitec/train/2599,Supported
+averitec/train/2600,Not Enough Evidence
+averitec/train/2601,Conflicting Evidence/Cherrypicking
+averitec/train/2602,Supported
+averitec/train/2603,Supported
+averitec/train/2604,Supported
+averitec/train/2605,Not Enough Evidence
+averitec/train/2606,Supported
+averitec/train/2607,Refuted
+averitec/train/2608,Supported
+averitec/train/2609,Supported
+averitec/train/2610,Refuted
+averitec/train/2611,Refuted
+averitec/train/2612,Refuted
+averitec/train/2613,Supported
+averitec/train/2614,Conflicting Evidence/Cherrypicking
+averitec/train/2615,Refuted
+averitec/train/2616,Supported
+averitec/train/2617,Supported
+averitec/train/2618,Supported
+averitec/train/2619,Supported
+averitec/train/2620,Refuted
+averitec/train/2621,Not Enough Evidence
+averitec/train/2622,Refuted
+averitec/train/2623,Refuted
+averitec/train/2624,Supported
+averitec/train/2625,Refuted
+averitec/train/2626,Refuted
+averitec/train/2627,Refuted
+averitec/train/2628,Refuted
+averitec/train/2629,Refuted
+averitec/train/2630,Refuted
+averitec/train/2631,Supported
+averitec/train/2632,Refuted
+averitec/train/2633,Not Enough Evidence
+averitec/train/2634,Supported
+averitec/train/2635,Supported
+averitec/train/2636,Not Enough Evidence
+averitec/train/2637,Supported
+averitec/train/2638,Supported
+averitec/train/2639,Supported
+averitec/train/2640,Supported
+averitec/train/2641,Not Enough Evidence
+averitec/train/2642,Supported
+averitec/train/2643,Supported
+averitec/train/2644,Supported
+averitec/train/2645,Supported
+averitec/train/2646,Supported
+averitec/train/2647,Not Enough Evidence
+averitec/train/2648,Supported
+averitec/train/2649,Not Enough Evidence
+averitec/train/2650,Supported
+averitec/train/2651,Supported
+averitec/train/2652,Supported
+averitec/train/2653,Supported
+averitec/train/2654,Supported
+averitec/train/2655,Supported
+averitec/train/2656,Refuted
+averitec/train/2657,Supported
+averitec/train/2658,Not Enough Evidence
+averitec/train/2659,Supported
+averitec/train/2660,Supported
+averitec/train/2661,Supported
+averitec/train/2662,Supported
+averitec/train/2663,Supported
+averitec/train/2664,Refuted
+averitec/train/2665,Not Enough Evidence
+averitec/train/2666,Supported
+averitec/train/2667,Supported
+averitec/train/2668,Supported
+averitec/train/2669,Supported
+averitec/train/2670,Supported
+averitec/train/2671,Supported
+averitec/train/2672,Not Enough Evidence
+averitec/train/2673,Supported
+averitec/train/2674,Supported
+averitec/train/2675,Supported
+averitec/train/2676,Refuted
+averitec/train/2677,Supported
+averitec/train/2678,Not Enough Evidence
+averitec/train/2679,Supported
+averitec/train/2680,Not Enough Evidence
+averitec/train/2681,Supported
+averitec/train/2682,Supported
+averitec/train/2683,Supported
+averitec/train/2684,Supported
+averitec/train/2685,Supported
+averitec/train/2686,Supported
+averitec/train/2687,Supported
+averitec/train/2688,Supported
+averitec/train/2689,Supported
+averitec/train/2690,Supported
+averitec/train/2691,Supported
+averitec/train/2692,Supported
+averitec/train/2693,Not Enough Evidence
+averitec/train/2694,Supported
+averitec/train/2695,Supported
+averitec/train/2696,Not Enough Evidence
+averitec/train/2697,Refuted
+averitec/train/2698,Supported
+averitec/train/2699,Supported
+averitec/train/2700,Supported
+averitec/train/2701,Supported
+averitec/train/2702,Supported
+averitec/train/2703,Conflicting Evidence/Cherrypicking
+averitec/train/2704,Refuted
+averitec/train/2705,Conflicting Evidence/Cherrypicking
+averitec/train/2706,Supported
+averitec/train/2707,Supported
+averitec/train/2708,Supported
+averitec/train/2709,Not Enough Evidence
+averitec/train/2710,Not Enough Evidence
+averitec/train/2711,Supported
+averitec/train/2712,Supported
+averitec/train/2713,Supported
+averitec/train/2714,Refuted
+averitec/train/2715,Refuted
+averitec/train/2716,Refuted
+averitec/train/2717,Supported
+averitec/train/2718,Supported
+averitec/train/2719,Supported
+averitec/train/2720,Refuted
+averitec/train/2721,Refuted
+averitec/train/2722,Supported
+averitec/train/2723,Refuted
+averitec/train/2724,Supported
+averitec/train/2725,Refuted
+averitec/train/2726,Supported
+averitec/train/2727,Supported
+averitec/train/2728,Refuted
+averitec/train/2729,Supported
+averitec/train/2730,Supported
+averitec/train/2731,Refuted
+averitec/train/2732,Not Enough Evidence
+averitec/train/2733,Refuted
+averitec/train/2734,Refuted
+averitec/train/2735,Refuted
+averitec/train/2736,Supported
+averitec/train/2737,Refuted
+averitec/train/2738,Refuted
+averitec/train/2739,Refuted
+averitec/train/2740,Refuted
+averitec/train/2741,Not Enough Evidence
+averitec/train/2742,Not Enough Evidence
+averitec/train/2743,Supported
+averitec/train/2744,Refuted
+averitec/train/2745,Refuted
+averitec/train/2746,Supported
+averitec/train/2747,Refuted
+averitec/train/2748,Supported
+averitec/train/2749,Refuted
+averitec/train/2750,Refuted
+averitec/train/2751,Refuted
+averitec/train/2752,Conflicting Evidence/Cherrypicking
+averitec/train/2753,Refuted
+averitec/train/2754,Supported
+averitec/train/2755,Refuted
+averitec/train/2756,Supported
+averitec/train/2757,Refuted
+averitec/train/2758,Supported
+averitec/train/2759,Conflicting Evidence/Cherrypicking
+averitec/train/2760,Refuted
+averitec/train/2761,Refuted
+averitec/train/2762,Refuted
+averitec/train/2763,Not Enough Evidence
+averitec/train/2764,Refuted
+averitec/train/2765,Refuted
+averitec/train/2766,Refuted
+averitec/train/2767,Supported
+averitec/train/2768,Refuted
+averitec/train/2769,Refuted
+averitec/train/2770,Refuted
+averitec/train/2771,Supported
+averitec/train/2772,Supported
+averitec/train/2773,Not Enough Evidence
+averitec/train/2774,Conflicting Evidence/Cherrypicking
+averitec/train/2775,Not Enough Evidence
+averitec/train/2776,Supported
+averitec/train/2777,Not Enough Evidence
+averitec/train/2778,Supported
+averitec/train/2779,Supported
+averitec/train/2780,Refuted
+averitec/train/2781,Not Enough Evidence
+averitec/train/2782,Refuted
+averitec/train/2783,Not Enough Evidence
+averitec/train/2784,Not Enough Evidence
+averitec/train/2785,Not Enough Evidence
+averitec/train/2786,Refuted
+averitec/train/2787,Refuted
+averitec/train/2788,Refuted
+averitec/train/2789,Conflicting Evidence/Cherrypicking
+averitec/train/2790,Refuted
+averitec/train/2791,Refuted
+averitec/train/2792,Refuted
+averitec/train/2793,Supported
+averitec/train/2794,Refuted
+averitec/train/2795,Refuted
+averitec/train/2796,Refuted
+averitec/train/2797,Refuted
+averitec/train/2798,Refuted
+averitec/train/2799,Refuted
+averitec/train/2800,Refuted
+averitec/train/2801,Supported
+averitec/train/2802,Supported
+averitec/train/2803,Refuted
+averitec/train/2804,Supported
+averitec/train/2805,Conflicting Evidence/Cherrypicking
+averitec/train/2806,Supported
+averitec/train/2807,Refuted
+averitec/train/2808,Refuted
+averitec/train/2809,Supported
+averitec/train/2810,Refuted
+averitec/train/2811,Not Enough Evidence
+averitec/train/2812,Conflicting Evidence/Cherrypicking
+averitec/train/2813,Refuted
+averitec/train/2814,Supported
+averitec/train/2815,Supported
+averitec/train/2816,Refuted
+averitec/train/2817,Refuted
+averitec/train/2818,Refuted
+averitec/train/2819,Refuted
+averitec/train/2820,Refuted
+averitec/train/2821,Supported
+averitec/train/2822,Refuted
+averitec/train/2823,Supported
+averitec/train/2824,Supported
+averitec/train/2825,Refuted
+averitec/train/2826,Refuted
+averitec/train/2827,Supported
+averitec/train/2828,Refuted
+averitec/train/2829,Refuted
+averitec/train/2830,Refuted
+averitec/train/2831,Refuted
+averitec/train/2832,Refuted
+averitec/train/2833,Refuted
+averitec/train/2834,Not Enough Evidence
+averitec/train/2835,Not Enough Evidence
+averitec/train/2836,Refuted
+averitec/train/2837,Refuted
+averitec/train/2838,Supported
+averitec/train/2839,Not Enough Evidence
+averitec/train/2840,Supported
+averitec/train/2841,Refuted
+averitec/train/2842,Supported
+averitec/train/2843,Not Enough Evidence
+averitec/train/2844,Supported
+averitec/train/2845,Refuted
+averitec/train/2846,Supported
+averitec/train/2847,Not Enough Evidence
+averitec/train/2848,Supported
+averitec/train/2849,Supported
+averitec/train/2850,Supported
+averitec/train/2851,Supported
+averitec/train/2852,Conflicting Evidence/Cherrypicking
+averitec/train/2853,Not Enough Evidence
+averitec/train/2854,Supported
+averitec/train/2855,Not Enough Evidence
+averitec/train/2856,Refuted
+averitec/train/2857,Refuted
+averitec/train/2858,Refuted
+averitec/train/2859,Supported
+averitec/train/2860,Supported
+averitec/train/2861,Conflicting Evidence/Cherrypicking
+averitec/train/2862,Supported
+averitec/train/2863,Conflicting Evidence/Cherrypicking
+averitec/train/2864,Refuted
+averitec/train/2865,Not Enough Evidence
+averitec/train/2866,Refuted
+averitec/train/2867,Supported
+averitec/train/2868,Refuted
+averitec/train/2869,Supported
+averitec/train/2870,Supported
+averitec/train/2871,Refuted
+averitec/train/2872,Refuted
+averitec/train/2873,Not Enough Evidence
+averitec/train/2874,Refuted
+averitec/train/2875,Conflicting Evidence/Cherrypicking
+averitec/train/2876,Refuted
+averitec/train/2877,Supported
+averitec/train/2878,Refuted
+averitec/train/2879,Refuted
+averitec/train/2880,Refuted
+averitec/train/2881,Conflicting Evidence/Cherrypicking
+averitec/train/2882,Refuted
+averitec/train/2883,Supported
+averitec/train/2884,Refuted
+averitec/train/2885,Not Enough Evidence
+averitec/train/2886,Supported
+averitec/train/2887,Refuted
+averitec/train/2888,Not Enough Evidence
+averitec/train/2889,Refuted
+averitec/train/2890,Refuted
+averitec/train/2891,Refuted
+averitec/train/2892,Refuted
+averitec/train/2893,Refuted
+averitec/train/2894,Refuted
+averitec/train/2895,Supported
+averitec/train/2896,Conflicting Evidence/Cherrypicking
+averitec/train/2897,Supported
+averitec/train/2898,Supported
+averitec/train/2899,Refuted
+averitec/train/2900,Refuted
+averitec/train/2901,Refuted
+averitec/train/2902,Refuted
+averitec/train/2903,Refuted
+averitec/train/2904,Supported
+averitec/train/2905,Refuted
+averitec/train/2906,Refuted
+averitec/train/2907,Refuted
+averitec/train/2908,Refuted
+averitec/train/2909,Refuted
+averitec/train/2910,Refuted
+averitec/train/2911,Refuted
+averitec/train/2912,Refuted
+averitec/train/2913,Refuted
+averitec/train/2914,Refuted
+averitec/train/2915,Refuted
+averitec/train/2916,Refuted
+averitec/train/2917,Not Enough Evidence
+averitec/train/2918,Refuted
+averitec/train/2919,Refuted
+averitec/train/2920,Supported
+averitec/train/2921,Refuted
+averitec/train/2922,Refuted
+averitec/train/2923,Refuted
+averitec/train/2924,Refuted
+averitec/train/2925,Refuted
+averitec/train/2926,Refuted
+averitec/train/2927,Refuted
+averitec/train/2928,Refuted
+averitec/train/2929,Conflicting Evidence/Cherrypicking
+averitec/train/2930,Supported
+averitec/train/2931,Refuted
+averitec/train/2932,Refuted
+averitec/train/2933,Refuted
+averitec/train/2934,Refuted
+averitec/train/2935,Refuted
+averitec/train/2936,Refuted
+averitec/train/2937,Refuted
+averitec/train/2938,Refuted
+averitec/train/2939,Refuted
+averitec/train/2940,Refuted
+averitec/train/2941,Conflicting Evidence/Cherrypicking
+averitec/train/2942,Refuted
+averitec/train/2943,Refuted
+averitec/train/2944,Not Enough Evidence
+averitec/train/2945,Supported
+averitec/train/2946,Refuted
+averitec/train/2947,Not Enough Evidence
+averitec/train/2948,Refuted
+averitec/train/2949,Supported
+averitec/train/2950,Refuted
+averitec/train/2951,Not Enough Evidence
+averitec/train/2952,Refuted
+averitec/train/2953,Refuted
+averitec/train/2954,Supported
+averitec/train/2955,Supported
+averitec/train/2956,Supported
+averitec/train/2957,Not Enough Evidence
+averitec/train/2958,Not Enough Evidence
+averitec/train/2959,Refuted
+averitec/train/2960,Refuted
+averitec/train/2961,Refuted
+averitec/train/2962,Not Enough Evidence
+averitec/train/2963,Refuted
+averitec/train/2964,Supported
+averitec/train/2965,Refuted
+averitec/train/2966,Supported
+averitec/train/2967,Refuted
+averitec/train/2968,Refuted
+averitec/train/2969,Refuted
+averitec/train/2970,Refuted
+averitec/train/2971,Refuted
+averitec/train/2972,Refuted
+averitec/train/2973,Refuted
+averitec/train/2974,Refuted
+averitec/train/2975,Conflicting Evidence/Cherrypicking
+averitec/train/2976,Refuted
+averitec/train/2977,Supported
+averitec/train/2978,Supported
+averitec/train/2979,Refuted
+averitec/train/2980,Refuted
+averitec/train/2981,Refuted
+averitec/train/2982,Refuted
+averitec/train/2983,Supported
+averitec/train/2984,Refuted
+averitec/train/2985,Refuted
+averitec/train/2986,Refuted
+averitec/train/2987,Refuted
+averitec/train/2988,Conflicting Evidence/Cherrypicking
+averitec/train/2989,Supported
+averitec/train/2990,Supported
+averitec/train/2991,Supported
+averitec/train/2992,Refuted
+averitec/train/2993,Refuted
+averitec/train/2994,Not Enough Evidence
+averitec/train/2995,Refuted
+averitec/train/2996,Supported
+averitec/train/2997,Refuted
+averitec/train/2998,Conflicting Evidence/Cherrypicking
+averitec/train/2999,Refuted
+averitec/train/3000,Refuted
+averitec/train/3001,Supported
+averitec/train/3002,Refuted
+averitec/train/3003,Refuted
+averitec/train/3004,Supported
+averitec/train/3005,Refuted
+averitec/train/3006,Refuted
+averitec/train/3007,Refuted
+averitec/train/3008,Refuted
+averitec/train/3009,Refuted
+averitec/train/3010,Refuted
+averitec/train/3011,Supported
+averitec/train/3012,Refuted
+averitec/train/3013,Not Enough Evidence
+averitec/train/3014,Refuted
+averitec/train/3015,Conflicting Evidence/Cherrypicking
+averitec/train/3016,Refuted
+averitec/train/3017,Refuted
+averitec/train/3018,Supported
+averitec/train/3019,Refuted
+averitec/train/3020,Refuted
+averitec/train/3021,Refuted
+averitec/train/3022,Refuted
+averitec/train/3023,Refuted
+averitec/train/3024,Refuted
+averitec/train/3025,Refuted
+averitec/train/3026,Supported
+averitec/train/3027,Supported
+averitec/train/3028,Refuted
+averitec/train/3029,Supported
+averitec/train/3030,Refuted
+averitec/train/3031,Refuted
+averitec/train/3032,Supported
+averitec/train/3033,Supported
+averitec/train/3034,Refuted
+averitec/train/3035,Refuted
+averitec/train/3036,Refuted
+averitec/train/3037,Refuted
+averitec/train/3038,Conflicting Evidence/Cherrypicking
+averitec/train/3039,Refuted
+averitec/train/3040,Refuted
+averitec/train/3041,Supported
+averitec/train/3042,Refuted
+averitec/train/3043,Refuted
+averitec/train/3044,Refuted
+averitec/train/3045,Conflicting Evidence/Cherrypicking
+averitec/train/3046,Refuted
+averitec/train/3047,Refuted
+averitec/train/3048,Not Enough Evidence
+averitec/train/3049,Conflicting Evidence/Cherrypicking
+averitec/train/3050,Refuted
+averitec/train/3051,Conflicting Evidence/Cherrypicking
+averitec/train/3052,Conflicting Evidence/Cherrypicking
+averitec/train/3053,Supported
+averitec/train/3054,Refuted
+averitec/train/3055,Refuted
+averitec/train/3056,Refuted
+averitec/train/3057,Supported
+averitec/train/3058,Supported
+averitec/train/3059,Supported
+averitec/train/3060,Refuted
+averitec/train/3061,Refuted
+averitec/train/3062,Refuted
+averitec/train/3063,Supported
+averitec/train/3064,Conflicting Evidence/Cherrypicking
+averitec/train/3065,Conflicting Evidence/Cherrypicking
+averitec/train/3066,Not Enough Evidence
+averitec/train/3067,Refuted
+averitec/dev/0,Refuted
+averitec/dev/1,Refuted
+averitec/dev/2,Refuted
+averitec/dev/3,Refuted
+averitec/dev/4,Refuted
+averitec/dev/5,Refuted
+averitec/dev/6,Supported
+averitec/dev/7,Supported
+averitec/dev/8,Refuted
+averitec/dev/9,Not Enough Evidence
+averitec/dev/10,Conflicting Evidence/Cherrypicking
+averitec/dev/11,Conflicting Evidence/Cherrypicking
+averitec/dev/12,Refuted
+averitec/dev/13,Supported
+averitec/dev/14,Refuted
+averitec/dev/15,Not Enough Evidence
+averitec/dev/16,Refuted
+averitec/dev/17,Refuted
+averitec/dev/18,Conflicting Evidence/Cherrypicking
+averitec/dev/19,Refuted
+averitec/dev/20,Refuted
+averitec/dev/21,Refuted
+averitec/dev/22,Refuted
+averitec/dev/23,Refuted
+averitec/dev/24,Refuted
+averitec/dev/25,Supported
+averitec/dev/26,Not Enough Evidence
+averitec/dev/27,Refuted
+averitec/dev/28,Refuted
+averitec/dev/29,Refuted
+averitec/dev/30,Refuted
+averitec/dev/31,Supported
+averitec/dev/32,Supported
+averitec/dev/33,Conflicting Evidence/Cherrypicking
+averitec/dev/34,Supported
+averitec/dev/35,Refuted
+averitec/dev/36,Supported
+averitec/dev/37,Refuted
+averitec/dev/38,Refuted
+averitec/dev/39,Refuted
+averitec/dev/40,Refuted
+averitec/dev/41,Refuted
+averitec/dev/42,Supported
+averitec/dev/43,Conflicting Evidence/Cherrypicking
+averitec/dev/44,Refuted
+averitec/dev/45,Refuted
+averitec/dev/46,Refuted
+averitec/dev/47,Conflicting Evidence/Cherrypicking
+averitec/dev/48,Refuted
+averitec/dev/49,Refuted
+averitec/dev/50,Conflicting Evidence/Cherrypicking
+averitec/dev/51,Refuted
+averitec/dev/52,Refuted
+averitec/dev/53,Supported
+averitec/dev/54,Refuted
+averitec/dev/55,Refuted
+averitec/dev/56,Refuted
+averitec/dev/57,Supported
+averitec/dev/58,Conflicting Evidence/Cherrypicking
+averitec/dev/59,Not Enough Evidence
+averitec/dev/60,Conflicting Evidence/Cherrypicking
+averitec/dev/61,Refuted
+averitec/dev/62,Refuted
+averitec/dev/63,Supported
+averitec/dev/64,Refuted
+averitec/dev/65,Refuted
+averitec/dev/66,Supported
+averitec/dev/67,Refuted
+averitec/dev/68,Not Enough Evidence
+averitec/dev/69,Refuted
+averitec/dev/70,Refuted
+averitec/dev/71,Refuted
+averitec/dev/72,Refuted
+averitec/dev/73,Conflicting Evidence/Cherrypicking
+averitec/dev/74,Refuted
+averitec/dev/75,Supported
+averitec/dev/76,Not Enough Evidence
+averitec/dev/77,Supported
+averitec/dev/78,Refuted
+averitec/dev/79,Refuted
+averitec/dev/80,Refuted
+averitec/dev/81,Conflicting Evidence/Cherrypicking
+averitec/dev/82,Not Enough Evidence
+averitec/dev/83,Refuted
+averitec/dev/84,Refuted
+averitec/dev/85,Refuted
+averitec/dev/86,Refuted
+averitec/dev/87,Supported
+averitec/dev/88,Refuted
+averitec/dev/89,Refuted
+averitec/dev/90,Refuted
+averitec/dev/91,Refuted
+averitec/dev/92,Supported
+averitec/dev/93,Supported
+averitec/dev/94,Refuted
+averitec/dev/95,Refuted
+averitec/dev/96,Refuted
+averitec/dev/97,Refuted
+averitec/dev/98,Supported
+averitec/dev/99,Refuted
+averitec/dev/100,Conflicting Evidence/Cherrypicking
+averitec/dev/101,Conflicting Evidence/Cherrypicking
+averitec/dev/102,Refuted
+averitec/dev/103,Supported
+averitec/dev/104,Supported
+averitec/dev/105,Refuted
+averitec/dev/106,Refuted
+averitec/dev/107,Refuted
+averitec/dev/108,Refuted
+averitec/dev/109,Refuted
+averitec/dev/110,Supported
+averitec/dev/111,Refuted
+averitec/dev/112,Refuted
+averitec/dev/113,Supported
+averitec/dev/114,Refuted
+averitec/dev/115,Conflicting Evidence/Cherrypicking
+averitec/dev/116,Refuted
+averitec/dev/117,Refuted
+averitec/dev/118,Refuted
+averitec/dev/119,Refuted
+averitec/dev/120,Refuted
+averitec/dev/121,Refuted
+averitec/dev/122,Refuted
+averitec/dev/123,Supported
+averitec/dev/124,Refuted
+averitec/dev/125,Supported
+averitec/dev/126,Supported
+averitec/dev/127,Refuted
+averitec/dev/128,Refuted
+averitec/dev/129,Refuted
+averitec/dev/130,Refuted
+averitec/dev/131,Refuted
+averitec/dev/132,Refuted
+averitec/dev/133,Supported
+averitec/dev/134,Refuted
+averitec/dev/135,Not Enough Evidence
+averitec/dev/136,Supported
+averitec/dev/137,Refuted
+averitec/dev/138,Supported
+averitec/dev/139,Refuted
+averitec/dev/140,Supported
+averitec/dev/141,Refuted
+averitec/dev/142,Not Enough Evidence
+averitec/dev/143,Conflicting Evidence/Cherrypicking
+averitec/dev/144,Supported
+averitec/dev/145,Supported
+averitec/dev/146,Supported
+averitec/dev/147,Supported
+averitec/dev/148,Conflicting Evidence/Cherrypicking
+averitec/dev/149,Refuted
+averitec/dev/150,Refuted
+averitec/dev/151,Refuted
+averitec/dev/152,Supported
+averitec/dev/153,Not Enough Evidence
+averitec/dev/154,Refuted
+averitec/dev/155,Supported
+averitec/dev/156,Supported
+averitec/dev/157,Refuted
+averitec/dev/158,Supported
+averitec/dev/159,Refuted
+averitec/dev/160,Refuted
+averitec/dev/161,Supported
+averitec/dev/162,Refuted
+averitec/dev/163,Supported
+averitec/dev/164,Refuted
+averitec/dev/165,Refuted
+averitec/dev/166,Refuted
+averitec/dev/167,Refuted
+averitec/dev/168,Refuted
+averitec/dev/169,Refuted
+averitec/dev/170,Supported
+averitec/dev/171,Refuted
+averitec/dev/172,Refuted
+averitec/dev/173,Refuted
+averitec/dev/174,Refuted
+averitec/dev/175,Supported
+averitec/dev/176,Refuted
+averitec/dev/177,Refuted
+averitec/dev/178,Refuted
+averitec/dev/179,Refuted
+averitec/dev/180,Refuted
+averitec/dev/181,Supported
+averitec/dev/182,Supported
+averitec/dev/183,Not Enough Evidence
+averitec/dev/184,Supported
+averitec/dev/185,Refuted
+averitec/dev/186,Not Enough Evidence
+averitec/dev/187,Refuted
+averitec/dev/188,Refuted
+averitec/dev/189,Refuted
+averitec/dev/190,Refuted
+averitec/dev/191,Refuted
+averitec/dev/192,Not Enough Evidence
+averitec/dev/193,Refuted
+averitec/dev/194,Supported
+averitec/dev/195,Supported
+averitec/dev/196,Refuted
+averitec/dev/197,Supported
+averitec/dev/198,Supported
+averitec/dev/199,Supported
+averitec/dev/200,Refuted
+averitec/dev/201,Supported
+averitec/dev/202,Supported
+averitec/dev/203,Supported
+averitec/dev/204,Supported
+averitec/dev/205,Supported
+averitec/dev/206,Not Enough Evidence
+averitec/dev/207,Supported
+averitec/dev/208,Not Enough Evidence
+averitec/dev/209,Not Enough Evidence
+averitec/dev/210,Not Enough Evidence
+averitec/dev/211,Supported
+averitec/dev/212,Supported
+averitec/dev/213,Supported
+averitec/dev/214,Supported
+averitec/dev/215,Supported
+averitec/dev/216,Supported
+averitec/dev/217,Supported
+averitec/dev/218,Supported
+averitec/dev/219,Supported
+averitec/dev/220,Not Enough Evidence
+averitec/dev/221,Supported
+averitec/dev/222,Supported
+averitec/dev/223,Not Enough Evidence
+averitec/dev/224,Supported
+averitec/dev/225,Not Enough Evidence
+averitec/dev/226,Refuted
+averitec/dev/227,Refuted
+averitec/dev/228,Supported
+averitec/dev/229,Not Enough Evidence
+averitec/dev/230,Refuted
+averitec/dev/231,Supported
+averitec/dev/232,Refuted
+averitec/dev/233,Not Enough Evidence
+averitec/dev/234,Refuted
+averitec/dev/235,Supported
+averitec/dev/236,Refuted
+averitec/dev/237,Not Enough Evidence
+averitec/dev/238,Refuted
+averitec/dev/239,Refuted
+averitec/dev/240,Refuted
+averitec/dev/241,Not Enough Evidence
+averitec/dev/242,Refuted
+averitec/dev/243,Refuted
+averitec/dev/244,Refuted
+averitec/dev/245,Refuted
+averitec/dev/246,Refuted
+averitec/dev/247,Refuted
+averitec/dev/248,Refuted
+averitec/dev/249,Refuted
+averitec/dev/250,Refuted
+averitec/dev/251,Refuted
+averitec/dev/252,Refuted
+averitec/dev/253,Refuted
+averitec/dev/254,Refuted
+averitec/dev/255,Supported
+averitec/dev/256,Refuted
+averitec/dev/257,Supported
+averitec/dev/258,Refuted
+averitec/dev/259,Conflicting Evidence/Cherrypicking
+averitec/dev/260,Refuted
+averitec/dev/261,Refuted
+averitec/dev/262,Supported
+averitec/dev/263,Refuted
+averitec/dev/264,Refuted
+averitec/dev/265,Refuted
+averitec/dev/266,Refuted
+averitec/dev/267,Supported
+averitec/dev/268,Refuted
+averitec/dev/269,Conflicting Evidence/Cherrypicking
+averitec/dev/270,Refuted
+averitec/dev/271,Refuted
+averitec/dev/272,Refuted
+averitec/dev/273,Refuted
+averitec/dev/274,Refuted
+averitec/dev/275,Refuted
+averitec/dev/276,Refuted
+averitec/dev/277,Refuted
+averitec/dev/278,Refuted
+averitec/dev/279,Refuted
+averitec/dev/280,Refuted
+averitec/dev/281,Supported
+averitec/dev/282,Not Enough Evidence
+averitec/dev/283,Refuted
+averitec/dev/284,Refuted
+averitec/dev/285,Refuted
+averitec/dev/286,Supported
+averitec/dev/287,Refuted
+averitec/dev/288,Conflicting Evidence/Cherrypicking
+averitec/dev/289,Supported
+averitec/dev/290,Supported
+averitec/dev/291,Refuted
+averitec/dev/292,Refuted
+averitec/dev/293,Supported
+averitec/dev/294,Refuted
+averitec/dev/295,Refuted
+averitec/dev/296,Refuted
+averitec/dev/297,Refuted
+averitec/dev/298,Refuted
+averitec/dev/299,Supported
+averitec/dev/300,Refuted
+averitec/dev/301,Supported
+averitec/dev/302,Refuted
+averitec/dev/303,Conflicting Evidence/Cherrypicking
+averitec/dev/304,Refuted
+averitec/dev/305,Supported
+averitec/dev/306,Conflicting Evidence/Cherrypicking
+averitec/dev/307,Refuted
+averitec/dev/308,Supported
+averitec/dev/309,Supported
+averitec/dev/310,Supported
+averitec/dev/311,Refuted
+averitec/dev/312,Refuted
+averitec/dev/313,Refuted
+averitec/dev/314,Supported
+averitec/dev/315,Refuted
+averitec/dev/316,Refuted
+averitec/dev/317,Refuted
+averitec/dev/318,Refuted
+averitec/dev/319,Supported
+averitec/dev/320,Supported
+averitec/dev/321,Refuted
+averitec/dev/322,Refuted
+averitec/dev/323,Supported
+averitec/dev/324,Conflicting Evidence/Cherrypicking
+averitec/dev/325,Refuted
+averitec/dev/326,Refuted
+averitec/dev/327,Supported
+averitec/dev/328,Not Enough Evidence
+averitec/dev/329,Refuted
+averitec/dev/330,Supported
+averitec/dev/331,Refuted
+averitec/dev/332,Refuted
+averitec/dev/333,Refuted
+averitec/dev/334,Refuted
+averitec/dev/335,Refuted
+averitec/dev/336,Refuted
+averitec/dev/337,Supported
+averitec/dev/338,Refuted
+averitec/dev/339,Refuted
+averitec/dev/340,Refuted
+averitec/dev/341,Refuted
+averitec/dev/342,Supported
+averitec/dev/343,Refuted
+averitec/dev/344,Refuted
+averitec/dev/345,Refuted
+averitec/dev/346,Supported
+averitec/dev/347,Supported
+averitec/dev/348,Refuted
+averitec/dev/349,Refuted
+averitec/dev/350,Conflicting Evidence/Cherrypicking
+averitec/dev/351,Refuted
+averitec/dev/352,Supported
+averitec/dev/353,Conflicting Evidence/Cherrypicking
+averitec/dev/354,Not Enough Evidence
+averitec/dev/355,Refuted
+averitec/dev/356,Refuted
+averitec/dev/357,Supported
+averitec/dev/358,Refuted
+averitec/dev/359,Refuted
+averitec/dev/360,Conflicting Evidence/Cherrypicking
+averitec/dev/361,Supported
+averitec/dev/362,Refuted
+averitec/dev/363,Refuted
+averitec/dev/364,Refuted
+averitec/dev/365,Refuted
+averitec/dev/366,Conflicting Evidence/Cherrypicking
+averitec/dev/367,Refuted
+averitec/dev/368,Refuted
+averitec/dev/369,Supported
+averitec/dev/370,Conflicting Evidence/Cherrypicking
+averitec/dev/371,Refuted
+averitec/dev/372,Refuted
+averitec/dev/373,Refuted
+averitec/dev/374,Supported
+averitec/dev/375,Not Enough Evidence
+averitec/dev/376,Supported
+averitec/dev/377,Refuted
+averitec/dev/378,Refuted
+averitec/dev/379,Refuted
+averitec/dev/380,Refuted
+averitec/dev/381,Refuted
+averitec/dev/382,Refuted
+averitec/dev/383,Refuted
+averitec/dev/384,Refuted
+averitec/dev/385,Refuted
+averitec/dev/386,Refuted
+averitec/dev/387,Supported
+averitec/dev/388,Refuted
+averitec/dev/389,Conflicting Evidence/Cherrypicking
+averitec/dev/390,Refuted
+averitec/dev/391,Supported
+averitec/dev/392,Supported
+averitec/dev/393,Refuted
+averitec/dev/394,Not Enough Evidence
+averitec/dev/395,Refuted
+averitec/dev/396,Refuted
+averitec/dev/397,Refuted
+averitec/dev/398,Supported
+averitec/dev/399,Refuted
+averitec/dev/400,Refuted
+averitec/dev/401,Refuted
+averitec/dev/402,Supported
+averitec/dev/403,Refuted
+averitec/dev/404,Conflicting Evidence/Cherrypicking
+averitec/dev/405,Refuted
+averitec/dev/406,Supported
+averitec/dev/407,Refuted
+averitec/dev/408,Refuted
+averitec/dev/409,Refuted
+averitec/dev/410,Refuted
+averitec/dev/411,Refuted
+averitec/dev/412,Refuted
+averitec/dev/413,Not Enough Evidence
+averitec/dev/414,Refuted
+averitec/dev/415,Refuted
+averitec/dev/416,Refuted
+averitec/dev/417,Refuted
+averitec/dev/418,Refuted
+averitec/dev/419,Refuted
+averitec/dev/420,Refuted
+averitec/dev/421,Refuted
+averitec/dev/422,Refuted
+averitec/dev/423,Conflicting Evidence/Cherrypicking
+averitec/dev/424,Refuted
+averitec/dev/425,Refuted
+averitec/dev/426,Refuted
+averitec/dev/427,Conflicting Evidence/Cherrypicking
+averitec/dev/428,Not Enough Evidence
+averitec/dev/429,Supported
+averitec/dev/430,Supported
+averitec/dev/431,Refuted
+averitec/dev/432,Refuted
+averitec/dev/433,Refuted
+averitec/dev/434,Refuted
+averitec/dev/435,Not Enough Evidence
+averitec/dev/436,Refuted
+averitec/dev/437,Refuted
+averitec/dev/438,Refuted
+averitec/dev/439,Refuted
+averitec/dev/440,Refuted
+averitec/dev/441,Refuted
+averitec/dev/442,Refuted
+averitec/dev/443,Refuted
+averitec/dev/444,Refuted
+averitec/dev/445,Refuted
+averitec/dev/446,Refuted
+averitec/dev/447,Refuted
+averitec/dev/448,Conflicting Evidence/Cherrypicking
+averitec/dev/449,Supported
+averitec/dev/450,Supported
+averitec/dev/451,Refuted
+averitec/dev/452,Refuted
+averitec/dev/453,Supported
+averitec/dev/454,Conflicting Evidence/Cherrypicking
+averitec/dev/455,Refuted
+averitec/dev/456,Refuted
+averitec/dev/457,Conflicting Evidence/Cherrypicking
+averitec/dev/458,Not Enough Evidence
+averitec/dev/459,Supported
+averitec/dev/460,Refuted
+averitec/dev/461,Supported
+averitec/dev/462,Refuted
+averitec/dev/463,Supported
+averitec/dev/464,Refuted
+averitec/dev/465,Refuted
+averitec/dev/466,Refuted
+averitec/dev/467,Refuted
+averitec/dev/468,Supported
+averitec/dev/469,Supported
+averitec/dev/470,Refuted
+averitec/dev/471,Refuted
+averitec/dev/472,Refuted
+averitec/dev/473,Refuted
+averitec/dev/474,Refuted
+averitec/dev/475,Refuted
+averitec/dev/476,Refuted
+averitec/dev/477,Refuted
+averitec/dev/478,Refuted
+averitec/dev/479,Conflicting Evidence/Cherrypicking
+averitec/dev/480,Conflicting Evidence/Cherrypicking
+averitec/dev/481,Refuted
+averitec/dev/482,Conflicting Evidence/Cherrypicking
+averitec/dev/483,Not Enough Evidence
+averitec/dev/484,Refuted
+averitec/dev/485,Supported
+averitec/dev/486,Refuted
+averitec/dev/487,Refuted
+averitec/dev/488,Refuted
+averitec/dev/489,Supported
+averitec/dev/490,Supported
+averitec/dev/491,Refuted
+averitec/dev/492,Refuted
+averitec/dev/493,Refuted
+averitec/dev/494,Refuted
+averitec/dev/495,Refuted
+averitec/dev/496,Conflicting Evidence/Cherrypicking
+averitec/dev/497,Supported
+averitec/dev/498,Not Enough Evidence
+averitec/dev/499,Refuted

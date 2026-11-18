@@ -1,0 +1,75 @@
+{
+ "chosen_workers": 8,
+ "cpu_go": "We can retry and fix those two situations if not a lot of cycles for the rest is a go",
+ "cpu_go_decision": "go",
+ "cpu_go_recorded_utc": "2026-10-17T08:24:28Z",
+ "cpu_go_scope": "orchestrator relay: the clause 'for the rest is a go' answers the Stage Task 2 checkpoint, no amendments",
+ "cpu_s": 1219.240963,
+ "cpu_s_per_million_sentences": 28.013112,
+ "decision": "proceed",
+ "full_build": {
+  "config": "configs/retrieval/shortlist.yaml",
+  "first_progress": "shortlist: 4 store zips match their recorded sha256 (52.8 s); shortlist: 50/3568 stores (log at 2026-10-17T08:36:31Z)",
+  "host": "turing",
+  "log": "/data/aac/releases/e8d7566348b081ef2855e346c014e44cc6d2a1f4/logs/B-sl-20261017T083249Z.log",
+  "phase": "B-sl",
+  "projected_wall_h": 2.434,
+  "release_sha": "e8d7566348b081ef2855e346c014e44cc6d2a1f4",
+  "run_id": "printed as `shortlist: run_id=SL-...` at the end of the log; read it there",
+  "seed": 0,
+  "started_utc": "2026-10-17T08:32:49Z",
+  "status_at_launch": "running",
+  "tmux_session": "aac-B-sl",
+  "verified_by": "Stage checks the sealed run (make turing-status PHASE=B-sl SHA=e8d7566...) before the GPU checkpoint; Stage pulls it",
+  "workers": 8
+ },
+ "largest_store": {
+  "claim_id": "averitec/train/1866",
+  "n_sentences": 3661438,
+  "rss_bytes": 2729119744,
+  "seconds": 79.43362
+ },
+ "max_worker_rss_bytes": 2729119744,
+ "notes": [],
+ "phase": "B-slpilot",
+ "preflight": {
+  "action": "moving the two tracer directories out of data/derived was refused by the permission system; the pilot ran with this known FAIL because the shortlist run re-hashes its own inputs (identity verify_entries + store zips)",
+  "fail": {
+   "manifest-check": "6 differences, all 'present but not listed': data/derived/averitec/ks-audit-50a/* and ks-audit-50b/* (Phase 2 Stage idempotency tracer outputs on turing); every listed file matched"
+  },
+  "ok": [
+   "release",
+   "venv",
+   "torch-build",
+   "symlinks",
+   "raw-layout",
+   "submodules",
+   "index",
+   "offline-models"
+  ],
+  "release_sha": "e8d7566348b081ef2855e346c014e44cc6d2a1f4"
+ },
+ "private_cache_sha256": "cc60cdb41f4ef6929a395eb3900d604fe10cd8710f4c1a0eee989fe01caccd92",
+ "projection": {
+  "basis": "linear extrapolation [L]: total_sentences x pilot cpu_s per sentence / workers / 3600; peak = max_worker_rss_bytes x workers; zip re-hash time not included",
+  "projected_peak_rss_bytes": 21832957952,
+  "projected_wall_h": 2.434,
+  "total_sentences": 2502365199,
+  "workers": 8
+ },
+ "release_sha": "e8d7566348b081ef2855e346c014e44cc6d2a1f4",
+ "rss_source": [
+  "VmHWM since this store (clear_refs 5)"
+ ],
+ "rule": "proceed when projected_wall_h <= 10 and projected_peak_rss_bytes <= 48 GiB; when only the memory test fails, workers = floor(48 GiB / max_worker_rss_bytes), at least 2, and recompute",
+ "run_id": "SL-a7ebdf3fd4-s0",
+ "sentences": 43523939,
+ "sentences_indexed": 40040590,
+ "shortlist_sha256": "279595b2e837c15f555044b75821dab7870774e8b5e7de3fd54c8174df7d2d68",
+ "sources": "wall_s, cpu_s, RSS and counts: python -m aac.data.shortlist report --json on turing (sealed run files); total_sentences: data/derived/averitec/ks-stats.json totals.all.n_sentences",
+ "stores": 50,
+ "verify_zips_items": 4,
+ "verify_zips_s": 53.418814,
+ "wall_s": 213.772421,
+ "workers": 8
+}

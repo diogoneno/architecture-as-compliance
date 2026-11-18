@@ -1,0 +1,5 @@
+extends: [r1-tw-full.yaml]
+name: r1-tw-full-pause
+components:
+ c5:
+ pause: true

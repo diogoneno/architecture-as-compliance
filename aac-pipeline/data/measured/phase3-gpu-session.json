@@ -1,0 +1,616 @@
+{
+ "batch_a": {
+  "c2s_pairs": 15591,
+  "c2s_s_per_step": 0.235485,
+  "c2s_steps": 4875,
+  "exit": 0,
+  "finished_utc": "2026-10-17T13:36:09Z",
+  "gpu_hours": 0.91611,
+  "log": "logs/B-a-20261017T123644Z.log",
+  "phase": "B-a",
+  "runs": [
+   {
+    "config": "configs/retrieval/evidence.yaml",
+    "gpu_hours": 0.592737,
+    "run_id": "EV-7ceb148b39-s0",
+    "seed": 0
+   },
+   {
+    "config": "configs/train/c2s-chrono.yaml",
+    "gpu_hours": 0.318886,
+    "run_id": "C2S-3530beba01-s0",
+    "seed": 0
+   },
+   {
+    "config": "configs/regimes/real/r1-chrono-full.yaml",
+    "gpu_hours": 0.004487,
+    "run_id": "R1-4805ab6250-s0",
+    "seed": 0
+   }
+  ],
+  "session_wall_s": 3565,
+  "stage_seconds": {
+   "C2S pairs (cpu)": 21.886676,
+   "C2S train (cuda)": 1147.988222,
+   "EV embed (cuda)": 1927.180156,
+   "EV rerank (cuda)": 206.67207,
+   "R1 fit_val_cal": 3.15915,
+   "R1 fit_val_fuse": 4.312643,
+   "R1 infer_test": 8.680204
+  },
+  "started_utc": "2026-10-17T12:36:44Z"
+ },
+ "batch_b": {
+  "exit": 0,
+  "finished_utc": "2026-10-17T16:57:32Z",
+  "gpu_hours": 2.959744,
+  "lines_ok": 23,
+  "log": "logs/B-b-20261017T133715Z.log",
+  "phase": "B-b",
+  "runs": [
+   {
+    "config": "configs/train/c2s-chrono.yaml",
+    "gpu_hours": 0.320544,
+    "run_id": "C2S-3530beba01-s1",
+    "seed": 1
+   },
+   {
+    "config": "configs/regimes/real/r1-chrono-full.yaml",
+    "gpu_hours": 0.004501,
+    "run_id": "R1-5bb7401e76-s1",
+    "seed": 1
+   },
+   {
+    "config": "configs/train/c2s-chrono.yaml",
+    "gpu_hours": 0.320687,
+    "run_id": "C2S-3530beba01-s2",
+    "seed": 2
+   },
+   {
+    "config": "configs/regimes/real/r1-chrono-full.yaml",
+    "gpu_hours": 0.004503,
+    "run_id": "R1-5b199ca3b7-s2",
+    "seed": 2
+   },
+   {
+    "config": "configs/train/c2s-chrono.yaml",
+    "gpu_hours": 0.320087,
+    "run_id": "C2S-3530beba01-s3",
+    "seed": 3
+   },
+   {
+    "config": "configs/regimes/real/r1-chrono-full.yaml",
+    "gpu_hours": 0.004491,
+    "run_id": "R1-d8ed451bb2-s3",
+    "seed": 3
+   },
+   {
+    "config": "configs/train/c2s-chrono.yaml",
+    "gpu_hours": 0.319059,
+    "run_id": "C2S-3530beba01-s4",
+    "seed": 4
+   },
+   {
+    "config": "configs/regimes/real/r1-chrono-full.yaml",
+    "gpu_hours": 0.004489,
+    "run_id": "R1-878a174978-s4",
+    "seed": 4
+   },
+   {
+    "config": "configs/train/c2s-random.yaml",
+    "gpu_hours": 0.323335,
+    "run_id": "C2S-c8e4606e03-s0",
+    "seed": 0
+   },
+   {
+    "config": "configs/regimes/real/r1-random-full.yaml",
+    "gpu_hours": 0.004583,
+    "run_id": "R1-eadf294e6e-s0",
+    "seed": 0
+   },
+   {
+    "config": "configs/train/c2s-random.yaml",
+    "gpu_hours": 0.32358,
+    "run_id": "C2S-c8e4606e03-s1",
+    "seed": 1
+   },
+   {
+    "config": "configs/regimes/real/r1-random-full.yaml",
+    "gpu_hours": 0.004588,
+    "run_id": "R1-f715e28168-s1",
+    "seed": 1
+   },
+   {
+    "config": "configs/train/c2s-random.yaml",
+    "gpu_hours": 0.322545,
+    "run_id": "C2S-c8e4606e03-s2",
+    "seed": 2
+   },
+   {
+    "config": "configs/regimes/real/r1-random-full.yaml",
+    "gpu_hours": 0.004582,
+    "run_id": "R1-2b0c7f0dd9-s2",
+    "seed": 2
+   },
+   {
+    "config": "configs/train/c2s-random.yaml",
+    "gpu_hours": 0.322449,
+    "run_id": "C2S-c8e4606e03-s3",
+    "seed": 3
+   },
+   {
+    "config": "configs/regimes/real/r1-random-full.yaml",
+    "gpu_hours": 0.004572,
+    "run_id": "R1-114138606e-s3",
+    "seed": 3
+   },
+   {
+    "config": "configs/train/c2s-random.yaml",
+    "gpu_hours": 0.324096,
+    "run_id": "C2S-c8e4606e03-s4",
+    "seed": 4
+   },
+   {
+    "config": "configs/regimes/real/r1-random-full.yaml",
+    "gpu_hours": 0.004599,
+    "run_id": "R1-a37b2d576e-s4",
+    "seed": 4
+   },
+   {
+    "config": "configs/regimes/real/r1-chrono-full-sens.yaml",
+    "gpu_hours": 0.004486,
+    "run_id": "R1-4b16ffe88e-s0",
+    "seed": 0
+   },
+   {
+    "config": "configs/regimes/real/r1-chrono-full-sens.yaml",
+    "gpu_hours": 0.004466,
+    "run_id": "R1-be8caf6358-s1",
+    "seed": 1
+   },
+   {
+    "config": "configs/regimes/real/r1-chrono-full-sens.yaml",
+    "gpu_hours": 0.004481,
+    "run_id": "R1-89feb1380e-s2",
+    "seed": 2
+   },
+   {
+    "config": "configs/regimes/real/r1-chrono-full-sens.yaml",
+    "gpu_hours": 0.004486,
+    "run_id": "R1-2ef54b7262-s3",
+    "seed": 3
+   },
+   {
+    "config": "configs/regimes/real/r1-chrono-full-sens.yaml",
+    "gpu_hours": 0.004535,
+    "run_id": "R1-bb780b5ce5-s4",
+    "seed": 4
+   }
+  ],
+  "session_wall_s": 12017,
+  "started_utc": "2026-10-17T13:37:15Z"
+ },
+ "c2s_counts": {
+  "c2s-chrono": {
+   "pairs": 15591,
+   "steps": 4875
+  },
+  "c2s-random": {
+   "pairs": 15493,
+   "steps": 4845
+  }
+ },
+ "ceiling": 6.5,
+ "ceiling_gpu_hours": 6.5,
+ "decision": "proceed",
+ "deviations_confirmed": {
+  "rows_13_22": "confirmed (protocol Go at the Stage checkpoint, 16 Oct 2026; flip recorded at the Stage checkpoint, 17 Oct 2026)",
+  "rows_23_40": "confirmed (protocol go at the Stage checkpoint, 17 Oct 2026)"
+ },
+ "ev_counts": {
+  "claims": 3568,
+  "embedded_passages": 3642731,
+  "evidence_sha256": "fe7cce1023a661f259e725ffa25eacbc90ae9c299deff1dc5430061d5b28ed41",
+  "lists": 7136,
+  "lists_empty": 14,
+  "lists_short": 18,
+  "pooled_claims": 2704,
+  "pooled_duplicates_dropped": 361819,
+  "pooled_passages": 2334254,
+  "private_dir_bytes_approx": "12G (du -sh)",
+  "rerank_pairs": 73772
+ },
+ "evidence_cpusmoke": {
+  "claims": 5,
+  "device": "cpu",
+  "evidence_sha256": "1ef7c1986854c9d5198e26d3f37de6f17a476a56d248669764b4fe82ff59c351",
+  "gpu_hours": 0.0,
+  "limit": true,
+  "lists": 10,
+  "lists_empty": 0,
+  "lists_short": 0,
+  "passages": 5096,
+  "precision": "float32",
+  "release_sha": "3ac7675f4116197b92fde613090b32910f710776",
+  "rerank_pairs": 104,
+  "run_id": "EV-8430d1f849-s0",
+  "seconds": {
+   "embed": 144.668587,
+   "rerank": 9.40241
+  },
+  "target": "make turing-run PHASE=B-evcpu TARGET=evidence-cpusmoke (CPU job, CUDA_VISIBLE_DEVICES empty)",
+  "turing_status": "finished, exit 0"
+ },
+ "evidence_floor_by_config": {
+  "r1-chrono-full": {
+   "n_val_cal": 256,
+   "seeds": "0-4 identical",
+   "value": 0.738701
+  },
+  "r1-chrono-full-sens": {
+   "n_val_cal": 256,
+   "seeds": "0-4 identical",
+   "value": 0.723331
+  },
+  "r1-random-full": {
+   "n_val_cal": 257,
+   "seeds": "0-4 identical",
+   "value": 0.730889
+  }
+ },
+ "gpu_check": {
+  "compute_apps": 0,
+  "driver": "550.163.01",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "memory_used_mib": 2,
+  "sentinel_gpu_cleared": "present"
+ },
+ "gpu_usage_checks": [
+  {
+   "compute_apps": 1,
+   "env": "CUBLAS_WORKSPACE_CONFIG=:4096:8 PYTHONHASHSEED=0 HF_HUB_OFFLINE=1 AAC_GIT_SHA=3ac7675f4116197b92fde613090b32910f710776",
+   "gpu_mem_mib": 5727,
+   "gpu_util_pct": 92,
+   "process": ".venv-main/bin/python -m aac.components.c2_evidence_run (pid 202477), cwd = release 3ac7675",
+   "when": "2026-10-17T12:38Z, EV running"
+  },
+  {
+   "foreign_compute_app_samples": 0,
+   "max_gpu_mem_mib": 9645,
+   "note": "every compute app had cwd = the 3ac7675 release",
+   "when": "batch A, 673 samples at 5 s"
+  },
+  {
+   "compute_apps": 0,
+   "when": "2026-10-17T13:37Z, after batch A"
+  },
+  {
+   "foreign_compute_app_samples": 0,
+   "max_gpu_mem_mib": 10635,
+   "note": "every compute app had cwd = the 3ac7675 release",
+   "peak_vmhwm_bytes": {
+    "c2s_train": 4305793024,
+    "r1_run": 6546776064
+   },
+   "when": "batch B, 1,196 samples at 10 s"
+  },
+  {
+   "compute_apps": 0,
+   "gpu_mem_mib": 2,
+   "tmux": "no server",
+   "when": "2026-10-17T17:0xZ, after batch B"
+  }
+ ],
+ "memory_rule": {
+  "c2s_vmhwm_bytes": 4306030592,
+  "ev_vmhwm_bytes": 15974617088,
+  "limit_bytes": 32983257088,
+  "mem_available_before_batch_b_bytes": 65966514176,
+  "r1_full_s0_vmhwm_bytes": 6460141568,
+  "r1_full_s0_vmhwm_note": "VmHWM of the R1 run process (aac run, pid 215373) sampled every 5 s by a read-only watcher; the whole process (C1, scorer, store, fits), not the store alone",
+  "result": "pass",
+  "rule": "hold batch B at a new checkpoint if the R1 store peak exceeds 50 percent of MemAvailable measured before batch B"
+ },
+ "operator_reply": "Okey go and answer whatever necessary send subagents for whatever needed the smaller it is the haiku medium sonnet and high opus let's goooooo",
+ "operator_reply_reading": {
+  "a1_a12_open_rationales": "delegated by the protocol to the orchestrator; a separate agent traces each to a written source and edits only those defense-log rows; unanswered items stay 'rationale not recorded; ask protocol'",
+  "d14_rows_13_22": "yes: flipped to confirmed, citing the 02-09 Go of 2026-10-16 and this reply (the protocol delegated 'answer whatever necessary' to the orchestrator)",
+  "decision": "go on release 3ac7675f4116197b92fde613090b32910f710776 with all defaults D1-D13 as presented",
+  "item_15_rd_over_256_tokens": "default (a): truncate the RD text to its first 256 tokens for the scorer pair only, with a truncation flag in the record; a adjustments addition for R2-RD, implemented by Stage",
+  "item_16_store_memory": "rule as written: hold batch B at a new checkpoint if the R1 store peak exceeds 50 percent of MemAvailable measured before batch B; an OOM in batch A stops the plan",
+  "item_17_scorer_seeds": "state 8 x measured C2S(s0) after batch A, inside the projection rule",
+  "reading_by": "orchestrator"
+ },
+ "operator_reply_relayed_by": "orchestrator, verbatim, 2026-10-17",
+ "phase2_gpu_hours_used": 0.472989,
+ "phase_ceiling_gpu_hours": 8.0,
+ "plan": "03-10",
+ "plan_runs": 26,
+ "plan_total_gpu_h": [
+  2.8,
+  5.65
+ ],
+ "preflight": {
+  "fail": 0,
+  "lines": [
+   "release",
+   "venv",
+   "torch-build: 2.14.1+cu126 12.6",
+   "symlinks",
+   "raw-layout",
+   "submodules",
+   "index: 25 runs",
+   "manifest-check: 34 entries, data_version=648d8eb14b0e24a73923be0e0094310458b98da91c61d39b734694100f64746b",
+   "offline-models: 15 passed, 1 deselected"
+  ],
+  "ok_lines": 9,
+  "sha": "3ac7675f4116197b92fde613090b32910f710776"
+ },
+ "projection": 4.048902,
+ "projection_arithmetic": "0.916110 + 9 x 0.318886 + 14 x 0.004487 + 0.2 = 4.048902",
+ "projection_rule": "after batch A: projected = measured(A) + 9 x measured(C2S chrono s0) + 14 x measured(R1 chrono full s0) + 0.2; run batch B only if projected <= 6.5",
+ "release_sha": "3ac7675f4116197b92fde613090b32910f710776",
+ "reserved_for_0313_pilot_gpu_hours": 1.5,
+ "run_ids_by_config": {
+  "configs/regimes/real/r1-chrono-full-sens.yaml": {
+   "0": "R1-4b16ffe88e-s0",
+   "1": "R1-be8caf6358-s1",
+   "2": "R1-89feb1380e-s2",
+   "3": "R1-2ef54b7262-s3",
+   "4": "R1-bb780b5ce5-s4"
+  },
+  "configs/regimes/real/r1-chrono-full.yaml": {
+   "0": "R1-4805ab6250-s0",
+   "1": "R1-5bb7401e76-s1",
+   "2": "R1-5b199ca3b7-s2",
+   "3": "R1-d8ed451bb2-s3",
+   "4": "R1-878a174978-s4"
+  },
+  "configs/regimes/real/r1-random-full.yaml": {
+   "0": "R1-eadf294e6e-s0",
+   "1": "R1-f715e28168-s1",
+   "2": "R1-2b0c7f0dd9-s2",
+   "3": "R1-114138606e-s3",
+   "4": "R1-a37b2d576e-s4"
+  },
+  "configs/retrieval/evidence.yaml": {
+   "0": "EV-7ceb148b39-s0"
+  },
+  "configs/train/c2s-chrono.yaml": {
+   "0": "C2S-3530beba01-s0",
+   "1": "C2S-3530beba01-s1",
+   "2": "C2S-3530beba01-s2",
+   "3": "C2S-3530beba01-s3",
+   "4": "C2S-3530beba01-s4"
+  },
+  "configs/train/c2s-random.yaml": {
+   "0": "C2S-c8e4606e03-s0",
+   "1": "C2S-c8e4606e03-s1",
+   "2": "C2S-c8e4606e03-s2",
+   "3": "C2S-c8e4606e03-s3",
+   "4": "C2S-c8e4606e03-s4"
+  }
+ },
+ "schema": "aac-measured-gpu-session/1",
+ "scorer_seed_cost_difference_gpu_h": {
+  "rule": "8 x measured C2S(s0): ten scorer runs minus two (seed 0 per split); already inside the projection",
+  "value": 2.551088
+ },
+ "seals_verified": {
+  "C2S-3530beba01-s0": "9a325d2548c508b62317290f5e9c38193b30470002dc4ffcd80d45849de9befa",
+  "C2S-3530beba01-s1": "48a931d22ba3952d9242358bbf1da2de4c15ec9885d22209f96329e17ae13768",
+  "C2S-3530beba01-s2": "ece658a4f1be5c45bd16e30f697a7c70cb7a07200c34af4d4e9729849998e9f2",
+  "C2S-3530beba01-s3": "159abb326b2ce1363a6d26316d19979d4880d202419c04cff5b325ba447a1927",
+  "C2S-3530beba01-s4": "7bfca1aead1d9eff18077fd9d4654552229f91dc0b3bf166876bb5e892e52f31",
+  "C2S-c8e4606e03-s0": "1966c1639334e1782c01721169d85673578d52c8ed65606015effdb8871fdcb5",
+  "C2S-c8e4606e03-s1": "9ab3a71d5a234ca53da97efd1a3fcde8d0ae451ac4ac388aaed7cded449da3ab",
+  "C2S-c8e4606e03-s2": "d31fc8f9346806fd472f7d460ffd383fc837502fcd0776aaaaae8d5edfad6f6d",
+  "C2S-c8e4606e03-s3": "b685b4421d9ff0bd64f30bfdf3fc957e051156ce75ec9ac5c4c381b9959b8b73",
+  "C2S-c8e4606e03-s4": "8190bc0ed1c76e05b2a00ec305cb5b7b9a2da9fb31fdd479e3c2e8acaffc3629",
+  "EV-7ceb148b39-s0": "d0a23f78995a2bddc00d7ced708319b90436b2a3fd1b82b26af734303919fd44",
+  "how": "aac.run.seal.verify_sealed on turing in the 3ac7675 release"
+ },
+ "session_gpu_hours": 3.875854,
+ "sl_run": {
+  "claims": 3568,
+  "cpu_s": 75348.808248,
+  "cpu_s_per_million_sentences": 30.111036,
+  "limit": false,
+  "passages_cached": 3758284,
+  "peak_rss_note": "per-worker VmHWM after clear_refs; the sum over the 8 workers was not measured",
+  "peak_worker_rss_bytes": 2725453824,
+  "peak_worker_rss_store": "averitec/train/1866",
+  "pilot_projection_wall_h": 2.434,
+  "primary_rows": 3737023,
+  "private_cache_gz_bytes": 162971984,
+  "private_cache_sha256": "459153f385bb8203ecf199b87de470da16b3f437e2c7ed5c59e72437a3bb57a1",
+  "release_sha": "e8d7566348b081ef2855e346c014e44cc6d2a1f4",
+  "run_id": "SL-2320b621a7-s0",
+  "sealed": true,
+  "sentences": 2502365199,
+  "sentences_indexed": 2320347688,
+  "shortlist_sha256": "ab3ed992c88f27b6a0b688ba7f92aa439ca3dfce8ca570bde899e0db3022325b",
+  "stores_empty": 5,
+  "stores_short_primary": 9,
+  "stores_short_variant": 9,
+  "turing_status": "finished, exit 0",
+  "variant_rows": 3559000,
+  "wall_s": 9433.397718,
+  "workers": 8
+ },
+ "smoke_list": {
+  "attack-session-smoke": "ok",
+  "c2-smoke": "ok",
+  "evidence-smoke": "ok",
+  "fullchain-smoke": "ok",
+  "lint-determinism": "ok",
+  "lint-imports": "ok",
+  "runner-test": "ok",
+  "scorer-smoke": "ok",
+  "shortlist-smoke": "ok",
+  "smoke": "ok",
+  "test-unit": "ok"
+ },
+ "smoke_list_lines": {
+  "attack-session-smoke": "attack-session-smoke: R3-b8d0be8ef8-s0 L2 ok",
+  "c2-smoke": "c2-smoke: cache==recompute on 32 claims; c2-smoke: pooled_rd EV-8dea85a01d-s0 supplied ok",
+  "evidence-smoke": "evidence-smoke: EV-01d32a66ef-s0 f16048dc922d5796afe91fb34da793a44c6a1a14d9cfd28d9a15e84b45e36bbf; build/tw-ev and build/tw-ev2 agree",
+  "fullchain-smoke": "fullchain-smoke: R1-e937e47dd2-s0 records=18 violations=0 fitted=fusion,calibration,gate,floor",
+  "lint-determinism": "lint-determinism: 0 hits",
+  "lint-imports": "T-L2: import-linter (2 kept, 0 broken) + AST",
+  "runner-test": "Ran 11 tests; OK",
+  "scorer-smoke": "scorer-smoke: C2S-0bf02a2d81-s0 6188ce5871df sum=1.0",
+  "shortlist-smoke": "shortlist-smoke: SL-35f564c495-s0 f5a99c6ce508a92efd46e6e03b3f5b04d90569d418c96b8e5c3c55d3f7a8eb8e; build/tw-sl and build/tw-sl2 agree",
+  "smoke": "SMOKE golden-diff: ok (day1_docs spec e8e6af3a355c); 9/9 SMOKE steps ok",
+  "test-unit": "1205 passed, 29 skipped, 2 warnings in 231.41s"
+ },
+ "smoke_list_where": "cpu-host, isolated clone (git clone --shared, checkout 3ac7675; submodules from gitlinks; .venv-main, .venv-attack, .hf, data/raw/{averitec,incrediblae}, the real run directories and data/derived/private symlinked from the main tree; secrets/ not linked); 0 dirty lines before and after",
+ "store_memory_cpusmoke": {
+  "full_scale_note": "[L] linear extrapolation 19,640,320 B x 3,568 / 5; an upper bound because the delta includes fixed load overhead; the real value is read on the real R1 full run",
+  "full_scale_upper_bound_bytes_L": 14015332352,
+  "primary": {
+   "claims": 5,
+   "rss_delta_bytes": 19640320,
+   "texts": 5000
+  },
+  "sensitivity-b": {
+   "claims": 5,
+   "rss_delta_bytes": 19341312,
+   "texts": 5000
+  },
+  "what": "AveritecPerClaimStore built over EV-8430d1f849-s0 (allow_limit) in the release Python on turing, CPU only"
+ },
+ "turing_after_session": {
+  "c2s_run_dirs": 10,
+  "data_disk_free_bytes": 260484947968
+ },
+ "turing_host": {
+  "data_disk_free_bytes": 284157435904,
+  "mem_available_bytes": 65988468736,
+  "mem_total_bytes": 67363176448,
+  "nproc": 10,
+  "swap_bytes": 0
+ },
+ "validation": [
+  {
+   "exit": 0,
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R1-4805ab6250-s0",
+   "violations": 0
+  },
+  {
+   "exit": 0,
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R1-5bb7401e76-s1",
+   "violations": 0
+  },
+  {
+   "exit": 0,
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R1-5b199ca3b7-s2",
+   "violations": 0
+  },
+  {
+   "exit": 0,
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R1-d8ed451bb2-s3",
+   "violations": 0
+  },
+  {
+   "exit": 0,
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R1-878a174978-s4",
+   "violations": 0
+  },
+  {
+   "exit": 0,
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R1-eadf294e6e-s0",
+   "violations": 0
+  },
+  {
+   "exit": 0,
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R1-f715e28168-s1",
+   "violations": 0
+  },
+  {
+   "exit": 0,
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R1-2b0c7f0dd9-s2",
+   "violations": 0
+  },
+  {
+   "exit": 0,
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R1-114138606e-s3",
+   "violations": 0
+  },
+  {
+   "exit": 0,
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R1-a37b2d576e-s4",
+   "violations": 0
+  },
+  {
+   "exit": 0,
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R1-4b16ffe88e-s0",
+   "violations": 0
+  },
+  {
+   "exit": 0,
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R1-be8caf6358-s1",
+   "violations": 0
+  },
+  {
+   "exit": 0,
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R1-89feb1380e-s2",
+   "violations": 0
+  },
+  {
+   "exit": 0,
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R1-2ef54b7262-s3",
+   "violations": 0
+  },
+  {
+   "exit": 0,
+   "records": 1211,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R1-bb780b5ce5-s4",
+   "violations": 0
+  }
+ ]
+}

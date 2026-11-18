@@ -1,0 +1,55 @@
+hf_home: .hf
+offline: true
+models:
+ - key: mdeberta-v3-base
+ hf_id: microsoft/mdeberta-v3-base
+ revision: a0484667b22365f84929a935b5e50a51f71f159d
+ role: C1 content encoder and C2 entailment-scorer backbone; env-gate tokenizer fixture (both environments)
+ environment: [main, attack]
+ loader: transformers AutoModel/AutoTokenizer, dtype=torch.float32, bf16 autocast in training
+ license: MIT
+ refs_main_kept: false
+ - key: bge-m3
+ hf_id: BAAI/bge-m3
+ revision: 5617a9f61b028005a4858fdac845db406aefb181
+ role: C2 dense retrieval (CLS pooling, L2-normalized, 1024-d)
+ environment: [main]
+ loader: sentence-transformers 6.1.0 SentenceTransformer (CONTEXT discretion; FlagEmbedding not used)
+ license: MIT
+ refs_main_kept: false
+ - key: bge-reranker-v2-m3
+ hf_id: BAAI/bge-reranker-v2-m3
+ revision: 953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e
+ role: C2 cross-encoder re-ranker (sigmoid scores in [0,1])
+ environment: [main]
+ loader: sentence-transformers 6.1.0 CrossEncoder
+ license: Apache-2.0
+ refs_main_kept: false
+ - key: bert-base-uncased
+ hf_id: bert-base-uncased
+ revision: 86b5e0934494bd15c9632b12f734a8a67f723594
+ role: BODEGA BERT victim base and BERT-Attack MLM
+ environment: [attack]
+ loader: BODEGA victims/transformer.py (unmodified; loads by bare id "bert-base-uncased", line 23)
+ license: Apache-2.0
+ refs_main_kept: true
+ - key: bleurt-20
+ hf_id: lucadiliello/BLEURT-20
+ revision: e22b9eb071dcb939da9fff08b20a7e746c72a830
+ role: semantic similarity inside the BODEGA score
+ environment: [attack]
+ loader: bleurt-pytorch via BODEGA metrics/BODEGAScore.py (unmodified; bare id, lines 29-31)
+ license: undeclared on the HF card (upstream google-research/bleurt Apache-2.0)
+ refs_main_kept: true
+ - key: roberta-large
+ hf_id: FacebookAI/roberta-large
+ revision: 722cf37b1afa9454edce342e7895e588b6ff1d59
+ role: BeamAttack masked LM (hard-coded 'roberta-large' in beamattack.ipynb); cached locally by 
+ environment: [attack]
+ loader: attacks/runner/beamattack.py load_masked_lm (AutoModelForMaskedLM, use_safetensors=True, float32, offline)
+ license: MIT
+ refs_main_kept: false
+ files: [config.json, merges.txt, model.safetensors, tokenizer.json, tokenizer_config.json, vocab.json]
+ weight_file: model.safetensors
+ weight_sha256: 047c85f0b96269cd62e6f732644f067004eebd95af5b5d35965ae2528f13bf38
+not_cached_yet: 

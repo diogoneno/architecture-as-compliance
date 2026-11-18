@@ -1,0 +1,33 @@
+models:
+ mdeberta-v3-base: {license: MIT, source: "Models specification table; https://huggingface.co/api/models/microsoft/mdeberta-v3-base"}
+ bge-m3: {license: MIT, source: "Models specification table; https://huggingface.co/api/models/BAAI/bge-m3"}
+ bge-reranker-v2-m3: {license: Apache-2.0, source: "verification log row 8 (Apache-2.0, not MIT); https://huggingface.co/api/models/BAAI/bge-reranker-v2-m3"}
+ bert-base-uncased: {license: Apache-2.0, source: "Models specification table; https://huggingface.co/api/models/google-bert/bert-base-uncased"}
+ roberta-large: {license: MIT, source: "Models specification table; https://huggingface.co/api/models/FacebookAI/roberta-large"}
+ BLEURT-20: {license: "undeclared on HF card (upstream google-research/bleurt Apache-2.0)", source: "verification log, model revisions row; https://huggingface.co/api/models/lucadiliello/BLEURT-20"}
+code:
+ BODEGA: {license: GPL-3.0, source: "README.MD line 200 'released under the GNU GPL 3.0'; no LICENSE file; GitHub API license null (repository audit row 5a)"}
+ LAMBO: {license: GPL-3.0, source: "GitLab LICENSE at c699c6d0 (license audit row 8)"}
+ OpenAttack: {license: MIT, source: "GitHub API thunlp/OpenAttack (Attack environment specification)"}
+ BeamAttack: {license: MIT, source: "LICENSE file in LucK1Y/BeamAttack public_branch at ba974db9 (license audit row 6)"}
+ bleurt-pytorch: {license: Apache-2.0, source: "GitHub API lucadiliello/bleurt-pytorch (Model revisions specification)"}
+ scikit-learn: {license: BSD-3-Clause, source: "PyPI JSON https://pypi.org/pypi/scikit-learn/json (Core libraries specification)"}
+ netcal: {license: Apache-2.0, source: "PyPI classifier https://pypi.org/pypi/netcal/json (Core libraries specification)"}
+ huggingface_hub: {license: Apache-2.0, source: "PyPI JSON https://pypi.org/pypi/huggingface_hub/json"}
+ sentence-transformers: {license: Apache-2.0, source: "PyPI JSON https://pypi.org/pypi/sentence-transformers/json"}
+ transformers: {license: Apache-2.0, source: "PyPI JSON https://pypi.org/pypi/transformers/json"}
+ torch: {license: "BSD-3-Clause style (PyPI metadata: Apache-2.0 AND Apache-2.0 WITH LLVM-exception AND BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND MIT)", source: "PyPI JSON https://pypi.org/pypi/torch/2.14.1/json (Runtime specification)"}
+ scipy: {license: BSD-3-Clause, source: "PyPI JSON https://pypi.org/pypi/scipy/json"}
+ statsmodels: {license: BSD-3-Clause, source: "PyPI JSON https://pypi.org/pypi/statsmodels/json"}
+ jsonschema: {license: MIT, source: "PyPI JSON https://pypi.org/pypi/jsonschema/json"}
+ bm25s: {license: MIT, source: "PyPI JSON https://pypi.org/pypi/bm25s/0.3.13/json"}
+ matplotlib: {license: "PSF-based matplotlib license", source: "PyPI classifier (Core libraries specification)"}
+ prisma-flowchart: {license: MIT, source: "PyPI JSON https://pypi.org/project/prisma-flowchart/"}
+data:
+ averitec: {license: CC BY-NC 4.0, source: "HF card chenxwh/AVeriTeC, GitHub MichSchli/AVeriTeC README, fever.ai visible license link (license audit row 8; the page's JSON-LD says CC BY-SA 3.0, a conflicting copy-paste)"}
+ incrediblae:
+ packaging_terms: unverified
+ source: "task6/ holds no license file (license audit row 8); lead: CheckThat! 2024 Task 6 overview paper and clef-factcheck@googlegroups.com"
+ FC: {source_corpus: FEVER, license: CC BY-SA 3.0, source: "https://fever.ai/dataset/fever.html (license audit row 8)"}
+ RD: {source_corpus: "PHEME augmented rumours", license: CC BY 4.0, source: "https://zenodo.org/records/3269768 (license audit row 8)"}
+ C19: {source_corpus: "CheckThat! 2024 Task 6 C19", license: unverified, source: "optional collection; terms not researched"}

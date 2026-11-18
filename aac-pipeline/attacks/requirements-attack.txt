@@ -1,0 +1,23 @@
+# aac-attack environment (BODEGA harness + OpenAttack + BeamAttack): CPython 3.10, Linux x86_64
+# Provision: uv venv --python 3.10 .venv-attack (uv fetches CPython 3.10; Debian 12 ships only 3.11)
+# CPU: --extra-index-url https://download.pytorch.org/whl/cpu GPU (gpu-host): --extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.14.1
+transformers==4.38.1
+OpenAttack==2.1.1
+nltk==3.8.1
+datasets==3.6.0
+peft==0.10.0
+accelerate==0.34.2
+bitsandbytes==0.50.2
+editdistance==0.8.1
+bert-score==0.3.13
+lime==0.2.0.1
+numpy==1.26.4
+scikit-learn==1.7.2
+sentencepiece==0.2.2
+tensorflow-cpu==2.21.0
+tensorflow-hub==0.16.1
+tf-keras==2.21.0
+setuptools==80.10.2
+bleurt-pytorch @ git+https://github.com/lucadiliello/bleurt-pytorch.git@279ca1bb4106bde5a89f0f82723197e23d8446cb
+lambo @ git+https://gitlab.clarin-pl.eu/syntactic-tools/lambo.git@c699c6d07fc4b75d2baf758181c4e796220df238

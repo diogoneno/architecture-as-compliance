@@ -1,0 +1,23 @@
+schema: aac-external/1
+extends: [../stats.yaml]
+name: averitec-gold-baseline
+regime: BASE
+seed: 0
+data:
+ dataset: averitec
+ manifest: data/derived/MANIFEST.sha256
+ split_manifest: data/derived/splits/averitec-chrono-v1.json
+ claims: data/raw/averitec/data
+ labels: data/derived/averitec/labels.csv
+external:
+ tool: averitec_veracity
+ task: null
+ attack: null
+ victim: null
+ targeted: false
+ checkpoint_path: averitec/pretrained_models/bert_veracity.ckpt
+ threads: 24
+ base_model: bert-base-uncased
+ base_revision: 86b5e0934494bd15c9632b12f734a8a67f723594
+env: {lock_sha256: AUTO, python: AUTO, torch: AUTO, transformers: AUTO, numpy: AUTO}
+code: {git_sha: AUTO}

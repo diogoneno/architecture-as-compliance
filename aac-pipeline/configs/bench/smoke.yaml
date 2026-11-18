@@ -1,0 +1,29 @@
+schema: aac-bench/1
+name: bench-smoke
+regime: BENCH
+seed: 0
+data:
+ dataset: fixture
+ manifest: build/bench-smoke/store/MANIFEST.sha256
+ split_manifest: tests/fixtures/corpus/splits/averitec-chrono-fx.json
+ claims: build/bench-smoke/store/claims.json
+ labels: tests/fixtures/corpus/labels.csv
+bench:
+ input:
+ kind: store_sentences
+ zip: build/bench-smoke/store/dev_knowledge_store.zip
+ zip_base: project
+ n_passages: 200
+ max_stores: 3
+ models:
+ - {key: bge-m3, hf_id: BAAI/bge-m3, revision: 5617a9f61b028005a4858fdac845db406aefb181,
+ loader: sentence_transformer, max_seq_length: 512}
+ - {key: bge-reranker-v2-m3, hf_id: BAAI/bge-reranker-v2-m3, revision: 953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e,
+ loader: cross_encoder, max_seq_length: 512}
+ precisions: [float32, bfloat16]
+ batch_sizes: [8]
+ latency: {queries: 20, stages: [c1, bge-m3, reranker], reranker_pairs_per_query: 10}
+ c1: {trained_by: c1-smoke}
+ projection: {n_claims: 3568, shortlist_sizes: [100, 500, 1000]}
+env: {lock_sha256: AUTO, python: AUTO, torch: AUTO, transformers: AUTO, numpy: AUTO}
+code: {git_sha: AUTO}

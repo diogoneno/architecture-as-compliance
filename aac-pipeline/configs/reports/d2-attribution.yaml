@@ -1,0 +1,12 @@
+rows:
+ BASE: "Baselines (4.2)"
+ R1: "R1 time-split"
+ C1: "R1 time-split"
+ C2S: "R1 time-split"
+ R2: "R2 cross-dataset"
+ R3: "R3 adversarial"
+ BS: "R3 adversarial"
+ R4: "R4 ablations"
+ EV: "Knowledge-store preparation (shared)"
+ SL: "Knowledge-store preparation (shared)"
+ BENCH: "Knowledge-store preparation (shared)"

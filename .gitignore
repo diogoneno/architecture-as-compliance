@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+.venv*/
+env/
+venv/
+ENV/
+
+# Testing & quality tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editor and OS metadata
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# Archive bundles and packages
+*.bundle
+*.bundle.sha256
+*.tar.gz
+*.tar.gz.sha256
+*.zip
+*.zip.sha256
+
+# Scraped raw data caches and superseded search runs
+appendix-c/_superseded/
+appendix-c/run-20261013-0905Z/
+appendix-c/run-20261013-0915Z-v03/
+appendix-c/run-20261013-0953Z-v04-arxiv-s2/
+appendix-c/run-20261013-1003Z-v04-openalex/
+appendix-c/run-20261013-1004Z-v04b-all/
+appendix-c/run-20261013-1011Z-v04c-all-records/
+appendix-c/screening/abstracts-raw/
+appendix-c/screening/refcheck-raw/
+*.meta.json
+
+# Dependencies and lock files
+*.lock
+!uv.lock

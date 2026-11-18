@@ -1,0 +1,19 @@
+# config_hash=4805ab62509928fe7ad0efe8865e167f3025f6fd1e0dbd1ada54d1e7093cacf8 data_version=648d8eb14b0e24a73923be0e0094310458b98da91c61d39b734694100f64746b
+Field,Group,Code (location code or n/a),Items (n),Deferral rate (percent) [95% CI],Low confidence (percent of deferrals),No evidence above the relevance floor (percent of deferrals),Conflicting evidence (percent of deferrals)
+Claim type,Event/Property Claim,n/a,423,"20.1 [16.3, 23.6]",97.6,2.4,0.0
+Claim type,Numerical Claim,n/a,171,"42.7 [35.1, 50.3]",97.3,2.7,0.0
+Claim type,Quote Verification,n/a,80,"21.3 [13.8, 30.0]",94.1,5.9,0.0
+Claim type,Causal Claim,n/a,75,"12.0 [5.3, 20.0]",100.0,0.0,0.0
+Claim type,Position Statement,n/a,47,"25.5 [12.8, 38.3]",100.0,0.0,0.0
+Location,Rank 1,US,327,"24.8 [20.2, 29.7]",97.5,2.5,0.0
+Location,Rank 2,IN,76,"17.1 [9.2, 26.3]",92.3,7.7,0.0
+Location,Rank 3,NG,47,"40.4 [27.7, 53.2]",100.0,0.0,0.0
+Location,Rank 4,KE,27,"44.4 [25.9, 63.0]",91.7,8.3,0.0
+Location,Rank 5,GB,22,"13.6 [0.0, 31.8]",100.0,0.0,0.0
+Location,Rank 6,ZA,18,"33.3 [11.1, 55.6]",100.0,0.0,0.0
+Location,Rank 7,NZ,14,"28.6 [7.1, 57.1]",100.0,0.0,0.0
+Location,Rank 8,PH,13,"0.0 [0.0, 0.0]",n/a (no deferrals),n/a (no deferrals),n/a (no deferrals)
+Location,Rank 9,CA,9,"0.0 [0.0, 0.0]",n/a (no deferrals),n/a (no deferrals),n/a (no deferrals)
+Location,Rank 10,AU,7,"14.3 [0.0, 42.9]",100.0,0.0,0.0
+Location,Other,n/a (other codes),43,"9.3 [2.3, 18.6]",100.0,0.0,0.0
+Location,Unknown,n/a (none recorded),73,"26.0 [16.4, 35.6]",100.0,0.0,0.0

@@ -1,0 +1,24 @@
+schema: aac-shortlist/1
+name: sl-tw
+regime: SL
+seed: 0
+data:
+ dataset: fixture
+ manifest: build/tinyworld/world/MANIFEST.sha256
+ split_manifest: build/tinyworld/world/splits/tinyworld-chrono.json
+ claims: build/tinyworld/world/averitec/data
+ labels: build/tinyworld/world/averitec/labels.csv
+shortlist:
+ store_zips:
+ - build/tinyworld/world/data_store/knowledge_store/dev_knowledge_store.zip
+ - build/tinyworld/world/data_store/knowledge_store/train/train_0_999.zip
+ zip_base: project
+ domains: build/tinyworld/world/domains.txt
+ top_n: 20
+ reserve: 5
+ variant_exclude: [url_eq_answer, url_date_after_claim]
+ tokenizer: bm25s-pystemmer-english-v1
+ dedup: first-occurrence
+ stores: {limit: null, include: }
+env: {lock_sha256: AUTO, python: AUTO, torch: AUTO, transformers: AUTO, numpy: AUTO}
+code: {git_sha: AUTO}

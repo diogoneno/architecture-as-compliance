@@ -1,0 +1,30 @@
+schema: aac-bench/1
+name: bench-phase2
+regime: BENCH
+seed: 0
+data:
+ dataset: averitec
+ manifest: data/derived/MANIFEST.sha256
+ split_manifest: data/derived/splits/averitec-chrono-v1.json
+ claims: data/raw/averitec/data
+ labels: data/derived/averitec/labels.csv
+bench:
+ input:
+ kind: store_sentences
+ zip: averitec/data_store/knowledge_store/dev_knowledge_store.zip
+ zip_base: data_raw
+ n_passages: 20000
+ max_stores: 500
+ models:
+ - {key: bge-m3, hf_id: BAAI/bge-m3, revision: 5617a9f61b028005a4858fdac845db406aefb181,
+ loader: sentence_transformer, max_seq_length: 512}
+ - {key: bge-reranker-v2-m3, hf_id: BAAI/bge-reranker-v2-m3, revision: 953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e,
+ loader: cross_encoder, max_seq_length: 512}
+ precisions: [float32, bfloat16]
+ batch_sizes: [32, 128]
+ latency: {queries: 1000, stages: [c1, bge-m3, reranker], reranker_pairs_per_query: 10}
+ c1:
+ trained_by: c1-chrono
+ projection: {n_claims: 3568, shortlist_sizes: [100, 500, 1000]}
+env: {lock_sha256: AUTO, python: AUTO, torch: AUTO, transformers: AUTO, numpy: AUTO}
+code: {git_sha: AUTO}

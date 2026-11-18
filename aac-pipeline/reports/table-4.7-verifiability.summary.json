@@ -1,0 +1,8 @@
+{
+ "command": "scripts/verify_clean_checkout.sh fb99fd8af4204500263132db4419658827067a7b",
+ "commit": "fb99fd8af4204500263132db4419658827067a7b",
+ "n_records": 621187,
+ "records_with_claim_text": 0,
+ "records_with_user_id": 0,
+ "violations": 0
+}

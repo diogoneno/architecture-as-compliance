@@ -1,0 +1,2492 @@
+[
+ {
+  "item_id": "incrediblae/rd/attack/0",
+  "label": 1,
+  "row": 0,
+  "text_hash": "2f76382382fb6e78418ab82a5f982571d8b2f21aa0d2b37d97454d56b5b9f8cc"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/1",
+  "label": 1,
+  "row": 1,
+  "text_hash": "ccaaa4573e83dea38bba6b8e745fa8a5a54e2f8398b1f94a3c910c196261fbd8"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/2",
+  "label": 0,
+  "row": 2,
+  "text_hash": "e667eadd4f71d2a983f6af7d494d1f3daec75c67b356b57420451e633cc9f8b9"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/3",
+  "label": 1,
+  "row": 3,
+  "text_hash": "bc54a989b7e8b994c8da69f32e9f4c33f5f109f89dbb05008d20b4f912ee84bb"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/4",
+  "label": 0,
+  "row": 4,
+  "text_hash": "655a55ff64f2c49e9aa922092f22bcd5e01a63aa61189c9a6a73c8a09978f357"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/5",
+  "label": 1,
+  "row": 5,
+  "text_hash": "f0baabaa217b4bc12b3239651cafbbc093ce2e4a832de0ab7c544cb423a5b2ed"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/6",
+  "label": 0,
+  "row": 6,
+  "text_hash": "b86fc5532a2f9c6c740423bbdfde3b4218e763bd5bfc4ff7e2307383709ab78f"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/7",
+  "label": 0,
+  "row": 7,
+  "text_hash": "bc14669d210333ccee583280ce91eda244c5e34dc4652ddae80cb90dc0537370"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/8",
+  "label": 0,
+  "row": 8,
+  "text_hash": "358a4f237603613f0bbdbf0808408f508defebabed189c51fdf655a8a684f3d6"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/9",
+  "label": 0,
+  "row": 9,
+  "text_hash": "e399c7cb616e1332b782ff7e2791d966223a35e6fe370fba9d341d857cb08449"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/10",
+  "label": 1,
+  "row": 10,
+  "text_hash": "0b22dc9ebd1e35ec64074bba45465f85d7aad7f9154a7dc41d270b5f5a457e9a"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/11",
+  "label": 0,
+  "row": 11,
+  "text_hash": "df1f0e23f4b63e243d87bcc17993cb9495c9159e133cb16ba4f2b8887f836d54"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/12",
+  "label": 0,
+  "row": 12,
+  "text_hash": "c91fd718d5602f1ddfe8b3f21658d7012c9e7a9dc48cc2cb862aafd784bfda90"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/13",
+  "label": 1,
+  "row": 13,
+  "text_hash": "49fdf5bb476532700dc7fc0df33d8939e80c20fe7c87134166248073efe36bd3"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/14",
+  "label": 1,
+  "row": 14,
+  "text_hash": "a55cdf69f47d412f99a0b7685317457e4d90b1b4dc3e205996ff9b447f5792ce"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/15",
+  "label": 0,
+  "row": 15,
+  "text_hash": "d50e70cba5053cb1558869febe041995806c7d2e73000be792a63de9bdf1c104"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/16",
+  "label": 1,
+  "row": 16,
+  "text_hash": "600c3e41f9084fff7868f8225f8aa691c96a4a3478c27741d78b493cf0b6aa55"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/17",
+  "label": 0,
+  "row": 17,
+  "text_hash": "a5b95d6fcc7d1e0431214412835e6c5e223e3c6851c9075e251dadf301ac0c83"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/18",
+  "label": 0,
+  "row": 18,
+  "text_hash": "b7520a71521713f11086d49b6647b091bd2392a8ea5cba06660e24cad06dd4d0"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/19",
+  "label": 1,
+  "row": 19,
+  "text_hash": "19f8a4ecca7473b70a0f75801b6675eaf83642518ddd8d4697b6677a5f0bcae1"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/20",
+  "label": 0,
+  "row": 20,
+  "text_hash": "70cfdec75fb9f63b67d94baaa2c13a6e4d6a9fc940ca60b065f7810cb009db2c"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/21",
+  "label": 0,
+  "row": 21,
+  "text_hash": "ca0b1d5bec8d2f51b7a33548ea47ed911a0eaf0b515f68b95201af05ab9c7e42"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/22",
+  "label": 0,
+  "row": 22,
+  "text_hash": "f60d904383c5b9bbe8dd85c43b8011c803a1ee35d2942b26224e723c49793ff5"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/23",
+  "label": 0,
+  "row": 23,
+  "text_hash": "d554857ec6749364162e0c416483adf5de59db95a25ce2a9211dd277d02c33db"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/24",
+  "label": 0,
+  "row": 24,
+  "text_hash": "2c9af082441d7110ad58fa3712b3703ecb8765d476476ae73bd2d832afd3e944"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/25",
+  "label": 0,
+  "row": 25,
+  "text_hash": "b5f924204bf9645f4abf5290128b33c2f7027f65fbdcd6c9214b0cc834ee06a6"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/26",
+  "label": 1,
+  "row": 26,
+  "text_hash": "d27ffe95aef61fe05c276b27a7cc3f849f241885ed342ea25278dbe732f1f061"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/27",
+  "label": 1,
+  "row": 27,
+  "text_hash": "f7e9a6bcd91f6553bb79d56f316c908177c078c806ddd6ddaa80c85d3155cd68"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/28",
+  "label": 0,
+  "row": 28,
+  "text_hash": "865f55e1e364e33bde386940e47ccb15ca78c9be2d1df77452264df68e5f97f2"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/29",
+  "label": 0,
+  "row": 29,
+  "text_hash": "548828c62642ffa409115a70c83f17ea01e60ec3d67e2c4c101fecde82983a59"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/30",
+  "label": 0,
+  "row": 30,
+  "text_hash": "be626e033220004e61ee85929f95878db2d12816879cd5827510bbc46c983dcb"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/31",
+  "label": 0,
+  "row": 31,
+  "text_hash": "270f2ddb8167ceb2a07db2e89251202445de90746a37484b496e7e155afdb210"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/32",
+  "label": 0,
+  "row": 32,
+  "text_hash": "76571d03299a8653d8959ecd1b8bb16cd3d6c8f4559cc093cc01fc606d43ca6e"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/33",
+  "label": 0,
+  "row": 33,
+  "text_hash": "e401c2b21019da87fae6ed051a83d4db153f0724b654da6f37bc7d4534638714"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/34",
+  "label": 1,
+  "row": 34,
+  "text_hash": "233ca1d7b09c244446fae474cc302bb845ae097cb21d6830fa88af807a93aad1"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/35",
+  "label": 1,
+  "row": 35,
+  "text_hash": "18062c0d599f83c60ba6cccf08ce17470e81fdf000cd0f95a810c6c9be102fa8"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/36",
+  "label": 1,
+  "row": 36,
+  "text_hash": "5d42cbf00803b45eb943fdf1bfedb9a7fd57d6b6443b2b8e6bdc78677ca5a01c"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/37",
+  "label": 0,
+  "row": 37,
+  "text_hash": "9731fab618c127f94d32018aebf2a719770498cd36c7cf2a29816f5f9c0db304"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/38",
+  "label": 1,
+  "row": 38,
+  "text_hash": "7247d01c070ab66960684c5cc234dd684a86807a631e4be5b80ad5d0f46cde52"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/39",
+  "label": 0,
+  "row": 39,
+  "text_hash": "7d45143dfa6d7db4428b2d74c82bd151c17aa2c6f792fa401768a55688c63b36"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/40",
+  "label": 0,
+  "row": 40,
+  "text_hash": "2b0e2cd9657f121a0d504b08a2ffc45e8cb952be2d2eaba110fe5ffa7d147506"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/41",
+  "label": 0,
+  "row": 41,
+  "text_hash": "6c49a0231978ce3c04cab709db9fa0df3586517a4fb882ce897c2f5203de8380"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/42",
+  "label": 1,
+  "row": 42,
+  "text_hash": "639c5eaa52e5eec6d82f859b60fedbf474b1b9c0fff8cccfa087429c4feb3752"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/43",
+  "label": 0,
+  "row": 43,
+  "text_hash": "d88a369079b835c9ac1611b4e80992216dd6346e2bfc9ddda34159196d8f870e"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/44",
+  "label": 0,
+  "row": 44,
+  "text_hash": "bf274081e695e029d3b292585ff0743e6de7f9dd6e0af792dc1f9d0dc0c6f8e9"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/45",
+  "label": 0,
+  "row": 45,
+  "text_hash": "f11443237d792f038a7b4ec7437165733fde54f17db0e99c962fccef809989da"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/46",
+  "label": 1,
+  "row": 46,
+  "text_hash": "1fb09dd81a74e085c0b3c51a2feb99e1e0bc35ea0d84a63b54e35d0499ddae15"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/47",
+  "label": 0,
+  "row": 47,
+  "text_hash": "b5181258ee3d29918b062451a7b65a20881071e055879c7b119a7976596982d5"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/48",
+  "label": 0,
+  "row": 48,
+  "text_hash": "7edb4f70a8a2f2207b0b3507e14d77443a0517fd086a481781c98bc867cca9e0"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/49",
+  "label": 0,
+  "row": 49,
+  "text_hash": "7dac2cefc09a8bc5c09a76f691b48dece2f03761f96066006a6307dc46b9e0cf"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/50",
+  "label": 0,
+  "row": 50,
+  "text_hash": "ddd1eb8c39f19d62c75347c596c7981046eababecab8b557b39d12f908cb0698"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/51",
+  "label": 1,
+  "row": 51,
+  "text_hash": "ab5499e327fe2fc18ec3b62bedf7775fec4a96f3fb9a7ae9ed6b24c8e2193041"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/52",
+  "label": 1,
+  "row": 52,
+  "text_hash": "b77bfb880950c79e2c48580f0ca5918bf80d9156bc28c90738f9ebdbddb9c83b"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/53",
+  "label": 0,
+  "row": 53,
+  "text_hash": "6bcdcd0777e357a8825857485b5c51779f5355c9288573e9b4a670143dfc0f44"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/54",
+  "label": 0,
+  "row": 54,
+  "text_hash": "1d185c25519d031cb6878cbb15f664929bbd3a93c6215ca45fa9e55700e80519"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/55",
+  "label": 0,
+  "row": 55,
+  "text_hash": "15b18626f7f9c935f43f88a17e5751cf6ecd0944427c0bcb6fd7a24eeb36fa81"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/56",
+  "label": 0,
+  "row": 56,
+  "text_hash": "69848e6a390237c79627778aac8e28467eafe051ad1c8540cbfcdbeb190629a2"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/57",
+  "label": 0,
+  "row": 57,
+  "text_hash": "e9df30ac7fd8808fb1bab506b649ae5cb2df80018132ada52e5f4e973420cd4e"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/58",
+  "label": 0,
+  "row": 58,
+  "text_hash": "cc2cfd005952d6065210006b3847d98f4fc5468431158ff9512d17df07ad66d7"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/59",
+  "label": 0,
+  "row": 59,
+  "text_hash": "ee82438ab7bbca9ec818b5cc918d81d637f13d3c95310fbff0e61c79af9d1092"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/60",
+  "label": 1,
+  "row": 60,
+  "text_hash": "f25ce70a35c0ebac8502d3da3cab316cb22d41fd6287617b0c3bf199b3d5205c"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/61",
+  "label": 1,
+  "row": 61,
+  "text_hash": "4201577fdad528b86d6fd8b6e469e95cfb20229941dd130c51adef996522beae"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/62",
+  "label": 0,
+  "row": 62,
+  "text_hash": "94fa0d48e053fdd1e3203208de133f47f3ebc3b6933a7d2bb30bd8aa1be86952"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/63",
+  "label": 0,
+  "row": 63,
+  "text_hash": "88519f6ec7868523cd524f6d59e34e91d086eae0ef5802006b3b3f14045a767e"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/64",
+  "label": 0,
+  "row": 64,
+  "text_hash": "815bc9731a2f5f2772601695793229cca2f1503b7716283bd9b712e429dc3710"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/65",
+  "label": 0,
+  "row": 65,
+  "text_hash": "c87f7bc4662a4a75f34d3f572e47825c94fe15c8c509817761d90e3d8ab33265"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/66",
+  "label": 1,
+  "row": 66,
+  "text_hash": "925d6f84c0a1f42938738f56229a9b43f19337181feaf1a6fd353319e4e1327d"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/67",
+  "label": 0,
+  "row": 67,
+  "text_hash": "b2b6a36a670e7f50228d36fb299786c7b926e4c475702ad393ddde18eb826431"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/68",
+  "label": 1,
+  "row": 68,
+  "text_hash": "4b459c9899e1ace71236d0f3b6c0b9e89767b39d34064530e911ca49d759423a"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/69",
+  "label": 1,
+  "row": 69,
+  "text_hash": "e9dcc03a14151d885b8b9d99d5015790f5f1c0f4ebc2704ab348856ea4fa28a2"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/70",
+  "label": 0,
+  "row": 70,
+  "text_hash": "a1691dec50fae54003527719a6190a1cf416daaea14654be02d2a397e49647c9"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/71",
+  "label": 1,
+  "row": 71,
+  "text_hash": "7f5789c123478d6cfd4cc89f364be45c4971f698e84f0f301245846b7c43edfe"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/72",
+  "label": 0,
+  "row": 72,
+  "text_hash": "7ffdac6a7b66ae422525d8a256634caa19396bce534941a1b337909dab3715e5"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/73",
+  "label": 1,
+  "row": 73,
+  "text_hash": "3e77cdf68321bdaa4070f18d35147e1e4da09354967a1745c90e5060c123e86d"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/74",
+  "label": 0,
+  "row": 74,
+  "text_hash": "0c1c917fa9909829ccb513a05b6beb8578ff1e9fa699623b4fefebd2e53f2a9b"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/75",
+  "label": 0,
+  "row": 75,
+  "text_hash": "707500243c19349f52c4aca1389317335e418874294ebe74a68d0d70fc26c165"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/76",
+  "label": 0,
+  "row": 76,
+  "text_hash": "3eecd12d658f2db754de9d2348f5ff9b0b59c366d14fdb4f853658b7f70aa2af"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/77",
+  "label": 1,
+  "row": 77,
+  "text_hash": "e8eac4f498543bfd344464f5da5580aa274e357a7c79f32d21fae8fda86f948a"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/78",
+  "label": 0,
+  "row": 78,
+  "text_hash": "ea9ab489adb4534b5fbbffb973101a1de2b4fe1833b1dc1c30f021c0e7049d8b"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/79",
+  "label": 0,
+  "row": 79,
+  "text_hash": "7e0f6080d338ab3cdf9215404692d99adfa307519ab5a54c5d116acd9d8ea45b"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/80",
+  "label": 1,
+  "row": 80,
+  "text_hash": "24e416cfe58cf2c9730223f58594dcd9ba76e3180a7947528a07d83c77572deb"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/81",
+  "label": 0,
+  "row": 81,
+  "text_hash": "1b0d07863c9ee4943b5e71834c355257516c51c7fdd27c5880b040ba461933d4"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/82",
+  "label": 0,
+  "row": 82,
+  "text_hash": "b38ba321338ad47b8faf8ee8b7c6e3972ab6cdcfaca4c9f136bd23dd16a7623a"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/83",
+  "label": 0,
+  "row": 83,
+  "text_hash": "e67c7c32ecc2d15acf3308cd37172bf128db321017bb4757f4285b394321f828"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/84",
+  "label": 0,
+  "row": 84,
+  "text_hash": "6f8e4dafb6485f8f5e4281fc63f1bfdebeb8c02008d4eb0bd0d6045c7ea595a4"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/85",
+  "label": 0,
+  "row": 85,
+  "text_hash": "b211a069829c3a915a378354065eaa24250747257d787bea3b96bf8d10861646"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/86",
+  "label": 0,
+  "row": 86,
+  "text_hash": "f9756c8540f535516f692a33d890e9fb79629cd0c42765bc42169fe050271975"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/87",
+  "label": 1,
+  "row": 87,
+  "text_hash": "07e6d78f53c357b9d0e183d5c709a00c7ddc67aa5cb839d1ca16fd70ff7b5418"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/88",
+  "label": 1,
+  "row": 88,
+  "text_hash": "01611243c89b0db736cb2fcaec0d2d49044e993752bee96ce21301aaa73482ed"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/89",
+  "label": 0,
+  "row": 89,
+  "text_hash": "0b2bd2ba151a7b6f3cb72bf41614994f6a151a5dd6a3dff8d5409de561d9ab38"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/90",
+  "label": 0,
+  "row": 90,
+  "text_hash": "814ffba611b889b11496367913049e6a88fc24b54484b3fe481492ef1a17f08c"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/91",
+  "label": 0,
+  "row": 91,
+  "text_hash": "ce3ed2fa4ee1b5004012d31e01486538ad2ecb56efb1daf1f548b2b91c1bc0d8"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/92",
+  "label": 0,
+  "row": 92,
+  "text_hash": "3071b5995ade5be58b630cc076e43a0f2f078956be33622742c98e578ad32908"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/93",
+  "label": 0,
+  "row": 93,
+  "text_hash": "1056f9c48b6d676c6259d9504bd23189fd0a8bfed2b9208f6963342f0f203dd3"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/94",
+  "label": 0,
+  "row": 94,
+  "text_hash": "6709a77a545ebd76fea854a319c45e68cbc0d3683562f89bc66cbd86dc406554"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/95",
+  "label": 0,
+  "row": 95,
+  "text_hash": "ca0a87f9b3af2646e7f13ecb20f9168815316f1d09495df49a69735fa52c185e"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/96",
+  "label": 0,
+  "row": 96,
+  "text_hash": "0f3c47c9c0f590d06a0c5ece219141900f9cf519a4ab604f811ce28fefe3f419"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/97",
+  "label": 0,
+  "row": 97,
+  "text_hash": "a5d83b9490b12a072ccaacd4c15fc62b2dff506f24f2deac81b05c696a0a60a2"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/98",
+  "label": 1,
+  "row": 98,
+  "text_hash": "37b7aa01b7bdda77216b2bb177fefdb1a2a3d4462df74858c77035b2b45dc62e"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/99",
+  "label": 1,
+  "row": 99,
+  "text_hash": "b3604334906e81d14f041b5e67baf943d54834cb3d29d118d9a4f84668ee917f"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/100",
+  "label": 1,
+  "row": 100,
+  "text_hash": "0cdf43bbd628a2987fb75d4dbd2e1f34faa547ba126c527050c5652acfc2c9f9"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/101",
+  "label": 0,
+  "row": 101,
+  "text_hash": "64ee67a371e6111a34bcf3422f4239471015891e4bc578603a652e22a3ada7a6"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/102",
+  "label": 0,
+  "row": 102,
+  "text_hash": "b2dfd3d56a23ec52022f96a9cd6cad5ccb292e844e740fb55befc35dca866c52"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/103",
+  "label": 1,
+  "row": 103,
+  "text_hash": "9b0d912a43be2aa4176efc77660ecdc16fb2750bf6cf47534d09ca2583254bf2"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/104",
+  "label": 0,
+  "row": 104,
+  "text_hash": "67dfcdc794f8047b0d8ce6501ad42f32e77f4c0c52bdbcbebedfc43828599cb2"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/105",
+  "label": 0,
+  "row": 105,
+  "text_hash": "2352bdaba5c23b8dbdb84257ef6b540a40e31b56f0a7b059f912cb83cf5642ea"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/106",
+  "label": 1,
+  "row": 106,
+  "text_hash": "0b6aa199731a3d7ba85845eb5ffd8fe4344d7992dfe59022af8092e301db048b"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/107",
+  "label": 0,
+  "row": 107,
+  "text_hash": "dabf407e92e4898832ee384e0aa09c4a6e8450bf69ccbf82cd414acce496dc34"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/108",
+  "label": 0,
+  "row": 108,
+  "text_hash": "df18d093dbffe6bcada5a31248c85bedf55e5083b496469a6c30dba07f964780"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/109",
+  "label": 0,
+  "row": 109,
+  "text_hash": "5eb4337e372fa38b03ad17bcd4a4e2ee7d049e5546c6fe39dc8c19fd0de0ff15"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/110",
+  "label": 0,
+  "row": 110,
+  "text_hash": "f3682f27118b785ffd0646f5a01dc46ea6602139e08207a448742a422a7c3cc2"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/111",
+  "label": 0,
+  "row": 111,
+  "text_hash": "d1d601708b67c62904615f028c8710db367a1f7bb542abf88029fc91b99aa556"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/112",
+  "label": 0,
+  "row": 112,
+  "text_hash": "f18e0b3a71e6da549ec1ac621d1f6122923297cf42a3ab55f9b0bf12e0068e0f"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/113",
+  "label": 1,
+  "row": 113,
+  "text_hash": "58cc90b42f9a460e1a897b7af0b2761898a9ab78f3140f0e2dc42180061a6c7d"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/114",
+  "label": 0,
+  "row": 114,
+  "text_hash": "173d635496b94119391e70d7ff226398bc33d3046ff4eaac132b9c98af8bcf46"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/115",
+  "label": 0,
+  "row": 115,
+  "text_hash": "8dc710bdf5471f76f6e96c6f6782acf2369478d26dbd393bbfe4cd241ab38e82"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/116",
+  "label": 1,
+  "row": 116,
+  "text_hash": "83fbc2999959e54096380036ced8fd2f6007c0b7f74ad41073d91141d1ed0a52"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/117",
+  "label": 0,
+  "row": 117,
+  "text_hash": "edec882c4d4647f660374b4435d73e495576cd42e8bea58b05ca695817d531f4"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/118",
+  "label": 0,
+  "row": 118,
+  "text_hash": "9dac6bd29fb7594fa607ca4b36cf5ed2a618e7072c6cabdccc75e8653b90d7b0"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/119",
+  "label": 1,
+  "row": 119,
+  "text_hash": "edb553315d0f467c78bffc70d81c10271f81ee16d33d663be13dfaeecaff14e5"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/120",
+  "label": 1,
+  "row": 120,
+  "text_hash": "e759a5cabc4ad5eed1040f350b1ccde64b2dbd91129169c745211a115cc3e926"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/121",
+  "label": 0,
+  "row": 121,
+  "text_hash": "1e2978af84fd5c5aa10a0cd55dc548effdd2156ecb33bdf870bf1418e908fb4e"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/122",
+  "label": 0,
+  "row": 122,
+  "text_hash": "3c0ac149579e9a1831333f142444e2215f2f1818c92aa1655f98a00d96f0ac35"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/123",
+  "label": 0,
+  "row": 123,
+  "text_hash": "af013842d1ed44efe2776631e41878f1a8e4f1b235ff1a65ee05012e2d6b5e5c"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/124",
+  "label": 0,
+  "row": 124,
+  "text_hash": "ed41fdf4cfb9d1a67f525a0711164a428e16a980a9f62910d4f76bb2ce489a04"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/125",
+  "label": 1,
+  "row": 125,
+  "text_hash": "50811bf83586aab5546e1b26c68c16345c165ed860119ff6d40a503378d14b9b"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/126",
+  "label": 0,
+  "row": 126,
+  "text_hash": "427ca46066a7fdefb0ccd9201e13dca3f287ebf5bb5bf71c75d1d4fd3cc97aa0"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/127",
+  "label": 1,
+  "row": 127,
+  "text_hash": "4f1d0ca78a45b4c5bdb4622a836e55b1ee401bc23528fc1f533ca147c03b160f"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/128",
+  "label": 0,
+  "row": 128,
+  "text_hash": "da67fb2e3ef27be06df6592be602b4248fe8f619fb3559b08e470465d8b31697"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/129",
+  "label": 0,
+  "row": 129,
+  "text_hash": "893e258e398ba81c30a289c01e496f116bc701924dc755e46a8a6dd3d2a40a75"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/130",
+  "label": 0,
+  "row": 130,
+  "text_hash": "d803a601a137bf87f22b0d546aee4427e987a27186210d1e976b2df237c41562"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/131",
+  "label": 1,
+  "row": 131,
+  "text_hash": "614710fe4c5e5ae949256903221a46bc514b1d539d7de04f2de664e7a68f54fc"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/132",
+  "label": 1,
+  "row": 132,
+  "text_hash": "9e5da26ac05da88eb02ad71d59365fed08202626300d4e2b2de103da60eb8ea9"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/133",
+  "label": 0,
+  "row": 133,
+  "text_hash": "89c3c125355cc2485a31e1ea09cea228c49f80182af3727d240ac955dc9b9283"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/134",
+  "label": 1,
+  "row": 134,
+  "text_hash": "614fb6a2a7346e5f3008123cc2ce76b160bc135fde8e328d5c71baef6a43fdea"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/135",
+  "label": 0,
+  "row": 135,
+  "text_hash": "eb80787e3368d1aacf32b32d6109f35aaab2ca2a12cd2fad2f44453763bf2808"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/136",
+  "label": 0,
+  "row": 136,
+  "text_hash": "364cf85c66aa219329afe10ad43da252d158df0c316ea1c78a2748ece304d17a"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/137",
+  "label": 0,
+  "row": 137,
+  "text_hash": "0829b64552b2102b541ed4a22be85db8de1fab15e7e0837f0ebed8d22e903cba"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/138",
+  "label": 0,
+  "row": 138,
+  "text_hash": "7a722cb06ae13735b0540fc5cda50e89b5b136fe24803140ffd0ae75598afa62"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/139",
+  "label": 1,
+  "row": 139,
+  "text_hash": "783bd86381687a0d7031d835e97dad714187d1b6f148a08cad46096860f9d547"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/140",
+  "label": 0,
+  "row": 140,
+  "text_hash": "72ae2f99b5e1596dec76835c141ffd2ddd4b3298ffa09f7bd28b39dd0c603038"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/141",
+  "label": 1,
+  "row": 141,
+  "text_hash": "df0c8b9f3f4ab35358c4ae81e15a7ea971ed3db6e37a020155fe384c61034575"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/142",
+  "label": 1,
+  "row": 142,
+  "text_hash": "b2613c39f4818201190e81b95516ab5c016a9c057c8c1cc46b2c81c7c2869d68"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/143",
+  "label": 1,
+  "row": 143,
+  "text_hash": "a54f51898d76ed894cac39687276ce5a06cd6a87dc3fdb693774fa732b86ec64"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/144",
+  "label": 0,
+  "row": 144,
+  "text_hash": "b77c66c3bd50c7e57a161e9ad298518ac3713d080ed77a553105013675bd8123"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/145",
+  "label": 0,
+  "row": 145,
+  "text_hash": "941abace99f648d41680a50d48b2518dc972bf5fd0c06337e30323b9b377b8b5"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/146",
+  "label": 0,
+  "row": 146,
+  "text_hash": "31123c2c1ee249bfadb42d954d4f7912a22775aa878772259fb1a4749b905214"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/147",
+  "label": 0,
+  "row": 147,
+  "text_hash": "1a9a9dbe43d87b16c37f73010d67e6f94e329d1e55aa99c34a4851c32ab40a01"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/148",
+  "label": 0,
+  "row": 148,
+  "text_hash": "676d5d7fe4f227df84465bcb2a2a558b6ccae328dee8ad0791534e90d7d74889"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/149",
+  "label": 0,
+  "row": 149,
+  "text_hash": "c1c7d27b118c420a6dda72988ea5e2f0f4b9a6eb4b00390d45e89a8c5901ed55"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/150",
+  "label": 0,
+  "row": 150,
+  "text_hash": "1dd8d45326dee187451714474fa884f6124b20fbd7250da872ab940134e8ca99"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/151",
+  "label": 1,
+  "row": 151,
+  "text_hash": "546de2c73fdf9af95a05873a0b6a9f0100ff6e331d41cad824a1f23fc7afdade"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/152",
+  "label": 0,
+  "row": 152,
+  "text_hash": "ae5a257428ce0f793dc4b4f8d8e2b488c224c858f54bbe8cd162d89ee26f4add"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/153",
+  "label": 1,
+  "row": 153,
+  "text_hash": "d14c49a1fbfc2a74985115180b27695016191626742f3a8f7eb02cecf5205b8e"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/154",
+  "label": 1,
+  "row": 154,
+  "text_hash": "60951ab6b654edf01c39eb9ce9656b64c44702fe90ae1f87891d94400caaff3b"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/155",
+  "label": 0,
+  "row": 155,
+  "text_hash": "68ae2b31cd99a1512ee64110f8efa4bc7871600a48285250ae02b5f97c34bf4f"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/156",
+  "label": 1,
+  "row": 156,
+  "text_hash": "48c6992c18ff5afa5b59f41d9c461e01039d6d3c8751f314e28032f6d083b25a"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/157",
+  "label": 0,
+  "row": 157,
+  "text_hash": "7cd0bd439095cf1da59f057b998d3ef8878a33864bccbfde8e675be6ee5eb108"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/158",
+  "label": 0,
+  "row": 158,
+  "text_hash": "e4bf2b8d61f0d16338e54301a6a780f4e5aae4b67ecbe8cabf90a737cc7d4664"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/159",
+  "label": 0,
+  "row": 159,
+  "text_hash": "e7694bd7b17ebfa366e39143ca9d22065eb81f9db1af4a1972b9d25c38b4630d"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/160",
+  "label": 0,
+  "row": 160,
+  "text_hash": "8c338839cc13aeaa0f7047a39b1afdc504abac3c11c4b3adb1cf017aac531cb3"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/161",
+  "label": 1,
+  "row": 161,
+  "text_hash": "87bf744ab3e3501eef62afed1f19547ea8d95974e82b8b8ff4034c40e71e71ff"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/162",
+  "label": 0,
+  "row": 162,
+  "text_hash": "d80563b29b97206d5ea8a53735c4d89c2091e2b67d27b84eda7cc7d03274a750"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/163",
+  "label": 1,
+  "row": 163,
+  "text_hash": "5d3cd2b917bf603b99e4a93cfc957869d0591c28d247274ca3050f5774458016"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/164",
+  "label": 0,
+  "row": 164,
+  "text_hash": "af4d2b0b1706aa6ff79cd9f34cf370e2fa01b04356f7c60ac51200dee04c7bfe"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/165",
+  "label": 1,
+  "row": 165,
+  "text_hash": "6f132ded626c7b3206c2da20d0461f0dc26b933f6952740b34386e13fdeb2ab6"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/166",
+  "label": 1,
+  "row": 166,
+  "text_hash": "945faa3e0f08fbdd8db69927580d7234bbea2a28c2e180c83d780bb2b2ad9dfd"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/167",
+  "label": 1,
+  "row": 167,
+  "text_hash": "cb8c9de1aa072f6d988ab187092c7d6eaaf4da6b374d21d1ce9fd55999c6daed"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/168",
+  "label": 0,
+  "row": 168,
+  "text_hash": "4f352c3e531e5f00771a67015a6721dd84ea84deea807ee9b8c9ef36bc89e504"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/169",
+  "label": 1,
+  "row": 169,
+  "text_hash": "635e0c0e162cc94d7883c523b906b6076908aaf1bc48d2d4a394e0af7660ab8f"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/170",
+  "label": 1,
+  "row": 170,
+  "text_hash": "cca4dd7e8b431c9b111fffa0d87e8e97ad1dc3074e8e6944e726d95e63c07b06"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/171",
+  "label": 1,
+  "row": 171,
+  "text_hash": "578b2913485ab57525759f716a55604cfb34f35fd6e3c600fe89c2cf3cea3565"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/172",
+  "label": 1,
+  "row": 172,
+  "text_hash": "0df4a2ca46f0fb23ba7dd773bec4bf0d2b8ab7058d5f7764ef362fb62f0dcc8b"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/173",
+  "label": 1,
+  "row": 173,
+  "text_hash": "c578f11d28425becb3ede530151504ca8245468c146e5d87d4d9e6f96aa6d014"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/174",
+  "label": 0,
+  "row": 174,
+  "text_hash": "41533fd75754e8125942c93d53901bff34ddda79284bfe154539ba190520d018"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/175",
+  "label": 1,
+  "row": 175,
+  "text_hash": "b4fcfaf9ea79ae4815bff1c8473c1cb8f5a1ad3c8ea0e5d7accc2d0c7e72819b"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/176",
+  "label": 1,
+  "row": 176,
+  "text_hash": "07d26f01ff5df47cb5fd2fcdeec01fcc677cdcfeaec5f332609f66aeeb352c1a"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/177",
+  "label": 0,
+  "row": 177,
+  "text_hash": "2e0d11b1b4247bd0d801de9b8bac1ca5b23f693d4dcbf75047f7df5739311d1c"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/178",
+  "label": 0,
+  "row": 178,
+  "text_hash": "f8d88cdfd7d85de93c6ba6494a20a1f12c9ee5eb6595b32d53ec18a241689dc8"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/179",
+  "label": 0,
+  "row": 179,
+  "text_hash": "6ded6813abeba7024ad257422e5141f512d6b5086b093c45806919068df6eead"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/180",
+  "label": 1,
+  "row": 180,
+  "text_hash": "08f25b9193c7a1183d33dcc47f0053dd00d5bfe6d0df18a83da8da753f486314"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/181",
+  "label": 0,
+  "row": 181,
+  "text_hash": "5df0f253ed9286dfd5d11ed91d1735a7bb5b3a8ac9f89e10ee92b7736d8393f6"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/182",
+  "label": 0,
+  "row": 182,
+  "text_hash": "af1baef4f30334403f6aaeaae8024163095c776041d98786b60425b596216601"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/183",
+  "label": 1,
+  "row": 183,
+  "text_hash": "36dec804e108205dba6b3abac4bebd1866230953683a71fdb1400a54fb1e5d38"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/184",
+  "label": 0,
+  "row": 184,
+  "text_hash": "291a592b8c54e77962aae767b296c8732abf5e7437e439a288cbb47ffadd24ec"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/185",
+  "label": 0,
+  "row": 185,
+  "text_hash": "dabeba081257fc158a41fbf66c1a7eece545cd31eb716242c3bae06ead13dbe2"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/186",
+  "label": 0,
+  "row": 186,
+  "text_hash": "ddb61b6681a61921ac50a9e6fc6348c976dc56cd7002f8d921df10684991f867"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/187",
+  "label": 0,
+  "row": 187,
+  "text_hash": "95ae240329dd0e56272bb0dc951dae8799308f402deb66103231104e0c2c28e6"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/188",
+  "label": 1,
+  "row": 188,
+  "text_hash": "93f1904b459b2172abfb1398905af67fcc500c4bb19e0f0e3ff81cd573fcf477"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/189",
+  "label": 0,
+  "row": 189,
+  "text_hash": "f01408364988a9628caae503394c99721be6cf0422c3b15239d8ce7d45e00151"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/190",
+  "label": 1,
+  "row": 190,
+  "text_hash": "baf81843fc2dc33216ad20c69627218f0f96700696be7655d24b5cdc50feb2ca"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/191",
+  "label": 0,
+  "row": 191,
+  "text_hash": "f6045d84fef28697e40b46d0a79413dc554e699156eda2b0bdc04c2afba4c7e3"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/192",
+  "label": 1,
+  "row": 192,
+  "text_hash": "87f8507e67e2c9a60c7f3ddc31685518e17e3c8545da29836c7f58bb4ba628e2"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/193",
+  "label": 1,
+  "row": 193,
+  "text_hash": "aa633be7282a89f48565eee4db4159fbcd7d9df8d06dd008c36a9986226c26bc"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/194",
+  "label": 0,
+  "row": 194,
+  "text_hash": "e50493a3af49fd62fa5e920bcdc7a63a8a43f5f6ca306a3e52bd205ce0f40d72"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/195",
+  "label": 0,
+  "row": 195,
+  "text_hash": "04a3cc29e345e03b84dc3e77930c86a81dc7351f10fc8b79a70964f836b87743"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/196",
+  "label": 0,
+  "row": 196,
+  "text_hash": "b32d7f3c7168d302e221f7822cddfa7ff9829994a59ad0229a6ff2d1cbcbd9e9"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/197",
+  "label": 0,
+  "row": 197,
+  "text_hash": "9da4cbb62e3126319db7e33c606064c81ddf88318b6faa0cf790cde0443c014f"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/198",
+  "label": 0,
+  "row": 198,
+  "text_hash": "26d7cbb3f677cff015d793421dea231eeca8f09157c1bcd164dd41fc402b6d68"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/199",
+  "label": 0,
+  "row": 199,
+  "text_hash": "386f0eb8df73df71908b146df87b0705f771af865706e2c5830db783f2c5008f"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/200",
+  "label": 1,
+  "row": 200,
+  "text_hash": "d0e8ca43824b7cd08671e085e4e327da5c1b8c8f80d895c2a118c3bfd13d9fa9"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/201",
+  "label": 0,
+  "row": 201,
+  "text_hash": "dda186783994777408512cb93760ac8e0f165c0ef48153ccd7407975c1888e56"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/202",
+  "label": 1,
+  "row": 202,
+  "text_hash": "0cc6d53b2124934cecb311cbea5129fc0ce12f27912c909f448b5bd9d9752be6"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/203",
+  "label": 1,
+  "row": 203,
+  "text_hash": "ccade6e65b785888457b52ee633529f73bee972c38b2275c5f371b6286c51fbf"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/204",
+  "label": 0,
+  "row": 204,
+  "text_hash": "0bad5bb57b9df9b801c49a63dc4bfcadbbfe87906d424168e3fa71f8d26e52c0"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/205",
+  "label": 0,
+  "row": 205,
+  "text_hash": "c11285d6afeb567d5abb343a9a5481e3f9a9530f2a617a6b7336f3919c2de9c3"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/206",
+  "label": 0,
+  "row": 206,
+  "text_hash": "e54a418688dced5fb6792cd4cffea4d2502383a8d07a9def575355b72af706e5"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/207",
+  "label": 0,
+  "row": 207,
+  "text_hash": "81350fb7c6549cc0003edaea95c384a13f8b40e49c976389597dd4f5959f50a7"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/208",
+  "label": 1,
+  "row": 208,
+  "text_hash": "4a312017cb770114270a9b273710ac2622add5b49d209a7932454964e19d500c"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/209",
+  "label": 1,
+  "row": 209,
+  "text_hash": "8c73cf9da79350634cd3d0d00fe2bc882dc7cd89167af83c113eec5b1f5f41d7"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/210",
+  "label": 1,
+  "row": 210,
+  "text_hash": "89f59b86edd1e17ec383ac636e2d5696ae76dbe67c1c95fc274f4e6c07bed135"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/211",
+  "label": 1,
+  "row": 211,
+  "text_hash": "ca151315d2891fe77b28d3500a0939b3ac8c88240afa518f1961ac3531a1645e"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/212",
+  "label": 1,
+  "row": 212,
+  "text_hash": "83016b9f509458d7f2cd63f816d668043c729c2459661a49c30bc9dc284ae217"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/213",
+  "label": 1,
+  "row": 213,
+  "text_hash": "19ae4bb22d5c256aa2e50a998f89029a14f5774c713b7b1226804d713fe506d5"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/214",
+  "label": 0,
+  "row": 214,
+  "text_hash": "469b59a1212010fe87bf15f0014256405ac9002aefc8b89bf46b96848b69f8f6"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/215",
+  "label": 0,
+  "row": 215,
+  "text_hash": "3ea23de9c4d1785a9ff094a94028b1bead9068afd4b24dc364a7433960ce1018"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/216",
+  "label": 0,
+  "row": 216,
+  "text_hash": "1616fcf4b76c86e293f23182705f524482e98b19f2f1f07f8ddb9ec8afc7ef31"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/217",
+  "label": 1,
+  "row": 217,
+  "text_hash": "53f12fded5c600a874e21d0fb491fe3af4b544cabca4ba7f75a198879ed9b3cc"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/218",
+  "label": 1,
+  "row": 218,
+  "text_hash": "4b586bd5cafcea23ba4e105d982f6d944e951b8f361138951bbd6d4931799c09"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/219",
+  "label": 0,
+  "row": 219,
+  "text_hash": "29dc758f01741be34c2b567f07a1d18beecdcbeb61315e6980b8a9f94e439568"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/220",
+  "label": 0,
+  "row": 220,
+  "text_hash": "59db54277f3c9d56270ebc53fced76222d87bb4f0e61582f02782c415bdb0659"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/221",
+  "label": 0,
+  "row": 221,
+  "text_hash": "23ccba5eaa17ec36853427e8adea000cb3e0875c3166b3fdf745132c0486b9e4"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/222",
+  "label": 1,
+  "row": 222,
+  "text_hash": "5800937f85d08aaf3be931879815da2cc1335cf286b702f0b949c7cb9c8d9bb9"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/223",
+  "label": 0,
+  "row": 223,
+  "text_hash": "5967392c9f9f9415cd60e2e69e1ea0284bbf3a6b06073987687dd44c87dd60e8"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/224",
+  "label": 1,
+  "row": 224,
+  "text_hash": "dc3e4f8b991b3d1686375c0061de33f4451de0702a2641ef11c7b4b9d9d68ca5"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/225",
+  "label": 0,
+  "row": 225,
+  "text_hash": "c820201517230c4b910196ef1ef9035fb2a74f898a6abe272370bcf78439b8a1"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/226",
+  "label": 0,
+  "row": 226,
+  "text_hash": "d05ea92e0b34d9f6db7be23d4e6a55e757aea971ae595fcc0ed494c14310b918"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/227",
+  "label": 0,
+  "row": 227,
+  "text_hash": "9a6ea9b220a98611fe021ec0d2658fa0e375042828d80866c97f2eea26f5bb29"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/228",
+  "label": 0,
+  "row": 228,
+  "text_hash": "52c2fd09ed9ca987a2200116f690a4f762baebf2d21e80679e708592e51323b0"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/229",
+  "label": 1,
+  "row": 229,
+  "text_hash": "901445fe43b410f6bf4e48f77d3b7a6180782756dfef33a6e492db3258185b3e"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/230",
+  "label": 0,
+  "row": 230,
+  "text_hash": "ef9d9e4c5498d81d39efe356c3594a155b600e5bc91d41b0fed85ad752b9fafe"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/231",
+  "label": 0,
+  "row": 231,
+  "text_hash": "c7b1cb4d88cae4c0c2eed41f94a6cd80ef8a398583fb92afcfe5d22a3cb8b740"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/232",
+  "label": 0,
+  "row": 232,
+  "text_hash": "0d73fce044c997a0afedb88828668bd3875dba28b218cb8d7304ab0afe5421ee"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/233",
+  "label": 0,
+  "row": 233,
+  "text_hash": "9bef0e0e5debc0fa550aed851c518bede8953f0c0adb8a19a05a677787998e16"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/234",
+  "label": 0,
+  "row": 234,
+  "text_hash": "1f2409e8531bc8da4fb87fc2794b5f2b8c4e2bddb3d8d5d28a121ea7f766f839"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/235",
+  "label": 0,
+  "row": 235,
+  "text_hash": "7e8e925463f5ab8f1253f786f7325ad4af160a7e2c18575b2b3f9a51e26bd427"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/236",
+  "label": 0,
+  "row": 236,
+  "text_hash": "c235a0b656220188a94bc94e95d2be76adb17e8690f3963093c838d9479b1fbe"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/237",
+  "label": 1,
+  "row": 237,
+  "text_hash": "f0bdd199b02de7441ceca8508f8e4a52596ac55bf278eabfa1e860820f9799e0"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/238",
+  "label": 0,
+  "row": 238,
+  "text_hash": "eea20b5ce457d2f0ee1154d9a0fdeed0e18998daf5ab8ff6cc43c53f8e8feeab"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/239",
+  "label": 0,
+  "row": 239,
+  "text_hash": "ee12889d27474ede7d97c53d37e41320fcee13cbcfab85c87b36594c9331f8b0"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/240",
+  "label": 0,
+  "row": 240,
+  "text_hash": "fec6f1049ef268ee3632a75d84dc0c0313042863b17377b596daca58eb9ec780"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/241",
+  "label": 0,
+  "row": 241,
+  "text_hash": "d23968a8e5a8e68832d5dd519b37f8279591b9461eaa841ac1a0b814f4ed2c65"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/242",
+  "label": 1,
+  "row": 242,
+  "text_hash": "c265f85b11bb092dd0f4accbe97da23c4e4a56a98cb7ad2511be1eba87fcea05"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/243",
+  "label": 0,
+  "row": 243,
+  "text_hash": "047779f99e76be21691c06848b4b2ac1125629b535f1e5807e092a5ede6c792c"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/244",
+  "label": 1,
+  "row": 244,
+  "text_hash": "8c27fc4f9df2e6882e76bc120132ce0baa368f6b5196560e93e8588db66a653e"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/245",
+  "label": 0,
+  "row": 245,
+  "text_hash": "a2e3cb4a0f6d5cc140aeae2b5fcfc9a172876a76d0812d161afc3bf254990f30"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/246",
+  "label": 0,
+  "row": 246,
+  "text_hash": "d43bbab396e528f80bce20efd1a0fae1c74e2d799636108053a139b08f64cf1c"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/247",
+  "label": 1,
+  "row": 247,
+  "text_hash": "ac684f0ac33ed52b02462f6c99175dbc0f90081fb7d9e1af67f10890e3fc0a43"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/248",
+  "label": 0,
+  "row": 248,
+  "text_hash": "beb76d3633b074c9c3e0ef970e744e60c9ec280bf4ac9d250ec79c1a295f781d"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/249",
+  "label": 0,
+  "row": 249,
+  "text_hash": "efc1803f03a905e391d5c13c7b6de5a3bde83d6753095e98fe8bf8720e6c93c3"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/250",
+  "label": 0,
+  "row": 250,
+  "text_hash": "490714b7e3efe6783a765ecd6d3951fc8f56a6891cc8df0047c173042dac00f8"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/251",
+  "label": 0,
+  "row": 251,
+  "text_hash": "26e9c143b3a064856e2b6bd1f31d53ed91a1626c16f0b1b63e3051f8bfa10f15"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/252",
+  "label": 0,
+  "row": 252,
+  "text_hash": "efa0dae1e4ac8497add4e567f3aa02a37ae7a438569412bf51a4c5ed85b850e8"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/253",
+  "label": 1,
+  "row": 253,
+  "text_hash": "3a4f626c86ff72ac7464a5a22778c7756d50f6e0b89e41565258fc8dd6061b30"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/254",
+  "label": 0,
+  "row": 254,
+  "text_hash": "ff87e61d6959b8090242da2ec10877159fc8d48fe6a912e3d582baae35bddb2c"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/255",
+  "label": 0,
+  "row": 255,
+  "text_hash": "96a779ac934a2cfff3ee3e9d503655099107c972db1516b51643e7f2e0cd080e"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/256",
+  "label": 0,
+  "row": 256,
+  "text_hash": "15037fb330c847211f78b1228edb9cb2a7fce4f9bb15d40c73b320168f283e7d"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/257",
+  "label": 0,
+  "row": 257,
+  "text_hash": "590c20c84b957863a5a5c8f4760bb78afc7c3cb6a6a63c019687971e54f40368"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/258",
+  "label": 0,
+  "row": 258,
+  "text_hash": "c26eb24d4c003fe3c1de6e0f66da648772b81ef79f0e9222f200c80d4c932baf"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/259",
+  "label": 0,
+  "row": 259,
+  "text_hash": "559a5092a2cd5266dee393381bb52111b7e6ac620fb8dac9e880a462dbb428c4"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/260",
+  "label": 0,
+  "row": 260,
+  "text_hash": "44de887d510864d382595070e363239065271f0d8e01bfd74557939fe74fb65c"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/261",
+  "label": 1,
+  "row": 261,
+  "text_hash": "6388b648f967dfbdfeb56fa0e1565582e52557aabf8d00b59c51d685f5023952"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/262",
+  "label": 1,
+  "row": 262,
+  "text_hash": "22bf9657bb6544671bef500bd039b1ef8c4c2dd737059e4321b26956f7cf2cff"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/263",
+  "label": 1,
+  "row": 263,
+  "text_hash": "6acd50e601a30e3221af4dcd3aae2953428644039c164ed87ace824f906b1e8f"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/264",
+  "label": 0,
+  "row": 264,
+  "text_hash": "320dc13bb10a5f85e0b1f838aca7eb797a29cb97f0214801c1f2e898854e05e5"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/265",
+  "label": 0,
+  "row": 265,
+  "text_hash": "4e52b88515add77093e8ade954138656c2b3bd4adf86521e79e50eb97d2acea5"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/266",
+  "label": 1,
+  "row": 266,
+  "text_hash": "9f6d93acda12a0254fac7a39fcdc184c970f72a6f40deead0c25e3f8da2d7b0d"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/267",
+  "label": 0,
+  "row": 267,
+  "text_hash": "4a7fe724c046abfd4462830de7bb7799d927a6b70063fbff3cc83eb6033a1210"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/268",
+  "label": 0,
+  "row": 268,
+  "text_hash": "3096c9725e1e1a0f3709bb03b47302194f4d458468ee3b08d4d0817f9b81f3ad"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/269",
+  "label": 0,
+  "row": 269,
+  "text_hash": "c00f63f51034772cc4b5e1a99c5894de42cb542a3db142d733d47f14e7f48553"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/270",
+  "label": 0,
+  "row": 270,
+  "text_hash": "06c241aa1edcdd18e29bedf1c5b42273e71739d554cc93ede49c5e83d513f35a"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/271",
+  "label": 0,
+  "row": 271,
+  "text_hash": "0095d9668f494efbc11cef3dc9be20086bc99b76bc6d1334a9c437d4c67e8bc5"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/272",
+  "label": 0,
+  "row": 272,
+  "text_hash": "d7ebe9e1abbb144bc60c6658ad38f2b8439c44d3a8214dd98ab072499fcdb37b"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/273",
+  "label": 0,
+  "row": 273,
+  "text_hash": "7839c4f8634f5b0225cb84899ba8f58bb004523c765641a17c650f8c0510933c"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/274",
+  "label": 0,
+  "row": 274,
+  "text_hash": "4bdb7a857d26e4bc5c7033f70c5444eff04abfa1e9446cba91780f3efe6869bd"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/275",
+  "label": 0,
+  "row": 275,
+  "text_hash": "466f8fb339e49e5b29771d8f8baf3bf9378db5f05839f7d1e1c14eb339fd23ef"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/276",
+  "label": 0,
+  "row": 276,
+  "text_hash": "6a9ecc39292038bffa53251ca592a366700b80815e29f538201d1b83a335db30"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/277",
+  "label": 0,
+  "row": 277,
+  "text_hash": "7140f646100c5f7a5212f6730cf5ab6ebdab8880e4cce57e6ea51c55e021c282"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/278",
+  "label": 1,
+  "row": 278,
+  "text_hash": "eb59a774088dc9616b49675fd2f0915f89aa30eb2a328f4221da7221088386bc"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/279",
+  "label": 0,
+  "row": 279,
+  "text_hash": "feb1effa73c0cd3e6972f085d79b5bf76d9d4a032a62dcdcb9f0350c57de854e"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/280",
+  "label": 0,
+  "row": 280,
+  "text_hash": "6ae719d77562a92c0cc299adcb9563d2f23c87dff2f5975a677651773d08693c"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/281",
+  "label": 1,
+  "row": 281,
+  "text_hash": "452da4798e767683a52abca64a2d479897d31fd5550826b3a60f3a92b190de3d"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/282",
+  "label": 0,
+  "row": 282,
+  "text_hash": "0503020bd15b6bfcac1c33b5292f89885ed80a934ff124368bcba3dad701cd0b"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/283",
+  "label": 1,
+  "row": 283,
+  "text_hash": "e97f7dd94fefaf7ca17e51a5d96629b1a5cd803dd96fa5523750ceda37a58c59"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/284",
+  "label": 0,
+  "row": 284,
+  "text_hash": "80a31dec3adbc03d8eff6bad28ed36212eae22fd355e641316b522d0432cb4a6"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/285",
+  "label": 0,
+  "row": 285,
+  "text_hash": "5862db84388f8ae00b7208e0d3c1e9d4f477796b09c667699688315427524d7f"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/286",
+  "label": 0,
+  "row": 286,
+  "text_hash": "67c265166520f7a0de3e19122ad1791dd396733d8d01b7874d6e393a41885ced"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/287",
+  "label": 1,
+  "row": 287,
+  "text_hash": "a18c0478c6ba1d21d050fdf41e5cb1a2c72e48b7c6b454cb6d5b31c4544cbfd3"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/288",
+  "label": 0,
+  "row": 288,
+  "text_hash": "6c09d0e958ccbcd9fc2671aecde7ebc60a5f84716924cf809d7df74c66e72072"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/289",
+  "label": 0,
+  "row": 289,
+  "text_hash": "8904777d671fd41237182ca9e1a134707ac2645acc3bd7dfd3f574173a6e8c70"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/290",
+  "label": 0,
+  "row": 290,
+  "text_hash": "9c15eb6d4ced7ba5e947c145ae3bd66bbd5277c937fcda5ace75057fef942661"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/291",
+  "label": 1,
+  "row": 291,
+  "text_hash": "3d31d4c3b29993665a38d210eea00939e5319d8c4a191db6f52a6a74dbd3b774"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/292",
+  "label": 0,
+  "row": 292,
+  "text_hash": "8c7386442656ddb1a74b7b91dfdb3cb5f0bbd4e40dfd2a3e3f2c00878c48471d"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/293",
+  "label": 1,
+  "row": 293,
+  "text_hash": "4dfa219a70621f43fdb6f89ca7aa9085cd3de8db96a84a49980da504299e19e1"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/294",
+  "label": 0,
+  "row": 294,
+  "text_hash": "859d0921f4fdd01f4e281c6bd6f044505fba916dd5dcd165189ac7559689f00f"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/295",
+  "label": 0,
+  "row": 295,
+  "text_hash": "0a55b7f33cd26c3e2d44020bd53185f555e882c62ab769b31a53572b79e0f1c7"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/296",
+  "label": 0,
+  "row": 296,
+  "text_hash": "7ef9766bbcb33ff28a21fab463499b2e2754e48d58601af4ae87486d927acc26"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/297",
+  "label": 1,
+  "row": 297,
+  "text_hash": "4886e7e0e92e961f96594911b7dd5ff0b682e7c5ddfc40176642575ced0c9988"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/298",
+  "label": 0,
+  "row": 298,
+  "text_hash": "27737ba728271b83ec42fe231e13f287321cb7e1d8422a885ae6904840655c78"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/299",
+  "label": 1,
+  "row": 299,
+  "text_hash": "cf88163d7c964807ba71e5fc579cff984d279f5a5dbdd0db28a8b4d92f0739e0"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/300",
+  "label": 0,
+  "row": 300,
+  "text_hash": "8032a2c330c9ab79407f035f80954c2cad5f518ef5a963ca7c81a47b6697b52d"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/301",
+  "label": 1,
+  "row": 301,
+  "text_hash": "1c09a310cf7babfa87f9dcb50b4fcbf4d396a6639bd2086c9921fda3515fd203"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/302",
+  "label": 0,
+  "row": 302,
+  "text_hash": "3a57c06cfa0d3d993a589ce7945c7dc804307cd605e6bb7d0510af518b13ea3b"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/303",
+  "label": 0,
+  "row": 303,
+  "text_hash": "bb141ad6c51ceb68460d8707775ec925674caf83b413f27cdb0b5f07b667cc1a"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/304",
+  "label": 0,
+  "row": 304,
+  "text_hash": "3d6fdf04f79b65c555b2a57a8396694750d49cae4df8c430b1b0e82acc1f67df"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/305",
+  "label": 0,
+  "row": 305,
+  "text_hash": "97d164765b864ba227de8a4ff46baca0dd9cc172883696b7b153dbcbb1c2279e"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/306",
+  "label": 1,
+  "row": 306,
+  "text_hash": "b6d0e72c4bca9c2a5ed303c5e7c03f9cc057386d28f36f88e2ce8ac27c16924a"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/307",
+  "label": 0,
+  "row": 307,
+  "text_hash": "4e4fa8398fc03d1e5aaa4bb22a4a4173e1bab5de9ff41786adb7e02d24d220ff"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/308",
+  "label": 1,
+  "row": 308,
+  "text_hash": "16ecaadbc2c4cc056bd3a108a7b9e96c9d210a4eb1ccabd2d18fc20553d2a513"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/309",
+  "label": 0,
+  "row": 309,
+  "text_hash": "338c7f12c609a6155e230da19c0e9c3934d560da76dd88df7399606a48906864"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/310",
+  "label": 0,
+  "row": 310,
+  "text_hash": "2d00b3660916c71f32d3f05beb9435a2b4bbfe7a5790211605aa61c761665dc6"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/311",
+  "label": 0,
+  "row": 311,
+  "text_hash": "b81e91048a2b9253f13f75f3b395a8e4301b50ca5137ed49714228006a31d3e2"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/312",
+  "label": 1,
+  "row": 312,
+  "text_hash": "a4bd1bdf9d30e3797167319f6dbb90a9bc3b87465a345b241bae149e2954f690"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/313",
+  "label": 1,
+  "row": 313,
+  "text_hash": "7881723b89d453d86a94db7605f005497009a572c7527ea9ac1292b8b66d534c"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/314",
+  "label": 0,
+  "row": 314,
+  "text_hash": "9e7db8c51c958616169244fa3cba0b0c8f52021e360ba457b61266f38f787300"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/315",
+  "label": 1,
+  "row": 315,
+  "text_hash": "433beffc8e00fd897bc4f5c81269d90dcb3ea81ebcf284cf3abf74b99c937d66"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/316",
+  "label": 0,
+  "row": 316,
+  "text_hash": "bec2e60ac1b5e2864839efa86953c0902ed309964e6f88c7fa715781c96b3da4"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/317",
+  "label": 1,
+  "row": 317,
+  "text_hash": "fccadd2dea8bcfb6c7e79c41861dd245012ef8c0b154131411f5108eadf26cda"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/318",
+  "label": 0,
+  "row": 318,
+  "text_hash": "df240aecbbe2e8981cd656b1ed8e7be837f1b38167563bd3b15f235dab6ecb20"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/319",
+  "label": 0,
+  "row": 319,
+  "text_hash": "2544c0c32e6a7aa7e21e243460682aa5819cba426c970b7f82ec020e15890eea"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/320",
+  "label": 0,
+  "row": 320,
+  "text_hash": "d32b7250e6fce3960b7977e203c3132070041b55439f530c288d36e42a4a2d55"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/321",
+  "label": 1,
+  "row": 321,
+  "text_hash": "55efa96f93936299e7cdefeeb3363a4c1a6a8019ce2ab3777acfc15c423d6d6c"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/322",
+  "label": 1,
+  "row": 322,
+  "text_hash": "4a03afa90126a7f09ae17c627d2d10ac3383ceff7ffa77242f9c3b803dde9b93"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/323",
+  "label": 0,
+  "row": 323,
+  "text_hash": "e659902b93a0cc2d054e5eacdf93c0cd99cd09fb07ded3bf219936b3ccfdb7a6"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/324",
+  "label": 0,
+  "row": 324,
+  "text_hash": "658aefa56c4e2b70a5cf100361c106c736a64711805cf4db18262434bda65761"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/325",
+  "label": 0,
+  "row": 325,
+  "text_hash": "ab74d4c22b4bb3a71a0e412f7a63b58fbc1df6fd6fb3c8aa5161db3c49e8b8ba"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/326",
+  "label": 0,
+  "row": 326,
+  "text_hash": "e59a68e83d947f4512205090bd0d7bc0dc49074c2ac4644598521cd7652b6099"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/327",
+  "label": 0,
+  "row": 327,
+  "text_hash": "945a0ba883fb1836de6278366c7ca7315ad771ca1448a6d279003767a390dedc"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/328",
+  "label": 0,
+  "row": 328,
+  "text_hash": "db764164665da63953d38e5068d9b55ec6f0b7041ac2c62d171d8f53c73235cc"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/329",
+  "label": 1,
+  "row": 329,
+  "text_hash": "9bc8bd012beda38ebc0e72390bb9ff08bd3f98c244c44eb9f935c5f1b933bb0d"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/330",
+  "label": 1,
+  "row": 330,
+  "text_hash": "8fe440a9fe94946536564ab1ed0753885326fac4253bf29bbb61e7c1ad4af37a"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/331",
+  "label": 1,
+  "row": 331,
+  "text_hash": "4c912b9544c7ef59438eef5f129524d91d1680eff67985901bc2c7418a5d831a"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/332",
+  "label": 0,
+  "row": 332,
+  "text_hash": "a9b1f61c4a1ac260f54d2e899fdbf12a51869f6de80778d8eb32cac92c077ff2"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/333",
+  "label": 1,
+  "row": 333,
+  "text_hash": "eabc40f633783aa6fd430101c009b23a4c5899e0ad645ce4874645d2b2dc3767"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/334",
+  "label": 0,
+  "row": 334,
+  "text_hash": "2f09b74816bbe9b9224cfab82e6fcfcf6b88232963d6f5ca7a9c901659400428"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/335",
+  "label": 0,
+  "row": 335,
+  "text_hash": "8ef95abad833d8bb89b456ac57d10c8ac8c348584c3e1b1c616c7e78166e2003"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/336",
+  "label": 0,
+  "row": 336,
+  "text_hash": "dcf1683793b61d4da824d420fc71d263f692d370a644f544e0261ebb8c572a53"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/337",
+  "label": 1,
+  "row": 337,
+  "text_hash": "1030c1d28bde98eaedf9cb833b6e72a3643af9938f5f17a6cfd6463dbdfadf50"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/338",
+  "label": 0,
+  "row": 338,
+  "text_hash": "2a94288f6cbf82ca67e75eccd7fb7ca2d5d7e75410ad134bd16b8d7fadb58b1c"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/339",
+  "label": 1,
+  "row": 339,
+  "text_hash": "8b516837aa05aaaaa634e034fc84f2c99e786e7b9963e1754f525242abba3166"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/340",
+  "label": 0,
+  "row": 340,
+  "text_hash": "1dfe6d6585128b4ba1dbb97b4b536e3ca08bdcb4be3ad1672a7edd63ec1aa26e"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/341",
+  "label": 0,
+  "row": 341,
+  "text_hash": "c2b0c5ccbc730a9e1e9513eb37cac08e35c595caa7daa6adc983bad82927d985"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/342",
+  "label": 0,
+  "row": 342,
+  "text_hash": "dcd274a9557009b313eaa83abc71e2c1d6f83121e9f1d33d466d5f5e01405497"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/343",
+  "label": 1,
+  "row": 343,
+  "text_hash": "5d1c4c66e15b91eae9cb170ba63a0a8256c2bbd7b7ce6befb4c9a99bb5023844"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/344",
+  "label": 0,
+  "row": 344,
+  "text_hash": "a9a91963f2cc320dc0ca99e9385fe7d0e285fcc5605dd18135ddba69af3ac36c"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/345",
+  "label": 0,
+  "row": 345,
+  "text_hash": "01c1aa42f5e209f5c8c2aac801c2ac2c8360b2e7738376e1ceb7a5227cc2b63d"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/346",
+  "label": 0,
+  "row": 346,
+  "text_hash": "5199b3dcd135b0c177b92bed90214edc4a20c0670d3bc9e6bc64fca08a94d2a3"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/347",
+  "label": 0,
+  "row": 347,
+  "text_hash": "74ad578dce1d4e3312233cfd9954195e5ab3c43b2c70f30c2451bde9433b723c"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/348",
+  "label": 0,
+  "row": 348,
+  "text_hash": "57a7d4abcb932faa5488958dc4984bc2e9f148244ed1836c7d498e4033b9591b"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/349",
+  "label": 0,
+  "row": 349,
+  "text_hash": "97090bf4575bb2cd8043dfab2e81a0b4f6986baef2f968e9e920507bedb72434"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/350",
+  "label": 0,
+  "row": 350,
+  "text_hash": "d36b1a9466d3ed480240b05dff05f80986300002c03d6243e7ddf0fd346f9191"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/351",
+  "label": 0,
+  "row": 351,
+  "text_hash": "41c709e0cbec931d9ff39126c47979596491c12e28845a00e56e50963860cb57"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/352",
+  "label": 0,
+  "row": 352,
+  "text_hash": "deb298e90ae4cf668b0709f52e8f876f607a84837396af8eecd514d172ee68cf"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/353",
+  "label": 1,
+  "row": 353,
+  "text_hash": "8ef9ea7919126c5f69445a62fb232b5a6c082c87aef84828aa95632bc3e60291"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/354",
+  "label": 0,
+  "row": 354,
+  "text_hash": "8d40eab768d597072cfa41a86c7d53ebb6533ca05c10b1f60793e0870605703d"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/355",
+  "label": 0,
+  "row": 355,
+  "text_hash": "d7142f00c6999bf31360ee7b174192c38657309e5668e75a369aad3066251a8b"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/356",
+  "label": 0,
+  "row": 356,
+  "text_hash": "97dc9cda78d1275392996df86b5968d0da063fc8b178613dbfee17863dfcb51e"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/357",
+  "label": 1,
+  "row": 357,
+  "text_hash": "84e789746a3e2223e5f918fbb69a9f0249a6faf42686bede37e1263387102489"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/358",
+  "label": 0,
+  "row": 358,
+  "text_hash": "cb1d1be9387abad11e4a381d35650950dd2fb92dd19da44dcbfbe4afb648d796"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/359",
+  "label": 1,
+  "row": 359,
+  "text_hash": "011d8d639d514f34cb402b2783c96d3660e5ea214d21cc03ae50d5714a8d6320"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/360",
+  "label": 0,
+  "row": 360,
+  "text_hash": "2f187d8dae922077e3c1d9802fbc43c81c87a96db77ec239fba0afa6a56b7a4b"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/361",
+  "label": 0,
+  "row": 361,
+  "text_hash": "1c894160f9e113e2217b7328aa536d61dc8c92e0eb794b6c6b67e6538e9952ce"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/362",
+  "label": 1,
+  "row": 362,
+  "text_hash": "b1536bdc7279d220e53557d70987149be98a74e27568eeb37870f9ede0ffd684"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/363",
+  "label": 0,
+  "row": 363,
+  "text_hash": "76568e49b6e575f28573b450b1e4b8fd4ad2283ac1df45ead2353d00c1aa1145"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/364",
+  "label": 1,
+  "row": 364,
+  "text_hash": "66cb0a8af7f576cb051051506b5ec9b049aa59dc3973e0b83647001aa61e34a8"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/365",
+  "label": 1,
+  "row": 365,
+  "text_hash": "18ceb619638343ad4c4850ddb0cb6fb46b5e2258aba5b16f54792729f6814888"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/366",
+  "label": 0,
+  "row": 366,
+  "text_hash": "caf993dee871ec9b0b505038c62514a1741e1568b77855aee8f3aae567dd6ab4"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/367",
+  "label": 0,
+  "row": 367,
+  "text_hash": "0c077166c1c9f2b6e287c8ce47090079906c2b2b1292faf544c95dbf8a44993e"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/368",
+  "label": 0,
+  "row": 368,
+  "text_hash": "57b36f93321952e5962cbf8792af14a9dac33a801b1943e56543a765e1336ab9"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/369",
+  "label": 0,
+  "row": 369,
+  "text_hash": "cbc9a12f7b061c6acc8c6ab7cb59c57f86c98a45175e084cc3a517d3d1017da0"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/370",
+  "label": 0,
+  "row": 370,
+  "text_hash": "50e8631925288b989d26e88318142feb435c8f0a0b6225c654c8545c39edd6c1"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/371",
+  "label": 0,
+  "row": 371,
+  "text_hash": "b4aa545b247fcaa8eb2de1c0267d3f2168495618844f366d1d93a33f2041b9cf"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/372",
+  "label": 0,
+  "row": 372,
+  "text_hash": "d64016682499aa754c6cfe77e2c09b31da7cdc5d3c7f5e49f2da7760bed9ca3f"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/373",
+  "label": 1,
+  "row": 373,
+  "text_hash": "9068804f98205a6ce486537966ec6df3566e76ec2fd9f85987e8c1baeb832813"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/374",
+  "label": 0,
+  "row": 374,
+  "text_hash": "ca093e4f70da0edb9871e28d410e8c507b34b39bbe54bdf766f1039baaa8227d"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/375",
+  "label": 0,
+  "row": 375,
+  "text_hash": "83521e53eca7f18cd4ee87092c64dcf2ff946905043107e1d7c45c2a613fee8c"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/376",
+  "label": 0,
+  "row": 376,
+  "text_hash": "a4a14ea798221305b9b83912d87ff591fd8e33681ad079d7c128c524d840f815"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/377",
+  "label": 0,
+  "row": 377,
+  "text_hash": "83326eba45a1e6f26713a38a18f197a479e480d53b11c993be29ec9871f2cd6c"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/378",
+  "label": 0,
+  "row": 378,
+  "text_hash": "93671af6293a59cb4620eced9ced30425e0bc3884e9fc6da2c8cba9a7a6f5835"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/379",
+  "label": 1,
+  "row": 379,
+  "text_hash": "0c63c1d23bdeb28f18e6b45cee1259b42efa8e3c756ef76d6f56f86840047328"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/380",
+  "label": 1,
+  "row": 380,
+  "text_hash": "062c7724d14eafee4a97e1c58c356718cdc53db408331093d51ae79999c3fe79"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/381",
+  "label": 0,
+  "row": 381,
+  "text_hash": "ed1b47dceca29348bbe29a3620f28f3964969aada9272138ffa633d04f416c8f"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/382",
+  "label": 1,
+  "row": 382,
+  "text_hash": "7ef26fdf0fe0904119cd7cd501a7df76c9fb33dbb3f2b0fc0b70eb1aacde25a0"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/383",
+  "label": 0,
+  "row": 383,
+  "text_hash": "a2705aca717a9e2cb62ced36479a12c04ac8bb50371f028c7a2bdb85a5fc6d49"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/384",
+  "label": 0,
+  "row": 384,
+  "text_hash": "0f4204115ebb71d3670f84b0f9aebc4bb9df24d7ed138a69892df558e856fde5"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/385",
+  "label": 0,
+  "row": 385,
+  "text_hash": "0e3fc3bf1579bcf82f945c04c6b32a94fe71e71aa4c6ae4583b5de22dbd60e33"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/386",
+  "label": 0,
+  "row": 386,
+  "text_hash": "1039fcfd7cb028197c458648142f69544c02387a951b19d302379fa7c6030b95"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/387",
+  "label": 0,
+  "row": 387,
+  "text_hash": "15774527ae7d022b48a1e0061a4344b8eeef71d6e3023c8f6f37afe3b56271f3"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/388",
+  "label": 0,
+  "row": 388,
+  "text_hash": "c030143fe340e3c5f27049423007bbf6352e9675a885b1d01be62ee44515936f"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/389",
+  "label": 0,
+  "row": 389,
+  "text_hash": "4daf6103bddec2db759bf769bb83bfd3e2334c5c928d44eee497413a40b3eb0e"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/390",
+  "label": 1,
+  "row": 390,
+  "text_hash": "8a19f4ed6818402cfc3b92550ff0b040605a2b04f827cd61424bc81f3c670350"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/391",
+  "label": 0,
+  "row": 391,
+  "text_hash": "d9450a04b5c77ae0f3f2b99d6c8f63e66cc052a162acdac80f24ee6d973dac5e"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/392",
+  "label": 0,
+  "row": 392,
+  "text_hash": "b7168772977b01c4fcb7e1bbb07b5cc887a3ea3eef4fd238f17d7ef71b8fdae3"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/393",
+  "label": 1,
+  "row": 393,
+  "text_hash": "0376334818ce69d54eedd38687e998dc2425790775f1341a61a33532fbb8e497"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/394",
+  "label": 1,
+  "row": 394,
+  "text_hash": "d7b4c3def1cc06cfc9647afa5115d7453a39c76f384cbc7d372a7a875c892b80"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/395",
+  "label": 1,
+  "row": 395,
+  "text_hash": "ec7ea8f48000e9fee95d1192e1481e287c3892b3d98bec19ebdeea1c20c1884e"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/396",
+  "label": 0,
+  "row": 396,
+  "text_hash": "25944f32e5e10e2e79bdd34c1ae902dfdea3756ec179d1bfcb088148cd418b1d"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/397",
+  "label": 0,
+  "row": 397,
+  "text_hash": "0c050828c1d3fada0144408177ee2e7bd5603a626ba1641db01e6d8ceb143d87"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/398",
+  "label": 0,
+  "row": 398,
+  "text_hash": "e0fa17a1fd69d661796b1afe05abd0f1b0bcf3e956fbe2a39313f3f9a00cd44f"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/399",
+  "label": 0,
+  "row": 399,
+  "text_hash": "61cd1e62e097e359fb92f5ae08f541966361b9dfac6e8a3875e776c77889ea4f"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/400",
+  "label": 0,
+  "row": 400,
+  "text_hash": "1ba4551dfa0ecf98da280518564516f9bc0a563bbf52e3045732099654fe82f8"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/401",
+  "label": 0,
+  "row": 401,
+  "text_hash": "0e28087249758c335059a2b0bd247805a6277288914276f751713ce6c2c17556"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/402",
+  "label": 1,
+  "row": 402,
+  "text_hash": "dd745cf1e4f45f3368be86bdaeaf6bec1be2fbc54fd42bc5a2f6488ed808e59b"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/403",
+  "label": 0,
+  "row": 403,
+  "text_hash": "f2cd5ac394dff99cbd058bae6d68bf78d724acbb7fdc9fb4b65fa78422498552"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/404",
+  "label": 0,
+  "row": 404,
+  "text_hash": "657192cf90d7c0f281de7cd2e0cfab98ade7eb622fb3b0c98be0b6598ddc3067"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/405",
+  "label": 0,
+  "row": 405,
+  "text_hash": "6afe8e158170009658800cd278168aa4c712cc277e75e759c6a8a7f72a43f1b5"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/406",
+  "label": 0,
+  "row": 406,
+  "text_hash": "fa0d31bf668754e2df0cb9dffb672e4fe06bdc6f2885b40edba6f3672acc8ff0"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/407",
+  "label": 1,
+  "row": 407,
+  "text_hash": "aa8a0932d9d841414628a7891b0df9a5c9cc76bdc6336cff9e6b784156ef4107"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/408",
+  "label": 0,
+  "row": 408,
+  "text_hash": "ad6a4bf6713f8a6537111d92240943c8149f913a3c017342a84a78dc3b8b2d1d"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/409",
+  "label": 0,
+  "row": 409,
+  "text_hash": "2d6abd373e6e3e431afc60c41d632222ef5956bc09a18dc75b82ed6ba3ba1bd8"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/410",
+  "label": 0,
+  "row": 410,
+  "text_hash": "3d459088f3b58dadd14124093549eb88e44808719fe74d51af60f806c3024d76"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/411",
+  "label": 1,
+  "row": 411,
+  "text_hash": "b73dada32860783be1cba513ef48d668cb72b239411682f17f5fdd066a13fca9"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/412",
+  "label": 0,
+  "row": 412,
+  "text_hash": "3aeb6bf17cd3abb87245fb52d6eb5e637d76bebe31a7992d35c91af514737124"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/413",
+  "label": 1,
+  "row": 413,
+  "text_hash": "09444225b6ea35b4d2b9ce34fdee8895ab8a6541e67ae5330cb8de6be6e8c0e8"
+ },
+ {
+  "item_id": "incrediblae/rd/attack/414",
+  "label": 1,
+  "row": 414,
+  "text_hash": "6d5ad321ba0f0e591a0b37737bbab61cca50b3ec42da81a8e19b0ed4f31a35ca"
+ }
+]

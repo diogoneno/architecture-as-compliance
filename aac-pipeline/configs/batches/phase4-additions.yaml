@@ -1,0 +1,27 @@
+ceiling_gpu_hours: 38.762137
+projection_rule: "P4-6 lines are priced at their high estimates; the stop rule of configs/batches/phase4-attacks.yaml applies"
+runs:
+ - {target: attack, config: configs/regimes/real/r3-gate-aware.yaml, seed: 0, batch: configs/batches/phase4-p4-6.txt,
+ est_gpu_hours: [0.75, 5.3],
+ source: " P4-6: addition A expected about 0.75; high 5.3 = 113 x 1000 x 0.169220 s / 3600 (BERT-Attack, the rule-chosen recipe; gap review bound 3.4 at 0.1 s/query) [L]"}
+ - {target: run, config: configs/regimes/real/r4-transfer-a-to-b-replay.yaml, seed: 0, batch: configs/batches/phase4-p4-6.txt,
+ est_gpu_hours: [0.01, 0.1],
+ source: "gap review addition B at most 0.07 (2,430 inferences x 0.1 s); P4-6 B 0.2 over two replays = 0.1 [L]"}
+ - {target: run, config: configs/regimes/real/r4-gate-only-a-replay.yaml, seed: 0, batch: configs/batches/phase4-p4-6.txt,
+ est_gpu_hours: [0.01, 0.1],
+ source: "gap review addition B at most 0.07 (2,430 inferences x 0.1 s); P4-6 B 0.2 over two replays = 0.1 [L]"}
+ - {target: run, config: configs/regimes/real/r1-chrono-full-goldqa.yaml, seed: 0, batch: configs/batches/phase4-p4-6.txt,
+ est_gpu_hours: [0.005, 0.02],
+ source: "gap review addition C: R1 chrono full s0 measured 0.004487 GPU-h (data/measured/phase3-gpu-session.json); 5 seeds at most 0.05 with the re-ranker pass over the gold answers, 0.02 per seed rounded up [L]"}
+ - {target: run, config: configs/regimes/real/r1-chrono-full-goldqa.yaml, seed: 1, batch: configs/batches/phase4-p4-6.txt,
+ est_gpu_hours: [0.005, 0.02],
+ source: "gap review addition C: R1 chrono full s0 measured 0.004487 GPU-h (data/measured/phase3-gpu-session.json); 5 seeds at most 0.05 with the re-ranker pass over the gold answers, 0.02 per seed rounded up [L]"}
+ - {target: run, config: configs/regimes/real/r1-chrono-full-goldqa.yaml, seed: 2, batch: configs/batches/phase4-p4-6.txt,
+ est_gpu_hours: [0.005, 0.02],
+ source: "gap review addition C: R1 chrono full s0 measured 0.004487 GPU-h (data/measured/phase3-gpu-session.json); 5 seeds at most 0.05 with the re-ranker pass over the gold answers, 0.02 per seed rounded up [L]"}
+ - {target: run, config: configs/regimes/real/r1-chrono-full-goldqa.yaml, seed: 3, batch: configs/batches/phase4-p4-6.txt,
+ est_gpu_hours: [0.005, 0.02],
+ source: "gap review addition C: R1 chrono full s0 measured 0.004487 GPU-h (data/measured/phase3-gpu-session.json); 5 seeds at most 0.05 with the re-ranker pass over the gold answers, 0.02 per seed rounded up [L]"}
+ - {target: run, config: configs/regimes/real/r1-chrono-full-goldqa.yaml, seed: 4, batch: configs/batches/phase4-p4-6.txt,
+ est_gpu_hours: [0.005, 0.02],
+ source: "gap review addition C: R1 chrono full s0 measured 0.004487 GPU-h (data/measured/phase3-gpu-session.json); 5 seeds at most 0.05 with the re-ranker pass over the gold answers, 0.02 per seed rounded up [L]"}

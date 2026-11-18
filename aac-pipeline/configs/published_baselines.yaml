@@ -1,0 +1,51 @@
+rows:
+ - row: "BERT victim, FC, clean"
+ source: "BODEGA paper (Przybyla, Shvets and Saggion; doi 10.1017/nlp.2024.54), Table 3 (organisers' FC BERT victim, attack subset)"
+ metric: "positive-class F1 (non-credible = 1), attack subset"
+ metric_key: f1_positive_class
+ unit: fraction
+ published: 0.936
+ page_ref: "BODEGA paper, Table 3 (prints 0.9360), p. 15 (arXiv 2303.08032v3 PDF page 15 of 36; journal pp. 1134-1162, journal page unverified)"
+ - row: "BERT victim, RD, clean"
+ source: "BODEGA paper (Przybyla, Shvets and Saggion; doi 10.1017/nlp.2024.54), Table 3 (organisers' RD BERT victim, attack subset)"
+ metric: "positive-class F1 (non-credible = 1), attack subset"
+ metric_key: f1_positive_class
+ unit: fraction
+ published: 0.755
+ page_ref: "BODEGA paper, Table 3 (prints 0.7547), p. 15 (arXiv 2303.08032v3 PDF page 15 of 36; journal pp. 1134-1162, journal page unverified)"
+ - row: "BERT victim, FC, BERT-Attack"
+ source: "CheckThat! 2024 Task 6 overview (https://ceur-ws.org/Vol-3740/paper-28.pdf), Table 5, row BERT-ATTACK, confusion score (BERT-Attack on the organisers' FC BERT victim)"
+ metric: "attack-success rate (percent)"
+ metric_key: asr
+ unit: percent
+ published: 0.77
+ page_ref: "CheckThat! 2024 Task 6 overview, Table 5, row BERT-ATTACK, confusion score 0.77, p. 329 (CEUR Vol-3740 pp. 321-338, PDF page 9 of 19)"
+ - row: "BERT victim, RD, BERT-Attack"
+ source: "CheckThat! 2024 Task 6 overview (https://ceur-ws.org/Vol-3740/paper-28.pdf), Table 5, row BERT-ATTACK, confusion score (BERT-Attack on the organisers' RD BERT victim)"
+ metric: "attack-success rate (percent)"
+ metric_key: asr
+ unit: percent
+ published: 0.44
+ page_ref: "CheckThat! 2024 Task 6 overview, Table 5, row BERT-ATTACK, confusion score 0.44, p. 329 (CEUR Vol-3740 pp. 321-338, PDF page 9 of 19)"
+ - row: "AVeriTeC baseline, dev, gold evidence"
+ source: "AVeriTeC dataset paper (Schlichtkrull, Guo and Vlachos, 2023), Table 4, row Gold evidence, Macro column (split not stated in the paper; this project reproduces on dev)"
+ metric: "four-way macro-F1 over the AVeriTeC veracity labels (binary macro-F1 in the long-form table)"
+ metric_key: macro_f1_4way
+ unit: fraction
+ published: 0.490
+ page_ref: "AVeriTeC paper, Table 4, row Gold evidence, Macro column (.49), p. 9 of arXiv v3"
+ - row: "Content-only encoder, AVeriTeC dev (this project)"
+ source: "this project (R1 chronological split, content-only encoder, test records of the surviving dev claims)"
+ metric: "four-way macro-F1 seeds as replicates)"
+ metric_key: macro_f1_4way
+ unit: fraction
+ published: null
+ page_ref: null
+ not_applicable: true
+ - row: "AVeriTeC baseline, dev, no evidence (comparison, not reproduction)"
+ source: "AVeriTeC dataset paper (Schlichtkrull, Guo and Vlachos, 2023), Table 4, row No evidence, Macro column (BERT-large fine-tuned on the training claims without evidence); comparison, not reproduction"
+ metric: "four-way macro-F1; this project's content-only encoder (row 6) set against the paper's no-evidence BERT-large: comparison, not reproduction (different model, training recipe and split)"
+ metric_key: macro_f1_4way
+ unit: fraction
+ published: 0.17
+ page_ref: "AVeriTeC paper, Table 4, row No evidence, Macro column (.17), arXiv v3 (verified against arXiv v3)"

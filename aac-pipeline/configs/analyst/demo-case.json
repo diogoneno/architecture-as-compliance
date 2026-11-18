@@ -1,0 +1,41 @@
+{
+ "abstention_reason": "conflicting_evidence",
+ "analyst_queue_id": "q-0b179f96",
+ "calibrated_confidence": 0.579067,
+ "calibrated_probability": 0.420933,
+ "calibration_method": "temperature",
+ "claim_hash": "92a3835d3fbf6e9ff9050cfd74ac860afc42ad666a57ec4d913580e18dfafbcc",
+ "claim_id": "fx/9",
+ "claim_text": "The mayor approved a drop in unemployment",
+ "coverage_target": 0.8,
+ "data_version": "1e74cad9f46d51d9ce29123101dc220406546c00d31511f8b7c2e5388c6ef9f6",
+ "decision": "abstain-to-human",
+ "evidence": [
+  {
+   "evidence_id": "fx/9#3",
+   "passage_sha256": "1aa793ea67b3f725c8d1c7f16c393eadc04f04227321fc012fdefb5ba40a0e57",
+   "score": 0.88652
+  },
+  {
+   "evidence_id": "fx/9#1",
+   "passage_sha256": "55bd135fd658b67d818d85927aeb1d072f21f516006679a04502240d69fc29c3",
+   "score": 0.806848
+  },
+  {
+   "evidence_id": "fx/9#0",
+   "passage_sha256": "760eedd3756c2499b9d81eb368de1b69492aaf5b2320c1c82beea81346c1ffaa",
+   "score": 0.77643
+  },
+  {
+   "evidence_id": "fx/9#2",
+   "passage_sha256": "9476ebbb2f21cc50c621566a2b40350fe90e4063cdd596d80b3c76c15a3fdb61",
+   "score": 0.218919
+  }
+ ],
+ "evidence_coverage": true,
+ "record_id": "0b179f96-90c4-5c0e-b7c2-8341e8322e7d",
+ "selection_rule": "R1 chronological full pipeline, seed 0, test split: the deferred record (abstention_flag true) with the lowest calibrated confidence max(p, 1 - p), tie-break claim_id",
+ "source_config_hash": "a9bca1c7a97936fb08faf2ff314292cef78e1f718d1c8585d909b9b8e50faa3c",
+ "source_run_id": "R1-a9bca1c7a9-s0",
+ "threshold": 0.615827
+}

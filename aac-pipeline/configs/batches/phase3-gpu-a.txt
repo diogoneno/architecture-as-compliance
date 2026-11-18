@@ -1,0 +1,3 @@
+evidence configs/retrieval/evidence.yaml 0
+train configs/train/c2s-chrono.yaml 0
+run configs/regimes/real/r1-chrono-full.yaml 0

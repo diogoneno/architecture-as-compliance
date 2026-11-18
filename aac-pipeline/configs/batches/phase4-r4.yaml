@@ -1,0 +1,89 @@
+ceiling_gpu_hours: 38.762137
+projection_rule: "P4-3 and P4-5 are priced at their high estimates; the stop rule of configs/batches/phase4-attacks.yaml applies"
+runs:
+ - {target: run, config: configs/regimes/real/r4-no-retrieval.yaml, seed: 0, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-retrieval.yaml, seed: 1, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-retrieval.yaml, seed: 2, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-retrieval.yaml, seed: 3, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-retrieval.yaml, seed: 4, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-calibration.yaml, seed: 0, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-calibration.yaml, seed: 1, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-calibration.yaml, seed: 2, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-calibration.yaml, seed: 3, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-calibration.yaml, seed: 4, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-abstention.yaml, seed: 0, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-abstention.yaml, seed: 1, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-abstention.yaml, seed: 2, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-abstention.yaml, seed: 3, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-abstention.yaml, seed: 4, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-content-only.yaml, seed: 0, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-content-only.yaml, seed: 1, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-content-only.yaml, seed: 2, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-content-only.yaml, seed: 3, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-content-only.yaml, seed: 4, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-retrieval-fc.yaml, seed: 0, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-retrieval-fc.yaml, seed: 1, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-retrieval-fc.yaml, seed: 2, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-retrieval-fc.yaml, seed: 3, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-retrieval-fc.yaml, seed: 4, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-calibration-fc.yaml, seed: 0, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-calibration-fc.yaml, seed: 1, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-calibration-fc.yaml, seed: 2, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-calibration-fc.yaml, seed: 3, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-calibration-fc.yaml, seed: 4, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-abstention-fc.yaml, seed: 0, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-abstention-fc.yaml, seed: 1, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-abstention-fc.yaml, seed: 2, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-abstention-fc.yaml, seed: 3, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-abstention-fc.yaml, seed: 4, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-content-only-fc.yaml, seed: 0, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-content-only-fc.yaml, seed: 1, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-content-only-fc.yaml, seed: 2, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-content-only-fc.yaml, seed: 3, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-content-only-fc.yaml, seed: 4, batch: configs/batches/phase4-p4-3.txt,
+ est_gpu_hours: [0.003, 0.0125], source: "R1 full s0 measured 0.004487 GPU-h, data/measured/phase3-gpu-session.json; 40 runs x 0.0125 = the 0.5 GPU-h P4-3 bound of [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-retrieval-replay.yaml, seed: 0, batch: configs/batches/phase4-p4-5.txt,
+ est_gpu_hours: [0.01, 0.07], source: " P4-5 bound 0.2 [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-calibration-replay.yaml, seed: 0, batch: configs/batches/phase4-p4-5.txt,
+ est_gpu_hours: [0.01, 0.07], source: " P4-5 bound 0.2 [L]"}
+ - {target: run, config: configs/regimes/real/r4-no-abstention-replay.yaml, seed: 0, batch: configs/batches/phase4-p4-5.txt,
+ est_gpu_hours: [0.01, 0.07], source: " P4-5 bound 0.2 [L]"}

@@ -1,0 +1,14 @@
+extends: [../train/c2s.yaml]
+name: c2s-tw
+data:
+ dataset: fixture
+ manifest: build/tinyworld/world/MANIFEST.sha256
+ split_manifest: build/tinyworld/world/splits/tinyworld-chrono.json
+ claims: build/tinyworld/world/averitec/data
+ labels: build/tinyworld/world/averitec/labels.csv
+scorer:
+ evidence_from: ev-tw
+ batch_size: 4
+ max_steps: 3
+ pairs:
+ retrieved_top_k: 3

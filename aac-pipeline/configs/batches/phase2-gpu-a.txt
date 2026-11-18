@@ -1,0 +1,2 @@
+train configs/train/c1-chrono.yaml 0
+run configs/regimes/real/r1-chrono-content-only.yaml 0

@@ -1,0 +1,8 @@
+attack configs/regimes/real/r3-gate-aware.yaml 0
+run configs/regimes/real/r4-transfer-a-to-b-replay.yaml 0
+run configs/regimes/real/r4-gate-only-a-replay.yaml 0
+run configs/regimes/real/r1-chrono-full-goldqa.yaml 0
+run configs/regimes/real/r1-chrono-full-goldqa.yaml 1
+run configs/regimes/real/r1-chrono-full-goldqa.yaml 2
+run configs/regimes/real/r1-chrono-full-goldqa.yaml 3
+run configs/regimes/real/r1-chrono-full-goldqa.yaml 4

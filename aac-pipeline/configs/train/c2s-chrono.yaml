@@ -1,0 +1,8 @@
+extends: [c2s.yaml]
+name: c2s-chrono
+data:
+ dataset: averitec
+ manifest: data/derived/MANIFEST.sha256
+ split_manifest: data/derived/splits/averitec-chrono-v1.json
+ claims: data/raw/averitec/data
+ labels: data/derived/averitec/labels.csv

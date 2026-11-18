@@ -1,0 +1,15 @@
+schema: aac-config/1
+batch_size: 16
+components:
+ c1: {enabled: true, kind: stub-dirichlet, num_labels: 4, concentration: 3.0}
+ c2: {enabled: true, kind: stub-fixture, provider: fixture, k_retrieve: 5, relevance_floor: 0.35}
+ c3:
+ gate: logistic-fixed
+ fit_on: val_fuse
+ features: [encoder_probs, support_agg, refute_agg, top_rerank_score, n_evidence]
+ weights: [-1.5, 2.5, -0.5, 0.5, -1.0, 1.0, 0.5, 0.1]
+ bias: -0.25
+ c4: {enabled: true, methods: [temperature, isotonic], select_by: val_ece, bins: 15, fit_on: val_cal, temperature: 0.5}
+ c5: {enabled: true, coverage_target: 0.80, report_coverages: [1.0, 0.9, 0.8, 0.7], fit_on: val_cal, conflict_floor: 0.5}
+env: {lock_sha256: AUTO, python: AUTO, torch: AUTO, transformers: AUTO, numpy: AUTO}
+code: {git_sha: AUTO}

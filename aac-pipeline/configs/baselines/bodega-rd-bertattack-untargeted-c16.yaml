@@ -1,0 +1,26 @@
+schema: aac-external/1
+extends: [../stats.yaml]
+name: bodega-rd-bertattack-untargeted-c16
+regime: BASE
+seed: 0
+data:
+ dataset: incrediblae
+ manifest: data/derived/MANIFEST.sha256
+ split_manifest: data/derived/splits/incrediblae-rd-attack.json
+ claims: data/raw/incrediblae/RD
+ labels: data/derived/incrediblae/rd-attack.items.json
+ targets: [rd]
+ rd_items: data/derived/incrediblae/rd-attack.items.json
+external:
+ tool: bodega_attack
+ task: RD
+ attack: BERTattack
+ victim: BERT
+ targeted: false
+ row_range: [375, 400]
+ checkpoint_path: incrediblae/RD/BERT-512.pth
+ threads: 12
+ base_model: bert-base-uncased
+ base_revision: 86b5e0934494bd15c9632b12f734a8a67f723594
+env: {lock_sha256: AUTO, python: AUTO, torch: AUTO, transformers: AUTO, numpy: AUTO}
+code: {git_sha: AUTO}

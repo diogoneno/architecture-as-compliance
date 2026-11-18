@@ -1,0 +1,6 @@
+# config_hash=4805ab62509928fe7ad0efe8865e167f3025f6fd1e0dbd1ada54d1e7093cacf8 data_version=648d8eb14b0e24a73923be0e0094310458b98da91c61d39b734694100f64746b
+Coverage target (percent),Low confidence (percent of deferrals),No evidence above the relevance floor (percent of deferrals),Conflicting evidence (percent of deferrals)
+100,n/a,n/a,n/a
+90,100.0,0.0,0.0
+80 (pre-specified),97.5,2.5,0.0
+70,97.8,2.2,0.0

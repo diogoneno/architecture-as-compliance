@@ -1,0 +1,38 @@
+{
+ "FC": {
+  "label_1_share": "50.6",
+  "n_duplicate_texts": 0,
+  "n_empty_evidence": 0,
+  "n_empty_text": 0,
+  "n_items": 405,
+  "n_label_1": 205,
+  "n_non_ascii_evidence": 43,
+  "n_non_ascii_texts": 4,
+  "n_unique_organiser_ids": 351,
+  "n_with_supplied_evidence": 405,
+  "text_basis": "claim column as BODEGA reads it"
+ },
+ "RD": {
+  "label_1_share": "32.8",
+  "n_duplicate_texts": 0,
+  "n_empty_text": 0,
+  "n_items": 415,
+  "n_label_1": 136,
+  "n_non_ascii_texts": 268,
+  "n_texts_with_digit_runs": 0,
+  "n_texts_with_handles": 399,
+  "n_texts_with_urls": 359,
+  "n_unique_organiser_ids": 415,
+  "n_with_supplied_evidence": 0,
+  "text_basis": "text column as BODEGA reads it, before pseudonymisation",
+  "text_length_chars": {
+   "max": 38009,
+   "median": 1223.0,
+   "p95_nearest_rank": 6609
+  }
+ },
+ "source_sha256": {
+  "incrediblae/FC/attack.tsv": "e4606a761a78476114dd6ea2655ae07080dac45e8a229023986633677003f9b4",
+  "incrediblae/RD/attack.tsv": "71b6037a0d66fb8c259c74e3c6c6afc7a2e2b72efb2a71dd5866accf8086cffb"
+ }
+}

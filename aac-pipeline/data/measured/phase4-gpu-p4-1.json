@@ -1,0 +1,1144 @@
+{
+ "assets_lines": [
+  "assets: openattack/AttackAssist.UniversalSentenceEncoder ok a91f72d45154",
+  "assets: openattack/TProcess.NLTKPerceptronPosTagger/averaged_perceptron_tagger.pickle ok 25a5a19c7ced",
+  "assets: openattack/TProcess.NLTKSentTokenizer/english.pickle ok dda37972ae88",
+  "assets: openattack/TProcess.NLTKWordNet not pinned by digest in third_party/PINS.json (not checked)",
+  "assets: lambo/LAMBO_213-UD_English-EWT.dict ok 183c78a1e5fd",
+  "assets: lambo/LAMBO_213-UD_English-EWT.pth ok dc627564a137",
+  "assets: lambo/LAMBO_213-UD_English-EWT_subwords.pth ok e5acdbd4d374",
+  "assets: 7 ok/unpinned, 0 failed"
+ ],
+ "assets_ok": true,
+ "backup": {
+  "head_at_backup": "e382196cd4fbd3c2b0b37ebebb9051756a9cf5fb",
+  "independent_checks": "manifest lines matching secrets/ or derived/private: 0; no aac-pipeline/secrets on loki; 3602 manifest lines under runs/R3-c46605d5c5-s0/; SEALED of all 40 R4 runs listed",
+  "line": "backup: /mnt/loki/backups/dissertation/2026-10-18  (MANIFEST.sha256: 11041 files, verified; no secrets/, no private lane, no build/, no raw rows, no rd5/)",
+  "not_in_backup": "commits after e382196 (test fix 3128eb9, defense rows, this record's backup/projection fields, SUMMARY)",
+  "started_utc": "2026-10-18T08:37:04Z",
+  "verified": true
+ },
+ "batches": {
+  "P4-1": {
+   "dropped_gpu_hours": 0.0,
+   "gpu_hours": 0.169452,
+   "gpu_hours_rule": "run-record gpu_hours (03-10 convention); dropped_gpu_hours = attack-timings dropped_seconds / 3600 (ticket)",
+   "runs": [
+    {
+     "cells": [
+      {
+       "attack": "bert_attack",
+       "attacked": 204,
+       "budget_exhausted_share": 0.0,
+       "end_states": {
+        "success": 176,
+        "unchanged": 67
+       },
+       "items": 243,
+       "max_queries": 313,
+       "mean_queries_attacked": 55.808824,
+       "median_queries_attacked": 43.0,
+       "skipped": 39,
+       "subset": "averitec_chrono",
+       "victim": "content_only"
+      },
+      {
+       "attack": "bert_attack",
+       "attacked": 175,
+       "budget_exhausted_share": 0.0,
+       "end_states": {
+        "success": 130,
+        "unchanged": 75
+       },
+       "items": 205,
+       "max_queries": 98,
+       "mean_queries_attacked": 29.297143,
+       "median_queries_attacked": 19,
+       "skipped": 30,
+       "subset": "fc",
+       "victim": "content_only"
+      },
+      {
+       "attack": "textfooler",
+       "attacked": 204,
+       "budget_exhausted_share": 0.0,
+       "end_states": {
+        "success": 148,
+        "unchanged": 95
+       },
+       "items": 243,
+       "max_queries": 197,
+       "mean_queries_attacked": 59.289216,
+       "median_queries_attacked": 50.0,
+       "skipped": 39,
+       "subset": "averitec_chrono",
+       "victim": "content_only"
+      },
+      {
+       "attack": "textfooler",
+       "attacked": 175,
+       "budget_exhausted_share": 0.0,
+       "end_states": {
+        "success": 70,
+        "unchanged": 135
+       },
+       "items": 205,
+       "max_queries": 110,
+       "mean_queries_attacked": 33.428571,
+       "median_queries_attacked": 31,
+       "skipped": 30,
+       "subset": "fc",
+       "victim": "content_only"
+      },
+      {
+       "attack": "deepwordbug",
+       "attacked": 204,
+       "budget_exhausted_share": 0.0,
+       "end_states": {
+        "success": 58,
+        "unchanged": 185
+       },
+       "items": 243,
+       "max_queries": 61,
+       "mean_queries_attacked": 23.186275,
+       "median_queries_attacked": 22.0,
+       "skipped": 39,
+       "subset": "averitec_chrono",
+       "victim": "content_only"
+      },
+      {
+       "attack": "deepwordbug",
+       "attacked": 175,
+       "budget_exhausted_share": 0.0,
+       "end_states": {
+        "success": 56,
+        "unchanged": 149
+       },
+       "items": 205,
+       "max_queries": 19,
+       "mean_queries_attacked": 11.485714,
+       "median_queries_attacked": 11,
+       "skipped": 30,
+       "subset": "fc",
+       "victim": "content_only"
+      },
+      {
+       "attack": "pwws",
+       "attacked": 204,
+       "budget_exhausted_share": 0.0,
+       "end_states": {
+        "success": 162,
+        "unchanged": 81
+       },
+       "items": 243,
+       "max_queries": 343,
+       "mean_queries_attacked": 113.769608,
+       "median_queries_attacked": 101.0,
+       "skipped": 39,
+       "subset": "averitec_chrono",
+       "victim": "content_only"
+      },
+      {
+       "attack": "pwws",
+       "attacked": 175,
+       "budget_exhausted_share": 0.0,
+       "end_states": {
+        "success": 109,
+        "unchanged": 96
+       },
+       "items": 205,
+       "max_queries": 148,
+       "mean_queries_attacked": 51.097143,
+       "median_queries_attacked": 47,
+       "skipped": 30,
+       "subset": "fc",
+       "victim": "content_only"
+      }
+     ],
+     "config": "configs/regimes/real/r3-a.yaml",
+     "config_hash": "c46605d5c5a833217f72f592c44d0b04188375be7b885b96f209f17d36beae3e",
+     "counters_check": {
+      "max_server_queries": 343,
+      "rows": 1792,
+      "rows_not_runner_eq_server_le_1000": 0
+     },
+     "determinism_level": "victim server; adversary non-deterministic (OpenAttack runner); mdeberta-v3-base fp32 inference (sealed C1 checkpoint)",
+     "dropped_gpu_hours": 0.0,
+     "end_states": {
+      "success": 909,
+      "unchanged": 883
+     },
+     "gpu_hours": 0.169452,
+     "l2_line": "R3-c46605d5c5-s0: L2: ok (75140 records == 75140 ledger queries)",
+     "log_tail": [
+      "attack-session: 1792 items attacked",
+      "L2: ok (75140 records == 75140 ledger queries)",
+      "served R3-c46605d5c5-s0: 75140 records, 1792 ledger rows, SEALED 960446fc9b0c",
+      "== exit 0"
+     ],
+     "resumed": false,
+     "run_id": "R3-c46605d5c5-s0",
+     "seal_digest": "960446fc9b0c7ba9d09056b217eb251f13bbe53468d31cdb4cd3cdec20128199",
+     "seed": 0,
+     "session_seconds": 729.713508,
+     "sessions": 1,
+     "tmux": {
+      "finished_heartbeat_utc": "2026-10-18T07:40:59Z",
+      "log": "logs/C-p41-20261018T072015Z.log",
+      "session": "aac-C-p41",
+      "started_utc": "2026-10-18T07:20:15Z"
+     },
+     "validation": {
+      "records": 75140,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    }
+   ]
+  },
+  "P4-3": {
+   "dropped_gpu_hours": 0.0,
+   "gpu_hours": 0.097347,
+   "gpu_hours_rule": "sum of the 40 run-record gpu_hours (03-10 convention); no attack session, so nothing dropped",
+   "runs": [
+    {
+     "config": "configs/regimes/real/r4-no-retrieval.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.000842,
+     "line": 1,
+     "name": "r4-no-retrieval",
+     "run_id": "R4-40e9726290-s0",
+     "seal_digest": "b5f216d36fca70274ea1cd4ec9a93d5570a4464a1cf5cbc95297afca8b3c1427",
+     "seed": 0,
+     "validation": {
+      "records": 1211,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-retrieval.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.000846,
+     "line": 2,
+     "name": "r4-no-retrieval",
+     "run_id": "R4-c17057353a-s1",
+     "seal_digest": "ad92cd5cee0a9211f1ad7ab1e2da701e061ed704b209aeef33cf4df708a43378",
+     "seed": 1,
+     "validation": {
+      "records": 1211,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-retrieval.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.000838,
+     "line": 3,
+     "name": "r4-no-retrieval",
+     "run_id": "R4-78eac314ed-s2",
+     "seal_digest": "72e2fead2cf47562bc165f6a703d45c08c2af396052d8d591cd4e85e39618ba3",
+     "seed": 2,
+     "validation": {
+      "records": 1211,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-retrieval.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.000848,
+     "line": 4,
+     "name": "r4-no-retrieval",
+     "run_id": "R4-23a0226c63-s3",
+     "seal_digest": "24680cc9315cae9211d06f98d2832064e69badcaf05c931e887f28556906b730",
+     "seed": 3,
+     "validation": {
+      "records": 1211,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-retrieval.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.000862,
+     "line": 5,
+     "name": "r4-no-retrieval",
+     "run_id": "R4-5d4b3dd78f-s4",
+     "seal_digest": "aef94f65db3541f96887a790617fda17d180f7834f9a53a50b8fb5db5e448bd8",
+     "seed": 4,
+     "validation": {
+      "records": 1211,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-calibration.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.004483,
+     "line": 6,
+     "name": "r4-no-calibration",
+     "run_id": "R4-4878f18871-s0",
+     "seal_digest": "3c1e06821bba8db9f891281aaa41c3fe5b348f6c3b48a2fc443e25eff28cf71c",
+     "seed": 0,
+     "validation": {
+      "records": 1211,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-calibration.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.004481,
+     "line": 7,
+     "name": "r4-no-calibration",
+     "run_id": "R4-97f99c223f-s1",
+     "seal_digest": "33021bb4783f78eb9a906d9f313b1ffde5bfd1d7a19a06adeff03f216c9857e0",
+     "seed": 1,
+     "validation": {
+      "records": 1211,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-calibration.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.004493,
+     "line": 8,
+     "name": "r4-no-calibration",
+     "run_id": "R4-bee69261d0-s2",
+     "seal_digest": "e6c9efda56428da226282fb3a9e5c6c2af3893e199a4fa065f500b76d3224be3",
+     "seed": 2,
+     "validation": {
+      "records": 1211,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-calibration.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.004497,
+     "line": 9,
+     "name": "r4-no-calibration",
+     "run_id": "R4-f7b30579b5-s3",
+     "seal_digest": "63ee04fbf32a65f24d5752cbdd7e213d3b648764c62af654968ea24672faf1d6",
+     "seed": 3,
+     "validation": {
+      "records": 1211,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-calibration.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.004494,
+     "line": 10,
+     "name": "r4-no-calibration",
+     "run_id": "R4-76f5ef28a9-s4",
+     "seal_digest": "d2a77e70cdd5b37ed2e87bdc80c14601331c0fcfdbcd4913c885c3a234ead18d",
+     "seed": 4,
+     "validation": {
+      "records": 1211,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-abstention.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.004465,
+     "line": 11,
+     "name": "r4-no-abstention",
+     "run_id": "R4-7c830169ed-s0",
+     "seal_digest": "a6499b55a1696ec6cf062b1b1c8bb9333b66d88019e297b3a5b2cd09ea199809",
+     "seed": 0,
+     "validation": {
+      "records": 1211,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-abstention.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.004478,
+     "line": 12,
+     "name": "r4-no-abstention",
+     "run_id": "R4-3ece82aa32-s1",
+     "seal_digest": "d497bd8f4bcfa61b563da09c5a1104eb6964c690f9bef240d3de5c5a4976543d",
+     "seed": 1,
+     "validation": {
+      "records": 1211,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-abstention.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.004484,
+     "line": 13,
+     "name": "r4-no-abstention",
+     "run_id": "R4-11039a3180-s2",
+     "seal_digest": "9c51196eba2e8f6b1473e8fda6b7edf712797a0f80d6b9d3271929f3f60562e4",
+     "seed": 2,
+     "validation": {
+      "records": 1211,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-abstention.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.004458,
+     "line": 14,
+     "name": "r4-no-abstention",
+     "run_id": "R4-83500d30ab-s3",
+     "seal_digest": "0f760d83e6a6ef72aed8bda32a64ee3b6c1b99c964bd0fff8a2fdee158b7f81d",
+     "seed": 3,
+     "validation": {
+      "records": 1211,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-abstention.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.004461,
+     "line": 15,
+     "name": "r4-no-abstention",
+     "run_id": "R4-e79f69b1b5-s4",
+     "seal_digest": "5478bf23783f1e88805867bcfeec4a870a87566addab7c38facf1e9ca013970c",
+     "seed": 4,
+     "validation": {
+      "records": 1211,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-content-only.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.000541,
+     "line": 16,
+     "name": "r4-content-only",
+     "run_id": "R4-0fd2e8429c-s0",
+     "seal_digest": "1f4a9d1ed32cff0ffcd9611f9f451b25871ccff06c35b482af87816c5fa881c2",
+     "seed": 0,
+     "validation": {
+      "records": 676,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-content-only.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.000527,
+     "line": 17,
+     "name": "r4-content-only",
+     "run_id": "R4-59cada6ce1-s1",
+     "seal_digest": "b89d3d946230068c793a1e0d3747a3a084d3a8e4fb8b51ef11db99bb682cee57",
+     "seed": 1,
+     "validation": {
+      "records": 676,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-content-only.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.000541,
+     "line": 18,
+     "name": "r4-content-only",
+     "run_id": "R4-07f094cdc4-s2",
+     "seal_digest": "de03ab5aeed6449b2f005559d20bf3967606499c9abbcc08dc871be5e9e93e16",
+     "seed": 2,
+     "validation": {
+      "records": 676,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-content-only.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.000538,
+     "line": 19,
+     "name": "r4-content-only",
+     "run_id": "R4-0ae9f12ea1-s3",
+     "seal_digest": "e437f822321c3000564ac28eaaf91df120088b07241d4efdd524b6ac56408e2c",
+     "seed": 3,
+     "validation": {
+      "records": 676,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-content-only.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.000532,
+     "line": 20,
+     "name": "r4-content-only",
+     "run_id": "R4-24b7ee91e1-s4",
+     "seal_digest": "757f63cc241b887d46cfae239cd68c2a35b6748e77c502363ead112c8c489c99",
+     "seed": 4,
+     "validation": {
+      "records": 676,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-retrieval-fc.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.000696,
+     "line": 21,
+     "name": "r4-no-retrieval-fc",
+     "run_id": "R4-0498a08e05-s0",
+     "seal_digest": "b92d01c57d5743b57e036dfe22eb429329f91778978457e5f660e17023f92537",
+     "seed": 0,
+     "validation": {
+      "records": 940,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-retrieval-fc.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.00068,
+     "line": 22,
+     "name": "r4-no-retrieval-fc",
+     "run_id": "R4-7568f2c93d-s1",
+     "seal_digest": "a7e3db6d48f40eb2e26d8ca45420ef7a4bec7546c3a1243a733157251d91c670",
+     "seed": 1,
+     "validation": {
+      "records": 940,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-retrieval-fc.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.000683,
+     "line": 23,
+     "name": "r4-no-retrieval-fc",
+     "run_id": "R4-0030a443eb-s2",
+     "seal_digest": "a58cf79517e85af99606f079c4eb213538f79301b8f5c7312cb6d785e6ea2562",
+     "seed": 2,
+     "validation": {
+      "records": 940,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-retrieval-fc.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.000693,
+     "line": 24,
+     "name": "r4-no-retrieval-fc",
+     "run_id": "R4-83698f5a77-s3",
+     "seal_digest": "2637a6a0bb9946028afad4ed64d09b1fbe0f38e436a26c6e11457a99ab6a5fc6",
+     "seed": 3,
+     "validation": {
+      "records": 940,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-retrieval-fc.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.000695,
+     "line": 25,
+     "name": "r4-no-retrieval-fc",
+     "run_id": "R4-4a8fcca609-s4",
+     "seal_digest": "a41d9c25643e379c860bb6b4677505fa5e034a67abac8a686364cb84f90f13ea",
+     "seed": 4,
+     "validation": {
+      "records": 940,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-calibration-fc.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.004115,
+     "line": 26,
+     "name": "r4-no-calibration-fc",
+     "run_id": "R4-a0260da662-s0",
+     "seal_digest": "a72a7c22f9734fe944cb72b1feef170b0d94d8330b5c21c74b93c88b267ce1d7",
+     "seed": 0,
+     "validation": {
+      "records": 940,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-calibration-fc.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.003995,
+     "line": 27,
+     "name": "r4-no-calibration-fc",
+     "run_id": "R4-a9cb31e199-s1",
+     "seal_digest": "c6d3e0eb5564205c189a67ca030e377905758704e4531842a629aee187213045",
+     "seed": 1,
+     "validation": {
+      "records": 940,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-calibration-fc.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.004013,
+     "line": 28,
+     "name": "r4-no-calibration-fc",
+     "run_id": "R4-aa85d4b2d3-s2",
+     "seal_digest": "57e5ab1560fe3a1a7c8e4c85100e30aeeb97f9eb1ac6492111982a9bc03b1daa",
+     "seed": 2,
+     "validation": {
+      "records": 940,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-calibration-fc.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.00403,
+     "line": 29,
+     "name": "r4-no-calibration-fc",
+     "run_id": "R4-6db1bbaaa3-s3",
+     "seal_digest": "203a555b94b65254f8b329fde62c6dd1b03ed287912751f3e0e35a4c8d93a7f7",
+     "seed": 3,
+     "validation": {
+      "records": 940,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-calibration-fc.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.004037,
+     "line": 30,
+     "name": "r4-no-calibration-fc",
+     "run_id": "R4-41065ca9cc-s4",
+     "seal_digest": "9040843ac3dc8e0c2cfad780b03b7b8ce7e54ebd5d8e5212026ad37d34d90d7b",
+     "seed": 4,
+     "validation": {
+      "records": 940,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-abstention-fc.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.003992,
+     "line": 31,
+     "name": "r4-no-abstention-fc",
+     "run_id": "R4-dc457bea42-s0",
+     "seal_digest": "4420efdd6bf27d8c6a55bf23b255c734b76053f28061e071ca6281fe1cefe603",
+     "seed": 0,
+     "validation": {
+      "records": 940,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-abstention-fc.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.004007,
+     "line": 32,
+     "name": "r4-no-abstention-fc",
+     "run_id": "R4-ec05e1fd37-s1",
+     "seal_digest": "3ba02d9d19f5585a34dc6b031608d531ea00c4abd5f291f5521c61d686ded8ee",
+     "seed": 1,
+     "validation": {
+      "records": 940,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-abstention-fc.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.004048,
+     "line": 33,
+     "name": "r4-no-abstention-fc",
+     "run_id": "R4-33e673b1dd-s2",
+     "seal_digest": "b7334e07e1e62e48ad1667a209e036ee86e6a3f960cbb691a08b2942f13b5656",
+     "seed": 2,
+     "validation": {
+      "records": 940,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-abstention-fc.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.004009,
+     "line": 34,
+     "name": "r4-no-abstention-fc",
+     "run_id": "R4-588250b373-s3",
+     "seal_digest": "cacdc0966c9bf23c8d9ad6f20f3edac1567af22809f2df6d560c4d3ffbb571a6",
+     "seed": 3,
+     "validation": {
+      "records": 940,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-no-abstention-fc.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.004021,
+     "line": 35,
+     "name": "r4-no-abstention-fc",
+     "run_id": "R4-7fd1a386ee-s4",
+     "seal_digest": "3ba706d535d4a260fe42be670c547db428632c15797cd11c414340492bb52a27",
+     "seed": 4,
+     "validation": {
+      "records": 940,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-content-only-fc.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.000386,
+     "line": 36,
+     "name": "r4-content-only-fc",
+     "run_id": "R4-e55087d58e-s0",
+     "seal_digest": "6757084278618ee520bf54f6e88c54d0dc2afeb8540f06a3a3e81d2971bc8606",
+     "seed": 0,
+     "validation": {
+      "records": 405,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-content-only-fc.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.00038,
+     "line": 37,
+     "name": "r4-content-only-fc",
+     "run_id": "R4-4bf5242564-s1",
+     "seal_digest": "ad3eee774e4f15dc0eb9f9e72535609bad2758e041a4d570dec7df2bb9add635",
+     "seed": 1,
+     "validation": {
+      "records": 405,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-content-only-fc.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.000388,
+     "line": 38,
+     "name": "r4-content-only-fc",
+     "run_id": "R4-4c5f445c4b-s2",
+     "seal_digest": "e6df21e14670e807dfbd4d263fc9029b11b68138aa3691a220e80352f7e4e5b4",
+     "seed": 2,
+     "validation": {
+      "records": 405,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-content-only-fc.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.000389,
+     "line": 39,
+     "name": "r4-content-only-fc",
+     "run_id": "R4-a1f5490519-s3",
+     "seal_digest": "1aea957663bdfa2de5337061b7753a1ddd0d7a88b093e8290ea1abbc6ea3f5a2",
+     "seed": 3,
+     "validation": {
+      "records": 405,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    },
+    {
+     "config": "configs/regimes/real/r4-content-only-fc.yaml",
+     "determinism_level": "seeded; mdeberta-v3-base fp32 inference (sealed C1 checkpoint); torch-deterministic-warn-only",
+     "gpu_hours": 0.000381,
+     "line": 40,
+     "name": "r4-content-only-fc",
+     "run_id": "R4-d64502b079-s4",
+     "seal_digest": "e5c235c9109501c353686a69292925759765cdb5b5035458de64040448623da7",
+     "seed": 4,
+     "validation": {
+      "records": 405,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+     }
+    }
+   ],
+   "tmux": {
+    "done": "40/40",
+    "exit": 0,
+    "finished_heartbeat_utc": "2026-10-18T08:26:35Z",
+    "log": "logs/C-p43-20261018T074917Z.log",
+    "session": "aac-C-p43",
+    "started_utc": "2026-10-18T07:49:17Z"
+   }
+  }
+ },
+ "budget_check": [
+  "phase4-budget: P4-1 expected=0.200000 high=3.700000 retry_allowance=0.000000 (ticket marker present in scripts/attack_session.sh)",
+  "phase4-budget: P4-3 expected=0.120000 high=0.500000 retry_allowance=0.000000 (ticket marker present in scripts/attack_session.sh)",
+  "phase4-budget: phase4 used 0.000000 GPU-h (no data/measured/phase4-gpu-*.json)",
+  "phase4-budget: project used 4.515770 GPU-h (sum of session_gpu_hours in data/measured/phase2-gpu-session.json + data/measured/phase3-gpu-session.json + data/measured/phase3-pilot-session.json)",
+  "phase4-budget: phase4_used=0.000000 batch_high=4.200000 total=4.200000 of 38.762137; project_used=4.515770 total=8.715770 of 50",
+  "STOP-RULE: ok"
+ ],
+ "budget_check_p4_3": [
+  "phase4-budget: P4-3 expected=0.120000 high=0.500000 retry_allowance=0.000000 (ticket marker present in scripts/attack_session.sh)",
+  "phase4-budget: phase4 used 0.169452 GPU-h (data/measured/phase4-gpu-p4-1.json 0.169452)",
+  "phase4-budget: project used 4.685222 GPU-h (sum of session_gpu_hours in data/measured/phase2-gpu-session.json + data/measured/phase3-gpu-session.json + data/measured/phase3-pilot-session.json; in progress, not counted: data/measured/phase4-gpu-p4-1.json; Phase 4 files by phase4_budget: data/measured/phase4-gpu-p4-1.json)",
+  "phase4-budget: phase4_used=0.169452 batch_high=0.500000 total=0.669452 of 38.762137; project_used=4.685222 total=5.185222 of 50",
+  "STOP-RULE: ok"
+ ],
+ "ceiling_gpu_hours": {
+  "phase4": 38.762137,
+  "project": 50
+ },
+ "deviations_rows_confirmed": [],
+ "deviations_rows_for_information": {
+  "46": "confirmed",
+  "47": "confirmed"
+ },
+ "deviations_rows_proposed": [
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66
+ ],
+ "dry_runs": {
+  "P4-1": [
+   "make attack RUN=configs/regimes/real/r3-a.yaml SEED=0"
+  ],
+  "P4-3": [
+   "make run RUN=configs/regimes/real/r4-no-retrieval.yaml SEED=0",
+   "make run RUN=configs/regimes/real/r4-no-retrieval.yaml SEED=1",
+   "make run RUN=configs/regimes/real/r4-no-retrieval.yaml SEED=2",
+   "make run RUN=configs/regimes/real/r4-no-retrieval.yaml SEED=3",
+   "make run RUN=configs/regimes/real/r4-no-retrieval.yaml SEED=4",
+   "make run RUN=configs/regimes/real/r4-no-calibration.yaml SEED=0",
+   "make run RUN=configs/regimes/real/r4-no-calibration.yaml SEED=1",
+   "make run RUN=configs/regimes/real/r4-no-calibration.yaml SEED=2",
+   "make run RUN=configs/regimes/real/r4-no-calibration.yaml SEED=3",
+   "make run RUN=configs/regimes/real/r4-no-calibration.yaml SEED=4",
+   "make run RUN=configs/regimes/real/r4-no-abstention.yaml SEED=0",
+   "make run RUN=configs/regimes/real/r4-no-abstention.yaml SEED=1",
+   "make run RUN=configs/regimes/real/r4-no-abstention.yaml SEED=2",
+   "make run RUN=configs/regimes/real/r4-no-abstention.yaml SEED=3",
+   "make run RUN=configs/regimes/real/r4-no-abstention.yaml SEED=4",
+   "make run RUN=configs/regimes/real/r4-content-only.yaml SEED=0",
+   "make run RUN=configs/regimes/real/r4-content-only.yaml SEED=1",
+   "make run RUN=configs/regimes/real/r4-content-only.yaml SEED=2",
+   "make run RUN=configs/regimes/real/r4-content-only.yaml SEED=3",
+   "make run RUN=configs/regimes/real/r4-content-only.yaml SEED=4",
+   "make run RUN=configs/regimes/real/r4-no-retrieval-fc.yaml SEED=0",
+   "make run RUN=configs/regimes/real/r4-no-retrieval-fc.yaml SEED=1",
+   "make run RUN=configs/regimes/real/r4-no-retrieval-fc.yaml SEED=2",
+   "make run RUN=configs/regimes/real/r4-no-retrieval-fc.yaml SEED=3",
+   "make run RUN=configs/regimes/real/r4-no-retrieval-fc.yaml SEED=4",
+   "make run RUN=configs/regimes/real/r4-no-calibration-fc.yaml SEED=0",
+   "make run RUN=configs/regimes/real/r4-no-calibration-fc.yaml SEED=1",
+   "make run RUN=configs/regimes/real/r4-no-calibration-fc.yaml SEED=2",
+   "make run RUN=configs/regimes/real/r4-no-calibration-fc.yaml SEED=3",
+   "make run RUN=configs/regimes/real/r4-no-calibration-fc.yaml SEED=4",
+   "make run RUN=configs/regimes/real/r4-no-abstention-fc.yaml SEED=0",
+   "make run RUN=configs/regimes/real/r4-no-abstention-fc.yaml SEED=1",
+   "make run RUN=configs/regimes/real/r4-no-abstention-fc.yaml SEED=2",
+   "make run RUN=configs/regimes/real/r4-no-abstention-fc.yaml SEED=3",
+   "make run RUN=configs/regimes/real/r4-no-abstention-fc.yaml SEED=4",
+   "make run RUN=configs/regimes/real/r4-content-only-fc.yaml SEED=0",
+   "make run RUN=configs/regimes/real/r4-content-only-fc.yaml SEED=1",
+   "make run RUN=configs/regimes/real/r4-content-only-fc.yaml SEED=2",
+   "make run RUN=configs/regimes/real/r4-content-only-fc.yaml SEED=3",
+   "make run RUN=configs/regimes/real/r4-content-only-fc.yaml SEED=4"
+  ]
+ },
+ "expected_attacked_n": {
+  "detail": {
+   "victim_a_averitec": {
+    "clean_correct_ge_0_5": 204,
+    "clean_correct_kept_rule": 204,
+    "refuted": 243,
+    "run": "R1-1f71a3cb6a-s0",
+    "split": "data/derived/splits/averitec-attack-subset-v1.json"
+   },
+   "victim_b_first200": {
+    "clean_correct_ge_0_5": 108,
+    "clean_correct_kept_rule": 108,
+    "refuted": 113,
+    "run": "R1-4805ab6250-s0",
+    "split": "data/derived/splits/averitec-attack-subset-v1-first200.json"
+   },
+   "victim_b_last200": {
+    "clean_correct_ge_0_5": 124,
+    "clean_correct_kept_rule": 124,
+    "refuted": 130,
+    "run": "R1-4805ab6250-s0",
+    "split": "data/derived/splits/averitec-attack-subset-v1-last200.json"
+   }
+  },
+  "victim_a_averitec": 204,
+  "victim_a_fc": "measured by the run (no sealed c1-chrono FC run)",
+  "victim_b_first200": 108,
+  "victim_b_last200": 124
+ },
+ "gpu_check_before": "2026-10-18T06:57:57Z: nvidia-smi: NVIDIA GeForce RTX 3090, driver 550.163.01, memory 2/24576 MiB; compute_apps=0; utilization 0 %; sentinel /data/aac/GPU_CLEARED present; no tmux server",
+ "gpu_hours_after_session": {
+  "p4_1_p4_3_high_estimate": 4.2,
+  "phase4_envelope": 38.762137,
+  "phase4_used": 0.266799,
+  "project_envelope": 50,
+  "project_used": 4.782569
+ },
+ "gpu_hours_before_phase4": {
+  "phase4_used": 0.0,
+  "project_used": 4.51577
+ },
+ "gpu_push": "make gpu-push SHA=b9e841ad430333224edc3382b4421efb312c2578 (orchestrator, at the protocol's request); earlier release 396a0a2 also on turing, unused",
+ "hf_push": "make hf-push: roberta-large (6 pinned files) copied to turing:/data/aac/.hf; model.safetensors sha256 on turing 047c85f0b96269cd62e6f732644f067004eebd95af5b5d35965ae2528f13bf38 = configs/models.yaml weight_sha256",
+ "next_projection": [
+  "  P4-2a attack configs/regimes/real/r3-b-first200-deepwordbug.yaml 0: expected 0.126417 high 0.126417 GPU-h (projection rule: 113 x (20.8 + 3) x 0.169220 s (R3-c46605d5c5-s0 sealed) [L])",
+  "  P4-2a attack configs/regimes/real/r3-b-first200-pwws.yaml 0: expected 0.357063 high 0.357063 GPU-h (projection rule: 113 x 11.375473 s/item (pilot victim B) [L])",
+  "  P4-2a attack configs/regimes/real/r3-b-first200-bert_attack.yaml 0: expected 0.597977 high 0.597977 GPU-h (projection rule: 113 x 19.050585 s/item (pilot victim B) [L])",
+  "  P4-2a attack configs/regimes/real/r3-b-first200-textfooler.yaml 0: expected 0.598352 high 0.598352 GPU-h (projection rule: 113 x mean_q_A 59.289216 (204 attacked, R3-c46605d5c5-s0) x 1.9 x 0.169220 s [L])",
+  "phase4-budget: P4-2a expected=1.679809 high=1.679809 retry_allowance=0.000000 (ticket marker present in scripts/attack_session.sh)",
+  "phase4-budget: phase4 used 0.266799 GPU-h (data/measured/phase4-gpu-p4-1.json 0.266799)",
+  "phase4-budget: project used 4.782569 GPU-h (sum of session_gpu_hours in data/measured/phase2-gpu-session.json + data/measured/phase3-gpu-session.json + data/measured/phase3-pilot-session.json + data/measured/phase4-gpu-p4-1.json; Phase 4 files by phase4_budget: data/measured/phase4-gpu-p4-1.json)",
+  "phase4-budget: phase4_used=0.266799 batch_high=1.679809 total=1.946608 of 38.762137; project_used=4.782569 total=6.462378 of 50",
+  "STOP-RULE: ok"
+ ],
+ "operator_reply": [
+  {
+   "context": "advance go, STATE.md Pending Todos",
+   "given": "2026-10-17T21:37Z",
+   "text": "Okey you have my go when finished to start gpu hours"
+  },
+  {
+   "context": "on the turing setup",
+   "given": "2026-10-18 09:5x Europe/London",
+   "text": "Okey let's go do that and then we can run verification"
+  },
+  {
+   "context": "reply at the checkpoint (go/confirm/amend/hold)",
+   "given": "2026-10-18 ~10:40 Europe/London",
+   "text": "What you mean what's the problem here, adjustments cmon map everything into a html file and place in Loki mount plus we should do verification"
+  }
+ ],
+ "operator_reply_reading": "orchestrator's reading (not the protocol's words): go on release b9e841a with all D1-D15 defaults under the advance go; no amendment and no hold stated; the reply does NOT confirm adjustments rows 48-66, which stay `proposed (protocol confirms at the Stage checkpoint)`",
+ "operator_reply_relayed_by": "orchestrator, by message to the 04-09 executor, verbatim",
+ "p4_2a_inputs": {
+  "deepwordbug_attacked": 204,
+  "deepwordbug_mean_queries_victim_a_averitec": 23.186275,
+  "note": "the committed P4-2a rule prices DeepWordBug by the token count (20.8 + 3), not by this mean; the measured mean is recorded beside it",
+  "textfooler_attacked": 204,
+  "textfooler_mean_queries_victim_a_averitec": 59.289216
+ },
+ "plan": "04-09",
+ "plan_printer": {
+  "P4-1": "total: 1 runs, 0.20-3.70 GPU-h (ceiling 38.762137 GPU-h)",
+  "P4-3": "total: 40 runs, 0.12-0.50 GPU-h (ceiling 38.762137 GPU-h)"
+ },
+ "preflight": [
+  "PREFLIGHT release: ok (b9e841ad430333224edc3382b4421efb312c2578)",
+  "PREFLIGHT venv: ok (/data/aac/releases/b9e841ad430333224edc3382b4421efb312c2578/src/aac/__init__.py)",
+  "PREFLIGHT torch-build: ok (2.14.1+cu126 12.6)",
+  "PREFLIGHT symlinks: ok (runs data/raw/{averitec,incrediblae} data/derived .hf -> /data/aac)",
+  "PREFLIGHT raw-layout: ok",
+  "PREFLIGHT submodules: ok",
+  "PREFLIGHT index: ok (53 runs)",
+  "PREFLIGHT manifest-check: ok (data manifest: ok 34 entries (16 re-hashed here, 17 checked against data/derived/data-manifest.json, 1 private excused, 3 derived halves regenerated) data_version=648d8eb14b0e24a73923be0e0094310458b98da91c61d39b734694100f64746b)",
+  "PREFLIGHT offline-models: ok (18 passed in 7.21s)",
+  "INFO sentinel /data/aac/GPU_CLEARED: present; compute_apps=0 (read-only nvidia-smi)",
+  "preflight: 0 FAIL"
+ ],
+ "preflight_fail_count": 0,
+ "pull": {
+  "cpu-host_validate": "41 runs: violations 0, claim_text 0, user_id 0; R3-c46605d5c5-s0 L2 ok (75140 == 75140)",
+  "index": "runs/INDEX.json: R4 rows 40, r3-a rows 1",
+  "private_text": "adversarial texts stay in turing's private store; gpu-pull copies sealed run dirs only (attack-adversarial.jsonl holds claim_hash, no text)",
+  "r3": "pulled R3-c46605d5c5-s0: SEALED 960446fc9b0c verified; INDEX.json updated",
+  "r4_lines_sealed_verified": 40,
+  "runs": 41,
+  "verified_lines": 41
+ },
+ "release_contains_not": "04-10 BODEGA scoring step (5323a6d..5c8e399); not needed by P4-1 or P4-3",
+ "release_fix": "release = 396a0a2ef02a3c5794775b91fcabcebf6a5f0c12 + b9e841a (fix/offline-models-partial-snapshot, merged into master by 8d9ad76; changes only aac-pipeline/tests/smoke/test_models_offline.py, 21+/8-: a model with configs/models.yaml `files` (roberta-large, partial snapshot by design, Stage) is probed offline file by file instead of snapshot_download, which raised IncompleteSnapshotError on cpu-host and turing). git diff --stat 396a0a2 b9e841a lists that one test file, so the 9/9 smoke list run at 396a0a2 covers all runtime code of the release; the one extra green line is offline-models on cpu-host at b9e841a. 04-10's commits on master (up to 5c8e399) are not in the release.",
+ "release_fix_recheck": "independent recheck of b9e841a (Sonnet, read-only), relayed by the orchestrator: FIXED, no regression; 18 passed on cpu-host; mutations: wrong revision fails, a non-existent listed file fails; a dropped `files` entry is silently unchecked (gap, not a regression; deferred item: the files list is not cross-checked against weight_file/weight_sha256); the pinned snapshot holds exactly the 6 listed files",
+ "release_sha": "b9e841ad430333224edc3382b4421efb312c2578",
+ "runner_test_turing": "Ran 17 tests, OK (CPU, CUDA_VISIBLE_DEVICES empty, release b9e841a)",
+ "schema": "phase4-gpu-session/1",
+ "session_gpu_hours": 0.266799,
+ "session_gpu_hours_rule": "sum of batches.*.gpu_hours (run-record gpu_hours) + dropped_gpu_hours (0); tmux walls P4-1 07:20:15Z-07:40:59Z, P4-3 07:49:17Z-08:26:35Z",
+ "smoke_list": {
+  "attack-session-smoke": "attack-session-smoke: R3-b8d0be8ef8-s0 L2 ok",
+  "beam-smoke": "beam-smoke: R3-8cb0be7bf3-s0 L2 ok",
+  "gate-aware-smoke": "gate-aware-smoke: R3-0b6149246d-s0 L2 ok",
+  "lint-imports": "T-L2: import-linter (2 kept, 0 broken) + AST",
+  "pilot-smoke": "pilot-smoke: R3-d0f2f7e45f-s0 L2 ok; pilot-projection: 138 rows ok",
+  "r4-smoke": "r4-smoke: metric R4-e573109430-s0 replay R4-10784fa1f7-s0 L2 ok",
+  "runner-test": "Ran 17 tests, OK",
+  "smoke": "SMOKE golden-diff: ok (day1_docs spec e8e6af3a355c)",
+  "test-unit": "1672 passed, 26 skipped"
+ },
+ "smoke_list_extra": {
+  "offline-models (cpu-host, b9e841a worktree, tests/smoke/test_models_offline.py -m offline)": "18 passed in 7.93s"
+ },
+ "smoke_list_sha": "396a0a2ef02a3c5794775b91fcabcebf6a5f0c12",
+ "smoke_list_where": "isolated git clone at 396a0a2 with its own .venv-main (make setup) and .venv-attack (make env-attack); .hf, data/raw/{averitec,incrediblae}, data/derived/private and 79 run dirs symlinked from the main checkout; secrets/ not linked",
+ "turing_host": "turing",
+ "turing_setup": "make turing-setup SHA=b9e841ad430333224edc3382b4421efb312c2578 TURING_ATTACK=1 run by the orchestrator at the protocol's request (classifier denied it to the executor); /tmp/aac-release-b9e841a.log ends 'release setup: ok (/data/aac/releases/b9e841ad430333224edc3382b4421efb312c2578)', exit=0",
+ "watcher": {
+  "after": "0 compute apps, 2 MiB, 0 %, no tmux session; watcher stopped and its files removed from turing",
+  "first_utc": "07:18:03",
+  "interval_s": 10,
+  "last_utc": "08:31:05",
+  "per_session": {
+   "aac-C-p41": {
+    "compute_app_samples": 116,
+    "cwd_in_release": 116,
+    "env_pins_ok": 116,
+    "foreign_apps": 0,
+    "max_compute_apps": 1,
+    "peak_gpu_mib": 3637,
+    "runner_peak_vmhwm_kb": 3137736,
+    "samples": 123,
+    "server_peak_vmhwm_kb": 6215312
+   },
+   "aac-C-p43": {
+    "compute_app_samples": 73,
+    "cwd_in_release": 73,
+    "env_pins_ok": 73,
+    "foreign_apps": 0,
+    "max_compute_apps": 1,
+    "peak_gpu_mib": 5505,
+    "process_peak_vmhwm_kb": 7624368,
+    "samples": 223
+   },
+   "idle": {
+    "max_compute_apps": 0,
+    "peak_gpu_mib": 2,
+    "samples": 91
+   }
+  },
+  "runner_peak_rss_rule": "VmHWM of the env-attack python process itself (pgrep -f attacks/runner/openattack_runner.py, /proc/<pid>/exe a python binary; wrappers excluded)",
+  "samples": 437
+ },
+ "corrections": [
+  {
+   "date": "2026-10-19",
+   "field": "operator_reply[1].given",
+   "was": "2026-10-18 09:5x Europe/London",
+   "now": "2026-10-18 09:5x local (UTC+3) = 06:5xZ, before the P4-1 dispatch 2026-10-18T07:20:15Z",
+   "source": "session transcript 1130218a-3dd7-4e3a-8d2c-c19275b27cdf.jsonl: advance go #2 ('GPU has my go ... Okey you have it xd') is stamped 2026-10-18T18:22:11Z and was recorded as '21:22 local', so the protocol's local clock is UTC+3 (Europe/Athens), not Europe/London; the 'Europe/London' labels below were written by the recording agent, not by the protocol",
+   "evidence": ".planning/phases/04-attacks-and-ablations-c/04-UAT.md (04-09 D1)"
+  },
+  {
+   "date": "2026-10-19",
+   "field": "operator_reply[2].given",
+   "was": "2026-10-18 ~10:40 Europe/London",
+   "now": "2026-10-18 ~10:40 local (UTC+3) = ~07:40Z, AFTER the P4-1 dispatch 2026-10-18T07:20:15Z: P4-1 was dispatched under advance go #1 (2026-10-17T21:37Z) with STOP-RULE ok (adjustments row 64); this reply confirmed it afterwards",
+   "source": "session transcript 1130218a-3dd7-4e3a-8d2c-c19275b27cdf.jsonl: advance go #2 ('GPU has my go ... Okey you have it xd') is stamped 2026-10-18T18:22:11Z and was recorded as '21:22 local', so the protocol's local clock is UTC+3 (Europe/Athens), not Europe/London; the 'Europe/London' labels below were written by the recording agent, not by the protocol",
+   "evidence": ".planning/phases/04-attacks-and-ablations-c/04-UAT.md (04-09 D1)"
+  },
+  {
+   "date": "2026-10-19",
+   "field": "operator_reply (authorisation reading)",
+   "was": "orchestrator's reading only",
+   "now": "protocol word 2026-10-19 (UAT 4 item 3), verbatim: \"P4-1: yes. Advance go #1 (17 Oct 21:37Z) under the pre-registered stop rule (row 64) was the authorisation I intended; 'Okey let's go do that' at ~06:5xZ preceded the 07:20Z dispatch and the ~07:40Z reply was a confirmation after it. Record exactly that, in UTC.\"",
+   "source": "protocol message 2026-10-19 (UAT 4 answers); dispatch 2026-10-18T07:20:15Z",
+   "evidence": ".planning/phases/04-attacks-and-ablations-c/04-UAT.md (04-09 D1)"
+  }
+ ]
+}

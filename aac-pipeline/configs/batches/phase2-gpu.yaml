@@ -1,0 +1,49 @@
+ceiling_gpu_hours: 3.0
+projection_rule: "after batch A: projected = 11 x measured(A) + 0.3; run batch B only if projected <= ceiling_gpu_hours"
+runs:
+ - {target: train, config: configs/train/c1-chrono.yaml, seed: 0, batch: configs/batches/phase2-gpu-a.txt,
+ est_gpu_hours: [0.03, 0.075], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: run, config: configs/regimes/real/r1-chrono-content-only.yaml, seed: 0, batch: configs/batches/phase2-gpu-a.txt,
+ est_gpu_hours: [0.003, 0.008], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: train, config: configs/train/c1-chrono.yaml, seed: 1, batch: configs/batches/phase2-gpu-b.txt,
+ est_gpu_hours: [0.03, 0.075], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: run, config: configs/regimes/real/r1-chrono-content-only.yaml, seed: 1, batch: configs/batches/phase2-gpu-b.txt,
+ est_gpu_hours: [0.003, 0.008], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: train, config: configs/train/c1-chrono.yaml, seed: 2, batch: configs/batches/phase2-gpu-b.txt,
+ est_gpu_hours: [0.03, 0.075], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: run, config: configs/regimes/real/r1-chrono-content-only.yaml, seed: 2, batch: configs/batches/phase2-gpu-b.txt,
+ est_gpu_hours: [0.003, 0.008], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: train, config: configs/train/c1-chrono.yaml, seed: 3, batch: configs/batches/phase2-gpu-b.txt,
+ est_gpu_hours: [0.03, 0.075], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: run, config: configs/regimes/real/r1-chrono-content-only.yaml, seed: 3, batch: configs/batches/phase2-gpu-b.txt,
+ est_gpu_hours: [0.003, 0.008], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: train, config: configs/train/c1-chrono.yaml, seed: 4, batch: configs/batches/phase2-gpu-b.txt,
+ est_gpu_hours: [0.03, 0.075], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: run, config: configs/regimes/real/r1-chrono-content-only.yaml, seed: 4, batch: configs/batches/phase2-gpu-b.txt,
+ est_gpu_hours: [0.003, 0.008], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: train, config: configs/train/c1-random.yaml, seed: 0, batch: configs/batches/phase2-gpu-b.txt,
+ est_gpu_hours: [0.03, 0.075], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: run, config: configs/regimes/real/r1-random-content-only.yaml, seed: 0, batch: configs/batches/phase2-gpu-b.txt,
+ est_gpu_hours: [0.003, 0.008], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: train, config: configs/train/c1-random.yaml, seed: 1, batch: configs/batches/phase2-gpu-b.txt,
+ est_gpu_hours: [0.03, 0.075], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: run, config: configs/regimes/real/r1-random-content-only.yaml, seed: 1, batch: configs/batches/phase2-gpu-b.txt,
+ est_gpu_hours: [0.003, 0.008], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: train, config: configs/train/c1-random.yaml, seed: 2, batch: configs/batches/phase2-gpu-b.txt,
+ est_gpu_hours: [0.03, 0.075], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: run, config: configs/regimes/real/r1-random-content-only.yaml, seed: 2, batch: configs/batches/phase2-gpu-b.txt,
+ est_gpu_hours: [0.003, 0.008], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: train, config: configs/train/c1-random.yaml, seed: 3, batch: configs/batches/phase2-gpu-b.txt,
+ est_gpu_hours: [0.03, 0.075], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: run, config: configs/regimes/real/r1-random-content-only.yaml, seed: 3, batch: configs/batches/phase2-gpu-b.txt,
+ est_gpu_hours: [0.003, 0.008], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: train, config: configs/train/c1-random.yaml, seed: 4, batch: configs/batches/phase2-gpu-b.txt,
+ est_gpu_hours: [0.03, 0.075], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: run, config: configs/regimes/real/r1-random-content-only.yaml, seed: 4, batch: configs/batches/phase2-gpu-b.txt,
+ est_gpu_hours: [0.003, 0.008], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: train, config: configs/train/c1-chrono-repeat.yaml, seed: 0, batch: configs/batches/phase2-gpu-b.txt,
+ est_gpu_hours: [0.03, 0.075], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: run, config: configs/regimes/real/r1-chrono-content-only-repeat.yaml, seed: 0, batch: configs/batches/phase2-gpu-b.txt,
+ est_gpu_hours: [0.003, 0.008], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}
+ - {target: bench, config: configs/bench/phase2.yaml, seed: 0, batch: configs/batches/phase2-gpu-b.txt,
+ est_gpu_hours: [0.05, 0.25], source: " GPU-hour budget [L] (arithmetic, unmeasured)"}

@@ -1,0 +1,10 @@
+extends: [../train/c1.yaml]
+name: c1-smoke
+data:
+ dataset: fixture
+ manifest: tests/fixtures/corpus/MANIFEST.sha256
+ split_manifest: tests/fixtures/corpus/splits/averitec-chrono-fx.json
+ claims: tests/fixtures/corpus/claims.json
+ labels: tests/fixtures/corpus/labels.csv
+train:
+ max_steps: 3

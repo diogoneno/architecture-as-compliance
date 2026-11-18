@@ -1,0 +1,349 @@
+{
+  "batch_a": {
+    "gpu_hours": 0.027878,
+    "log": "logs/A-s0-20261016T203702Z.log",
+    "runs": [
+      {
+        "checkpoint_sha256": "60b3451d933efa5c0452488ba2b60a08799a6cc269a7c4b12d2994ab6213110a",
+        "config": "configs/train/c1-chrono.yaml",
+        "gpu_hours": 0.023983,
+        "run_id": "C1-145ca7f388-s0",
+        "seed": 0
+      },
+      {
+        "config": "configs/regimes/real/r1-chrono-content-only.yaml",
+        "gpu_hours": 0.003895,
+        "run_id": "R1-1f71a3cb6a-s0",
+        "seed": 0
+      }
+    ],
+    "session": "aac-A-s0",
+    "wall_note": "STATUS.json started 20:37:02Z, updated 20:39:10Z (whole tmux session incl. loads and sealing)",
+    "wall_seconds_session": 128
+  },
+  "batch_b": {
+    "gpu_hours": 0.445111,
+    "log": "logs/A-rest-20261016T204130Z.log",
+    "runs": [
+      {
+        "checkpoint_sha256": "89110cd1e0669aced44187186fe0e2bedd6bb28a75131d750035e61059247187",
+        "config": "configs/train/c1-chrono.yaml",
+        "gpu_hours": 0.02275,
+        "run_id": "C1-145ca7f388-s1",
+        "seed": 1
+      },
+      {
+        "config": "configs/regimes/real/r1-chrono-content-only.yaml",
+        "gpu_hours": 0.003967,
+        "run_id": "R1-7ffe9b8ecf-s1",
+        "seed": 1
+      },
+      {
+        "checkpoint_sha256": "3525ef1dd953e8850897bbdeae5c8ede2ce132a6e01a5234352d5ba3fd625741",
+        "config": "configs/train/c1-chrono.yaml",
+        "gpu_hours": 0.022881,
+        "run_id": "C1-145ca7f388-s2",
+        "seed": 2
+      },
+      {
+        "config": "configs/regimes/real/r1-chrono-content-only.yaml",
+        "gpu_hours": 0.00393,
+        "run_id": "R1-df1bb439ff-s2",
+        "seed": 2
+      },
+      {
+        "checkpoint_sha256": "e20f58ec9cc78a98f5a7e16d59c2300cc2198b143625396768322fd4854801b0",
+        "config": "configs/train/c1-chrono.yaml",
+        "gpu_hours": 0.022807,
+        "run_id": "C1-145ca7f388-s3",
+        "seed": 3
+      },
+      {
+        "config": "configs/regimes/real/r1-chrono-content-only.yaml",
+        "gpu_hours": 0.003982,
+        "run_id": "R1-a711831ed0-s3",
+        "seed": 3
+      },
+      {
+        "checkpoint_sha256": "318566af17a030b249cec10c7274ca7c68693f3dc8c0d2c1edff57ccbd9a00fd",
+        "config": "configs/train/c1-chrono.yaml",
+        "gpu_hours": 0.022651,
+        "run_id": "C1-145ca7f388-s4",
+        "seed": 4
+      },
+      {
+        "config": "configs/regimes/real/r1-chrono-content-only.yaml",
+        "gpu_hours": 0.003874,
+        "run_id": "R1-b1a8833c69-s4",
+        "seed": 4
+      },
+      {
+        "checkpoint_sha256": "ebf2eec23d1dade5fd312434b3e8014c6a3a71e79fc3e93fc664251a34f4f94b",
+        "config": "configs/train/c1-random.yaml",
+        "gpu_hours": 0.023047,
+        "run_id": "C1-fec8285c09-s0",
+        "seed": 0
+      },
+      {
+        "config": "configs/regimes/real/r1-random-content-only.yaml",
+        "gpu_hours": 0.003977,
+        "run_id": "R1-149ca751ae-s0",
+        "seed": 0
+      },
+      {
+        "checkpoint_sha256": "a9b2f5edc18433c0b98181664f48657a0f4ef5d874fae9c2a1f1f3518fbec5de",
+        "config": "configs/train/c1-random.yaml",
+        "gpu_hours": 0.023295,
+        "run_id": "C1-fec8285c09-s1",
+        "seed": 1
+      },
+      {
+        "config": "configs/regimes/real/r1-random-content-only.yaml",
+        "gpu_hours": 0.003869,
+        "run_id": "R1-9bfa47d03e-s1",
+        "seed": 1
+      },
+      {
+        "checkpoint_sha256": "7c9609b7383fa4f1446f448cbb7bf39df72cef2752f907099de1d58ce8adefe2",
+        "config": "configs/train/c1-random.yaml",
+        "gpu_hours": 0.022928,
+        "run_id": "C1-fec8285c09-s2",
+        "seed": 2
+      },
+      {
+        "config": "configs/regimes/real/r1-random-content-only.yaml",
+        "gpu_hours": 0.003925,
+        "run_id": "R1-412f6d0357-s2",
+        "seed": 2
+      },
+      {
+        "checkpoint_sha256": "41672225dacef64d682efbe0ecca3402a60b8a513be55e5ca7b06209b661a910",
+        "config": "configs/train/c1-random.yaml",
+        "gpu_hours": 0.02286,
+        "run_id": "C1-fec8285c09-s3",
+        "seed": 3
+      },
+      {
+        "config": "configs/regimes/real/r1-random-content-only.yaml",
+        "gpu_hours": 0.003897,
+        "run_id": "R1-0a43ace3a7-s3",
+        "seed": 3
+      },
+      {
+        "checkpoint_sha256": "e27a1c326e40fe79d00496e9ca3831358b26e44aa47b27bdb12ec3455d393851",
+        "config": "configs/train/c1-random.yaml",
+        "gpu_hours": 0.022801,
+        "run_id": "C1-fec8285c09-s4",
+        "seed": 4
+      },
+      {
+        "config": "configs/regimes/real/r1-random-content-only.yaml",
+        "gpu_hours": 0.003865,
+        "run_id": "R1-df60366e5f-s4",
+        "seed": 4
+      },
+      {
+        "checkpoint_sha256": "60b3451d933efa5c0452488ba2b60a08799a6cc269a7c4b12d2994ab6213110a",
+        "config": "configs/train/c1-chrono-repeat.yaml",
+        "gpu_hours": 0.022813,
+        "run_id": "C1-976a770231-s0",
+        "seed": 0
+      },
+      {
+        "config": "configs/regimes/real/r1-chrono-content-only-repeat.yaml",
+        "gpu_hours": 0.003883,
+        "run_id": "R1-9e7779e2e1-s0",
+        "seed": 0
+      },
+      {
+        "config": "configs/bench/phase2.yaml",
+        "gpu_hours": 0.177109,
+        "run_id": "BENCH-a888f9849a-s0",
+        "seed": 0
+      }
+    ],
+    "session": "aac-A-rest",
+    "wall_note": "STATUS.json started 20:41:30Z, finished 21:12:15Z (whole tmux session)",
+    "wall_seconds_session": 1845
+  },
+  "ceiling": 3.0,
+  "decision": "proceed",
+  "determinism": {
+    "c1_pair": [
+      "C1-145ca7f388-s0",
+      "C1-976a770231-s0"
+    ],
+    "checkpoint_sha256_equal": true,
+    "encoder_distribution": {
+      "max_abs_diff": 0.0,
+      "n_equal": 676,
+      "n_total": 676
+    },
+    "r1_pair": [
+      "R1-1f71a3cb6a-s0",
+      "R1-9e7779e2e1-s0"
+    ]
+  },
+  "gpu_hours_source": "run-record.json gpu_hours = sum of CUDA stage seconds / 3600 (model load, checkpoint hashing and sealing are not counted)",
+  "operator_go": "Go (protocol reply relayed verbatim by the orchestrator, 2026-10-16; all recommendations as built)",
+  "projection": 0.606658,
+  "projection_from_session_wall": 0.691111,
+  "projection_rule": "projected = 11 x measured(A) + 0.3; proceed only if projected <= ceiling",
+  "release_sha": "081215af2e4f3b5aaf87aab1b315cdacc8db81fe",
+  "run_ids_by_config": {
+    "configs/bench/phase2.yaml": [
+      "BENCH-a888f9849a-s0"
+    ],
+    "configs/regimes/real/r1-chrono-content-only-repeat.yaml": [
+      "R1-9e7779e2e1-s0"
+    ],
+    "configs/regimes/real/r1-chrono-content-only.yaml": [
+      "R1-1f71a3cb6a-s0",
+      "R1-7ffe9b8ecf-s1",
+      "R1-df1bb439ff-s2",
+      "R1-a711831ed0-s3",
+      "R1-b1a8833c69-s4"
+    ],
+    "configs/regimes/real/r1-random-content-only.yaml": [
+      "R1-149ca751ae-s0",
+      "R1-9bfa47d03e-s1",
+      "R1-412f6d0357-s2",
+      "R1-0a43ace3a7-s3",
+      "R1-df60366e5f-s4"
+    ],
+    "configs/train/c1-chrono-repeat.yaml": [
+      "C1-976a770231-s0"
+    ],
+    "configs/train/c1-chrono.yaml": [
+      "C1-145ca7f388-s0",
+      "C1-145ca7f388-s1",
+      "C1-145ca7f388-s2",
+      "C1-145ca7f388-s3",
+      "C1-145ca7f388-s4"
+    ],
+    "configs/train/c1-random.yaml": [
+      "C1-fec8285c09-s0",
+      "C1-fec8285c09-s1",
+      "C1-fec8285c09-s2",
+      "C1-fec8285c09-s3",
+      "C1-fec8285c09-s4"
+    ]
+  },
+  "sealed_verified": {
+    "BENCH-a888f9849a-s0": "2aee9d533e7913291ddcfccb3b56b3b8348f31def028c7db2f242699973f16a7",
+    "C1-145ca7f388-s0": "958bdf33ce9a5ff77a81dcddc0d6795207350045629c07dca54bcc3f7227833a",
+    "C1-145ca7f388-s1": "b737b96826b9085d54dfc3f6f0370889edc1aa63fc49124fffd9619feda91dc9",
+    "C1-145ca7f388-s2": "75bd1d4e91954e1e601c58d7f3598137a6ff829a959db49d1a30b266bbf0fb89",
+    "C1-145ca7f388-s3": "d6401df19f5e3400322ed59d8f79f4a531d10731c0d76aa4f169542b6c1a3f4c",
+    "C1-145ca7f388-s4": "7e46fd5de14c6eaecb69c56d88f68ec5e96aefa56560b696d73f309e3ffc7974",
+    "C1-976a770231-s0": "aeaf14439bc81aa59995e91fe7060550acf26cf0e853c769f599a13cd7d773e4",
+    "C1-fec8285c09-s0": "2c677c5c4eabfd5e09f52f451513e28851cffe3cf694893e0b6fab2f94f52b4a",
+    "C1-fec8285c09-s1": "cb9c53403dfd9aef6148fa506ef4a6a62c604c811e3c29c240bde76cc6f918ea",
+    "C1-fec8285c09-s2": "208d42c3d9c6b308f0b3d145c7a51c4a4d890421c436eb301cccbf036b833315",
+    "C1-fec8285c09-s3": "99ad6aff44dc3688a8e132f6978831783661fcf65ebca52cfa5ac09226e49ff4",
+    "C1-fec8285c09-s4": "b10eb0fe83949c03d4d9d8e1c1d781eaa9083e0b6b35764268446507ce5985d2",
+    "R1-0a43ace3a7-s3": "c1c295b9394e6c7be4d6bde238dea397cba1ace9cb9c9cfbc7041b7ac781959d",
+    "R1-149ca751ae-s0": "2f3a260ad23edcdc8fca5e502807d333a9ea8594c5cca8f1cd65d2e5557a5e04",
+    "R1-1f71a3cb6a-s0": "728a2e490d96e9850c9f8f4e1da634d25324c7bc9efc1118f2e4ec1893883b6a",
+    "R1-412f6d0357-s2": "b31d18276cafdc115c08415751e62847466ee5d3428b3669f9dccedc3cf284eb",
+    "R1-7ffe9b8ecf-s1": "319b6142f88a22c83fbab464cbc794af8edfbdd73563de2a6d17158701576b40",
+    "R1-9bfa47d03e-s1": "a2f4f2abdf2bc09b732f30a0f4a5843f8f8808da88efc676f22c9e1fa315703c",
+    "R1-9e7779e2e1-s0": "2007f1ee478bd874308f63230e452476d8d47ed81d94d8ab387a83123c7c1af3",
+    "R1-a711831ed0-s3": "16599bc967d210bd01dc09a495274c9c1584541d01a95240b610801747223955",
+    "R1-b1a8833c69-s4": "76d6ecdd6fc8e666aa7d904539f9065d00db2a042db7c8646d051392b53e8178",
+    "R1-df1bb439ff-s2": "651570e74125a053e718b24855a7a8978a8acd074f3ea83e73750da70fb9635e",
+    "R1-df60366e5f-s4": "d760966ad901711e59acaeecebcb354d4ae499c4b9f02a0c40faa26c290b578a"
+  },
+  "session_gpu_hours": 0.472989,
+  "session_wall_seconds": 1973,
+  "validation": [
+    {
+      "exit": 0,
+      "records": 676,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "run_id": "R1-1f71a3cb6a-s0",
+      "violations": 0
+    },
+    {
+      "exit": 0,
+      "records": 676,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "run_id": "R1-7ffe9b8ecf-s1",
+      "violations": 0
+    },
+    {
+      "exit": 0,
+      "records": 676,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "run_id": "R1-df1bb439ff-s2",
+      "violations": 0
+    },
+    {
+      "exit": 0,
+      "records": 676,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "run_id": "R1-a711831ed0-s3",
+      "violations": 0
+    },
+    {
+      "exit": 0,
+      "records": 676,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "run_id": "R1-b1a8833c69-s4",
+      "violations": 0
+    },
+    {
+      "exit": 0,
+      "records": 676,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "run_id": "R1-149ca751ae-s0",
+      "violations": 0
+    },
+    {
+      "exit": 0,
+      "records": 676,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "run_id": "R1-9bfa47d03e-s1",
+      "violations": 0
+    },
+    {
+      "exit": 0,
+      "records": 676,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "run_id": "R1-412f6d0357-s2",
+      "violations": 0
+    },
+    {
+      "exit": 0,
+      "records": 676,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "run_id": "R1-0a43ace3a7-s3",
+      "violations": 0
+    },
+    {
+      "exit": 0,
+      "records": 676,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "run_id": "R1-df60366e5f-s4",
+      "violations": 0
+    },
+    {
+      "exit": 0,
+      "records": 676,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "run_id": "R1-9e7779e2e1-s0",
+      "violations": 0
+    }
+  ]
+}

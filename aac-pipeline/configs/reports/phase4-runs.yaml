@@ -1,0 +1,41 @@
+profiles:
+ real:
+ r3:
+ - r3-a
+ - r3-a-rd
+ - r3-b-first200-bert_attack
+ - r3-b-first200-textfooler
+ - r3-b-first200-deepwordbug
+ - r3-b-first200-pwws
+ - r3-b-last200-bert_attack
+ - r3-b-last200-textfooler
+ - r3-b-last200-deepwordbug
+ - r3-b-last200-pwws
+ - r3-beam-a
+ - r3-beam-a-rd
+ - r3-beam-b-first200
+ - r3-beam-b-last200
+ bodega:
+ - bs-gpu-host
+ - bs-cpu-host
+ r4:
+ no-retrieval: {chrono: r4-no-retrieval, fc: r4-no-retrieval-fc, rd: r4-no-retrieval-rd, replay: r4-no-retrieval-replay}
+ no-calibration: {chrono: r4-no-calibration, fc: r4-no-calibration-fc, rd: r4-no-calibration-rd, replay: r4-no-calibration-replay}
+ no-abstention: {chrono: r4-no-abstention, fc: r4-no-abstention-fc, rd: r4-no-abstention-rd, replay: r4-no-abstention-replay}
+ content-only: {chrono: r4-content-only, fc: r4-content-only-fc, rd: r4-content-only-rd}
+ supplementary:
+ gate_aware: r3-gate-aware
+ transfer: r4-transfer-a-to-b-replay
+ gate_only: r4-gate-only-a-replay
+ oracle: r1-chrono-full-goldqa
+ tinyworld:
+ r3:
+ - r3-tw-pilot
+ - r3-tw-beam
+ bodega:
+ - bs-tw
+ r4:
+ no-calibration: {chrono: r4-tw-no-calibration, replay: r4-tw-no-calibration-replay}
+ supplementary:
+ gate_aware: r3-tw-gate-aware
+ oracle: r1-tw-full-goldqa

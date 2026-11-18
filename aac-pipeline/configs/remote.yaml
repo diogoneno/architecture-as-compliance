@@ -1,0 +1,21 @@
+host: gpu-node
+aac_home: /data/aac
+releases: /data/aac/releases
+raw: /data/aac/raw
+runs: /data/aac/runs
+derived: /data/aac/data/derived
+hf_home: /data/aac/.hf
+tools: /data/aac/tools
+uv_bin: /data/aac/tools/uv
+python_install_dir: /data/aac/python
+uv_cache_dir: /data/aac/.uv-cache
+python_versions: ["3.11", "3.10.22"]
+sentinel: /data/aac/GPU_CLEARED
+tmux_session_prefix: aac-
+ssh_opts: ["-o", "BatchMode=yes", "-o", "ConnectTimeout=10"]
+torch_extra_by_driver:
+ ">=525": cu126
+nvidia_smi:
+ gpu: "nvidia-smi --query-gpu=name,driver_version,memory.total,memory.used --format=csv,noheader"
+ apps: "nvidia-smi --query-compute-apps=pid,process_name --format=csv,noheader"
+probe_network: [huggingface.co, gitlab.com]

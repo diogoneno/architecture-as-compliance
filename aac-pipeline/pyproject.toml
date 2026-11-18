@@ -1,0 +1,76 @@
+[build-system]
+requires = ["setuptools==80.10.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aac"
+version = "0.1.0"
+description = "Architecture-as-Compliance fact-checking pipeline"
+authors = [{name = "Diogo Pereira", email = "diogoneno@gmail.com"}]
+requires-python = "==3.11.*"
+dependencies = [
+  "torch==2.14.1",
+  "transformers==5.19.0",
+  "sentence-transformers==6.1.0",
+  "huggingface_hub==1.33.0",
+  "sentencepiece==0.2.2",
+  "protobuf==7.36.2",
+  "numpy==2.4.6",
+  "scipy==1.17.1",
+  "scikit-learn==1.9.1",
+  "pandas==3.0.6",
+  "statsmodels==0.15.0",
+  "netcal==1.4.0",
+  "matplotlib==3.11.2",
+  "jsonschema==4.26.0",
+  "pyyaml==6.0.3",
+  "pydantic==2.14.1",
+  "jinja2==3.1.6",
+  "bm25s==0.3.13",
+  "PyStemmer==3.1.0",
+  "orjson==3.13.0",
+  "prisma-flowchart==0.1.1",
+  "pytest==9.1.1",
+]
+
+[project.optional-dependencies]
+cpu = ["torch==2.14.1"]
+cu126 = ["torch==2.14.1"]
+
+[project.scripts]
+aac = "aac.cli:main"
+
+
+[dependency-groups]
+lint = ["import-linter==2.15"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.uv]
+index-strategy = "unsafe-best-match"
+conflicts = [[{ extra = "cpu" }, { extra = "cu126" }]]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cpu", extra = "cpu" },
+  { index = "pytorch-cu126", extra = "cu126" },
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider -q"
+markers = [
+  "slow: tests taking minutes",
+  "offline: needs the .hf cache",
+]

@@ -1,0 +1,5 @@
+extends: [r1-chrono-full.yaml]
+name: r1-chrono-full-sens
+components:
+ c2:
+ variant: sensitivity-b

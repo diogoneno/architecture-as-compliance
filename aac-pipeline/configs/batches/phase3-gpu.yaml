@@ -1,0 +1,55 @@
+ceiling_gpu_hours: 6.5
+projection_rule: "after batch A: projected = measured(A) + 9 x measured(C2S chrono s0) + 14 x measured(R1 chrono full s0) + 0.2; run batch B only if projected <= 6.5"
+runs:
+ - {target: evidence, config: configs/retrieval/evidence.yaml, seed: 0, batch: configs/batches/phase3-gpu-a.txt,
+ est_gpu_hours: [0.5, 0.9], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: train, config: configs/train/c2s-chrono.yaml, seed: 0, batch: configs/batches/phase3-gpu-a.txt,
+ est_gpu_hours: [0.2, 0.4], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: run, config: configs/regimes/real/r1-chrono-full.yaml, seed: 0, batch: configs/batches/phase3-gpu-a.txt,
+ est_gpu_hours: [0.02, 0.05], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: train, config: configs/train/c2s-chrono.yaml, seed: 1, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.2, 0.4], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: run, config: configs/regimes/real/r1-chrono-full.yaml, seed: 1, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.02, 0.05], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: train, config: configs/train/c2s-chrono.yaml, seed: 2, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.2, 0.4], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: run, config: configs/regimes/real/r1-chrono-full.yaml, seed: 2, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.02, 0.05], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: train, config: configs/train/c2s-chrono.yaml, seed: 3, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.2, 0.4], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: run, config: configs/regimes/real/r1-chrono-full.yaml, seed: 3, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.02, 0.05], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: train, config: configs/train/c2s-chrono.yaml, seed: 4, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.2, 0.4], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: run, config: configs/regimes/real/r1-chrono-full.yaml, seed: 4, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.02, 0.05], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: train, config: configs/train/c2s-random.yaml, seed: 0, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.2, 0.4], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: run, config: configs/regimes/real/r1-random-full.yaml, seed: 0, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.02, 0.05], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: train, config: configs/train/c2s-random.yaml, seed: 1, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.2, 0.4], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: run, config: configs/regimes/real/r1-random-full.yaml, seed: 1, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.02, 0.05], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: train, config: configs/train/c2s-random.yaml, seed: 2, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.2, 0.4], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: run, config: configs/regimes/real/r1-random-full.yaml, seed: 2, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.02, 0.05], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: train, config: configs/train/c2s-random.yaml, seed: 3, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.2, 0.4], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: run, config: configs/regimes/real/r1-random-full.yaml, seed: 3, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.02, 0.05], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: train, config: configs/train/c2s-random.yaml, seed: 4, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.2, 0.4], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: run, config: configs/regimes/real/r1-random-full.yaml, seed: 4, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.02, 0.05], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: run, config: configs/regimes/real/r1-chrono-full-sens.yaml, seed: 0, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.02, 0.05], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: run, config: configs/regimes/real/r1-chrono-full-sens.yaml, seed: 1, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.02, 0.05], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: run, config: configs/regimes/real/r1-chrono-full-sens.yaml, seed: 2, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.02, 0.05], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: run, config: configs/regimes/real/r1-chrono-full-sens.yaml, seed: 3, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.02, 0.05], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}
+ - {target: run, config: configs/regimes/real/r1-chrono-full-sens.yaml, seed: 4, batch: configs/batches/phase3-gpu-b.txt,
+ est_gpu_hours: [0.02, 0.05], source: " Compute budget [L] (arithmetic; EV from the measured bench projection)"}

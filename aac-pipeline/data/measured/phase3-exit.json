@@ -1,0 +1,93 @@
+{
+  "backup": {
+    "backup_started_utc": "2026-10-17T21:57:43Z",
+    "fallback_cp": false,
+    "head_at_backup": "ba661dd81c200aa8921d63fc750679b5e2eeb4e4",
+    "line": "backup: /mnt/loki/backups/dissertation/2026-10-17  (MANIFEST.sha256: 8127 files, verified; no secrets/, no private lane, no raw rows, no rd5/)",
+    "manifest_files_printed": 8127,
+    "manifest_lines": 8127,
+    "manifest_secrets_or_private_lines": 0,
+    "path": "/mnt/loki/backups/dissertation/2026-10-17",
+    "verified": true
+  },
+  "checklist": {
+    "deviations_rows_confirmed": {
+      "first": 13,
+      "last": 45,
+      "not_confirmed": [],
+      "rows_with_status_line": 33
+    },
+    "no_pending_cells": true,
+    "pending_files": [],
+    "r2_runs": 20,
+    "r2_runs_session_count": 20,
+    "tables_filled": {
+      "table-4.2-r1.csv": {
+        "exists": true,
+        "sha256": "15390b159bf3d9e2706f12d43f0667ada1738924aad298ea20d46b6413cdf20f"
+      },
+      "table-4.3-r2.csv": {
+        "exists": true,
+        "sha256": "e90f741d4e907eb0fa4c53bde52efd337d48c27526c3c5c7dd012d94c437b590"
+      },
+      "table-4.6-coverage-risk.csv": {
+        "exists": true,
+        "sha256": "b58a3654775f70e41e352e70d945d73b5a0966ea8729e78150b931b3e1fd0bea"
+      }
+    }
+  },
+  "phase3_gpu_hours": {
+    "ceiling": 8.0,
+    "ceiling_source": "data/measured/phase3-gpu-session.json phase_ceiling_gpu_hours",
+    "phase2_source": "data/measured/phase2-gpu-session.json session_gpu_hours",
+    "pilot": 0.166927,
+    "pilot_source": "data/measured/phase3-pilot-session.json session_gpu_hours",
+    "project_total_with_phase2": 4.51577,
+    "session": 3.875854,
+    "session_source": "data/measured/phase3-gpu-session.json session_gpu_hours",
+    "total": 4.042781
+  },
+  "pilot": {
+    "index_name": "r3-pilot",
+    "indexed_rows": 1,
+    "l2_line": "R3-d6e8659ea8-s0: L2: ok (6703 records == 6703 ledger queries)",
+    "l2_ok": true,
+    "pull_line": "pulled R3-d6e8659ea8-s0: SEALED dcb5d7490f78 verified; INDEX.json updated",
+    "pulled": true,
+    "run_id": "R3-d6e8659ea8-s0",
+    "sealed_sha256": "dcb5d7490f7878cd9a809336b7843cfe9b508d4ac2afffeb0a9122ffe38fbb39",
+    "validation": {
+      "records": 6703,
+      "records_with_claim_text": 0,
+      "records_with_user_id": 0,
+      "violations": 0
+    }
+  },
+  "plan": "03-15",
+  "projection_committed_sha256": "daca24178f108cd97820c3aa44288e429c5ae9c27b518764819adcc6e2ef2840",
+  "projection_mismatch": {
+    "cause": "the cpu-host tree has data/measured/phase3-pilot-session.json (session_gpu_hours 0.166927); release 28542d2, where the committed CSV was made on turing, did not",
+    "command": "python -m aac.attacks.projection --run-id R3-d6e8659ea8-s0 --out <scratch>/r3-budget-projection.csv (cpu-host, HEAD tree)",
+    "committed_file_overwritten": false,
+    "diff": [
+      "< projection,all,all,all,remaining_at_50,45.651157,GPU-hours,50 - used_gpu_hours (PROJECT.md constraints: 50 to 75 GPU-hours total (Table D.2 'of the 50 to 75 planned'))",
+      "< projection,all,all,all,remaining_at_75,70.651157,GPU-hours,75 - used_gpu_hours (PROJECT.md constraints: 50 to 75 GPU-hours total (Table D.2 'of the 50 to 75 planned'))",
+      "< projection,all,all,all,used_gpu_hours,4.348843,GPU-hours,sum of session_gpu_hours in data/measured/phase2-gpu-session.json + data/measured/phase3-gpu-session.json",
+      "> projection,all,all,all,remaining_at_50,45.484230,GPU-hours,50 - used_gpu_hours (PROJECT.md constraints: 50 to 75 GPU-hours total (Table D.2 'of the 50 to 75 planned'))",
+      "> projection,all,all,all,remaining_at_75,70.484230,GPU-hours,75 - used_gpu_hours (PROJECT.md constraints: 50 to 75 GPU-hours total (Table D.2 'of the 50 to 75 planned'))",
+      "> projection,all,all,all,used_gpu_hours,4.515770,GPU-hours,sum of session_gpu_hours in data/measured/phase2-gpu-session.json + data/measured/phase3-gpu-session.json + data/measured/phase3-pilot-session.json"
+    ],
+    "differing_metrics": [
+      "remaining_at_50",
+      "remaining_at_75",
+      "used_gpu_hours"
+    ],
+    "differing_rows": 3,
+    "identical": false,
+    "release_inputs_regeneration_note": "same build() on cpu-host with MEASURED_SESSIONS limited to the two session files present in release 28542d2; projection.py and every other input are unchanged since 28542d2 (git diff --stat empty)",
+    "release_inputs_regeneration_sha256": "daca24178f108cd97820c3aa44288e429c5ae9c27b518764819adcc6e2ef2840"
+  },
+  "projection_regenerated_sha256": "5f87a8b044d07504589d098792bc9af7784ced4c65e9d947ece6afe7d1805167",
+  "reports_index_sha256": "bb59f3bcd64016bdd083edec5001873dda60547442cb3e7862b526ae79cd4a7e",
+  "schema": "aac-phase-exit/phase3"
+}

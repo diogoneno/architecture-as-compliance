@@ -1,0 +1,497 @@
+{
+ "backup": {
+  "line": "backup: /mnt/loki/backups/dissertation/2026-10-17  (MANIFEST.sha256: 7709 files, verified; no secrets/, no private lane, no raw rows, no rd5/)",
+  "manifest_lines": 7709,
+  "path": "/mnt/loki/backups/dissertation/2026-10-17",
+  "verified": true
+ },
+ "ev_rd_pooled": {
+  "counts": {
+   "n_bm25_candidates": 415000,
+   "n_items": 415,
+   "n_items_empty_text": 0,
+   "n_items_no_candidates": 0,
+   "n_pool_passages": 2334254,
+   "n_rerank_pairs": 8300
+  },
+  "coverage_rate": 0.392771,
+  "covered": 163,
+  "depends_on": [
+   "EV-7ceb148b39-s0"
+  ],
+  "device": "cpu",
+  "evidence_sha256": "353b66b8c73f53d2c83c16c00b3402ab2799adbfeeca93245ec5b7d7273e488a",
+  "floor": {
+   "rule": "p10-top1-rerank-val_cal",
+   "source_run_id": "R1-eadf294e6e-s0",
+   "value": 0.730889
+  },
+  "git_sha": "3cd7ca08ad78570fdb402f6d25d3963e8cbb7de0",
+  "items_with_passages": 415,
+  "pool_run_id": "EV-7ceb148b39-s0",
+  "precision": {
+   "applied": "float32",
+   "configured": "float32",
+   "reranker": "float32"
+  },
+  "rd_items": 415,
+  "rd_items_path": "data/derived/incrediblae/rd-attack.items.json",
+  "run_id": "EV-abbc12d278-s0",
+  "sealed_sha256": "a22cd349b5ff342e7a2c420b6e6af833e9e35b2cd755a7a9cd3374b44e5c8bdb",
+  "wallclock_s": {
+   "bm25": 127.904541,
+   "embed": 471.780582,
+   "load-models": 12.758148,
+   "read-inputs": 28.342307,
+   "rerank": 2731.286301
+  }
+ },
+ "host": "cpu-host (CPU)",
+ "index_runs_after_pulls": 55,
+ "index_runs_before_pulls": 28,
+ "loki_audit_after_pull_1": [
+  "commits added: 4",
+  "commands added: 139",
+  "writes added: 0"
+ ],
+ "loki_audit_after_pull_2": [
+  "commits added: 0",
+  "commands added: 48",
+  "writes added: 2"
+ ],
+ "plan": "03-12",
+ "pooled_bundle": {
+  "dir_mode": "700",
+  "ev_run_id": "EV-7ceb148b39-s0",
+  "file_mode": "600",
+  "files": [
+   {
+    "bytes": 110909542,
+    "name": "passages.jsonl.gz",
+    "sha256": "5e23608b01fbf5271487062fd97c2ddcd59293f396333b48528fe34816181cf2",
+    "sha256_of": "decompressed bytes"
+   },
+   {
+    "bytes": 4780552320,
+    "name": "vectors.npy",
+    "sha256": "07946074b3b89a36e98a2d05d7d07a69771a3f4a7e855794bfc79521ecd78729",
+    "sha256_of": "file"
+   }
+  ],
+  "n_claims": 2704,
+  "n_passages": 2334254,
+  "verified": true
+ },
+ "pulled": [
+  "EV-7ceb148b39-s0",
+  "C2S-c8e4606e03-s0",
+  "R1-eadf294e6e-s0",
+  "C2S-3530beba01-s0",
+  "R1-4805ab6250-s0",
+  "C2S-3530beba01-s1",
+  "R1-5bb7401e76-s1",
+  "C2S-3530beba01-s2",
+  "R1-5b199ca3b7-s2",
+  "C2S-3530beba01-s3",
+  "R1-d8ed451bb2-s3",
+  "C2S-3530beba01-s4",
+  "R1-878a174978-s4",
+  "C2S-c8e4606e03-s1",
+  "R1-f715e28168-s1",
+  "C2S-c8e4606e03-s2",
+  "R1-2b0c7f0dd9-s2",
+  "C2S-c8e4606e03-s3",
+  "R1-114138606e-s3",
+  "C2S-c8e4606e03-s4",
+  "R1-a37b2d576e-s4",
+  "R1-4b16ffe88e-s0",
+  "R1-be8caf6358-s1",
+  "R1-89feb1380e-s2",
+  "R1-2ef54b7262-s3",
+  "R1-bb780b5ce5-s4",
+  "SL-2320b621a7-s0"
+ ],
+ "pulled_count": 27,
+ "r2_run_count": 20,
+ "r2_runs": [
+  {
+   "config": "configs/regimes/real/r2-fc-content-only.yaml",
+   "depends_on": [
+    "C1-fec8285c09-s0"
+   ],
+   "git_sha": "47b4f658a149cc25daf8c3832e30e3d300d90508",
+   "name": "r2-fc-content-only",
+   "records": 405,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R2-c85e88a7ed-s0",
+   "seed": 0,
+   "system": "content_only",
+   "violations": 0,
+   "wallclock_s": 10.964
+  },
+  {
+   "config": "configs/regimes/real/r2-fc-content-only.yaml",
+   "depends_on": [
+    "C1-fec8285c09-s1"
+   ],
+   "git_sha": "47b4f658a149cc25daf8c3832e30e3d300d90508",
+   "name": "r2-fc-content-only",
+   "records": 405,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R2-7253dfeeca-s1",
+   "seed": 1,
+   "system": "content_only",
+   "violations": 0,
+   "wallclock_s": 8.56
+  },
+  {
+   "config": "configs/regimes/real/r2-fc-content-only.yaml",
+   "depends_on": [
+    "C1-fec8285c09-s2"
+   ],
+   "git_sha": "47b4f658a149cc25daf8c3832e30e3d300d90508",
+   "name": "r2-fc-content-only",
+   "records": 405,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R2-661f3f5b88-s2",
+   "seed": 2,
+   "system": "content_only",
+   "violations": 0,
+   "wallclock_s": 11.236
+  },
+  {
+   "config": "configs/regimes/real/r2-fc-content-only.yaml",
+   "depends_on": [
+    "C1-fec8285c09-s3"
+   ],
+   "git_sha": "47b4f658a149cc25daf8c3832e30e3d300d90508",
+   "name": "r2-fc-content-only",
+   "records": 405,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R2-0da246063d-s3",
+   "seed": 3,
+   "system": "content_only",
+   "violations": 0,
+   "wallclock_s": 10.415
+  },
+  {
+   "config": "configs/regimes/real/r2-fc-content-only.yaml",
+   "depends_on": [
+    "C1-fec8285c09-s4"
+   ],
+   "git_sha": "47b4f658a149cc25daf8c3832e30e3d300d90508",
+   "name": "r2-fc-content-only",
+   "records": 405,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R2-18771efee2-s4",
+   "seed": 4,
+   "system": "content_only",
+   "violations": 0,
+   "wallclock_s": 10.438
+  },
+  {
+   "config": "configs/regimes/real/r2-fc-full.yaml",
+   "depends_on": [
+    "C1-fec8285c09-s0",
+    "C2S-c8e4606e03-s0",
+    "R1-eadf294e6e-s0"
+   ],
+   "git_sha": "47b4f658a149cc25daf8c3832e30e3d300d90508",
+   "name": "r2-fc-full",
+   "records": 405,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R2-336c000adf-s0",
+   "scorer_truncated_fc": 0,
+   "scorer_truncated_pairs_fc": 0,
+   "seed": 0,
+   "system": "full",
+   "violations": 0,
+   "wallclock_s": 136.239
+  },
+  {
+   "config": "configs/regimes/real/r2-fc-full.yaml",
+   "depends_on": [
+    "C1-fec8285c09-s1",
+    "C2S-c8e4606e03-s1",
+    "R1-f715e28168-s1"
+   ],
+   "git_sha": "47b4f658a149cc25daf8c3832e30e3d300d90508",
+   "name": "r2-fc-full",
+   "records": 405,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R2-6781daf2a4-s1",
+   "scorer_truncated_fc": 0,
+   "scorer_truncated_pairs_fc": 0,
+   "seed": 1,
+   "system": "full",
+   "violations": 0,
+   "wallclock_s": 133.759
+  },
+  {
+   "config": "configs/regimes/real/r2-fc-full.yaml",
+   "depends_on": [
+    "C1-fec8285c09-s2",
+    "C2S-c8e4606e03-s2",
+    "R1-2b0c7f0dd9-s2"
+   ],
+   "git_sha": "47b4f658a149cc25daf8c3832e30e3d300d90508",
+   "name": "r2-fc-full",
+   "records": 405,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R2-661385257c-s2",
+   "scorer_truncated_fc": 0,
+   "scorer_truncated_pairs_fc": 0,
+   "seed": 2,
+   "system": "full",
+   "violations": 0,
+   "wallclock_s": 135.731
+  },
+  {
+   "config": "configs/regimes/real/r2-fc-full.yaml",
+   "depends_on": [
+    "C1-fec8285c09-s3",
+    "C2S-c8e4606e03-s3",
+    "R1-114138606e-s3"
+   ],
+   "git_sha": "47b4f658a149cc25daf8c3832e30e3d300d90508",
+   "name": "r2-fc-full",
+   "records": 405,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R2-c0fca389b2-s3",
+   "scorer_truncated_fc": 0,
+   "scorer_truncated_pairs_fc": 0,
+   "seed": 3,
+   "system": "full",
+   "violations": 0,
+   "wallclock_s": 134.275
+  },
+  {
+   "config": "configs/regimes/real/r2-fc-full.yaml",
+   "depends_on": [
+    "C1-fec8285c09-s4",
+    "C2S-c8e4606e03-s4",
+    "R1-a37b2d576e-s4"
+   ],
+   "git_sha": "47b4f658a149cc25daf8c3832e30e3d300d90508",
+   "name": "r2-fc-full",
+   "records": 405,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R2-abb1c86979-s4",
+   "scorer_truncated_fc": 0,
+   "scorer_truncated_pairs_fc": 0,
+   "seed": 4,
+   "system": "full",
+   "violations": 0,
+   "wallclock_s": 133.47
+  },
+  {
+   "config": "configs/regimes/real/r2-rd-content-only.yaml",
+   "depends_on": [
+    "C1-fec8285c09-s0"
+   ],
+   "git_sha": "47b4f658a149cc25daf8c3832e30e3d300d90508",
+   "name": "r2-rd-content-only",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R2-9497810ae2-s0",
+   "seed": 0,
+   "system": "content_only",
+   "violations": 0,
+   "wallclock_s": 33.276
+  },
+  {
+   "config": "configs/regimes/real/r2-rd-content-only.yaml",
+   "depends_on": [
+    "C1-fec8285c09-s1"
+   ],
+   "git_sha": "47b4f658a149cc25daf8c3832e30e3d300d90508",
+   "name": "r2-rd-content-only",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R2-71d817c3ce-s1",
+   "seed": 1,
+   "system": "content_only",
+   "violations": 0,
+   "wallclock_s": 38.107
+  },
+  {
+   "config": "configs/regimes/real/r2-rd-content-only.yaml",
+   "depends_on": [
+    "C1-fec8285c09-s2"
+   ],
+   "git_sha": "47b4f658a149cc25daf8c3832e30e3d300d90508",
+   "name": "r2-rd-content-only",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R2-069c6df2f6-s2",
+   "seed": 2,
+   "system": "content_only",
+   "violations": 0,
+   "wallclock_s": 35.46
+  },
+  {
+   "config": "configs/regimes/real/r2-rd-content-only.yaml",
+   "depends_on": [
+    "C1-fec8285c09-s3"
+   ],
+   "git_sha": "47b4f658a149cc25daf8c3832e30e3d300d90508",
+   "name": "r2-rd-content-only",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R2-c7420bfdb7-s3",
+   "seed": 3,
+   "system": "content_only",
+   "violations": 0,
+   "wallclock_s": 37.454
+  },
+  {
+   "config": "configs/regimes/real/r2-rd-content-only.yaml",
+   "depends_on": [
+    "C1-fec8285c09-s4"
+   ],
+   "git_sha": "47b4f658a149cc25daf8c3832e30e3d300d90508",
+   "name": "r2-rd-content-only",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R2-03027dc8c1-s4",
+   "seed": 4,
+   "system": "content_only",
+   "violations": 0,
+   "wallclock_s": 40.687
+  },
+  {
+   "config": "configs/regimes/real/r2-rd-full.yaml",
+   "depends_on": [
+    "C1-fec8285c09-s0",
+    "C2S-c8e4606e03-s0",
+    "EV-abbc12d278-s0",
+    "R1-eadf294e6e-s0"
+   ],
+   "git_sha": "3cd7ca08ad78570fdb402f6d25d3963e8cbb7de0",
+   "name": "r2-rd-full",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R2-aeb17f6f8f-s0",
+   "scorer_truncated_pairs_rd": 1380,
+   "scorer_truncated_rd": 276,
+   "seed": 0,
+   "system": "full",
+   "violations": 0,
+   "wallclock_s": 436.321
+  },
+  {
+   "config": "configs/regimes/real/r2-rd-full.yaml",
+   "depends_on": [
+    "C1-fec8285c09-s1",
+    "C2S-c8e4606e03-s1",
+    "EV-abbc12d278-s0",
+    "R1-f715e28168-s1"
+   ],
+   "git_sha": "47b4f658a149cc25daf8c3832e30e3d300d90508",
+   "name": "r2-rd-full",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R2-1b49b2151d-s1",
+   "scorer_truncated_pairs_rd": 1380,
+   "scorer_truncated_rd": 276,
+   "seed": 1,
+   "system": "full",
+   "violations": 0,
+   "wallclock_s": 437.375
+  },
+  {
+   "config": "configs/regimes/real/r2-rd-full.yaml",
+   "depends_on": [
+    "C1-fec8285c09-s2",
+    "C2S-c8e4606e03-s2",
+    "EV-abbc12d278-s0",
+    "R1-2b0c7f0dd9-s2"
+   ],
+   "git_sha": "47b4f658a149cc25daf8c3832e30e3d300d90508",
+   "name": "r2-rd-full",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R2-94671b16f5-s2",
+   "scorer_truncated_pairs_rd": 1380,
+   "scorer_truncated_rd": 276,
+   "seed": 2,
+   "system": "full",
+   "violations": 0,
+   "wallclock_s": 440.171
+  },
+  {
+   "config": "configs/regimes/real/r2-rd-full.yaml",
+   "depends_on": [
+    "C1-fec8285c09-s3",
+    "C2S-c8e4606e03-s3",
+    "EV-abbc12d278-s0",
+    "R1-114138606e-s3"
+   ],
+   "git_sha": "47b4f658a149cc25daf8c3832e30e3d300d90508",
+   "name": "r2-rd-full",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R2-257fb70626-s3",
+   "scorer_truncated_pairs_rd": 1380,
+   "scorer_truncated_rd": 276,
+   "seed": 3,
+   "system": "full",
+   "violations": 0,
+   "wallclock_s": 400.574
+  },
+  {
+   "config": "configs/regimes/real/r2-rd-full.yaml",
+   "depends_on": [
+    "C1-fec8285c09-s4",
+    "C2S-c8e4606e03-s4",
+    "EV-abbc12d278-s0",
+    "R1-a37b2d576e-s4"
+   ],
+   "git_sha": "47b4f658a149cc25daf8c3832e30e3d300d90508",
+   "name": "r2-rd-full",
+   "records": 415,
+   "records_with_claim_text": 0,
+   "records_with_user_id": 0,
+   "run_id": "R2-b81663bfa2-s4",
+   "scorer_truncated_pairs_rd": 1380,
+   "scorer_truncated_rd": 276,
+   "seed": 4,
+   "system": "full",
+   "violations": 0,
+   "wallclock_s": 437.459
+  }
+ ],
+ "random_partition_check": {
+  "r1_random_full_s0_items": {
+   "test": 676,
+   "train": 2169,
+   "val_cal": 257,
+   "val_fuse": 278
+  },
+  "split_manifest": "data/derived/splits/averitec-random-v1.json",
+  "test": 676,
+  "train": 2169,
+  "val_cal": 257,
+  "val_fuse": 278
+ },
+ "schema": "aac-phase3-r2-session/1"
+}

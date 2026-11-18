@@ -1,0 +1,323 @@
+{
+ "files": [
+  {
+   "bytes": 1785475,
+   "expected_sha256": "499793726b4a5406780928a3d9dedc48d6dd53de778f22437d129cacdb08e300",
+   "host": "bengio",
+   "lfs_pointer": false,
+   "licence_key": "averitec",
+   "match": true,
+   "path": "averitec/data/dev.json",
+   "sha256": "499793726b4a5406780928a3d9dedc48d6dd53de778f22437d129cacdb08e300",
+   "source": "hf:chenxwh/AVeriTeC@2ca9dee23a2a6fa64c5bd918e0cd28ed0aa09031"
+  },
+  {
+   "bytes": 10184813,
+   "expected_sha256": "ae5eda7c42ddf1695ef185a7ba1bc716928f5adf57103e4f78aae5f9afe00f9c",
+   "host": "bengio",
+   "lfs_pointer": false,
+   "licence_key": "averitec",
+   "match": true,
+   "path": "averitec/data/train.json",
+   "sha256": "ae5eda7c42ddf1695ef185a7ba1bc716928f5adf57103e4f78aae5f9afe00f9c",
+   "source": "hf:chenxwh/AVeriTeC@2ca9dee23a2a6fa64c5bd918e0cd28ed0aa09031"
+  },
+  {
+   "bytes": 1314034311,
+   "expected_sha256": "8ddb8132a28ceff149904dd3ad3c3edd3e5f0c7de0169819207104a80e425c9a",
+   "host": "bengio",
+   "lfs_pointer": false,
+   "licence_key": "averitec",
+   "match": true,
+   "path": "averitec/pretrained_models/bert_veracity.ckpt",
+   "sha256": "8ddb8132a28ceff149904dd3ad3c3edd3e5f0c7de0169819207104a80e425c9a",
+   "source": "hf:chenxwh/AVeriTeC@2ca9dee23a2a6fa64c5bd918e0cd28ed0aa09031"
+  },
+  {
+   "bytes": 187014,
+   "expected_sha256": "measured-only",
+   "host": "bengio",
+   "lfs_pointer": false,
+   "licence_key": "incrediblae.C19",
+   "match": null,
+   "path": "incrediblae/C19/attack.tsv",
+   "sha256": "a2a46021e823872dd858c7a44a232d174d4d88f451dd2b123b628d9b843aa6e8",
+   "source": "gitlab:checkthat_lab/clef2024-checkthat-lab@6b9cf603de6eeb9c5faf6707455ecf2e1611a082"
+  },
+  {
+   "bytes": 438018105,
+   "expected_sha256": "cb64f2fc4ddf76b05daa3f6bfa2fb7c83ef43d9c840f3e409cb9833ebc67cdb8",
+   "host": "bengio",
+   "lfs_pointer": false,
+   "licence_key": "incrediblae.FC",
+   "match": true,
+   "path": "incrediblae/FC/BERT-512.pth",
+   "sha256": "cb64f2fc4ddf76b05daa3f6bfa2fb7c83ef43d9c840f3e409cb9833ebc67cdb8",
+   "source": "gitlab:checkthat_lab/clef2024-checkthat-lab@6b9cf603de6eeb9c5faf6707455ecf2e1611a082"
+  },
+  {
+   "bytes": 116831,
+   "expected_sha256": "e4606a761a78476114dd6ea2655ae07080dac45e8a229023986633677003f9b4",
+   "host": "bengio",
+   "lfs_pointer": false,
+   "licence_key": "incrediblae.FC",
+   "match": true,
+   "path": "incrediblae/FC/attack.tsv",
+   "sha256": "e4606a761a78476114dd6ea2655ae07080dac45e8a229023986633677003f9b4",
+   "source": "gitlab:checkthat_lab/clef2024-checkthat-lab@6b9cf603de6eeb9c5faf6707455ecf2e1611a082"
+  },
+  {
+   "bytes": 5313971,
+   "expected_sha256": "a6f94faed5081af67bfc06b1609e2428e05aabea0514afc0e08425972d7289a0",
+   "host": "bengio",
+   "lfs_pointer": false,
+   "licence_key": "incrediblae.FC",
+   "match": true,
+   "path": "incrediblae/FC/dev.tsv",
+   "sha256": "a6f94faed5081af67bfc06b1609e2428e05aabea0514afc0e08425972d7289a0",
+   "source": "gitlab:checkthat_lab/clef2024-checkthat-lab@6b9cf603de6eeb9c5faf6707455ecf2e1611a082"
+  },
+  {
+   "bytes": 51247594,
+   "expected_sha256": "10029e6ed8b6bb0219eda293d19e75c4563d235357c8d2dbcb7a379ab1d525a5",
+   "host": "bengio",
+   "lfs_pointer": false,
+   "licence_key": "incrediblae.FC",
+   "match": true,
+   "path": "incrediblae/FC/train.tsv",
+   "sha256": "10029e6ed8b6bb0219eda293d19e75c4563d235357c8d2dbcb7a379ab1d525a5",
+   "source": "gitlab:checkthat_lab/clef2024-checkthat-lab@6b9cf603de6eeb9c5faf6707455ecf2e1611a082"
+  },
+  {
+   "bytes": 438018105,
+   "expected_sha256": "9eb48a22b0fcb6a1add6d92172d0923072a63b9a6ced0ced4b78d605aa980bea",
+   "host": "bengio",
+   "lfs_pointer": false,
+   "licence_key": "incrediblae.RD",
+   "match": true,
+   "path": "incrediblae/RD/BERT-512.pth",
+   "sha256": "9eb48a22b0fcb6a1add6d92172d0923072a63b9a6ced0ced4b78d605aa980bea",
+   "source": "gitlab:checkthat_lab/clef2024-checkthat-lab@6b9cf603de6eeb9c5faf6707455ecf2e1611a082"
+  },
+  {
+   "bytes": 825588,
+   "expected_sha256": "71b6037a0d66fb8c259c74e3c6c6afc7a2e2b72efb2a71dd5866accf8086cffb",
+   "host": "bengio",
+   "lfs_pointer": false,
+   "licence_key": "incrediblae.RD",
+   "match": true,
+   "path": "incrediblae/RD/attack.tsv",
+   "sha256": "71b6037a0d66fb8c259c74e3c6c6afc7a2e2b72efb2a71dd5866accf8086cffb",
+   "source": "gitlab:checkthat_lab/clef2024-checkthat-lab@6b9cf603de6eeb9c5faf6707455ecf2e1611a082"
+  },
+  {
+   "bytes": 3821928,
+   "expected_sha256": "77351a63e4c92c48e7477e7ddff57a0b8ff30c1285f9d3ad510d5456d1f47d7b",
+   "host": "bengio",
+   "lfs_pointer": false,
+   "licence_key": "incrediblae.RD",
+   "match": true,
+   "path": "incrediblae/RD/dev.tsv",
+   "sha256": "77351a63e4c92c48e7477e7ddff57a0b8ff30c1285f9d3ad510d5456d1f47d7b",
+   "source": "gitlab:checkthat_lab/clef2024-checkthat-lab@6b9cf603de6eeb9c5faf6707455ecf2e1611a082"
+  },
+  {
+   "bytes": 10810019,
+   "expected_sha256": "17070a23e8b3a26df827530e8b922c2b82363869ea1c73f62ead245b29190a7a",
+   "host": "bengio",
+   "lfs_pointer": false,
+   "licence_key": "incrediblae.RD",
+   "match": true,
+   "path": "incrediblae/RD/train.tsv",
+   "sha256": "17070a23e8b3a26df827530e8b922c2b82363869ea1c73f62ead245b29190a7a",
+   "source": "gitlab:checkthat_lab/clef2024-checkthat-lab@6b9cf603de6eeb9c5faf6707455ecf2e1611a082"
+  },
+  {
+   "bytes": 1785475,
+   "expected_sha256": "499793726b4a5406780928a3d9dedc48d6dd53de778f22437d129cacdb08e300",
+   "host": "turing",
+   "lfs_pointer": false,
+   "licence_key": "averitec",
+   "match": true,
+   "path": "averitec/data/dev.json",
+   "sha256": "499793726b4a5406780928a3d9dedc48d6dd53de778f22437d129cacdb08e300",
+   "source": "hf:chenxwh/AVeriTeC@2ca9dee23a2a6fa64c5bd918e0cd28ed0aa09031"
+  },
+  {
+   "bytes": 10184813,
+   "expected_sha256": "ae5eda7c42ddf1695ef185a7ba1bc716928f5adf57103e4f78aae5f9afe00f9c",
+   "host": "turing",
+   "lfs_pointer": false,
+   "licence_key": "averitec",
+   "match": true,
+   "path": "averitec/data/train.json",
+   "sha256": "ae5eda7c42ddf1695ef185a7ba1bc716928f5adf57103e4f78aae5f9afe00f9c",
+   "source": "hf:chenxwh/AVeriTeC@2ca9dee23a2a6fa64c5bd918e0cd28ed0aa09031"
+  },
+  {
+   "bytes": 11537899362,
+   "expected_sha256": "021e258cd6fb5fe6d627a4667d663e95c184c966939c15124df9206142fc2212",
+   "host": "turing",
+   "lfs_pointer": false,
+   "licence_key": "averitec",
+   "match": true,
+   "path": "averitec/data_store/knowledge_store/dev_knowledge_store.zip",
+   "sha256": "021e258cd6fb5fe6d627a4667d663e95c184c966939c15124df9206142fc2212",
+   "source": "hf:chenxwh/AVeriTeC@2ca9dee23a2a6fa64c5bd918e0cd28ed0aa09031"
+  },
+  {
+   "bytes": 20730339734,
+   "expected_sha256": "389d2284c5f25410205ec530c2101c3e6d575eae460731e1909ad19192dcb810",
+   "host": "turing",
+   "lfs_pointer": false,
+   "licence_key": "averitec",
+   "match": true,
+   "path": "averitec/data_store/knowledge_store/train/train_0_999.zip",
+   "sha256": "389d2284c5f25410205ec530c2101c3e6d575eae460731e1909ad19192dcb810",
+   "source": "hf:chenxwh/AVeriTeC@2ca9dee23a2a6fa64c5bd918e0cd28ed0aa09031"
+  },
+  {
+   "bytes": 21273604733,
+   "expected_sha256": "e2bf5c1dccc855cf3474ccd3f14678fe60f21e6c69685a34d7bc884996fec446",
+   "host": "turing",
+   "lfs_pointer": false,
+   "licence_key": "averitec",
+   "match": true,
+   "path": "averitec/data_store/knowledge_store/train/train_1000_1999.zip",
+   "sha256": "e2bf5c1dccc855cf3474ccd3f14678fe60f21e6c69685a34d7bc884996fec446",
+   "source": "hf:chenxwh/AVeriTeC@2ca9dee23a2a6fa64c5bd918e0cd28ed0aa09031"
+  },
+  {
+   "bytes": 21520772573,
+   "expected_sha256": "d3e27cc4072cd085dbac44272f1ea918dd3ff970b39d94f143e40c51bbde43d0",
+   "host": "turing",
+   "lfs_pointer": false,
+   "licence_key": "averitec",
+   "match": true,
+   "path": "averitec/data_store/knowledge_store/train/train_2000_3067.zip",
+   "sha256": "d3e27cc4072cd085dbac44272f1ea918dd3ff970b39d94f143e40c51bbde43d0",
+   "source": "hf:chenxwh/AVeriTeC@2ca9dee23a2a6fa64c5bd918e0cd28ed0aa09031"
+  },
+  {
+   "bytes": 438015111,
+   "expected_sha256": "measured-only",
+   "host": "turing",
+   "lfs_pointer": false,
+   "licence_key": "incrediblae.C19",
+   "match": null,
+   "path": "incrediblae/C19/BERT-512.pth",
+   "sha256": "91453fadc1bbee81c89e253760b266e996bf281930fb1616937f1b7755e13d9e",
+   "source": "gitlab:checkthat_lab/clef2024-checkthat-lab@6b9cf603de6eeb9c5faf6707455ecf2e1611a082"
+  },
+  {
+   "bytes": 187014,
+   "expected_sha256": "measured-only",
+   "host": "turing",
+   "lfs_pointer": false,
+   "licence_key": "incrediblae.C19",
+   "match": null,
+   "path": "incrediblae/C19/attack.tsv",
+   "sha256": "a2a46021e823872dd858c7a44a232d174d4d88f451dd2b123b628d9b843aa6e8",
+   "source": "gitlab:checkthat_lab/clef2024-checkthat-lab@6b9cf603de6eeb9c5faf6707455ecf2e1611a082"
+  },
+  {
+   "bytes": 344618,
+   "expected_sha256": "measured-only",
+   "host": "turing",
+   "lfs_pointer": false,
+   "licence_key": "incrediblae.C19",
+   "match": null,
+   "path": "incrediblae/C19/train.tsv",
+   "sha256": "d23abc682e68453b96cf82db538fec2cee72bcc101f4179db78cd9a41127555e",
+   "source": "gitlab:checkthat_lab/clef2024-checkthat-lab@6b9cf603de6eeb9c5faf6707455ecf2e1611a082"
+  },
+  {
+   "bytes": 438018105,
+   "expected_sha256": "cb64f2fc4ddf76b05daa3f6bfa2fb7c83ef43d9c840f3e409cb9833ebc67cdb8",
+   "host": "turing",
+   "lfs_pointer": false,
+   "licence_key": "incrediblae.FC",
+   "match": true,
+   "path": "incrediblae/FC/BERT-512.pth",
+   "sha256": "cb64f2fc4ddf76b05daa3f6bfa2fb7c83ef43d9c840f3e409cb9833ebc67cdb8",
+   "source": "gitlab:checkthat_lab/clef2024-checkthat-lab@6b9cf603de6eeb9c5faf6707455ecf2e1611a082"
+  },
+  {
+   "bytes": 116831,
+   "expected_sha256": "e4606a761a78476114dd6ea2655ae07080dac45e8a229023986633677003f9b4",
+   "host": "turing",
+   "lfs_pointer": false,
+   "licence_key": "incrediblae.FC",
+   "match": true,
+   "path": "incrediblae/FC/attack.tsv",
+   "sha256": "e4606a761a78476114dd6ea2655ae07080dac45e8a229023986633677003f9b4",
+   "source": "gitlab:checkthat_lab/clef2024-checkthat-lab@6b9cf603de6eeb9c5faf6707455ecf2e1611a082"
+  },
+  {
+   "bytes": 5313971,
+   "expected_sha256": "a6f94faed5081af67bfc06b1609e2428e05aabea0514afc0e08425972d7289a0",
+   "host": "turing",
+   "lfs_pointer": false,
+   "licence_key": "incrediblae.FC",
+   "match": true,
+   "path": "incrediblae/FC/dev.tsv",
+   "sha256": "a6f94faed5081af67bfc06b1609e2428e05aabea0514afc0e08425972d7289a0",
+   "source": "gitlab:checkthat_lab/clef2024-checkthat-lab@6b9cf603de6eeb9c5faf6707455ecf2e1611a082"
+  },
+  {
+   "bytes": 51247594,
+   "expected_sha256": "10029e6ed8b6bb0219eda293d19e75c4563d235357c8d2dbcb7a379ab1d525a5",
+   "host": "turing",
+   "lfs_pointer": false,
+   "licence_key": "incrediblae.FC",
+   "match": true,
+   "path": "incrediblae/FC/train.tsv",
+   "sha256": "10029e6ed8b6bb0219eda293d19e75c4563d235357c8d2dbcb7a379ab1d525a5",
+   "source": "gitlab:checkthat_lab/clef2024-checkthat-lab@6b9cf603de6eeb9c5faf6707455ecf2e1611a082"
+  },
+  {
+   "bytes": 438018105,
+   "expected_sha256": "9eb48a22b0fcb6a1add6d92172d0923072a63b9a6ced0ced4b78d605aa980bea",
+   "host": "turing",
+   "lfs_pointer": false,
+   "licence_key": "incrediblae.RD",
+   "match": true,
+   "path": "incrediblae/RD/BERT-512.pth",
+   "sha256": "9eb48a22b0fcb6a1add6d92172d0923072a63b9a6ced0ced4b78d605aa980bea",
+   "source": "gitlab:checkthat_lab/clef2024-checkthat-lab@6b9cf603de6eeb9c5faf6707455ecf2e1611a082"
+  },
+  {
+   "bytes": 825588,
+   "expected_sha256": "71b6037a0d66fb8c259c74e3c6c6afc7a2e2b72efb2a71dd5866accf8086cffb",
+   "host": "turing",
+   "lfs_pointer": false,
+   "licence_key": "incrediblae.RD",
+   "match": true,
+   "path": "incrediblae/RD/attack.tsv",
+   "sha256": "71b6037a0d66fb8c259c74e3c6c6afc7a2e2b72efb2a71dd5866accf8086cffb",
+   "source": "gitlab:checkthat_lab/clef2024-checkthat-lab@6b9cf603de6eeb9c5faf6707455ecf2e1611a082"
+  },
+  {
+   "bytes": 3821928,
+   "expected_sha256": "77351a63e4c92c48e7477e7ddff57a0b8ff30c1285f9d3ad510d5456d1f47d7b",
+   "host": "turing",
+   "lfs_pointer": false,
+   "licence_key": "incrediblae.RD",
+   "match": true,
+   "path": "incrediblae/RD/dev.tsv",
+   "sha256": "77351a63e4c92c48e7477e7ddff57a0b8ff30c1285f9d3ad510d5456d1f47d7b",
+   "source": "gitlab:checkthat_lab/clef2024-checkthat-lab@6b9cf603de6eeb9c5faf6707455ecf2e1611a082"
+  },
+  {
+   "bytes": 10810019,
+   "expected_sha256": "17070a23e8b3a26df827530e8b922c2b82363869ea1c73f62ead245b29190a7a",
+   "host": "turing",
+   "lfs_pointer": false,
+   "licence_key": "incrediblae.RD",
+   "match": true,
+   "path": "incrediblae/RD/train.tsv",
+   "sha256": "17070a23e8b3a26df827530e8b922c2b82363869ea1c73f62ead245b29190a7a",
+   "source": "gitlab:checkthat_lab/clef2024-checkthat-lab@6b9cf603de6eeb9c5faf6707455ecf2e1611a082"
+  }
+ ]
+}

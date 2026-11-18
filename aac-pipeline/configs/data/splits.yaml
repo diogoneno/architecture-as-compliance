@@ -1,0 +1,26 @@
+# into every split manifest (splits_config_sha256), so a changed rule changes every manifest.
+#
+# at least 20 per cent of the dated claims strictly later (cutoff-day claims in train/val); item 5 ordering
+# (parsed date, split rank train=0 dev=1, index); item 6 undated excluded from both R1 splits and listed;
+# item 7 exact-byte duplicates, lowest index kept; item 8 val_fuse/val_cal by sha256(claim_id) mod 2, the
+# val proportion "a committed configuration value".
+#
+#   exclude the empty claim string (averitec/train/1948) -> exclude_empty_text
+#   val proportion nominal 0.20 via the hash rule below -> val_rule
+val_rule:                 # val = pre-cutoff ids with (int.from_bytes(sha256(claim_id), 'big') >> shift) % mod == keep
+  hash: sha256(claim_id utf-8), big-endian integer
+  shift: 64
+  mod: 5
+  keep: 0
+  nominal_share: 0.2
+fuse_cal_rule:            # PREREG item 8: int.from_bytes(sha256(claim_id), 'big') % mod; val_fuse_value -> val_fuse, else val_cal
+  mod: 2
+  val_fuse_value: 0
+test_share_min:           # PREREG item 4: 5 * later >= n_dated (integer arithmetic, never a float)
+  numerator: 1
+  denominator: 5
+random_seed_key: split.averitec-random.v1
+attack_subset:
+  size: 400
+  seed_key: split.averitec-attack-subset.v1
+exclude_empty_text: true

@@ -1,0 +1,5 @@
+ceiling_gpu_hours: 1.5
+projection_rule: "none: one session; session_timeout_s 5400 stops it at 1.5 h and the server seals the finished items"
+runs:
+ - {target: attack, config: configs/regimes/real/r3-pilot.yaml, seed: 0, batch: configs/batches/phase3-pilot.txt,
+ est_gpu_hours: [0.3, 1.5], source: " Compute budget (R3 pilot) [L]; latency medians from reports/bench-bge-m3.csv"}

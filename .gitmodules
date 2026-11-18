@@ -1,0 +1,7 @@
+[submodule "aac-pipeline/third_party/BODEGA"]
+	path = aac-pipeline/third_party/BODEGA
+	url = https://github.com/piotrmp/BODEGA.git
+[submodule "aac-pipeline/third_party/BeamAttack"]
+	path = aac-pipeline/third_party/BeamAttack
+	url = https://github.com/LucK1Y/BeamAttack.git
+	branch = public_branch

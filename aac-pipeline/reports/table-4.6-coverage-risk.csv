@@ -1,0 +1,6 @@
+# config_hash=4805ab62509928fe7ad0efe8865e167f3025f6fd1e0dbd1ada54d1e7093cacf8 data_version=648d8eb14b0e24a73923be0e0094310458b98da91c61d39b734694100f64746b
+Coverage target (percent),Threshold,Coverage achieved (percent),Selective macro-F1 [95% CI],Selective risk,False-negative share of residual errors (percent),False-positive share (percent),Change in false-negative share vs 100 percent
+100,none,100,"0.550 [0.513, 0.586]",35.4,10.0,90.0,reference
+90,0.533,90.1,"0.504 [0.462, 0.542]",34.3,3.8,96.2,-6.2
+80 (pre-specified),0.556,76.0,"0.535 [0.489, 0.579]",31.9,4.9,95.1,-5.2
+70,0.560,66.4,"0.553 [0.501, 0.602]",31.2,5.7,94.3,-4.3

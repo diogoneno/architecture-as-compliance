@@ -1,0 +1,38 @@
+rows:
+ - row: "BERT victim, FC, clean"
+ source: "CheckThat! 2024 Task 6 overview (organisers' FC BERT victim); citation to confirm"
+ metric: "binary macro-F1 (non-credible positive)"
+ unit: fraction
+ published: null
+ page_ref: null
+ - row: "BERT victim, RD, clean"
+ source: "CheckThat! 2024 Task 6 overview (organisers' RD BERT victim); citation to confirm"
+ metric: "binary macro-F1 (non-credible positive)"
+ unit: fraction
+ published: null
+ page_ref: null
+ - row: "BERT victim, FC, BERT-Attack"
+ source: "CheckThat! 2024 Task 6 overview / BODEGA (BERT-Attack on the FC BERT victim); citation to confirm"
+ metric: "attack-success rate (percent)"
+ unit: percent
+ published: null
+ page_ref: null
+ - row: "BERT victim, RD, BERT-Attack"
+ source: "CheckThat! 2024 Task 6 overview / BODEGA (BERT-Attack on the RD BERT victim); citation to confirm"
+ metric: "attack-success rate (percent)"
+ unit: percent
+ published: null
+ page_ref: null
+ - row: "AVeriTeC baseline, dev, gold evidence"
+ source: "AVeriTeC dataset paper and baseline (dev split, gold evidence); citation to confirm"
+ metric: "binary macro-F1 (Refuted positive; stub stand-in until Phase 2 records the baseline's own metric)"
+ unit: fraction
+ published: null
+ page_ref: null
+ - row: "Content-only encoder, AVeriTeC dev (this project)"
+ source: "this project (R1 random split, content-only encoder)"
+ metric: "four-way macro-F1 : the only four-way cell)"
+ unit: fraction
+ published: null
+ page_ref: null
+ not_applicable: true

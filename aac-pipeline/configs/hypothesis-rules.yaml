@@ -1,0 +1,140 @@
+alpha: 0.05
+hypotheses:
+ - id: H1
+ row: "H1 (R1 temporal drift)"
+ _items: [4, 10]
+ prediction: "chronological macro-F1 is lower than random-split macro-F1 (temporal drift), for the full system and the content-only encoder"
+ claims:
+ - id: H1-chrono-vs-random-full
+ kind: holm_test
+ table: "4.2"
+ row_label: "Full pipeline | Chronological"
+ col_label: "Change vs random (p; effect size)"
+ direction: negative
+ - id: H1-chrono-vs-random-content
+ kind: holm_test
+ table: "4.2"
+ row_label: "Content-only encoder | Chronological"
+ col_label: "Change vs random (p; effect size)"
+ direction: negative
+ - id: H1-sens-welch-full
+ kind: sensitivity
+ table: "4.2"
+ row_label: "Full pipeline | Chronological"
+ col_label: "Change vs random, secondary: Welch t (all items)"
+ metric: welch_t_seed_level_unpaired
+ label: "Full pipeline, full-set Welch t, delta macro-F1"
+ - id: H1-sens-welch-content
+ kind: sensitivity
+ table: "4.2"
+ row_label: "Content-only encoder | Chronological"
+ col_label: "Change vs random, secondary: Welch t (all items)"
+ metric: welch_t_seed_level_unpaired
+ label: "Content-only encoder, full-set Welch t, delta macro-F1"
+ - id: H1-sens-bootstrap-full
+ kind: sensitivity
+ table: "4.2"
+ row_label: "Full pipeline | Chronological"
+ col_label: "Change vs random, secondary: unpaired item bootstrap (all items)"
+ metric: unpaired_item_bootstrap_delta
+ label: "Full pipeline, full-set unpaired item bootstrap, delta macro-F1 [95% CI]"
+ - id: H1-sens-bootstrap-content
+ kind: sensitivity
+ table: "4.2"
+ row_label: "Content-only encoder | Chronological"
+ col_label: "Change vs random, secondary: unpaired item bootstrap (all items)"
+ metric: unpaired_item_bootstrap_delta
+ label: "Content-only encoder, full-set unpaired item bootstrap, delta macro-F1 [95% CI]"
+ - id: H2
+ row: "H2 (R2 domain shift)"
+ _items: [10, 16]
+ prediction: "transfer macro-F1 on FC and RD is lower than the in-dataset macro-F1 of the full system (positive transfer loss)"
+ claims:
+ - id: H2-fc
+ kind: holm_test
+ table: "4.3"
+ row_label: "Full pipeline"
+ col_label: "FC (transfer)"
+ direction: positive
+ - id: H2-rd
+ kind: holm_test
+ table: "4.3"
+ row_label: "Full pipeline"
+ col_label: "RD (transfer)"
+ direction: positive
+ - id: H3
+ row: "H3 (R3 evasion)"
+ _items: [12, 13, 14]
+ prediction: "the full pipeline has a lower attack-success rate than the content-only encoder on the same items, and deflects a non-zero share of attacks into the analyst queue"
+ claims:
+ - id: H3-asr-full-vs-content
+ kind: holm_test
+ table: "4.4"
+ row_label: "all attacks (pooled, AVeriTeC subset) | Full pipeline"
+ col_label: "Attack-success rate (percent)"
+ direction: negative
+ - id: H3-deflection
+ kind: ci_excludes_zero
+ table: "4.4"
+ row_label: "all attacks (pooled, AVeriTeC subset) | Full pipeline"
+ col_label: "Deflection rate (percent)"
+ - id: H4
+ row: "H4 (R4 ablations and abstention)"
+ _items: [10, 17]
+ prediction: "each ablation lowers the chronological macro-F1 relative to the full pipeline, and abstention at 80 percent coverage raises selective macro-F1 over 100 percent coverage"
+ claims:
+ - id: H4-no-retrieval
+ kind: holm_test
+ table: "4.5"
+ row_label: "Minus retrieval"
+ col_label: "Delta vs full pipeline (p; effect size)"
+ direction: negative
+ - id: H4-no-calibration
+ kind: holm_test
+ table: "4.5"
+ row_label: "Minus calibration"
+ col_label: "Delta vs full pipeline (p; effect size)"
+ direction: negative
+ - id: H4-no-abstention
+ kind: holm_test
+ table: "4.5"
+ row_label: "Minus abstention (coverage 100 percent)"
+ col_label: "Delta vs full pipeline (p; effect size)"
+ direction: negative
+ - id: H4-content-only
+ kind: holm_test
+ table: "4.5"
+ row_label: "Content-only encoder (all three removed)"
+ col_label: "Delta vs full pipeline (p; effect size)"
+ direction: negative
+ - id: H4-abstention-80-vs-100
+ kind: compare_rows
+ table: "4.6"
+ row_label: "80 (pre-specified)"
+ other_row_label: "100"
+ col_label: "Selective macro-F1 [95% CI]"
+ direction: greater
+ basis: "seed 0, Table 4.6"
+ - id: H4-sens-80-all-seeds
+ kind: sensitivity
+ table: "4.2"
+ row_label: "Full pipeline, abstention at 80 percent coverage | Chronological"
+ col_label: "Macro-F1 [95% CI]"
+ metric: "selective_macro_f1_binary; coverage_achieved_pct"
+ label: "Full pipeline at 80 percent coverage, all seeds (Table 4.2)"
+ - id: H4-sens-100-all-seeds
+ kind: sensitivity
+ table: "4.2"
+ row_label: "Full pipeline | Chronological"
+ col_label: "Macro-F1 [95% CI]"
+ metric: macro_f1_binary
+ label: "Full pipeline at 100 percent coverage, macro-F1, all seeds (Table 4.2)"
+ - id: RQ4
+ row: "RQ4 verifiability check"
+ _items: [18]
+ prediction: "every evidence-pack artifact regenerates on a clean checkout with an identical hash"
+ claims:
+ - id: RQ4-table-4.7
+ kind: table_4_7
+ table: "4.7"
+ pending_text: "not yet verified (verify-pack has not written table-4.7)"

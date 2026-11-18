@@ -1,0 +1,42 @@
+{
+ "abstention_reason": "low_confidence",
+ "analyst_queue_id": "q-ca2713a2",
+ "calibrated_confidence": 0.505775,
+ "calibrated_probability": 0.494225,
+ "calibration_method": "isotonic",
+ "claim_hash": "89baea3bede6f40675305c2b09800a72a3c349bf82d2460d3085d1cc5258650e",
+ "claim_id": "averitec/train/39",
+ "claim_text": null,
+ "claim_text_shown": false,
+ "coverage_target": 0.8,
+ "data_version": "648d8eb14b0e24a73923be0e0094310458b98da91c61d39b734694100f64746b",
+ "decision": "abstain-to-human",
+ "evidence": [
+  {
+   "evidence_id": "averitec/train/39#d344#s8",
+   "score": 0.986034
+  },
+  {
+   "evidence_id": "averitec/train/39#d827#s137",
+   "score": 0.815744
+  },
+  {
+   "evidence_id": "averitec/train/39#d87#s2469",
+   "score": 0.774202
+  },
+  {
+   "evidence_id": "averitec/train/39#d75#s5560",
+   "score": 0.690408
+  },
+  {
+   "evidence_id": "averitec/train/39#d213#s124",
+   "score": 0.604855
+  }
+ ],
+ "evidence_coverage": true,
+ "record_id": "ca2713a2-dc3f-5a4c-8473-7b72bdd35bd0",
+ "selection_rule": "R1 chronological full pipeline, seed 0, test split: the deferred record (abstention_flag true) with the lowest calibrated confidence max(p, 1 - p), tie-break claim_id",
+ "source_config_hash": "4805ab62509928fe7ad0efe8865e167f3025f6fd1e0dbd1ada54d1e7093cacf8",
+ "source_run_id": "R1-4805ab6250-s0",
+ "threshold": 0.555556
+}

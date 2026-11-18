@@ -1,0 +1,59 @@
+library: BeamAttack
+repo: https://github.com/LucK1Y/BeamAttack
+branch: public_branch
+commit: ba974db9451bea005d52a065d6d44e19f0bcea59
+license: MIT
+entry_point: "beam_attack.attack.attack_text_bfs"
+source:
+ file: third_party/BeamAttack/beam_attack/attack.py
+ signature: "15-40"
+ defaults: "22-39"
+ imp_lime_branch: 55
+ imp_bert_branch: 68
+ success_test: "126 (new_beam[-1][1] < 0.5: untargeted, binary only)"
+ early_stop_test: 130
+signature_defaults:
+ target_class: null
+ k: 3
+ width: 10
+ verbose: true
+ early_stop: 10
+ imp: lime
+ lime_num_features: 5000
+ lime_num_samples: 5000
+ only_positive_importances: false
+ temperature: 1
+ filter_beams_with_only_negative: false
+ remove_words: false
+ keep_original: false
+ add_semantic_pruning: false
+ semantic_pruning_ratio: 0.3
+ positional: true
+params:
+ imp: bert
+ k: 3
+ width: 10
+ early_stop: 1
+ add_semantic_pruning: false
+ positional: true
+ temperature: 1
+ remove_words: false
+ keep_original: false
+repo_defaults_replaced:
+ imp:
+ repo_default: lime
+ phase4: bert
+ reason: "leave-one-out logit importance costs 1 + n queries; LIME at 5,000 samples alone exceeds the 1,000 budget"
+ early_stop:
+ repo_default: 10
+ phase4: 1
+ reason: "strict success needs one flip; the default keeps searching after the first success and wastes budget"
+lime_queries_per_item: 0
+lime_queries_per_item_reason: "imp=bert uses leave-one-out logit importance; no LIME sampling"
+masked_lm:
+ hf_id: FacebookAI/roberta-large
+ revision: 722cf37b1afa9454edce342e7895e588b6ff1d59
+ weight: "configs/models.yaml roberta-large weight_file and weight_sha256 (checked before every load)"
+ device: "cpu (the attack lock is CPU-only)"
+budget_path: "OpenAttack AttackEval(invoke_limit=budget) through AacVictim and the server QueryBudget ; no own counter"
+row_label: "BeamAttack adapted to a 1,000-query budget"

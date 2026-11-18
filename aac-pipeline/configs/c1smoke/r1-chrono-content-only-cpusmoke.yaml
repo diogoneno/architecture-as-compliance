@@ -1,0 +1,4 @@
+extends: [../regimes/real/r1-chrono-content-only.yaml]
+name: r1-chrono-content-only-cpusmoke
+components:
+ c1: {trained_by: c1-chrono-cpusmoke}

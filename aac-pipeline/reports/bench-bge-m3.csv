@@ -1,0 +1,118 @@
+# config_hash=a888f9849a8209f4ed6aa56d874c855d1456d0d0243eadb896f11361090eb89f;145ca7f388281b4834acb339c494196d99ccc5051f05fd6841bead455c16d6aa;976a7702317d2448d826ef98522890476ba401cf60dcae0a5de35b185426bb00;1f71a3cb6a3de6cc14690d70ea1af25eaf357a965da88525e9c1185f9ceb9532;9e7779e2e1adb0f2e166eb8ff70592e8cf9775e4dc01db7b0ed5171490aeb982 data_version=648d8eb14b0e24a73923be0e0094310458b98da91c61d39b734694100f64746b
+section,model,precision,batch_size,metric,value,unit
+throughput,,,,device,cuda,
+throughput,,,,device_name,NVIDIA GeForce RTX 3090,
+throughput,bge-m3,float32,32,passages_per_s,741.523176,passages/s
+throughput,bge-m3,float32,32,tokens_per_s,19951.682107,tokens/s
+throughput,bge-m3,float32,32,wall_seconds,26.971510,s
+throughput,bge-m3,float32,32,peak_memory_bytes,2776835072,bytes
+throughput,bge-m3,float32,32,n_passages,20000,count
+throughput,bge-m3,float32,32,n_tokens,538127,tokens
+throughput,bge-m3,float32,128,passages_per_s,874.896778,passages/s
+throughput,bge-m3,float32,128,tokens_per_s,23540.278930,tokens/s
+throughput,bge-m3,float32,128,wall_seconds,22.859840,s
+throughput,bge-m3,float32,128,peak_memory_bytes,4193221120,bytes
+throughput,bge-m3,float32,128,n_passages,20000,count
+throughput,bge-m3,float32,128,n_tokens,538127,tokens
+throughput,bge-m3,bfloat16,32,passages_per_s,1472.722548,passages/s
+throughput,bge-m3,bfloat16,32,tokens_per_s,39625.588318,tokens/s
+throughput,bge-m3,bfloat16,32,wall_seconds,13.580290,s
+throughput,bge-m3,bfloat16,32,peak_memory_bytes,1407848448,bytes
+throughput,bge-m3,bfloat16,32,n_passages,20000,count
+throughput,bge-m3,bfloat16,32,n_tokens,538127,tokens
+throughput,bge-m3,bfloat16,128,passages_per_s,2203.796469,passages/s
+throughput,bge-m3,bfloat16,128,tokens_per_s,59296.119130,tokens/s
+throughput,bge-m3,bfloat16,128,wall_seconds,9.075248,s
+throughput,bge-m3,bfloat16,128,peak_memory_bytes,2121595392,bytes
+throughput,bge-m3,bfloat16,128,n_passages,20000,count
+throughput,bge-m3,bfloat16,128,n_tokens,538127,tokens
+throughput,bge-reranker-v2-m3,float32,32,passages_per_s,465.519196,passages/s
+throughput,bge-reranker-v2-m3,float32,32,tokens_per_s,22766.844716,tokens/s
+throughput,bge-reranker-v2-m3,float32,32,wall_seconds,42.962783,s
+throughput,bge-reranker-v2-m3,float32,32,peak_memory_bytes,2812058112,bytes
+throughput,bge-reranker-v2-m3,float32,32,n_passages,20000,count
+throughput,bge-reranker-v2-m3,float32,32,n_tokens,978127,tokens
+throughput,bge-reranker-v2-m3,float32,128,passages_per_s,527.443248,passages/s
+throughput,bge-reranker-v2-m3,float32,128,tokens_per_s,25795.324075,tokens/s
+throughput,bge-reranker-v2-m3,float32,128,wall_seconds,37.918772,s
+throughput,bge-reranker-v2-m3,float32,128,peak_memory_bytes,4323613696,bytes
+throughput,bge-reranker-v2-m3,float32,128,n_passages,20000,count
+throughput,bge-reranker-v2-m3,float32,128,n_tokens,978127,tokens
+throughput,bge-reranker-v2-m3,bfloat16,32,passages_per_s,1056.863454,passages/s
+throughput,bge-reranker-v2-m3,bfloat16,32,tokens_per_s,51687.334006,tokens/s
+throughput,bge-reranker-v2-m3,bfloat16,32,wall_seconds,18.923921,s
+throughput,bge-reranker-v2-m3,bfloat16,32,peak_memory_bytes,1423721984,bytes
+throughput,bge-reranker-v2-m3,bfloat16,32,n_passages,20000,count
+throughput,bge-reranker-v2-m3,bfloat16,32,n_tokens,978127,tokens
+throughput,bge-reranker-v2-m3,bfloat16,128,passages_per_s,1476.828519,passages/s
+throughput,bge-reranker-v2-m3,bfloat16,128,tokens_per_s,72226.292421,tokens/s
+throughput,bge-reranker-v2-m3,bfloat16,128,wall_seconds,13.542534,s
+throughput,bge-reranker-v2-m3,bfloat16,128,peak_memory_bytes,2185925632,bytes
+throughput,bge-reranker-v2-m3,bfloat16,128,n_passages,20000,count
+throughput,bge-reranker-v2-m3,bfloat16,128,n_tokens,978127,tokens
+latency,c1,float32,1,median_s,0.017983,s
+latency,c1,float32,1,p95_s,0.019217,s
+latency,c1,float32,1,n_queries,1000,count
+latency,c1,float32,1,warmup_calls,10,count
+latency,c1,float32,1,call,one claim per call (MdebertaEncoder.encode),
+latency,bge-m3,float32,1,median_s,0.016005,s
+latency,bge-m3,float32,1,p95_s,0.017356,s
+latency,bge-m3,float32,1,n_queries,1000,count
+latency,bge-m3,float32,1,warmup_calls,10,count
+latency,bge-m3,float32,1,call,one passage per call,
+latency,bge-reranker-v2-m3,float32,10,median_s,0.031695,s
+latency,bge-reranker-v2-m3,float32,10,p95_s,0.053353,s
+latency,bge-reranker-v2-m3,float32,10,n_queries,1000,count
+latency,bge-reranker-v2-m3,float32,10,warmup_calls,10,count
+latency,bge-reranker-v2-m3,float32,10,call,one claim with 10 passages per call,
+bit_identity,bge-m3,float32,32,in_process_equal,true,bool
+bit_identity,bge-m3,float32,32,in_process_max_abs_diff,0.0,abs
+bit_identity,bge-m3,float32,32,in_process_min_cosine,1.0,cosine
+bit_identity,bge-m3,float32,32,second_process_equal,true,bool
+bit_identity,bge-m3,float32,32,second_process_max_abs_diff,0.0,abs
+bit_identity,bge-m3,float32,32,second_process_min_cosine,1.0,cosine
+bit_identity,bge-m3,float32,32,second_process_npy_sha256_equal,true,bool
+bit_identity,bge-m3,bfloat16,32,in_process_equal,true,bool
+bit_identity,bge-m3,bfloat16,32,in_process_max_abs_diff,0.0,abs
+bit_identity,bge-m3,bfloat16,32,in_process_min_cosine,1.0,cosine
+bit_identity,bge-m3,bfloat16,32,second_process_equal,true,bool
+bit_identity,bge-m3,bfloat16,32,second_process_max_abs_diff,0.0,abs
+bit_identity,bge-m3,bfloat16,32,second_process_min_cosine,1.0,cosine
+bit_identity,bge-m3,bfloat16,32,second_process_npy_sha256_equal,true,bool
+bit_identity,bge-reranker-v2-m3,float32,32,in_process_equal,true,bool
+bit_identity,bge-reranker-v2-m3,float32,32,in_process_max_abs_diff,0.0,abs
+bit_identity,bge-reranker-v2-m3,float32,32,in_process_min_cosine,not applicable: 1-D scores,cosine
+bit_identity,bge-reranker-v2-m3,float32,32,second_process_equal,true,bool
+bit_identity,bge-reranker-v2-m3,float32,32,second_process_max_abs_diff,0.0,abs
+bit_identity,bge-reranker-v2-m3,float32,32,second_process_min_cosine,not applicable: 1-D scores,cosine
+bit_identity,bge-reranker-v2-m3,float32,32,second_process_npy_sha256_equal,true,bool
+bit_identity,bge-reranker-v2-m3,bfloat16,32,in_process_equal,true,bool
+bit_identity,bge-reranker-v2-m3,bfloat16,32,in_process_max_abs_diff,0.0,abs
+bit_identity,bge-reranker-v2-m3,bfloat16,32,in_process_min_cosine,not applicable: 1-D scores,cosine
+bit_identity,bge-reranker-v2-m3,bfloat16,32,second_process_equal,true,bool
+bit_identity,bge-reranker-v2-m3,bfloat16,32,second_process_max_abs_diff,0.0,abs
+bit_identity,bge-reranker-v2-m3,bfloat16,32,second_process_min_cosine,not applicable: 1-D scores,cosine
+bit_identity,bge-reranker-v2-m3,bfloat16,32,second_process_npy_sha256_equal,true,bool
+c1_double_run,mdeberta-v3-base,float32,,checkpoint_sha256_equal,true,bool
+c1_double_run,mdeberta-v3-base,float32,,n_encoder_distribution_equal,676,count
+c1_double_run,mdeberta-v3-base,float32,,n_encoder_distribution_total,676,count
+c1_double_run,mdeberta-v3-base,float32,,max_abs_diff,0.0,abs
+f2_projection,,,,n_claims,3568,claims
+f2_projection,bge-m3,,,mean_tokens_per_passage,26.906350,tokens
+f2_projection,bge-m3,float32,32,indexing_hours_n100,0.133659,cuda-hours (projected)
+f2_projection,bge-m3,float32,32,indexing_hours_n500,0.668294,cuda-hours (projected)
+f2_projection,bge-m3,float32,32,indexing_hours_n1000,1.336588,cuda-hours (projected)
+f2_projection,bge-m3,float32,128,indexing_hours_n100,0.113283,cuda-hours (projected)
+f2_projection,bge-m3,float32,128,indexing_hours_n500,0.566416,cuda-hours (projected)
+f2_projection,bge-m3,float32,128,indexing_hours_n1000,1.132832,cuda-hours (projected)
+f2_projection,bge-m3,bfloat16,32,indexing_hours_n100,0.067298,cuda-hours (projected)
+f2_projection,bge-m3,bfloat16,32,indexing_hours_n500,0.336489,cuda-hours (projected)
+f2_projection,bge-m3,bfloat16,32,indexing_hours_n1000,0.672979,cuda-hours (projected)
+f2_projection,bge-m3,bfloat16,128,indexing_hours_n100,0.044973,cuda-hours (projected)
+f2_projection,bge-m3,bfloat16,128,indexing_hours_n500,0.224864,cuda-hours (projected)
+f2_projection,bge-m3,bfloat16,128,indexing_hours_n1000,0.449729,cuda-hours (projected)
+f2_projection,,,,reranker_pairs_per_query,10,pairs
+f2_projection,bge-reranker-v2-m3,float32,32,rerank_hours_k10,0.021290,cuda-hours (projected)
+f2_projection,bge-reranker-v2-m3,float32,128,rerank_hours_k10,0.018791,cuda-hours (projected)
+f2_projection,bge-reranker-v2-m3,bfloat16,32,rerank_hours_k10,0.009378,cuda-hours (projected)
+f2_projection,bge-reranker-v2-m3,bfloat16,128,rerank_hours_k10,0.006711,cuda-hours (projected)

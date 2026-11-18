@@ -1,0 +1,744 @@
+{
+ "groups": [
+  {
+   "conflicting": false,
+   "group_id": "ef7f58ac5acb914427a5422aee38dbbc05f3917c6ececdaedb0e431c1aa5f3bf",
+   "labels": [
+    "Not Enough Evidence",
+    "Not Enough Evidence"
+   ],
+   "members": [
+    "averitec/train/21",
+    "averitec/train/31"
+   ],
+   "representative": "averitec/train/21",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "763a479fccad5fdeaaa3855392691317f2cb64080374671bd8cc0a6a2360a8f4",
+   "labels": [
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/25",
+    "averitec/train/2956"
+   ],
+   "representative": "averitec/train/25",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": true,
+   "group_id": "89baea3bede6f40675305c2b09800a72a3c349bf82d2460d3085d1cc5258650e",
+   "labels": [
+    "Not Enough Evidence",
+    "Refuted"
+   ],
+   "members": [
+    "averitec/train/39",
+    "averitec/train/177"
+   ],
+   "representative": "averitec/train/39",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "a0a6e317688ada3d0dd4a976503196c28ef77a989032bb7d02786ed6ccbcc1af",
+   "labels": [
+    "Supported",
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/175",
+    "averitec/train/567",
+    "averitec/train/1535"
+   ],
+   "representative": "averitec/train/175",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "73393ef969eb9e049b63a4633c7913ad6f1bbde3369da9fe256d8a69ac844c23",
+   "labels": [
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/182",
+    "averitec/train/186"
+   ],
+   "representative": "averitec/train/182",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": true,
+   "group_id": "59e3b331f91ed90b7f8f08112ca1b7d384e851a69dc645e463fa967ab5a6eed0",
+   "labels": [
+    "Not Enough Evidence",
+    "Not Enough Evidence",
+    "Supported",
+    "Not Enough Evidence"
+   ],
+   "members": [
+    "averitec/train/191",
+    "averitec/train/565",
+    "averitec/train/1539",
+    "averitec/dev/458"
+   ],
+   "representative": "averitec/train/191",
+   "spans_train_dev": true
+  },
+  {
+   "conflicting": false,
+   "group_id": "4d54d022ac30a767d7ed7d92ce73bd820e47d27a77005b0580e01240b0c22321",
+   "labels": [
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/508",
+    "averitec/train/1981"
+   ],
+   "representative": "averitec/train/508",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "594a54eed8df06fa43b398879c57c5e20a31705cb5d2d705b68c30b0f0b9cc8c",
+   "labels": [
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/731",
+    "averitec/train/732"
+   ],
+   "representative": "averitec/train/731",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "783f05dd8147d65214f1c925fa53e4dfe9ffafb9c0a6fa508bb7f4f46d8259eb",
+   "labels": [
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/841",
+    "averitec/train/924"
+   ],
+   "representative": "averitec/train/841",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "4eb44eda3b10123c0650b800f86ac97804923b0455298bf46180abbe92b5f15d",
+   "labels": [
+    "Refuted",
+    "Refuted"
+   ],
+   "members": [
+    "averitec/train/910",
+    "averitec/train/922"
+   ],
+   "representative": "averitec/train/910",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "00ba1774c194a08892f7de56b1350013249043e860e51e3b8f35a4ada4900edc",
+   "labels": [
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/1340",
+    "averitec/dev/194"
+   ],
+   "representative": "averitec/train/1340",
+   "spans_train_dev": true
+  },
+  {
+   "conflicting": false,
+   "group_id": "9bbcfb115eab99d0e0e52d9bf7a306ad719b859c81b2e2c20e2cffade10fc781",
+   "labels": [
+    "Supported",
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/1341",
+    "averitec/dev/214",
+    "averitec/dev/216"
+   ],
+   "representative": "averitec/train/1341",
+   "spans_train_dev": true
+  },
+  {
+   "conflicting": false,
+   "group_id": "3d6ee5e8b0bec85193b3020ae4e38c023b1a5fb455e408806eecc95124ea8d45",
+   "labels": [
+    "Not Enough Evidence",
+    "Not Enough Evidence"
+   ],
+   "members": [
+    "averitec/train/1361",
+    "averitec/train/1363"
+   ],
+   "representative": "averitec/train/1361",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "b0f006e76d69988f78b3907c0fa40da86cead7ae1ad2b1a3d6a38391ea1015fb",
+   "labels": [
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/1536",
+    "averitec/dev/463"
+   ],
+   "representative": "averitec/train/1536",
+   "spans_train_dev": true
+  },
+  {
+   "conflicting": false,
+   "group_id": "c516944bc908f60eafedac38121367fa1cc640d6fe664a566bd8a50d26146765",
+   "labels": [
+    "Supported",
+    "Supported",
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/1546",
+    "averitec/train/2663",
+    "averitec/train/2671",
+    "averitec/train/2687"
+   ],
+   "representative": "averitec/train/1546",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": true,
+   "group_id": "d6498c9c9693e7ee25bb501473a5cbded2b1ce75166d6326d63fbd061671dda5",
+   "labels": [
+    "Supported",
+    "Refuted",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/1555",
+    "averitec/train/2656",
+    "averitec/train/2713"
+   ],
+   "representative": "averitec/train/1555",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "be562ef761527635f6b2c713960fec099e38cc6cd3c3c1e6d623b63fbdb57eb9",
+   "labels": [
+    "Refuted",
+    "Refuted",
+    "Refuted",
+    "Refuted"
+   ],
+   "members": [
+    "averitec/train/1594",
+    "averitec/train/1596",
+    "averitec/train/1604",
+    "averitec/train/1609"
+   ],
+   "representative": "averitec/train/1594",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": true,
+   "group_id": "47edc6104ec9457889f5547b0618da385d4d36cb2b305baa49adab21e592584c",
+   "labels": [
+    "Supported",
+    "Not Enough Evidence",
+    "Not Enough Evidence",
+    "Not Enough Evidence"
+   ],
+   "members": [
+    "averitec/train/1639",
+    "averitec/train/1650",
+    "averitec/train/1653",
+    "averitec/train/1666"
+   ],
+   "representative": "averitec/train/1639",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "ca9aefaf1d8ed9a78b469a54c6e3fdc9c799d2055451ee531b05da6441357cc9",
+   "labels": [
+    "Not Enough Evidence",
+    "Not Enough Evidence",
+    "Not Enough Evidence"
+   ],
+   "members": [
+    "averitec/train/1640",
+    "averitec/train/1643",
+    "averitec/train/1645"
+   ],
+   "representative": "averitec/train/1640",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": true,
+   "group_id": "f138fa5d8a1c230ec96f1ca3b7de6df4c9c0434129d50fa85685266fcd839b43",
+   "labels": [
+    "Not Enough Evidence",
+    "Supported",
+    "Supported",
+    "Not Enough Evidence",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/1641",
+    "averitec/train/1648",
+    "averitec/train/1664",
+    "averitec/train/1675",
+    "averitec/train/1680"
+   ],
+   "representative": "averitec/train/1641",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "94f8d96e4228b7a80981edf53e4372e99a5580fb8221b0fb0327276826b50bb7",
+   "labels": [
+    "Refuted",
+    "Refuted"
+   ],
+   "members": [
+    "averitec/train/1642",
+    "averitec/train/1671"
+   ],
+   "representative": "averitec/train/1642",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "6d23a8ca132ec7aff4743e15681fae3b589d200e19a7ddeadd881e068abbbb72",
+   "labels": [
+    "Refuted",
+    "Refuted"
+   ],
+   "members": [
+    "averitec/train/1646",
+    "averitec/train/1656"
+   ],
+   "representative": "averitec/train/1646",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "379902a5c4cf71d2fd22ec789bf854b8a44414301c895460798c8d78150bdfa0",
+   "labels": [
+    "Refuted",
+    "Refuted",
+    "Refuted",
+    "Refuted"
+   ],
+   "members": [
+    "averitec/train/1649",
+    "averitec/train/1657",
+    "averitec/train/1662",
+    "averitec/train/1679"
+   ],
+   "representative": "averitec/train/1649",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "c6344fca81bd3044645ba3e4f9912ac98f35d4bf8e84c52b6e42e5c99f21cfba",
+   "labels": [
+    "Refuted",
+    "Refuted",
+    "Refuted"
+   ],
+   "members": [
+    "averitec/train/1651",
+    "averitec/train/1655",
+    "averitec/train/1661"
+   ],
+   "representative": "averitec/train/1651",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "07080c664a372b6e34b01759194f732313d0406e2e35a12ed3781d547822bd7a",
+   "labels": [
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/1652",
+    "averitec/train/1677"
+   ],
+   "representative": "averitec/train/1652",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "4da92cef94925eed73a4e25ccb66c9d5dbc7b1d0630697c24053de35ec8d8b04",
+   "labels": [
+    "Not Enough Evidence",
+    "Not Enough Evidence"
+   ],
+   "members": [
+    "averitec/train/1654",
+    "averitec/train/1676"
+   ],
+   "representative": "averitec/train/1654",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": true,
+   "group_id": "f6880c5a3cfea618db78e086b5124d13ebe4e73c0bb2e1a4a69cd68266ee1318",
+   "labels": [
+    "Supported",
+    "Supported",
+    "Not Enough Evidence",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/1659",
+    "averitec/train/1667",
+    "averitec/train/1672",
+    "averitec/train/1678"
+   ],
+   "representative": "averitec/train/1659",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "68a33f561dbc411f34c8f576d9c5765129cf79e209fcdcffadb215416198e3d2",
+   "labels": [
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/2079",
+    "averitec/train/2082"
+   ],
+   "representative": "averitec/train/2079",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "ffeddad265b9e93f56514ed406b05235aed1381045a43487e2719f2254d84bfa",
+   "labels": [
+    "Conflicting Evidence/Cherrypicking",
+    "Conflicting Evidence/Cherrypicking"
+   ],
+   "members": [
+    "averitec/train/2264",
+    "averitec/train/2273"
+   ],
+   "representative": "averitec/train/2264",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": true,
+   "group_id": "35e466b895e12a56b08c1e5592df2cbb25b92364321f86b00ebfe5da52abfaa6",
+   "labels": [
+    "Supported",
+    "Supported",
+    "Supported",
+    "Conflicting Evidence/Cherrypicking"
+   ],
+   "members": [
+    "averitec/train/2314",
+    "averitec/train/2340",
+    "averitec/train/2353",
+    "averitec/train/2370"
+   ],
+   "representative": "averitec/train/2314",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": true,
+   "group_id": "78678d0fe6d33d7c8eb3cc9dc547ab2f8dbeee89c9fea725fd40d84f88163959",
+   "labels": [
+    "Refuted",
+    "Not Enough Evidence"
+   ],
+   "members": [
+    "averitec/train/2318",
+    "averitec/train/2371"
+   ],
+   "representative": "averitec/train/2318",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "3607bb034502d82dfc33a1baf01178943f6376e6d08b257618f5be466cbce633",
+   "labels": [
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/2322",
+    "averitec/train/2360"
+   ],
+   "representative": "averitec/train/2322",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "510aaa96ff740f6fd37f0858a76365f5dc1602dac8e11f49b9b8fdbf6ae0fd05",
+   "labels": [
+    "Supported",
+    "Supported",
+    "Supported",
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/2331",
+    "averitec/train/2336",
+    "averitec/train/2342",
+    "averitec/train/2346",
+    "averitec/train/2356"
+   ],
+   "representative": "averitec/train/2331",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": true,
+   "group_id": "fa141ac2db02856bf302554696b03550560b4ccbcab8af950c458e530ad37531",
+   "labels": [
+    "Not Enough Evidence",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/2334",
+    "averitec/train/2354"
+   ],
+   "representative": "averitec/train/2334",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "75598f92c6bc84be72d180e77814fca7ae168fa9f8331dd4d2e6dd14110284c9",
+   "labels": [
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/2499",
+    "averitec/train/2505"
+   ],
+   "representative": "averitec/train/2499",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "1cca29d24863d6cbf1e12a229b7267670ef87cbed89a472c279c7b068d73cf9c",
+   "labels": [
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/2604",
+    "averitec/train/2609"
+   ],
+   "representative": "averitec/train/2604",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": true,
+   "group_id": "23eb9f557db7143aec1cba6b479c85a0a752143f774540aabf23f0400af20cfb",
+   "labels": [
+    "Supported",
+    "Refuted"
+   ],
+   "members": [
+    "averitec/train/2606",
+    "averitec/train/2615"
+   ],
+   "representative": "averitec/train/2606",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "50d97ba66ad4f8aafa921b8ec1225b927a96e447a925652256588f1387d1fef5",
+   "labels": [
+    "Supported",
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/2637",
+    "averitec/train/2639",
+    "averitec/train/2670"
+   ],
+   "representative": "averitec/train/2637",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "e4684b972fd77c1bc9df8d53da54d525dd6027529fa3a1b509c5734aba07612f",
+   "labels": [
+    "Supported",
+    "Supported",
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/2638",
+    "averitec/train/2642",
+    "averitec/train/2655",
+    "averitec/train/2681"
+   ],
+   "representative": "averitec/train/2638",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": true,
+   "group_id": "a13aac5a83acde938f61d79784a6b69fc2db7c525c0eb02428329863a3fa18e1",
+   "labels": [
+    "Supported",
+    "Supported",
+    "Conflicting Evidence/Cherrypicking"
+   ],
+   "members": [
+    "averitec/train/2657",
+    "averitec/train/2682",
+    "averitec/train/2703"
+   ],
+   "representative": "averitec/train/2657",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "4f0a3930805433d24441ce7e6c6bf17af09b7696f3e00894811d659fe3af88d9",
+   "labels": [
+    "Supported",
+    "Supported",
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/train/2666",
+    "averitec/train/2669",
+    "averitec/train/2675",
+    "averitec/train/2686"
+   ],
+   "representative": "averitec/train/2666",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": true,
+   "group_id": "1ada944b1f0bd3792b6b7456c38d22399c803fbb4e4b5e41713188a00e4fe2cb",
+   "labels": [
+    "Supported",
+    "Not Enough Evidence"
+   ],
+   "members": [
+    "averitec/train/2667",
+    "averitec/train/2680"
+   ],
+   "representative": "averitec/train/2667",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": true,
+   "group_id": "6ab7101509f74dc523527beb07e1c9fa79c585a7182288877d4b9ee69d3c4f47",
+   "labels": [
+    "Supported",
+    "Not Enough Evidence"
+   ],
+   "members": [
+    "averitec/train/2702",
+    "averitec/train/2709"
+   ],
+   "representative": "averitec/train/2702",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "099dec0c9eeb4b84142e5556da113a0134ea8f21cb920e6f0329ec8ec12a46d9",
+   "labels": [
+    "Not Enough Evidence",
+    "Not Enough Evidence"
+   ],
+   "members": [
+    "averitec/dev/192",
+    "averitec/dev/208"
+   ],
+   "representative": "averitec/dev/192",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "860f7b9b336b37c14e7549e96d342eb41097b3599c83a3058f25d5c19671dde1",
+   "labels": [
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/dev/202",
+    "averitec/dev/212"
+   ],
+   "representative": "averitec/dev/202",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "22c3e6c366e442ec243c87ff27cc1aded2684dfa00f7711c441f90f02f5d0a14",
+   "labels": [
+    "Supported",
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/dev/203",
+    "averitec/dev/205",
+    "averitec/dev/231"
+   ],
+   "representative": "averitec/dev/203",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "ea89d9ac643598633138f19438fd701c391d14f5395fde46b09b5d5963b5bb0e",
+   "labels": [
+    "Supported",
+    "Supported",
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/dev/204",
+    "averitec/dev/207",
+    "averitec/dev/211",
+    "averitec/dev/224"
+   ],
+   "representative": "averitec/dev/204",
+   "spans_train_dev": false
+  },
+  {
+   "conflicting": false,
+   "group_id": "e228f47181e24d2482c8742fbc14a5940d132c63c50b7d7e4923b7e56e0361b0",
+   "labels": [
+    "Supported",
+    "Supported"
+   ],
+   "members": [
+    "averitec/dev/215",
+    "averitec/dev/218"
+   ],
+   "representative": "averitec/dev/215",
+   "spans_train_dev": false
+  }
+ ]
+}
